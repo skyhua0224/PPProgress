@@ -1071,13 +1071,13 @@ async function buildProjectStats() {
       }
     }
 
-    // 按时间排序并限制数量(增加到5000条)
+    // 按时间排序并限制数量（限制到 1200 条，兼顾容量与性能）
     return allCommits
       .sort((a, b) => new Date(b.datetime) - new Date(a.datetime))
-      .slice(0, 5000)
+      .slice(0, 1200)
   }
   const recentCommits = collectRecentCommitsWithModules(YEAR_DAYS, moduleConfig)
-  return {
+  const full = {
     generatedAt: new Date().toISOString(),
     repo: path.basename(ROOT),
     modulesAllowed: moduleConfig.allowed,
@@ -1098,6 +1098,7 @@ async function buildProjectStats() {
     recentCommits,
     source: 'local-git',
   }
+  return full
 }
 
 async function main() {
@@ -1116,7 +1117,7 @@ async function main() {
   })
   await fs.writeFile(
     path.join(REPORT_OUT, 'account-stats.json'),
-    JSON.stringify(account, null, 2),
+    JSON.stringify(account),
   )
 
   // Project stats
@@ -1135,8 +1136,39 @@ async function main() {
   })
   await fs.writeFile(
     path.join(REPORT_OUT, 'project-stats.json'),
-    JSON.stringify(project, null, 2),
+    JSON.stringify(project),
   )
+
+  // Produce a lite version for fast first paint
+  try {
+    const lite = {
+      generatedAt: project.generatedAt,
+      repo: project.repo,
+      modulesAllowed: project.modulesAllowed,
+      windows: project.windows,
+      // Keep only last 30 days trend for initial chart
+      commitTrend: Array.isArray(project.commitTrend)
+        ? project.commitTrend
+        : [],
+      // Totals needed for header cards and module distribution
+      weekTotals: project.weekTotals || {},
+      monthTotals: project.monthTotals || {},
+      yearTotals: project.yearTotals || {},
+      // Initial recent commits limited to 200 for speed
+      recentCommits: Array.isArray(project.recentCommits)
+        ? project.recentCommits.slice(0, 200)
+        : [],
+      // Mark as lite for client-side logic
+      _lite: true,
+      source: project.source,
+    }
+    await fs.writeFile(
+      path.join(REPORT_OUT, 'project-stats-lite.json'),
+      JSON.stringify(lite),
+    )
+  } catch (e) {
+    console.warn('[project-lite] failed:', e.message)
+  }
 
   console.log('Wrote:', path.join(REPORT_OUT, 'account-stats.json'))
   console.log('Wrote:', path.join(REPORT_OUT, 'project-stats.json'))

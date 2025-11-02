@@ -397,19 +397,57 @@ async function fetchProjectStats() {
 
 // 明确加载 LIVE JSON（account-stats.json / project-stats.json）
 async function ensureLiveLoaded() {
+  // 账号数据：常规加载
   if (!LIVE.account) {
     try {
       const acc = await fetch('./out/account-stats.json', { cache: 'no-cache' })
       if (acc.ok) LIVE.account = await acc.json()
     } catch {}
   }
+  // 项目数据：优先尝试 lite，随后后台加载 full 并刷新
   if (!LIVE.project) {
+    let liteLoaded = false
     try {
-      const proj = await fetch('./out/project-stats.json', {
+      const lite = await fetch('./out/project-stats-lite.json', {
         cache: 'no-cache',
       })
-      if (proj.ok) LIVE.project = await proj.json()
+      if (lite.ok) {
+        const data = await lite.json()
+        data._isLite = true
+        LIVE.project = data
+        liteLoaded = true
+      }
     } catch {}
+
+    // 定义全量加载逻辑
+    const loadFull = async () => {
+      try {
+        const proj = await fetch('./out/project-stats.json', {
+          cache: 'no-cache',
+        })
+        if (proj.ok) {
+          const full = await proj.json()
+          const wasLite = !!(LIVE.project && LIVE.project._isLite)
+          LIVE.project = full
+          LIVE.project._isLite = false
+          // 如果之前是 lite，切换到 full 后刷新界面并补充月份选项
+          if (wasLite) {
+            try {
+              ensureMonthOptions(LIVE.project)
+              updateDashboardByView()
+            } catch {}
+          }
+        }
+      } catch {}
+    }
+
+    if (liteLoaded) {
+      // 后台加载 full，不阻塞首屏
+      loadFull()
+    } else {
+      // 没有 lite 时，直接等待 full
+      await loadFull()
+    }
   }
 }
 
@@ -596,6 +634,8 @@ function updateDashboardByView() {
 async function ensureRecentCommitsAugmented() {
   try {
     if (!LIVE.project) return
+    // 仅在 full 数据可用时进行补全，避免在 lite 阶段重复工作
+    if (LIVE.project._isLite) return
     if (STATE.view.range !== '1y') return // 只在“一年”视图尝试补全
     if (LIVE.project._augmenting || LIVE.project._augmentedYear) return
 
@@ -777,7 +817,7 @@ function renderContributionHeatmap(modules) {
   }
 
   container.innerHTML = `
-    <div class="flex gap-1 justify-center">
+    <div class="flex gap-1 justify-start min-w-max">
       ${weeks
         .map(
           (week) => `
@@ -1454,7 +1494,7 @@ function renderContributionHeatmapFromMap(map) {
   const weeks = []
   for (let i = 0; i < dates.length; i += 7) weeks.push(dates.slice(i, i + 7))
   container.innerHTML = `
-    <div class="flex gap-1 justify-center">
+    <div class="flex gap-1 justify-start min-w-max">
       ${weeks
         .map(
           (week) => `
