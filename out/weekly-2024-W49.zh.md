@@ -1,0 +1,83 @@
+# 周报（2024-12-02 至 2024-12-06）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2024-12-02 至 2024-12-06）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 30
+触达文件总数: 155
+行变更合计 +/-: +4819 / -1135
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=6, files=46, +1957/-229
+- frontend (frontend): commits=15, files=72, +1916/-710
+- backend (backend): commits=9, files=37, +946/-196
+
+## 顶层目录热力（按模块）
+- admin:
+  - src/views/system-manage: 1252
+  - vite.config.ts.timestamp-1733321939160-56edf02001e0b.mjs: 266
+  - src/views/{user-manage => system-manage: 167
+  - src/locales/langs: 160
+  - src/service/api: 147
+  - src/typings/api.d.ts: 71
+  - src/router/elegant: 42
+  - src/types/business.d.ts: 24
+  - src/typings/app.d.ts: 23
+  - src/service/settings.ts: 22
+  - src/typings/elegant-router.d.ts: 9
+  - src/typings/components.d.ts: 3
+- frontend:
+  - src/pages-sub/mine: 1623
+  - src/utils/amap-wx.js: 526
+  - src/service/userService.ts: 188
+  - src/pages.json: 54
+  - src/utils/WXBizDataCrypt.ts: 51
+  - src/pages/mine: 49
+  - src/pages-sub/profile: 31
+  - src/types/uni-pages.d.ts: 27
+  - src/pages/order: 18
+  - src/service/couponService.ts: 14
+  - src/utils/index.ts: 12
+  - src/pages/home: 8
+  - pnpm-lock.yaml: 8
+  - src/store/types.ts: 7
+  - src/main.ts: 5
+- backend:
+  - src/main/java: 1058
+  - target: 43
+  - src/main/resources: 24
+  - pom.xml: 14
+  - .gitignore: 3
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] feat: 添加角色管理功能，包括角色列表、添加、编辑和删除接口
+  - [undefined] fix: 修复了用户界面的一些错误
+  - [undefined] feat: 添加管理系统用户名翻译
+  - [undefined] feat: 完善用户详细信息
+  - [undefined] feat: 完善用户详细信息
+  - [undefined] feat: 添加用户管理功能，更新路由和接口，优化用户数据格式
+- frontend:
+  - [undefined] fix: 删除不必要的图片
+  - [undefined] fix: 更新头像上传逻辑，直接使用图床返回的URL；调整页面路径定义
+  - [undefined] feat: 更新logIn checkboxtext位置
+  - [undefined] fix: 调整登录页面样式，优化底部按钮布局；更新优惠券获取逻辑，简化请求方式
+  - [undefined] fix: 添加样式以确保圆角效果正常显示
+  - [undefined] fix: 修改页面路径和导入方式，确保地址管理功能正常
+  - [undefined] feat: 地址管理小程序版本
+  - [undefined] feat: 更新微信授权登录逻辑，使用用户信息回调处理授权结果
+  - [undefined] feat: 添加手机号加密处理功能，重构用户信息初始化接口，优化登录页面样式
+  - [undefined] fix: 完成了对登录的两种情况的修复
+- backend:
+  - [undefined] fixL 修复了getProfile的cros跨域问题
+  - [undefined] fix: 更新安全配置，优化CORS配置以支持多个源和方法
+  - [undefined] feat: 添加Spring Security支持，配置JWT身份验证，更新用户信息获取逻辑，增强安全性
+  - [undefined] feat: 删除AuthControllerTest和AuthServiceTest，添加UserController和UserService，完善用户管理功能，支持用户信息获取和编辑，增加分页查询功能
+  - [undefined] feat: 添加分页功能到资料库查询，更新微信应用ID和密钥，移除不必要的数据库表创建语句
+  - [undefined] feat: 更新微信应用ID和密钥
+  - [undefined] feat: 添加手机号和国家代码支持，更新用户模型，增加性别字段，完善微信手机号获取功能
+  - [undefined] feat: 添加获取微信手机号功能，更新AuthService以支持微信API调用，增加TestController和TestService用于测试
+  - [undefined] feat: 添加文件上传功能，配置上传路径，更新用户模型，增加初始化标记

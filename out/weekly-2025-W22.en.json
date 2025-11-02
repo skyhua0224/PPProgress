@@ -1,15 +1,15 @@
 {
-  "title": "Weekly Report (2025-05-28 to 2025-05-30)",
+  "title": "Weekly Report (2025-05-28 to 2025-05-31)",
   "lang": "en",
   "since": "2025-05-28",
-  "until": "2025-05-30",
-  "generatedAt": "2025-11-02T11:29:18.556Z",
+  "until": "2025-05-31",
+  "generatedAt": "2025-11-02T11:43:45.304Z",
   "progress": {
     "totals": {
-      "commits": 15,
-      "files": 15,
-      "added": 15,
-      "removed": 15
+      "commits": 7,
+      "files": 35,
+      "added": 3054,
+      "removed": 316
     },
     "modules": [
       {
@@ -27,54 +27,68 @@
         "path": "admin",
         "commits": [
           {
-            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
-            "datetime": "2025-05-30 01:36:12 +0000",
-            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
+            "hash": "222187d3b036ead467e5f18f2829d43476e8e99a",
+            "datetime": "2025-05-31 02:21:40 +0800",
+            "subject": "optimize(hooks): update detection function to cover the exceptions that occur when the request fails."
           },
           {
-            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
-            "datetime": "2025-05-30 01:14:02 +0000",
-            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
+            "hash": "75455b006c4b2a9ec7d5ba2ecefaf450691be617",
+            "datetime": "2025-05-29 11:09:12 +0800",
+            "subject": "feat(theme): global search button toggle"
           },
           {
-            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
-            "datetime": "2025-05-30 00:47:37 +0000",
-            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
+            "hash": "6d4fc14449868aeaba8df40de3ea2d428b514991",
+            "datetime": "2025-05-29 01:08:23 +0800",
+            "subject": "feat: 添加打印任务提交和测试页打印功能"
           },
           {
-            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
-            "datetime": "2025-05-28 17:08:52 +0000",
-            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
-          },
-          {
-            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
-            "datetime": "2025-05-28 16:37:57 +0000",
-            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+            "hash": "4dba7eb3f2b2aa3da43c8472c9caea45c9af75e3",
+            "datetime": "2025-05-29 00:37:31 +0800",
+            "subject": "feat: 添加文件上传功能及打印设置界面"
           }
         ],
-        "files": 5,
-        "added": 5,
-        "removed": 5,
+        "files": 13,
+        "added": 766,
+        "removed": 78,
         "heat": [
           [
-            "backend",
-            4
+            "src/views/hardware-manage",
+            650
           ],
           [
-            "admin",
-            4
+            "src/service/api",
+            118
           ],
           [
-            "frontend",
-            2
+            "src/typings/api.d.ts",
+            29
+          ],
+          [
+            "src/plugins/app.ts",
+            26
+          ],
+          [
+            "src/typings/app.d.ts",
+            7
+          ],
+          [
+            "src/locales/langs",
+            6
+          ],
+          [
+            "src/layouts/modules",
+            5
+          ],
+          [
+            "src/theme/settings.ts",
+            3
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
-          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
-          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
-          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
-          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          "optimize(hooks): update detection function to cover the exceptions that occur when the request fails.",
+          "feat(theme): global search button toggle",
+          "feat: 添加打印任务提交和测试页打印功能",
+          "feat: 添加文件上传功能及打印设置界面"
         ]
       },
       {
@@ -82,54 +96,34 @@
         "path": "frontend",
         "commits": [
           {
-            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
-            "datetime": "2025-05-30 01:36:12 +0000",
-            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
-          },
-          {
-            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
-            "datetime": "2025-05-30 01:14:02 +0000",
-            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
-          },
-          {
-            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
-            "datetime": "2025-05-30 00:47:37 +0000",
-            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
-          },
-          {
-            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
-            "datetime": "2025-05-28 17:08:52 +0000",
-            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
-          },
-          {
-            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
-            "datetime": "2025-05-28 16:37:57 +0000",
-            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+            "hash": "f3c08cc1f3a0440c38ec1836c55f88de68275197",
+            "datetime": "2025-05-30 08:41:04 +0800",
+            "subject": "feat: library界面优化"
           }
         ],
         "files": 5,
-        "added": 5,
-        "removed": 5,
+        "added": 883,
+        "removed": 235,
         "heat": [
           [
-            "backend",
-            4
+            "src/pages/library",
+            1107
           ],
           [
-            "admin",
-            4
+            "src/types/library.ts",
+            10
           ],
           [
-            "frontend",
-            2
+            "src/service/libraryService.ts",
+            1
+          ],
+          [
+            "代码优化总结.md",
+            0
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
-          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
-          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
-          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
-          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          "feat: library界面优化"
         ]
       },
       {
@@ -137,54 +131,28 @@
         "path": "backend",
         "commits": [
           {
-            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
-            "datetime": "2025-05-30 01:36:12 +0000",
-            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
+            "hash": "7e985c36aebabd0022823b64443b401c10e37e0d",
+            "datetime": "2025-05-30 09:35:44 +0800",
+            "subject": "refactor(StoreController): 移除不必要的跨域注解"
           },
           {
-            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
-            "datetime": "2025-05-30 01:14:02 +0000",
-            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
-          },
-          {
-            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
-            "datetime": "2025-05-30 00:47:37 +0000",
-            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
-          },
-          {
-            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
-            "datetime": "2025-05-28 17:08:52 +0000",
-            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
-          },
-          {
-            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
-            "datetime": "2025-05-28 16:37:57 +0000",
-            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+            "hash": "dba49dfdc80e8aea8b70ee5de0c29c738e6529fe",
+            "datetime": "2025-05-30 09:13:29 +0800",
+            "subject": "feat：实现分享码生成、验证和管理功能"
           }
         ],
-        "files": 5,
-        "added": 5,
-        "removed": 5,
+        "files": 17,
+        "added": 1405,
+        "removed": 3,
         "heat": [
           [
-            "backend",
-            4
-          ],
-          [
-            "admin",
-            4
-          ],
-          [
-            "frontend",
-            2
+            "src/main/java",
+            1408
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
-          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
-          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
-          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
-          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          "refactor(StoreController): 移除不必要的跨域注解",
+          "feat：实现分享码生成、验证和管理功能"
         ]
       }
     ]

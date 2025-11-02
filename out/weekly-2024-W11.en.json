@@ -1,0 +1,120 @@
+{
+  "title": "Weekly Report (2024-03-11 to 2024-03-16)",
+  "lang": "en",
+  "since": "2024-03-11",
+  "until": "2024-03-16",
+  "generatedAt": "2025-11-02T11:43:29.740Z",
+  "progress": {
+    "totals": {
+      "commits": 6,
+      "files": 17,
+      "added": 305,
+      "removed": 258
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "0cc8f05a26114b9ce9de98eb8f27b620d8fda9fe",
+            "datetime": "2024-03-16 16:18:44 +0800",
+            "subject": "fix(projects): fix table row-key ts type"
+          },
+          {
+            "hash": "6c5404610b4827bfb8e0de745f1af31a9fbe83ab",
+            "datetime": "2024-03-13 14:46:12 +0800",
+            "subject": "fix(projects):fix invalid footer-height for theme configuration"
+          },
+          {
+            "hash": "8143b0063cdcffd8176688096659adcbdd5aa386",
+            "datetime": "2024-03-13 12:35:00 +0800",
+            "subject": "chore(projects): update deps & fix eslint vue rule"
+          },
+          {
+            "hash": "72745229d6d27f5ea68b2ae0a1beb461e58a1373",
+            "datetime": "2024-03-11 22:57:37 +0800",
+            "subject": "perf(components): perf global-search"
+          },
+          {
+            "hash": "779ba4e41537b0897e372f831c94cf0ad8ef5f98",
+            "datetime": "2024-03-11 22:42:22 +0800",
+            "subject": "perf(projects): perf manage page style"
+          },
+          {
+            "hash": "b2ee9eef8cb80a7f1bdca8c2c4ab6548b990c45d",
+            "datetime": "2024-03-11 21:38:10 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 17,
+        "added": 305,
+        "removed": 258,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            400
+          ],
+          [
+            "src/layouts/modules",
+            90
+          ],
+          [
+            "src/views/manage",
+            59
+          ],
+          [
+            "package.json",
+            12
+          ],
+          [
+            "src/layouts/base-layout",
+            1
+          ],
+          [
+            "eslint.config.js",
+            1
+          ]
+        ],
+        "subjects": [
+          "fix(projects): fix table row-key ts type",
+          "fix(projects):fix invalid footer-height for theme configuration",
+          "chore(projects): update deps & fix eslint vue rule",
+          "perf(components): perf global-search",
+          "perf(projects): perf manage page style",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

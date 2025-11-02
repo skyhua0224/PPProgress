@@ -1,0 +1,200 @@
+{
+  "title": "Weekly Report (2024-11-11 to 2024-11-17)",
+  "lang": "en",
+  "since": "2024-11-11",
+  "until": "2024-11-17",
+  "generatedAt": "2025-11-02T11:43:38.957Z",
+  "progress": {
+    "totals": {
+      "commits": 9,
+      "files": 65,
+      "added": 2376,
+      "removed": 1445
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "17d7e52216f499643efa43894e55a65525ba753c",
+            "datetime": "2024-11-15 22:45:28 +0800",
+            "subject": "chore(projects): add desc for base url of app"
+          },
+          {
+            "hash": "91de4a8ef77614303a6314cebaa2d51abf2db6d3",
+            "datetime": "2024-11-15 12:41:33 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "09144dfe93c1fa349818cd4452fc27185ad97b8a",
+            "datetime": "2024-11-15 12:39:57 +0800",
+            "subject": "refactor(projects): refactor router guard. fix #655 (#667)"
+          },
+          {
+            "hash": "20d2e99707b081dc6ee069aa8be8558b1c72b01b",
+            "datetime": "2024-11-14 14:06:18 +0800",
+            "subject": "feat: 更新优惠券和商品管理相关接口及类型定义，添加状态和库存字段"
+          },
+          {
+            "hash": "1147ef428dff4903f30e51d42639203046e0c624",
+            "datetime": "2024-11-12 15:21:12 +0800",
+            "subject": "修改了新增按钮消失的错误"
+          }
+        ],
+        "files": 24,
+        "added": 1300,
+        "removed": 1167,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1982
+          ],
+          [
+            "src/router/guard",
+            169
+          ],
+          [
+            "src/views/app-manage",
+            149
+          ],
+          [
+            "package.json",
+            46
+          ],
+          [
+            "src/typings/api.d.ts",
+            42
+          ],
+          [
+            "src/locales/langs",
+            26
+          ],
+          [
+            "packages",
+            14
+          ],
+          [
+            "src/store/modules",
+            12
+          ],
+          [
+            "src/typings/app.d.ts",
+            12
+          ],
+          [
+            "src/typings/components.d.ts",
+            8
+          ],
+          [
+            ".env.test",
+            3
+          ],
+          [
+            ".env",
+            2
+          ],
+          [
+            "src/service/api",
+            2
+          ]
+        ],
+        "subjects": [
+          "chore(projects): add desc for base url of app",
+          "chore(deps): update deps",
+          "refactor(projects): refactor router guard. fix #655 (#667)",
+          "feat: 更新优惠券和商品管理相关接口及类型定义，添加状态和库存字段",
+          "修改了新增按钮消失的错误"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "d9721ef59e94a0596a79b06a594f8d09cbb8e597",
+            "datetime": "2024-11-12 13:58:26 +0800",
+            "subject": "feat: 修改了分辨率问题"
+          }
+        ],
+        "files": 2,
+        "added": 267,
+        "removed": 169,
+        "heat": [
+          [
+            "src/pages/mine",
+            436
+          ]
+        ],
+        "subjects": [
+          "feat: 修改了分辨率问题"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "d25f4c480ee39109272a036f032773e3faa11542",
+            "datetime": "2024-11-12 15:03:21 +0800",
+            "subject": "fix: 更新 .gitignore，修正目标类目录路径"
+          },
+          {
+            "hash": "87e3799c58d6977281bb2c63641cac08b83554d2",
+            "datetime": "2024-11-12 14:46:01 +0800",
+            "subject": "feat: 添加 CORS 配置，更新应用程序属性以支持新端口和请求处理"
+          },
+          {
+            "hash": "91b3ebac4c4708030ae76bd448d24e42d691962c",
+            "datetime": "2024-11-12 13:11:42 +0800",
+            "subject": "feat: 添加打印机和CUPS服务器相关功能，创建相应的Repository和Controller，更新数据库架构以支持新表"
+          }
+        ],
+        "files": 39,
+        "added": 809,
+        "removed": 109,
+        "heat": [
+          [
+            "src/main/java",
+            639
+          ],
+          [
+            "target",
+            238
+          ],
+          [
+            "src/main/resources",
+            31
+          ],
+          [
+            "pom.xml",
+            5
+          ],
+          [
+            ".vscode",
+            3
+          ],
+          [
+            ".gitignore",
+            2
+          ]
+        ],
+        "subjects": [
+          "fix: 更新 .gitignore，修正目标类目录路径",
+          "feat: 添加 CORS 配置，更新应用程序属性以支持新端口和请求处理",
+          "feat: 添加打印机和CUPS服务器相关功能，创建相应的Repository和Controller，更新数据库架构以支持新表"
+        ]
+      }
+    ]
+  }
+}

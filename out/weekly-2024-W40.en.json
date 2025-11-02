@@ -1,0 +1,90 @@
+{
+  "title": "Weekly Report (2024-10-03 to 2024-10-06)",
+  "lang": "en",
+  "since": "2024-10-03",
+  "until": "2024-10-06",
+  "generatedAt": "2025-11-02T11:43:35.318Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 7,
+      "added": 99,
+      "removed": 53
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "80af5bb578fb45040440f8f4e27ab56829c9d918",
+            "datetime": "2024-10-05 15:04:53 +0800",
+            "subject": "feat: 优化结算页面和上传页面的footer样式"
+          },
+          {
+            "hash": "b8cf3fcf024c4d807b8ff4ea01ca0af6e23db846",
+            "datetime": "2024-10-05 14:41:15 +0800",
+            "subject": "feat: 优化结算页面和上传页面的footer样式"
+          },
+          {
+            "hash": "f29a1ef547c55ef1d95fad2ea6b649cecec51d16",
+            "datetime": "2024-10-05 13:35:03 +0800",
+            "subject": "feat: 修改了上传页面的footer"
+          }
+        ],
+        "files": 7,
+        "added": 99,
+        "removed": 53,
+        "heat": [
+          [
+            "frontend/src/pages-sub",
+            146
+          ],
+          [
+            "frontend/src/pages.json",
+            4
+          ],
+          [
+            "frontend/src/types",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 优化结算页面和上传页面的footer样式",
+          "feat: 优化结算页面和上传页面的footer样式",
+          "feat: 修改了上传页面的footer"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

@@ -1,15 +1,15 @@
 {
-  "title": "Weekly Report (2024-09-13 to 2024-09-15)",
+  "title": "Weekly Report (2024-09-09 to 2024-09-15)",
   "lang": "en",
-  "since": "2024-09-13",
+  "since": "2024-09-09",
   "until": "2024-09-15",
-  "generatedAt": "2025-11-02T11:29:13.033Z",
+  "generatedAt": "2025-11-02T11:43:34.085Z",
   "progress": {
     "totals": {
-      "commits": 16,
-      "files": 428,
-      "added": 59444,
-      "removed": 348
+      "commits": 6,
+      "files": 109,
+      "added": 14863,
+      "removed": 97
     },
     "modules": [
       {
@@ -114,291 +114,53 @@
         "path": "admin",
         "commits": [
           {
-            "hash": "b112cd0e301c2d387c482311b685032036400957",
-            "datetime": "2024-09-15 17:13:14 +0800",
-            "subject": "style: adjust App.vue script"
+            "hash": "04d056479f60a716cb7ff56caa294ae06f6846cb",
+            "datetime": "2024-09-14 11:55:41 +0800",
+            "subject": "fix(projects): fix click global-tab in iPad. fixed #624"
           },
           {
-            "hash": "e9f117b85f7048c64c3c70496c35263c621bcb99",
-            "datetime": "2024-09-15 17:09:11 +0800",
-            "subject": "feat: remove navigation bar for better user experience"
-          },
-          {
-            "hash": "890b7f36c03c8ce10a028bca1da7acb358837df3",
-            "datetime": "2024-09-13 23:27:28 +0800",
-            "subject": "fix: 解决了高亮问题"
-          },
-          {
-            "hash": "31778678a9d84c5b81aa673e8456d19137aca768",
-            "datetime": "2024-09-13 21:45:11 +0800",
-            "subject": "feat: Initial commit"
+            "hash": "60bbd2d145b67d396552414c34cc532d8d4ca60e",
+            "datetime": "2024-09-11 11:47:51 +0800",
+            "subject": "optimize(projects): remove defineModel setting，enabled by default (#620)"
           }
         ],
-        "files": 107,
-        "added": 14861,
-        "removed": 87,
+        "files": 2,
+        "added": 2,
+        "removed": 10,
         "heat": [
           [
-            "pnpm-lock.yaml",
-            11893
+            "src/layouts/modules",
+            6
           ],
           [
-            "src/types/auto-import.d.ts",
-            262
-          ],
-          [
-            "src/utils/index.ts",
-            178
-          ],
-          [
-            "vite.config.ts",
-            167
-          ],
-          [
-            "package.json",
-            156
-          ],
-          [
-            ".vscode",
-            137
-          ],
-          [
-            "manifest.config.ts",
-            134
-          ],
-          [
-            "src/components/CustomTabBar.vue",
-            127
-          ],
-          [
-            "src/manifest.json",
-            111
-          ],
-          [
-            ".commitlintrc.cjs",
-            106
-          ],
-          [
-            ".eslintrc.cjs",
-            97
-          ],
-          [
-            "src/App.vue",
-            96
-          ],
-          [
-            ".eslintrc-auto-import.json",
-            94
-          ],
-          [
-            "uno.config.ts",
-            89
-          ],
-          [
-            "src/utils/http.ts",
-            80
+            "build",
+            6
           ]
         ],
         "subjects": [
-          "style: adjust App.vue script",
-          "feat: remove navigation bar for better user experience",
-          "fix: 解决了高亮问题",
-          "feat: Initial commit"
+          "fix(projects): fix click global-tab in iPad. fixed #624",
+          "optimize(projects): remove defineModel setting，enabled by default (#620)"
         ]
       },
       {
         "name": "frontend",
         "path": "frontend",
-        "commits": [
-          {
-            "hash": "b112cd0e301c2d387c482311b685032036400957",
-            "datetime": "2024-09-15 17:13:14 +0800",
-            "subject": "style: adjust App.vue script"
-          },
-          {
-            "hash": "e9f117b85f7048c64c3c70496c35263c621bcb99",
-            "datetime": "2024-09-15 17:09:11 +0800",
-            "subject": "feat: remove navigation bar for better user experience"
-          },
-          {
-            "hash": "890b7f36c03c8ce10a028bca1da7acb358837df3",
-            "datetime": "2024-09-13 23:27:28 +0800",
-            "subject": "fix: 解决了高亮问题"
-          },
-          {
-            "hash": "31778678a9d84c5b81aa673e8456d19137aca768",
-            "datetime": "2024-09-13 21:45:11 +0800",
-            "subject": "feat: Initial commit"
-          }
-        ],
-        "files": 107,
-        "added": 14861,
-        "removed": 87,
-        "heat": [
-          [
-            "pnpm-lock.yaml",
-            11893
-          ],
-          [
-            "src/types/auto-import.d.ts",
-            262
-          ],
-          [
-            "src/utils/index.ts",
-            178
-          ],
-          [
-            "vite.config.ts",
-            167
-          ],
-          [
-            "package.json",
-            156
-          ],
-          [
-            ".vscode",
-            137
-          ],
-          [
-            "manifest.config.ts",
-            134
-          ],
-          [
-            "src/components/CustomTabBar.vue",
-            127
-          ],
-          [
-            "src/manifest.json",
-            111
-          ],
-          [
-            ".commitlintrc.cjs",
-            106
-          ],
-          [
-            ".eslintrc.cjs",
-            97
-          ],
-          [
-            "src/App.vue",
-            96
-          ],
-          [
-            ".eslintrc-auto-import.json",
-            94
-          ],
-          [
-            "uno.config.ts",
-            89
-          ],
-          [
-            "src/utils/http.ts",
-            80
-          ]
-        ],
-        "subjects": [
-          "style: adjust App.vue script",
-          "feat: remove navigation bar for better user experience",
-          "fix: 解决了高亮问题",
-          "feat: Initial commit"
-        ]
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
       },
       {
         "name": "backend",
         "path": "backend",
-        "commits": [
-          {
-            "hash": "b112cd0e301c2d387c482311b685032036400957",
-            "datetime": "2024-09-15 17:13:14 +0800",
-            "subject": "style: adjust App.vue script"
-          },
-          {
-            "hash": "e9f117b85f7048c64c3c70496c35263c621bcb99",
-            "datetime": "2024-09-15 17:09:11 +0800",
-            "subject": "feat: remove navigation bar for better user experience"
-          },
-          {
-            "hash": "890b7f36c03c8ce10a028bca1da7acb358837df3",
-            "datetime": "2024-09-13 23:27:28 +0800",
-            "subject": "fix: 解决了高亮问题"
-          },
-          {
-            "hash": "31778678a9d84c5b81aa673e8456d19137aca768",
-            "datetime": "2024-09-13 21:45:11 +0800",
-            "subject": "feat: Initial commit"
-          }
-        ],
-        "files": 107,
-        "added": 14861,
-        "removed": 87,
-        "heat": [
-          [
-            "pnpm-lock.yaml",
-            11893
-          ],
-          [
-            "src/types/auto-import.d.ts",
-            262
-          ],
-          [
-            "src/utils/index.ts",
-            178
-          ],
-          [
-            "vite.config.ts",
-            167
-          ],
-          [
-            "package.json",
-            156
-          ],
-          [
-            ".vscode",
-            137
-          ],
-          [
-            "manifest.config.ts",
-            134
-          ],
-          [
-            "src/components/CustomTabBar.vue",
-            127
-          ],
-          [
-            "src/manifest.json",
-            111
-          ],
-          [
-            ".commitlintrc.cjs",
-            106
-          ],
-          [
-            ".eslintrc.cjs",
-            97
-          ],
-          [
-            "src/App.vue",
-            96
-          ],
-          [
-            ".eslintrc-auto-import.json",
-            94
-          ],
-          [
-            "uno.config.ts",
-            89
-          ],
-          [
-            "src/utils/http.ts",
-            80
-          ]
-        ],
-        "subjects": [
-          "style: adjust App.vue script",
-          "feat: remove navigation bar for better user experience",
-          "fix: 解决了高亮问题",
-          "feat: Initial commit"
-        ]
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
       }
     ]
   }

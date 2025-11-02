@@ -3,13 +3,13 @@
   "lang": "en",
   "since": "2025-08-18",
   "until": "2025-08-24",
-  "generatedAt": "2025-11-02T11:29:19.864Z",
+  "generatedAt": "2025-11-02T11:43:47.980Z",
   "progress": {
     "totals": {
-      "commits": 99,
-      "files": 99,
-      "added": 99,
-      "removed": 99
+      "commits": 33,
+      "files": 151,
+      "added": 5629,
+      "removed": 2569
     },
     "modules": [
       {
@@ -27,204 +27,96 @@
         "path": "admin",
         "commits": [
           {
-            "hash": "bbfe89b22f44fba8fd4ec3cfe9d99ea686961c8f",
-            "datetime": "2025-08-23 14:36:51 +0000",
-            "subject": "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n"
+            "hash": "b94877cac533c9b1fe0068a1a73116240c3c0af8",
+            "datetime": "2025-08-23 22:36:28 +0800",
+            "subject": "feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利"
           },
           {
-            "hash": "8802f7e2a722b493b49a81b58b31ceeae2a24b23",
-            "datetime": "2025-08-23 14:27:01 +0000",
-            "subject": "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n"
+            "hash": "5e0d49382f9b00e4baf4dd2b9d578d5da3dcf264",
+            "datetime": "2025-08-21 23:17:49 +0800",
+            "subject": "feat: 增强优惠券发放功能，新增状态/补救等功能"
           },
           {
-            "hash": "a94b4be288e593fd6be8844c2bd48bd2b5cc9f81",
-            "datetime": "2025-08-23 07:44:03 +0000",
-            "subject": "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n"
+            "hash": "bbb267baf0fec27641bf58260968ce01a0eb0212",
+            "datetime": "2025-08-20 23:07:13 +0800",
+            "subject": "fix: 修复优惠券系列代码可见问题"
           },
           {
-            "hash": "3340026bf804084a8f129922b0d4cb1217b9b466",
-            "datetime": "2025-08-23 07:29:35 +0000",
-            "subject": "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n"
-          },
-          {
-            "hash": "1a568b777589a221a07567816e44a780a73af997",
-            "datetime": "2025-08-23 07:28:22 +0000",
-            "subject": "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n"
-          },
-          {
-            "hash": "df79fb9fb20f6bfb0d7ec41e41f2427c690468b6",
-            "datetime": "2025-08-23 07:27:48 +0000",
-            "subject": "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n"
-          },
-          {
-            "hash": "7b4b2e37f926f24bd0274a6df83592d5f9d8cdfb",
-            "datetime": "2025-08-23 06:13:18 +0000",
-            "subject": "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n"
-          },
-          {
-            "hash": "d6c2fc86f71bf4458ba42101710dd6fe1fa4e926",
-            "datetime": "2025-08-23 05:54:34 +0000",
-            "subject": "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n"
-          },
-          {
-            "hash": "17038b98c22342d31cf855a396580fc6ec4d4323",
-            "datetime": "2025-08-22 13:53:33 +0000",
-            "subject": "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n"
-          },
-          {
-            "hash": "07bde057da72eaa0e7da7a0f3b2c271aa153c5f1",
-            "datetime": "2025-08-21 15:18:16 +0000",
-            "subject": "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n"
-          },
-          {
-            "hash": "74c672fe66c67e6a3496a7f65bb9a442c3185e74",
-            "datetime": "2025-08-21 14:09:48 +0000",
-            "subject": "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n"
-          },
-          {
-            "hash": "d62d013acece2b0b8515a1bf66d6b2c309f60358",
-            "datetime": "2025-08-21 14:04:32 +0000",
-            "subject": "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n"
-          },
-          {
-            "hash": "f8ff0872e5f2d39db4e96eaf7aa0c1823f819242",
-            "datetime": "2025-08-21 13:59:36 +0000",
-            "subject": "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n"
-          },
-          {
-            "hash": "eea1e226f483da288ed078e24dddecaebe741da3",
-            "datetime": "2025-08-21 13:10:26 +0000",
-            "subject": "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n"
-          },
-          {
-            "hash": "fb0a1800c84bb7df2ab12f86f2b6dd210f28491f",
-            "datetime": "2025-08-21 12:39:58 +0000",
-            "subject": "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n"
-          },
-          {
-            "hash": "4fc386f5a705021ffeb9712445d4e3d0c7f71a0c",
-            "datetime": "2025-08-21 09:12:35 +0000",
-            "subject": "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n"
-          },
-          {
-            "hash": "8215150621c713156c31d434072a69bcc7aedced",
-            "datetime": "2025-08-21 08:56:56 +0000",
-            "subject": "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n"
-          },
-          {
-            "hash": "a16d51e4f76f438b9842a36a9f2918c1e1d317cb",
-            "datetime": "2025-08-21 08:10:47 +0000",
-            "subject": "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n"
-          },
-          {
-            "hash": "815290203e1a60e551cc7ee247152d7b3ad3ee8e",
-            "datetime": "2025-08-21 07:32:44 +0000",
-            "subject": "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n"
-          },
-          {
-            "hash": "3190141fddcf51b82c9e9d5fb7fa5a51f501d279",
-            "datetime": "2025-08-21 07:20:22 +0000",
-            "subject": "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n"
-          },
-          {
-            "hash": "1a95ebccd19cfaa9e6f837b52a9a715ec60344e2",
-            "datetime": "2025-08-21 06:51:26 +0000",
-            "subject": "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n"
-          },
-          {
-            "hash": "e5a0df6159787c61073abff3fdc76a584968c6d6",
-            "datetime": "2025-08-20 15:07:51 +0000",
-            "subject": "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n"
-          },
-          {
-            "hash": "eac556fd00fae902597056654649c1e8e45e7b4d",
-            "datetime": "2025-08-20 14:12:26 +0000",
-            "subject": "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n"
-          },
-          {
-            "hash": "0de0b5f26bb32562bd52682e61c040e946f63049",
-            "datetime": "2025-08-19 17:29:10 +0000",
-            "subject": "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n"
-          },
-          {
-            "hash": "d054b8508a8a80d5bc34d91a85fe6cfbad4944fa",
-            "datetime": "2025-08-19 17:17:52 +0000",
-            "subject": "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n"
-          },
-          {
-            "hash": "d8c610b8fbf852f5c063783ba05cf239020301a9",
-            "datetime": "2025-08-19 17:17:26 +0000",
-            "subject": "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n"
-          },
-          {
-            "hash": "772fa07461789583186fb299f12ff7ad5c359921",
-            "datetime": "2025-08-19 17:15:19 +0000",
-            "subject": "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n"
-          },
-          {
-            "hash": "cf0a6c25ea7ab720d0431dcc5d6c28a22fc28436",
-            "datetime": "2025-08-19 16:16:35 +0000",
-            "subject": "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n"
-          },
-          {
-            "hash": "b3e1552ae494978acbb0dcbe5592420236f0898a",
-            "datetime": "2025-08-19 15:19:15 +0000",
-            "subject": "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n"
-          },
-          {
-            "hash": "de6df4e4137bc9f3bf3374313bbf9a669296bdfb",
-            "datetime": "2025-08-19 14:48:54 +0000",
-            "subject": "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+            "hash": "7997b761117dd0ce223f49b960bcc7be2e9153eb",
+            "datetime": "2025-08-20 01:16:55 +0800",
+            "subject": "feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码"
           }
         ],
-        "files": 33,
-        "added": 33,
-        "removed": 33,
+        "files": 51,
+        "added": 3150,
+        "removed": 1521,
         "heat": [
           [
-            "backend",
-            56
+            "src/views/marketing",
+            2364
           ],
           [
-            "admin",
+            "src/views/system",
+            966
+          ],
+          [
+            "src/service/api",
+            735
+          ],
+          [
+            "src/components/business",
+            298
+          ],
+          [
+            "src/typings/api.d.ts",
+            126
+          ],
+          [
+            "src/locales/langs",
+            111
+          ],
+          [
+            "src/typings/app.d.ts",
+            18
+          ],
+          [
+            "src/router/sync-config.json",
+            13
+          ],
+          [
+            "src/router/elegant",
+            11
+          ],
+          [
+            "pnpm-lock.yaml",
+            9
+          ],
+          [
+            "src/typings/components.d.ts",
             8
           ],
           [
-            "frontend",
+            "src/typings/marketing-augmentation.d.ts",
+            8
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
             2
+          ],
+          [
+            "src/typings/abc.code-profile",
+            1
+          ],
+          [
+            "package.json",
+            1
           ]
         ],
         "subjects": [
-          "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n",
-          "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n",
-          "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n",
-          "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n",
-          "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n",
-          "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n",
-          "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n",
-          "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n",
-          "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n",
-          "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n",
-          "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n",
-          "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n",
-          "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n",
-          "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n",
-          "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n",
-          "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n",
-          "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n",
-          "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n",
-          "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n",
-          "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n",
-          "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n",
-          "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n",
-          "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n",
-          "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n",
-          "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n",
-          "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n",
-          "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n",
-          "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n",
-          "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n",
-          "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+          "feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利",
+          "feat: 增强优惠券发放功能，新增状态/补救等功能",
+          "fix: 修复优惠券系列代码可见问题",
+          "feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码"
         ]
       },
       {
@@ -232,204 +124,34 @@
         "path": "frontend",
         "commits": [
           {
-            "hash": "bbfe89b22f44fba8fd4ec3cfe9d99ea686961c8f",
-            "datetime": "2025-08-23 14:36:51 +0000",
-            "subject": "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n"
-          },
-          {
-            "hash": "8802f7e2a722b493b49a81b58b31ceeae2a24b23",
-            "datetime": "2025-08-23 14:27:01 +0000",
-            "subject": "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n"
-          },
-          {
-            "hash": "a94b4be288e593fd6be8844c2bd48bd2b5cc9f81",
-            "datetime": "2025-08-23 07:44:03 +0000",
-            "subject": "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n"
-          },
-          {
-            "hash": "3340026bf804084a8f129922b0d4cb1217b9b466",
-            "datetime": "2025-08-23 07:29:35 +0000",
-            "subject": "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n"
-          },
-          {
-            "hash": "1a568b777589a221a07567816e44a780a73af997",
-            "datetime": "2025-08-23 07:28:22 +0000",
-            "subject": "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n"
-          },
-          {
-            "hash": "df79fb9fb20f6bfb0d7ec41e41f2427c690468b6",
-            "datetime": "2025-08-23 07:27:48 +0000",
-            "subject": "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n"
-          },
-          {
-            "hash": "7b4b2e37f926f24bd0274a6df83592d5f9d8cdfb",
-            "datetime": "2025-08-23 06:13:18 +0000",
-            "subject": "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n"
-          },
-          {
-            "hash": "d6c2fc86f71bf4458ba42101710dd6fe1fa4e926",
-            "datetime": "2025-08-23 05:54:34 +0000",
-            "subject": "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n"
-          },
-          {
-            "hash": "17038b98c22342d31cf855a396580fc6ec4d4323",
-            "datetime": "2025-08-22 13:53:33 +0000",
-            "subject": "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n"
-          },
-          {
-            "hash": "07bde057da72eaa0e7da7a0f3b2c271aa153c5f1",
-            "datetime": "2025-08-21 15:18:16 +0000",
-            "subject": "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n"
-          },
-          {
-            "hash": "74c672fe66c67e6a3496a7f65bb9a442c3185e74",
-            "datetime": "2025-08-21 14:09:48 +0000",
-            "subject": "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n"
-          },
-          {
-            "hash": "d62d013acece2b0b8515a1bf66d6b2c309f60358",
-            "datetime": "2025-08-21 14:04:32 +0000",
-            "subject": "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n"
-          },
-          {
-            "hash": "f8ff0872e5f2d39db4e96eaf7aa0c1823f819242",
-            "datetime": "2025-08-21 13:59:36 +0000",
-            "subject": "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n"
-          },
-          {
-            "hash": "eea1e226f483da288ed078e24dddecaebe741da3",
-            "datetime": "2025-08-21 13:10:26 +0000",
-            "subject": "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n"
-          },
-          {
-            "hash": "fb0a1800c84bb7df2ab12f86f2b6dd210f28491f",
-            "datetime": "2025-08-21 12:39:58 +0000",
-            "subject": "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n"
-          },
-          {
-            "hash": "4fc386f5a705021ffeb9712445d4e3d0c7f71a0c",
-            "datetime": "2025-08-21 09:12:35 +0000",
-            "subject": "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n"
-          },
-          {
-            "hash": "8215150621c713156c31d434072a69bcc7aedced",
-            "datetime": "2025-08-21 08:56:56 +0000",
-            "subject": "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n"
-          },
-          {
-            "hash": "a16d51e4f76f438b9842a36a9f2918c1e1d317cb",
-            "datetime": "2025-08-21 08:10:47 +0000",
-            "subject": "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n"
-          },
-          {
-            "hash": "815290203e1a60e551cc7ee247152d7b3ad3ee8e",
-            "datetime": "2025-08-21 07:32:44 +0000",
-            "subject": "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n"
-          },
-          {
-            "hash": "3190141fddcf51b82c9e9d5fb7fa5a51f501d279",
-            "datetime": "2025-08-21 07:20:22 +0000",
-            "subject": "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n"
-          },
-          {
-            "hash": "1a95ebccd19cfaa9e6f837b52a9a715ec60344e2",
-            "datetime": "2025-08-21 06:51:26 +0000",
-            "subject": "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n"
-          },
-          {
-            "hash": "e5a0df6159787c61073abff3fdc76a584968c6d6",
-            "datetime": "2025-08-20 15:07:51 +0000",
-            "subject": "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n"
-          },
-          {
-            "hash": "eac556fd00fae902597056654649c1e8e45e7b4d",
-            "datetime": "2025-08-20 14:12:26 +0000",
-            "subject": "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n"
-          },
-          {
-            "hash": "0de0b5f26bb32562bd52682e61c040e946f63049",
-            "datetime": "2025-08-19 17:29:10 +0000",
-            "subject": "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n"
-          },
-          {
-            "hash": "d054b8508a8a80d5bc34d91a85fe6cfbad4944fa",
-            "datetime": "2025-08-19 17:17:52 +0000",
-            "subject": "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n"
-          },
-          {
-            "hash": "d8c610b8fbf852f5c063783ba05cf239020301a9",
-            "datetime": "2025-08-19 17:17:26 +0000",
-            "subject": "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n"
-          },
-          {
-            "hash": "772fa07461789583186fb299f12ff7ad5c359921",
-            "datetime": "2025-08-19 17:15:19 +0000",
-            "subject": "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n"
-          },
-          {
-            "hash": "cf0a6c25ea7ab720d0431dcc5d6c28a22fc28436",
-            "datetime": "2025-08-19 16:16:35 +0000",
-            "subject": "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n"
-          },
-          {
-            "hash": "b3e1552ae494978acbb0dcbe5592420236f0898a",
-            "datetime": "2025-08-19 15:19:15 +0000",
-            "subject": "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n"
-          },
-          {
-            "hash": "de6df4e4137bc9f3bf3374313bbf9a669296bdfb",
-            "datetime": "2025-08-19 14:48:54 +0000",
-            "subject": "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+            "hash": "71647ec62a6f0ed3e885759f16b871b79e5aef5c",
+            "datetime": "2025-08-20 01:17:20 +0800",
+            "subject": "feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程"
           }
         ],
-        "files": 33,
-        "added": 33,
-        "removed": 33,
+        "files": 4,
+        "added": 215,
+        "removed": 130,
         "heat": [
           [
-            "backend",
-            56
+            "src/pages-sub/mine",
+            206
           ],
           [
-            "admin",
-            8
+            "src/service/userService.ts",
+            92
           ],
           [
-            "frontend",
-            2
+            "src/utils/http.ts",
+            46
+          ],
+          [
+            "src/store/user.ts",
+            1
           ]
         ],
         "subjects": [
-          "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n",
-          "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n",
-          "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n",
-          "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n",
-          "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n",
-          "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n",
-          "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n",
-          "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n",
-          "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n",
-          "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n",
-          "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n",
-          "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n",
-          "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n",
-          "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n",
-          "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n",
-          "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n",
-          "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n",
-          "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n",
-          "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n",
-          "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n",
-          "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n",
-          "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n",
-          "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n",
-          "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n",
-          "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n",
-          "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n",
-          "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n",
-          "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n",
-          "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n",
-          "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+          "feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程"
         ]
       },
       {
@@ -437,204 +159,188 @@
         "path": "backend",
         "commits": [
           {
-            "hash": "bbfe89b22f44fba8fd4ec3cfe9d99ea686961c8f",
-            "datetime": "2025-08-23 14:36:51 +0000",
-            "subject": "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n"
+            "hash": "4edbb46e3dc2b8f1aff421d62d69c69c0098004e",
+            "datetime": "2025-08-23 22:26:39 +0800",
+            "subject": "feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理"
           },
           {
-            "hash": "8802f7e2a722b493b49a81b58b31ceeae2a24b23",
-            "datetime": "2025-08-23 14:27:01 +0000",
-            "subject": "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n"
+            "hash": "d5411834fa3d7ea04a679e9c78edb4e79e17bf7f",
+            "datetime": "2025-08-23 15:43:41 +0800",
+            "subject": "feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑"
           },
           {
-            "hash": "a94b4be288e593fd6be8844c2bd48bd2b5cc9f81",
-            "datetime": "2025-08-23 07:44:03 +0000",
-            "subject": "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n"
+            "hash": "3e603237503d55f353358feed9ce6c42fc7f5c0e",
+            "datetime": "2025-08-23 15:29:14 +0800",
+            "subject": "fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0"
           },
           {
-            "hash": "3340026bf804084a8f129922b0d4cb1217b9b466",
-            "datetime": "2025-08-23 07:29:35 +0000",
-            "subject": "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n"
+            "hash": "632716cbb0b499e35547e95a62cd31668b45c65d",
+            "datetime": "2025-08-23 15:27:59 +0800",
+            "subject": "feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法"
           },
           {
-            "hash": "1a568b777589a221a07567816e44a780a73af997",
-            "datetime": "2025-08-23 07:28:22 +0000",
-            "subject": "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n"
+            "hash": "0f40292cdbd3bee296daf7ec2d3d9a5b052630b8",
+            "datetime": "2025-08-23 15:27:25 +0800",
+            "subject": "feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理"
           },
           {
-            "hash": "df79fb9fb20f6bfb0d7ec41e41f2427c690468b6",
-            "datetime": "2025-08-23 07:27:48 +0000",
-            "subject": "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n"
+            "hash": "cff9c8481f8eef1a3947d0bc8cad86ab9107abb2",
+            "datetime": "2025-08-23 14:12:55 +0800",
+            "subject": "feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象"
           },
           {
-            "hash": "7b4b2e37f926f24bd0274a6df83592d5f9d8cdfb",
-            "datetime": "2025-08-23 06:13:18 +0000",
-            "subject": "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n"
+            "hash": "68d4241e3cfe0857854f3f68ca91ef75533f88de",
+            "datetime": "2025-08-23 13:54:10 +0800",
+            "subject": "feat: 添加客户端搜索功能，支持根据关键字查询用户"
           },
           {
-            "hash": "d6c2fc86f71bf4458ba42101710dd6fe1fa4e926",
-            "datetime": "2025-08-23 05:54:34 +0000",
-            "subject": "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n"
+            "hash": "c42b205c763beffaaf07dbfcab9c00209f250b81",
+            "datetime": "2025-08-22 21:53:05 +0800",
+            "subject": "feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑"
           },
           {
-            "hash": "17038b98c22342d31cf855a396580fc6ec4d4323",
-            "datetime": "2025-08-22 13:53:33 +0000",
-            "subject": "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n"
+            "hash": "deca07929e25ee39deee8f3581b5dcb698f79072",
+            "datetime": "2025-08-21 22:08:38 +0800",
+            "subject": "feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断"
           },
           {
-            "hash": "07bde057da72eaa0e7da7a0f3b2c271aa153c5f1",
-            "datetime": "2025-08-21 15:18:16 +0000",
-            "subject": "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n"
+            "hash": "4261df15bd424c04be560419ad23c471c6926d09",
+            "datetime": "2025-08-21 22:04:09 +0800",
+            "subject": "fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题"
           },
           {
-            "hash": "74c672fe66c67e6a3496a7f65bb9a442c3185e74",
-            "datetime": "2025-08-21 14:09:48 +0000",
-            "subject": "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n"
+            "hash": "cad9b4577b37e9d3f8818c47856834bdf2080ac4",
+            "datetime": "2025-08-21 21:59:09 +0800",
+            "subject": "feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作"
           },
           {
-            "hash": "d62d013acece2b0b8515a1bf66d6b2c309f60358",
-            "datetime": "2025-08-21 14:04:32 +0000",
-            "subject": "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n"
+            "hash": "37658cc10ede98af49fc307b08e457198f5bb916",
+            "datetime": "2025-08-21 21:10:03 +0800",
+            "subject": "feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动"
           },
           {
-            "hash": "f8ff0872e5f2d39db4e96eaf7aa0c1823f819242",
-            "datetime": "2025-08-21 13:59:36 +0000",
-            "subject": "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n"
+            "hash": "4071e58fb83f460b5c10c2d099c2016db9e740b5",
+            "datetime": "2025-08-21 20:39:35 +0800",
+            "subject": "feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段"
           },
           {
-            "hash": "eea1e226f483da288ed078e24dddecaebe741da3",
-            "datetime": "2025-08-21 13:10:26 +0000",
-            "subject": "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n"
+            "hash": "6032323f83d6b5f26123044cfeb7ed38812e9e6c",
+            "datetime": "2025-08-21 17:12:12 +0800",
+            "subject": "fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误"
           },
           {
-            "hash": "fb0a1800c84bb7df2ab12f86f2b6dd210f28491f",
-            "datetime": "2025-08-21 12:39:58 +0000",
-            "subject": "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n"
+            "hash": "a15b227ce51c456886c10787c0d26fbf613cd78a",
+            "datetime": "2025-08-21 16:56:33 +0800",
+            "subject": "feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理"
           },
           {
-            "hash": "4fc386f5a705021ffeb9712445d4e3d0c7f71a0c",
-            "datetime": "2025-08-21 09:12:35 +0000",
-            "subject": "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n"
+            "hash": "8849a01aee8e2fa141ee872984543e46b6828767",
+            "datetime": "2025-08-21 16:10:23 +0800",
+            "subject": "feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter"
           },
           {
-            "hash": "8215150621c713156c31d434072a69bcc7aedced",
-            "datetime": "2025-08-21 08:56:56 +0000",
-            "subject": "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n"
+            "hash": "94b55e00729ecec8e476acc6593c5a982d7460d9",
+            "datetime": "2025-08-21 15:32:20 +0800",
+            "subject": "feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑"
           },
           {
-            "hash": "a16d51e4f76f438b9842a36a9f2918c1e1d317cb",
-            "datetime": "2025-08-21 08:10:47 +0000",
-            "subject": "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n"
+            "hash": "2e49ad893c15629b6992a2d7a9f9a4857736fc22",
+            "datetime": "2025-08-21 15:19:55 +0800",
+            "subject": "feat: 规范化获取活动的排序字段，避免属性引用异常"
           },
           {
-            "hash": "815290203e1a60e551cc7ee247152d7b3ad3ee8e",
-            "datetime": "2025-08-21 07:32:44 +0000",
-            "subject": "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n"
+            "hash": "dc6f4949855ee3b1b588607238dba4077a50610f",
+            "datetime": "2025-08-21 14:50:59 +0800",
+            "subject": "feat: 添加排序功能到获取优惠券的方法，支持多字段排序"
           },
           {
-            "hash": "3190141fddcf51b82c9e9d5fb7fa5a51f501d279",
-            "datetime": "2025-08-21 07:20:22 +0000",
-            "subject": "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n"
+            "hash": "2f37b30cdd09df639b3e78ee08851a7ef1b01a78",
+            "datetime": "2025-08-20 22:11:47 +0800",
+            "subject": "feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理"
           },
           {
-            "hash": "1a95ebccd19cfaa9e6f837b52a9a715ec60344e2",
-            "datetime": "2025-08-21 06:51:26 +0000",
-            "subject": "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n"
+            "hash": "9442b042d5133d175d2e024fc2471f8fbc868470",
+            "datetime": "2025-08-20 01:28:46 +0800",
+            "subject": "refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能"
           },
           {
-            "hash": "e5a0df6159787c61073abff3fdc76a584968c6d6",
-            "datetime": "2025-08-20 15:07:51 +0000",
-            "subject": "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n"
+            "hash": "b980e66ccc3e4f7999d8c7cdbc0ada399c4b61d3",
+            "datetime": "2025-08-20 01:14:48 +0800",
+            "subject": "feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计"
           },
           {
-            "hash": "eac556fd00fae902597056654649c1e8e45e7b4d",
-            "datetime": "2025-08-20 14:12:26 +0000",
-            "subject": "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n"
+            "hash": "8d9380520ca5f3dc42211eb8e0d87604078cc8e3",
+            "datetime": "2025-08-20 00:16:08 +0800",
+            "subject": "feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总"
           },
           {
-            "hash": "0de0b5f26bb32562bd52682e61c040e946f63049",
-            "datetime": "2025-08-19 17:29:10 +0000",
-            "subject": "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n"
+            "hash": "f27d40b00792f2d595567214c7c4cae41cbd3a27",
+            "datetime": "2025-08-19 23:18:42 +0800",
+            "subject": "feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持"
           },
           {
-            "hash": "d054b8508a8a80d5bc34d91a85fe6cfbad4944fa",
-            "datetime": "2025-08-19 17:17:52 +0000",
-            "subject": "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n"
+            "hash": "6ce53b077d9cb6502c1cfa2d4c4bdfab6a6b0a6e",
+            "datetime": "2025-08-19 22:48:28 +0800",
+            "subject": "fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解"
           },
           {
-            "hash": "d8c610b8fbf852f5c063783ba05cf239020301a9",
-            "datetime": "2025-08-19 17:17:26 +0000",
-            "subject": "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n"
+            "hash": "005b2005ee5837408de295c6a75cdc9bd6fbdf6c",
+            "datetime": "2025-08-19 22:43:35 +0800",
+            "subject": "feat: 为获取管理员档案的方法添加只读事务注解，优化数据访问性能"
           },
           {
-            "hash": "772fa07461789583186fb299f12ff7ad5c359921",
-            "datetime": "2025-08-19 17:15:19 +0000",
-            "subject": "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n"
+            "hash": "878658e8e8a00984f469ed88d30888ff5601fffe",
+            "datetime": "2025-08-19 22:04:18 +0800",
+            "subject": "feat: 添加 ClientProfileDTO 类，更新 UserDTO 以支持客户端配置文件，并在 UserService 中处理权限代码"
           },
           {
-            "hash": "cf0a6c25ea7ab720d0431dcc5d6c28a22fc28436",
-            "datetime": "2025-08-19 16:16:35 +0000",
-            "subject": "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n"
-          },
-          {
-            "hash": "b3e1552ae494978acbb0dcbe5592420236f0898a",
-            "datetime": "2025-08-19 15:19:15 +0000",
-            "subject": "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n"
-          },
-          {
-            "hash": "de6df4e4137bc9f3bf3374313bbf9a669296bdfb",
-            "datetime": "2025-08-19 14:48:54 +0000",
-            "subject": "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+            "hash": "4ed9c35c0a5fd3d46d2bcec0b1261a72e8857d30",
+            "datetime": "2025-08-19 15:58:38 +0800",
+            "subject": "feat: 重构用户表，并新增clientProfile，并将用户表的部分数据列迁移到 clientProfile 中"
           }
         ],
-        "files": 33,
-        "added": 33,
-        "removed": 33,
+        "files": 96,
+        "added": 2264,
+        "removed": 918,
         "heat": [
           [
-            "backend",
-            56
+            "src/main/java",
+            3168
           ],
           [
-            "admin",
-            8
-          ],
-          [
-            "frontend",
-            2
+            "pom.xml",
+            14
           ]
         ],
         "subjects": [
-          "[admin] 自动合并[b94877ca: feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利]\\n",
-          "[backend] 自动合并[203469f: feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理]\\n",
-          "[backend] 自动合并[2570d3d: feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑]\\n",
-          "[backend] 自动合并[1aed529: fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0]\\n",
-          "[backend] 自动合并[eda1f52: feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法]\\n",
-          "[backend] 自动合并[f50f54f: feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理]\\n",
-          "[backend] 自动合并[b420d16: feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象]\\n",
-          "[backend] 自动合并[984508f: feat: 添加客户端搜索功能，支持根据关键字查询用户]\\n",
-          "[backend] 自动合并[3a5d66e: feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑]\\n",
-          "[admin] 自动合并[5e0d4938: feat: 增强优惠券发放功能，新增状态/补救等功能]\\n",
-          "[backend] 自动合并[1dc7c2c: feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断]\\n",
-          "[backend] 自动合并[ff2a69e: fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题]\\n",
-          "[backend] 自动合并[ba943b8: feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作]\\n",
-          "[backend] 自动合并[f1815ba: feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动]\\n",
-          "[backend] 自动合并[d556042: feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段]\\n",
-          "[backend] 自动合并[3d14b06: fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误]\\n",
-          "[backend] 自动合并[468ff77: feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理]\\n",
-          "[backend] 自动合并[db55f3a: feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter]\\n",
-          "[backend] 自动合并[f69f217: feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑]\\n",
-          "[backend] 自动合并[a9f9f7f: feat: 规范化获取活动的排序字段，避免属性引用异常]\\n",
-          "[backend] 自动合并[ebfd369: feat: 添加排序功能到获取优惠券的方法，支持多字段排序]\\n",
-          "[admin] 自动合并[bbb267ba: fix: 修复优惠券系列代码可见问题]\\n",
-          "[backend] 自动合并[c92d054: feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理]\\n",
-          "[backend] 自动合并[ab57890: refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能]\\n",
-          "[frontend] 自动合并[71647ec: feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程]\\n",
-          "[admin] 自动合并[7997b761: feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码]\\n",
-          "[backend] 自动合并[beff41d: feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计]\\n",
-          "[backend] 自动合并[5cf7cd3: feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总]\\n",
-          "[backend] 自动合并[52b83d7: feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持]\\n",
-          "[backend] 自动合并[1dc9d09: fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解]\\n"
+          "feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理",
+          "feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑",
+          "fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0",
+          "feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法",
+          "feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理",
+          "feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象",
+          "feat: 添加客户端搜索功能，支持根据关键字查询用户",
+          "feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑",
+          "feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断",
+          "fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题",
+          "feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作",
+          "feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动",
+          "feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段",
+          "fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误",
+          "feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理",
+          "feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter",
+          "feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑",
+          "feat: 规范化获取活动的排序字段，避免属性引用异常",
+          "feat: 添加排序功能到获取优惠券的方法，支持多字段排序",
+          "feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理",
+          "refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能",
+          "feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计",
+          "feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总",
+          "feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持",
+          "fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解",
+          "feat: 为获取管理员档案的方法添加只读事务注解，优化数据访问性能",
+          "feat: 添加 ClientProfileDTO 类，更新 UserDTO 以支持客户端配置文件，并在 UserService 中处理权限代码",
+          "feat: 重构用户表，并新增clientProfile，并将用户表的部分数据列迁移到 clientProfile 中"
         ]
       }
     ]

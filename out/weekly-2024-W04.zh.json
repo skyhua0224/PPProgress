@@ -1,0 +1,288 @@
+{
+  "title": "周报（2024-01-22 至 2024-01-28）",
+  "lang": "zh",
+  "since": "2024-01-22",
+  "until": "2024-01-28",
+  "generatedAt": "2025-11-02T11:43:08.908Z",
+  "progress": {
+    "totals": {
+      "commits": 28,
+      "files": 166,
+      "added": 11638,
+      "removed": 9158
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "f8467ceb173abb1b82550640fc7d5bc070171454",
+            "datetime": "2024-01-28 17:14:46 +0800",
+            "subject": "refactor(projects): manage_route => manage_menu"
+          },
+          {
+            "hash": "babdb5d5cc7809dffd4740112c7051b5d7a89987",
+            "datetime": "2024-01-28 16:37:52 +0800",
+            "subject": "perf(projects): perf table columns style"
+          },
+          {
+            "hash": "8a170eeebd8c3f624316e8fb51cdd77ab45b6439",
+            "datetime": "2024-01-28 16:24:43 +0800",
+            "subject": "feat(projects): page manage_user"
+          },
+          {
+            "hash": "a19f895cd968ec9150b0f0f573c363afbcadfa63",
+            "datetime": "2024-01-28 14:27:07 +0800",
+            "subject": "refactor(projects): perf page manage_role"
+          },
+          {
+            "hash": "39aa7aa2de422a878310e143a23c22afc8983ad7",
+            "datetime": "2024-01-28 01:35:01 +0800",
+            "subject": "perf(projects): perf page manage_role, useTable"
+          },
+          {
+            "hash": "0e9e2e1dc09aba7c2427a4c635e973da558bf70f",
+            "datetime": "2024-01-28 01:25:04 +0800",
+            "subject": "refactor(projects): page manage_role: extract module"
+          },
+          {
+            "hash": "237c6d227e8460ea39c73fc5eadcc25f4de09ba4",
+            "datetime": "2024-01-28 00:44:21 +0800",
+            "subject": "feat(projects): page manage_role"
+          },
+          {
+            "hash": "2724169eb6f5ff1d328260689b298a381eee9441",
+            "datetime": "2024-01-26 21:25:16 +0800",
+            "subject": "refactor(projects): update mock api"
+          },
+          {
+            "hash": "4031fafc1f2fba18f1df9069d14fba93a2d1cb19",
+            "datetime": "2024-01-26 21:11:10 +0800",
+            "subject": "chore(projects): remove soybean.svg"
+          },
+          {
+            "hash": "456c318ac64214b6fba9ddcd4a219f7601daaada",
+            "datetime": "2024-01-26 02:10:00 +0800",
+            "subject": "perf(projects): echarts loading style"
+          },
+          {
+            "hash": "b5477e89967b75af6cadcc49eccf11b3c3ae8990",
+            "datetime": "2024-01-26 02:00:34 +0800",
+            "subject": "refactor(projects): perf page function_tab"
+          },
+          {
+            "hash": "59bec2d9236e03d618dc8e82d646019d28a7cfbb",
+            "datetime": "2024-01-26 01:52:24 +0800",
+            "subject": "refactor(projects): login components => modules"
+          },
+          {
+            "hash": "4c61c6ff3ceb2b7daaa6473df538415338318c9a",
+            "datetime": "2024-01-26 01:51:06 +0800",
+            "subject": "refactor(projects): perf page home"
+          },
+          {
+            "hash": "123fd4f96cb0600e820578ff08764a513d55a6cd",
+            "datetime": "2024-01-25 23:24:35 +0800",
+            "subject": "style(projects): sort defineProps, defineEmits with TS type"
+          },
+          {
+            "hash": "b2c61f0306301633b3a1f0ebefe9e424a06c7232",
+            "datetime": "2024-01-25 23:16:12 +0800",
+            "subject": "perf(components): perf count-to"
+          },
+          {
+            "hash": "9cc7ee5c947024eb53682bb210afdd5a81fcafbc",
+            "datetime": "2024-01-25 22:45:40 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "502a4d2b85ab4c22617b411cd254d28374f896d9",
+            "datetime": "2024-01-25 21:30:00 +0800",
+            "subject": "chore(projects): remove @simonwep/pickr"
+          },
+          {
+            "hash": "c1afb9dc50f80e3f7afb232db97e8a4cebb4b708",
+            "datetime": "2024-01-25 19:10:00 +0800",
+            "subject": "fix(projects): perf card style"
+          },
+          {
+            "hash": "d886e50fd3df91e83f93b3e0f8acf96e73393fca",
+            "datetime": "2024-01-25 18:52:00 +0800",
+            "subject": "fix(projects): fix horizontal menu"
+          },
+          {
+            "hash": "4aae6a529767097111b61cdc2c45eca153aed102",
+            "datetime": "2024-01-25 18:34:00 +0800",
+            "subject": "fix(projects): remove space in tab content"
+          },
+          {
+            "hash": "b5551d674ada9ef16192a3dad779f7cd62c07ecf",
+            "datetime": "2024-01-25 18:32:00 +0800",
+            "subject": "refactor(projects): use naive-ui color-picker"
+          },
+          {
+            "hash": "6114b9f9bde478ae21a274302a8c0ba8f6789bc2",
+            "datetime": "2024-01-25 12:00:45 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "ea02b23721d2e146d0b9c580072e1a7927305607",
+            "datetime": "2024-01-25 12:01:00 +0800",
+            "subject": "chore(projects): update pnpm version"
+          },
+          {
+            "hash": "6ff86e7777634f2cea866f727e90d1c29e19c86f",
+            "datetime": "2024-01-25 01:45:00 +0800",
+            "subject": "feat(projects): add page function_tab"
+          },
+          {
+            "hash": "7bd1e47af9985abe5da258aa98e9f9c3298c1ad3",
+            "datetime": "2024-01-25 01:12:33 +0800",
+            "subject": "feat(projects): finish page home"
+          },
+          {
+            "hash": "62e4da053d89f56bc1913fbf0333ea949f516ac7",
+            "datetime": "2024-01-24 01:48:23 +0800",
+            "subject": "feat(projects): page home & perf useEcharts"
+          },
+          {
+            "hash": "0fae9932ac3ff161818e701a4203544745dae813",
+            "datetime": "2024-01-23 18:32:00 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "2400c02655ac479fb121cd8b95df919505ab389f",
+            "datetime": "2024-01-23 00:30:43 +0800",
+            "subject": "feat(projects): @sa/axios: add qs stringify for params"
+          }
+        ],
+        "files": 166,
+        "added": 11638,
+        "removed": 9158,
+        "heat": [
+          [
+            "src/assets/svg-icon",
+            15402
+          ],
+          [
+            "src/views/home",
+            1200
+          ],
+          [
+            "src/views/manage",
+            1160
+          ],
+          [
+            "pnpm-lock.yaml",
+            870
+          ],
+          [
+            "src/hooks/common",
+            328
+          ],
+          [
+            "src/locales/langs",
+            304
+          ],
+          [
+            "src/views/function",
+            187
+          ],
+          [
+            "src/components/custom",
+            175
+          ],
+          [
+            "packages",
+            168
+          ],
+          [
+            "src/typings/app.d.ts",
+            149
+          ],
+          [
+            "src/typings/api.d.ts",
+            126
+          ],
+          [
+            "src/layouts/modules",
+            122
+          ],
+          [
+            "src/hooks/chart",
+            114
+          ],
+          [
+            "src/components/advanced",
+            105
+          ],
+          [
+            "src/router/elegant",
+            71
+          ]
+        ],
+        "subjects": [
+          "refactor(projects): manage_route => manage_menu",
+          "perf(projects): perf table columns style",
+          "feat(projects): page manage_user",
+          "refactor(projects): perf page manage_role",
+          "perf(projects): perf page manage_role, useTable",
+          "refactor(projects): page manage_role: extract module",
+          "feat(projects): page manage_role",
+          "refactor(projects): update mock api",
+          "chore(projects): remove soybean.svg",
+          "perf(projects): echarts loading style",
+          "refactor(projects): perf page function_tab",
+          "refactor(projects): login components => modules",
+          "refactor(projects): perf page home",
+          "style(projects): sort defineProps, defineEmits with TS type",
+          "perf(components): perf count-to",
+          "chore(deps): update deps",
+          "chore(projects): remove @simonwep/pickr",
+          "fix(projects): perf card style",
+          "fix(projects): fix horizontal menu",
+          "fix(projects): remove space in tab content",
+          "refactor(projects): use naive-ui color-picker",
+          "chore(deps): update deps",
+          "chore(projects): update pnpm version",
+          "feat(projects): add page function_tab",
+          "feat(projects): finish page home",
+          "feat(projects): page home & perf useEcharts",
+          "docs(projects): update README.md",
+          "feat(projects): @sa/axios: add qs stringify for params"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

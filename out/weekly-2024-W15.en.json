@@ -1,0 +1,110 @@
+{
+  "title": "Weekly Report (2024-04-08 to 2024-04-14)",
+  "lang": "en",
+  "since": "2024-04-08",
+  "until": "2024-04-14",
+  "generatedAt": "2025-11-02T11:43:30.472Z",
+  "progress": {
+    "totals": {
+      "commits": 5,
+      "files": 5,
+      "added": 9,
+      "removed": 8
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "bb74d9949bd7dc99b26ca3a62cd6863f79f7cc98",
+            "datetime": "2024-04-14 15:44:48 +0800",
+            "subject": "refactor(projects): update naive-ui.d.ts"
+          },
+          {
+            "hash": "60beff7e6360de974348112bc6274902aae7e27b",
+            "datetime": "2024-04-14 12:47:05 +0800",
+            "subject": "fix(projects): update union-key.d.ts"
+          },
+          {
+            "hash": "d6eda8f9ed8ff7a87da31e1a5d4fd8fa4ba41da1",
+            "datetime": "2024-04-09 17:44:05 +0800",
+            "subject": "fix(projects): fix axios createRequest: add default state"
+          },
+          {
+            "hash": "f4a9cf83396c00673d36fc5f741788b36f0f637f",
+            "datetime": "2024-04-09 15:37:23 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "efc0e25c7f71a7c50aade1ff65c6d3a2efe4a2ee",
+            "datetime": "2024-04-09 07:27:48 +0800",
+            "subject": "fix(projects): fix SvgIcon inheritAttrs warning"
+          }
+        ],
+        "files": 5,
+        "added": 9,
+        "removed": 8,
+        "heat": [
+          [
+            "README.md",
+            8
+          ],
+          [
+            "src/typings/union-key.d.ts",
+            4
+          ],
+          [
+            "src/typings/naive-ui.d.ts",
+            2
+          ],
+          [
+            "src/components/custom",
+            2
+          ],
+          [
+            "packages",
+            1
+          ]
+        ],
+        "subjects": [
+          "refactor(projects): update naive-ui.d.ts",
+          "fix(projects): update union-key.d.ts",
+          "fix(projects): fix axios createRequest: add default state",
+          "docs(projects): update README.md",
+          "fix(projects): fix SvgIcon inheritAttrs warning"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

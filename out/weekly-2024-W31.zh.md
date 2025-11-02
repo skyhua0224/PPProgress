@@ -1,0 +1,47 @@
+# 周报（2024-07-29 至 2024-08-01）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2024-07-29 至 2024-08-01）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 15
+触达文件总数: 56
+行变更合计 +/-: +1741 / -3141
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=15, files=56, +1741/-3141
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## 顶层目录热力（按模块）
+- admin:
+  - pnpm-lock.yaml: 4395
+  - src/typings/api.d.ts: 138
+  - CHANGELOG.md: 66
+  - package.json: 64
+  - CHANGELOG.zh_CN.md: 56
+  - packages: 52
+  - src/layouts/modules: 26
+  - src/App.vue: 24
+  - src/router/elegant: 20
+  - src/typings/app.d.ts: 13
+  - src/service/request: 9
+  - src/locales/langs: 8
+  - src/typings/elegant-router.d.ts: 4
+  - src/theme/settings.ts: 4
+  - src/views/home: 2
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] chore(projects): release v1.3.4
+  - [undefined] chore(projects): update deps & fix vue-router type
+  - [undefined] optimize(projects): optimize code
+  - [undefined] refactor(projects)!: don't reset active menu of vertical-mix layout when it is mixSiderFixed
+  - [undefined] chore(projects): release v1.3.3
+  - [undefined] docs(projects): update CHANGELOG
+  - [undefined] fix(projects): fix watermark settings
+  - [undefined] chore(projects): release v1.3.2
+  - [undefined] docs(projects): update CHANGELOG
+  - [undefined] optimize(projects): optimize response code comparison

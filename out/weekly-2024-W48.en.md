@@ -1,0 +1,50 @@
+# Weekly Report (2024-11-25 to 2024-11-28)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-11-25 to 2024-11-28)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 8
+Total files touched: 1966
+Total lines +/-: +187625 / -187539
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=0, files=0, +0/-0
+- frontend (frontend): commits=7, files=1959, +187407/-187538
+- backend (backend): commits=1, files=7, +218/-1
+
+## Heat by top-level directory (per module)
+- frontend:
+  - dist: 365128
+  - pnpm-lock.yaml: 6281
+  - src/pages/mine: 890
+  - src/pages-sub/mine: 722
+  - src/pages/order: 539
+  - src/types/auto-import.d.ts: 271
+  - src/pages-sub/filePrinting: 209
+  - package.json: 115
+  - src/pages.json: 108
+  - src/pages-sub/checkout: 101
+  - src/pages/home: 92
+  - src/pages/library: 86
+  - pages.config.ts: 82
+  - src/mock/index.js: 70
+  - vite.config.ts: 55
+- backend:
+  - src/main/java: 211
+  - target: 5
+  - src/main/resources: 3
+
+## Commit subjects (up to 10 per module)
+- frontend:
+  - [undefined] feat: 更新微信小程序appid，移除分类页面相关配置，修改优惠券接口地址，升级依赖版本
+  - [undefined] stash: 暂存微信登录设置
+  - [undefined] feat: 更新商品管理界面
+  - [undefined] feat: 修改我的页面，替换所有的router-link为button
+  - [undefined] 修改bug
+  - [undefined] feat: 优化代码结构，移除未使用的导入，添加地址编辑页面
+  - [undefined] feat: 更新地址管理
+- backend:
+  - [undefined] feat: 添加微信登录，更新用户模型，增加角色类型枚举

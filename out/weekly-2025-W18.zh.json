@@ -1,0 +1,78 @@
+{
+  "title": "周报（2025-04-28 至 2025-04-30）",
+  "lang": "zh",
+  "since": "2025-04-28",
+  "until": "2025-04-30",
+  "generatedAt": "2025-11-02T11:43:23.305Z",
+  "progress": {
+    "totals": {
+      "commits": 1,
+      "files": 3,
+      "added": 48,
+      "removed": 261
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "1ff4d82d190342736a7f57cda3a213b9b8152099",
+            "datetime": "2025-04-30 14:46:32 +0800",
+            "subject": "feat(projects): clear tabs cache when switching users. (#744)"
+          }
+        ],
+        "files": 3,
+        "added": 48,
+        "removed": 261,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            260
+          ],
+          [
+            "src/store/modules",
+            47
+          ],
+          [
+            "src/typings/storage.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat(projects): clear tabs cache when switching users. (#744)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

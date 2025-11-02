@@ -1,0 +1,252 @@
+{
+  "title": "Weekly Report (2024-06-11 to 2024-06-15)",
+  "lang": "en",
+  "since": "2024-06-11",
+  "until": "2024-06-15",
+  "generatedAt": "2025-11-02T11:43:32.152Z",
+  "progress": {
+    "totals": {
+      "commits": 22,
+      "files": 69,
+      "added": 1206,
+      "removed": 971
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "5c67d0650ecec8f39359dfe07cdb6b27e2cee360",
+            "datetime": "2024-06-15 01:08:37 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "af735e87b80ad73fa421f8b85a532f5a37ce0e08",
+            "datetime": "2024-06-15 01:11:55 +0800",
+            "subject": "chore(projects): release v1.2.5"
+          },
+          {
+            "hash": "b336841567e6a50dc17a1b8f234d92fcfab6889d",
+            "datetime": "2024-06-15 01:06:28 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "b094d6882bebdaf67c44c46fcebec4acab40e846",
+            "datetime": "2024-06-15 01:03:23 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "b94baa18c18187a8cfd6aa6fa3a6170e75eb9eff",
+            "datetime": "2024-06-15 00:49:24 +0800",
+            "subject": "optimize(projects): optimize code"
+          },
+          {
+            "hash": "3eeace94ddd709b8bbb0cf629076f5d1572bf440",
+            "datetime": "2024-06-15 00:39:53 +0800",
+            "subject": "fix(projects): Fix the issue of abnormal tab caching after logout. fixed #495"
+          },
+          {
+            "hash": "ad2f24707ae6361b38f1eb77336389b5dd7ca548",
+            "datetime": "2024-06-14 18:24:56 +0800",
+            "subject": "optimize(utils): Reduce code indentation and improve readability (#496)"
+          },
+          {
+            "hash": "cd9d58d4ded9aa97c9698a388b78d351e8f9a83c",
+            "datetime": "2024-06-14 18:11:01 +0800",
+            "subject": "optimize(types): Enhance compatibility of global types (#494)"
+          },
+          {
+            "hash": "2198b982f0ebc7b1bb347e80ad7816a02325ad5e",
+            "datetime": "2024-06-14 11:47:16 +0800",
+            "subject": "perf(project): Initializing the static routing function does not require asynchronization (#493)"
+          },
+          {
+            "hash": "376e2f7d847ac0b3b56787e624b69f88f3882e7c",
+            "datetime": "2024-06-14 00:04:43 +0800",
+            "subject": "chore(projects): release v1.2.4"
+          },
+          {
+            "hash": "069fa8a8178442ae205b127db3d913e3e5dfa80d",
+            "datetime": "2024-06-13 23:59:30 +0800",
+            "subject": "optimize(projects): get buildTime with timezone 'Asia/Shanghai'"
+          },
+          {
+            "hash": "b5a723cb5f49d8ecea9391757e30328c209b024b",
+            "datetime": "2024-06-13 23:44:20 +0800",
+            "subject": "optimize(projects): optimize `setupAppVersionNotification`"
+          },
+          {
+            "hash": "79e85bc6b5081d83e5516c2506a046d620629b29",
+            "datetime": "2024-06-13 23:28:17 +0800",
+            "subject": "chore(projects): release v1.2.3"
+          },
+          {
+            "hash": "bf7183747b335d7206736033d4843c39c0c6644e",
+            "datetime": "2024-06-13 23:25:45 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "aabb2a49c45ede1ded32987f989f10766848566b",
+            "datetime": "2024-06-13 23:00:18 +0800",
+            "subject": "fix(projects): Fix secondary directory components is empty (#491)"
+          },
+          {
+            "hash": "7026126a574fee13e7e3b9e525d5b939be72938a",
+            "datetime": "2024-06-13 17:04:50 +0800",
+            "subject": "docs(projects): update README"
+          },
+          {
+            "hash": "c212565248b2afb02f0a8ca04b1f807104c34f6a",
+            "datetime": "2024-06-13 14:13:23 +0800",
+            "subject": "fix(projects): fix mobile browser theme issue by adding color-scheme meta tag to index.html (#488)"
+          },
+          {
+            "hash": "813d8ce4c7c10e04c14fe167853a9c5d03098cf6",
+            "datetime": "2024-06-12 21:42:10 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "20a812743490b2cb32173627b24de25ce9e94242",
+            "datetime": "2024-06-12 16:54:59 +0800",
+            "subject": "docs(projects): Fixed the hyperlink pointing error"
+          },
+          {
+            "hash": "ec8cadd1836cdb1254dcd9f3de35d7aab2c28ea1",
+            "datetime": "2024-06-12 11:09:42 +0800",
+            "subject": "chore(projects): release v1.2.2"
+          },
+          {
+            "hash": "4470cb4e8c283a6141c140edf8f814b0c6ce1cb5",
+            "datetime": "2024-06-12 10:25:11 +0800",
+            "subject": "fix(projects): fix menu-toggler hidden in mobile layout. fixed #483"
+          },
+          {
+            "hash": "8f9a70505cb81ad717640ed774e01f981c0c093a",
+            "datetime": "2024-06-12 10:16:16 +0800",
+            "subject": "docs(projects): update README"
+          }
+        ],
+        "files": 69,
+        "added": 1206,
+        "removed": 971,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1673
+          ],
+          [
+            "CHANGELOG.zh_CN.md",
+            108
+          ],
+          [
+            "CHANGELOG.md",
+            86
+          ],
+          [
+            "src/plugins/app.ts",
+            81
+          ],
+          [
+            "packages",
+            66
+          ],
+          [
+            "package.json",
+            54
+          ],
+          [
+            "src/typings/global.d.ts",
+            52
+          ],
+          [
+            "build",
+            13
+          ],
+          [
+            "src/store/modules",
+            12
+          ],
+          [
+            "README.zh_CN.md",
+            10
+          ],
+          [
+            "README.md",
+            9
+          ],
+          [
+            "vite.config.ts",
+            5
+          ],
+          [
+            "src/typings/env.d.ts",
+            4
+          ],
+          [
+            "src/views/manage",
+            2
+          ],
+          [
+            "index.html",
+            1
+          ]
+        ],
+        "subjects": [
+          "docs(projects): update CHANGELOG",
+          "chore(projects): release v1.2.5",
+          "docs(projects): update CHANGELOG",
+          "chore(deps): update deps",
+          "optimize(projects): optimize code",
+          "fix(projects): Fix the issue of abnormal tab caching after logout. fixed #495",
+          "optimize(utils): Reduce code indentation and improve readability (#496)",
+          "optimize(types): Enhance compatibility of global types (#494)",
+          "perf(project): Initializing the static routing function does not require asynchronization (#493)",
+          "chore(projects): release v1.2.4",
+          "optimize(projects): get buildTime with timezone 'Asia/Shanghai'",
+          "optimize(projects): optimize `setupAppVersionNotification`",
+          "chore(projects): release v1.2.3",
+          "chore(deps): update deps",
+          "fix(projects): Fix secondary directory components is empty (#491)",
+          "docs(projects): update README",
+          "fix(projects): fix mobile browser theme issue by adding color-scheme meta tag to index.html (#488)",
+          "chore(deps): update deps",
+          "docs(projects): Fixed the hyperlink pointing error",
+          "chore(projects): release v1.2.2",
+          "fix(projects): fix menu-toggler hidden in mobile layout. fixed #483",
+          "docs(projects): update README"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

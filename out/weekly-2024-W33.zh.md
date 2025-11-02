@@ -1,0 +1,38 @@
+# 周报（2024-08-13 至 2024-08-15）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2024-08-13 至 2024-08-15）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 6
+触达文件总数: 16
+行变更合计 +/-: +765 / -597
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=6, files=16, +765/-597
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## 顶层目录热力（按模块）
+- admin:
+  - pnpm-lock.yaml: 1246
+  - package.json: 45
+  - README.zh_CN.md: 34
+  - packages: 10
+  - README.md: 6
+  - build: 6
+  - src/utils/service.ts: 6
+  - vite.config.ts: 4
+  - src/typings/api.d.ts: 3
+  - src/typings/naive-ui.d.ts: 2
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] feat(projects): README.zh_CN.md 添加合作推广 (#601)
+  - [undefined] docs(projects): update README
+  - [undefined] docs(projects): update README
+  - [undefined] chore(deps): update deps
+  - [undefined] chore(projects): use json5 resolve env `VITE_OTHER_SERVICE_BASE_URL` & fix proxy enable
+  - [undefined] fix(types): fix the type of TableApiFn (#599)

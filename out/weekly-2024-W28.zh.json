@@ -1,0 +1,102 @@
+{
+  "title": "周报（2024-07-08 至 2024-07-12）",
+  "lang": "zh",
+  "since": "2024-07-08",
+  "until": "2024-07-12",
+  "generatedAt": "2025-11-02T11:43:12.222Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 16,
+      "added": 425,
+      "removed": 350
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "a454b620f158d8a103149b931b94f9f4ef156842",
+            "datetime": "2024-07-12 09:27:51 +0800",
+            "subject": "chore(projects): release v1.2.7"
+          },
+          {
+            "hash": "752ec1e9e74cf4df895c19e98947198cfd0109cd",
+            "datetime": "2024-07-12 00:46:56 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "e035eab223565085c9ab8e218be85e3927b543c2",
+            "datetime": "2024-07-09 16:59:03 +0800",
+            "subject": "optimize(projects):  supports custom menu icon sizes (#534)"
+          }
+        ],
+        "files": 16,
+        "added": 425,
+        "removed": 350,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            722
+          ],
+          [
+            "packages",
+            20
+          ],
+          [
+            "CHANGELOG.md",
+            19
+          ],
+          [
+            "package.json",
+            8
+          ],
+          [
+            "src/store/modules",
+            4
+          ],
+          [
+            "src/typings/router.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "chore(projects): release v1.2.7",
+          "chore(deps): update deps",
+          "optimize(projects):  supports custom menu icon sizes (#534)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "title": "Weekly Report (2024-01-16 to 2024-01-21)",
+  "lang": "en",
+  "since": "2024-01-16",
+  "until": "2024-01-21",
+  "generatedAt": "2025-11-02T11:43:28.196Z",
+  "progress": {
+    "totals": {
+      "commits": 24,
+      "files": 77,
+      "added": 1557,
+      "removed": 781
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "dafb6fa06f64ffbb6633b88898c6a7113eb8825f",
+            "datetime": "2024-01-21 18:17:11 +0800",
+            "subject": "feat(projects): packages/scripts: add command changelog,release"
+          },
+          {
+            "hash": "840e7f99fcade28eba1e90ecf1195bd907ed7f04",
+            "datetime": "2024-01-20 20:34:00 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "a24f96312112fcd8f456df74fc3f42d5d135498e",
+            "datetime": "2024-01-20 20:32:58 +0800",
+            "subject": "chore(projects): lock deps versions"
+          },
+          {
+            "hash": "f59f34884c1a0df08e036fcb6f22ae24b0e96957",
+            "datetime": "2024-01-20 19:58:58 +0800",
+            "subject": "feat(projects): filter tabs which are not in routes"
+          },
+          {
+            "hash": "b4f3dd2f7a15a86817d126eef6423f119b01995d",
+            "datetime": "2024-01-20 19:13:31 +0800",
+            "subject": "refactor(projects): refactor app-loading"
+          },
+          {
+            "hash": "726abe42083d1382f3230bd797bb406b4700b5d6",
+            "datetime": "2024-01-19 02:17:17 +0800",
+            "subject": "feat(hooks): add use-echarts"
+          },
+          {
+            "hash": "b43c925696d5ba195f83380f4b4f9f8c52dc5e94",
+            "datetime": "2024-01-19 01:24:45 +0800",
+            "subject": "feat(projects): add custom route exception"
+          },
+          {
+            "hash": "4955f1af890d66aafe214ebbd1cbd08ea7b95046",
+            "datetime": "2024-01-18 23:51:04 +0800",
+            "subject": "feat(projects): add page: about"
+          },
+          {
+            "hash": "f1b86ccb1d6e227f5394b53096b224f1d38513fc",
+            "datetime": "2024-01-18 23:49:06 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "affcc26b3d6ff66d37aece6520156dc92968ec4b",
+            "datetime": "2024-01-18 23:43:33 +0800",
+            "subject": "feat(projects): add copyright, unocss shortcut: card-wrapper, update package.json"
+          },
+          {
+            "hash": "03c42aa8cce0d8f41fe040299c053dbc94f6fb8b",
+            "datetime": "2024-01-18 22:41:58 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "c260fe26ae2ec2df8b8b8367eed01f1e15e783e3",
+            "datetime": "2024-01-18 22:04:22 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "0ba19d5479744e23e0088b98cd1ba4ceb6dbb4c4",
+            "datetime": "2024-01-18 02:43:07 +0800",
+            "subject": "fix(projects): fix app loading theme color"
+          },
+          {
+            "hash": "b30c0359f6006ed3a521d603cdc0835fa9c64dad",
+            "datetime": "2024-01-18 02:17:07 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "57b6d8a0584662290bce807b3e3e0c288d8fa2f6",
+            "datetime": "2024-01-18 02:06:00 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "6a771eae4215e2fa29fe93cbd5d0c61f95b839f0",
+            "datetime": "2024-01-18 01:57:20 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "c624f325c70976761927eabaa3d0b99db446b510",
+            "datetime": "2024-01-18 01:08:31 +0800",
+            "subject": "perf(projects): remove useless file"
+          },
+          {
+            "hash": "c65451b34c3655e03177608aaf241b0b49325d29",
+            "datetime": "2024-01-17 22:47:27 +0800",
+            "subject": "feat(projects): add app loading"
+          },
+          {
+            "hash": "2372dc9bb7a64a1d2b6869d9fa5f6b54dde92821",
+            "datetime": "2024-01-17 22:09:22 +0800",
+            "subject": "fix(projects): fix theme mode segment"
+          },
+          {
+            "hash": "d16a9d58a8b34a953e891e153f0607a42a69396b",
+            "datetime": "2024-01-17 02:16:47 +0800",
+            "subject": "docs(projects): update README"
+          },
+          {
+            "hash": "2371ba844827325b2669d78ca1b7e504bbf66078",
+            "datetime": "2024-01-17 02:06:19 +0800",
+            "subject": "docs(projects): add README"
+          },
+          {
+            "hash": "4d8469e2d124324fbbca64d4c1beafd579d1968e",
+            "datetime": "2024-01-16 23:39:31 +0800",
+            "subject": "style(projects): update theme mode segment height"
+          },
+          {
+            "hash": "5023f371250419678dce35dc5a9ff0af6ba969aa",
+            "datetime": "2024-01-16 23:32:22 +0800",
+            "subject": "chore(projects): update eslint config"
+          },
+          {
+            "hash": "5534294163696ec1c088a05a609ac6919d2f1c60",
+            "datetime": "2024-01-16 23:31:45 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 77,
+        "added": 1557,
+        "removed": 781,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            914
+          ],
+          [
+            "README.md",
+            309
+          ],
+          [
+            "README.zh_CN.md",
+            228
+          ],
+          [
+            "src/hooks/chart",
+            184
+          ],
+          [
+            "packages",
+            179
+          ],
+          [
+            "src/views/about",
+            79
+          ],
+          [
+            "src/App.vue",
+            56
+          ],
+          [
+            "src/components/common",
+            52
+          ],
+          [
+            "package.json",
+            46
+          ],
+          [
+            "src/plugins/loading.ts",
+            45
+          ],
+          [
+            "src/router/routes",
+            43
+          ],
+          [
+            "src/locales/langs",
+            40
+          ],
+          [
+            "src/store/modules",
+            37
+          ],
+          [
+            "LICENSE",
+            21
+          ],
+          [
+            "src/layouts/modules",
+            18
+          ]
+        ],
+        "subjects": [
+          "feat(projects): packages/scripts: add command changelog,release",
+          "chore(deps): update deps",
+          "chore(projects): lock deps versions",
+          "feat(projects): filter tabs which are not in routes",
+          "refactor(projects): refactor app-loading",
+          "feat(hooks): add use-echarts",
+          "feat(projects): add custom route exception",
+          "feat(projects): add page: about",
+          "chore(deps): update deps",
+          "feat(projects): add copyright, unocss shortcut: card-wrapper, update package.json",
+          "docs(projects): update README.md",
+          "docs(projects): update README.md",
+          "fix(projects): fix app loading theme color",
+          "docs(projects): update README.md",
+          "docs(projects): update README.md",
+          "docs(projects): update README.md",
+          "perf(projects): remove useless file",
+          "feat(projects): add app loading",
+          "fix(projects): fix theme mode segment",
+          "docs(projects): update README",
+          "docs(projects): add README",
+          "style(projects): update theme mode segment height",
+          "chore(projects): update eslint config",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

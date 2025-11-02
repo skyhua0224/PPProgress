@@ -1,0 +1,124 @@
+{
+  "title": "Weekly Report (2025-06-09 to 2025-06-14)",
+  "lang": "en",
+  "since": "2025-06-09",
+  "until": "2025-06-14",
+  "generatedAt": "2025-11-02T11:43:45.557Z",
+  "progress": {
+    "totals": {
+      "commits": 4,
+      "files": 23,
+      "added": 1394,
+      "removed": 1572
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "7c3dac4212ebfccf0e6377c6b519c78d1efd6341",
+            "datetime": "2025-06-10 17:57:10 +0800",
+            "subject": "feat(projects): add configurable user name watermark option"
+          },
+          {
+            "hash": "39b89a12348c1ad927a88abb0b88d4380531e158",
+            "datetime": "2025-06-09 22:40:03 +0800",
+            "subject": "chore(projects): release v1.3.14"
+          },
+          {
+            "hash": "c57f88aad2b84d9fe666f12a3310843974b472bc",
+            "datetime": "2025-06-09 22:34:57 +0800",
+            "subject": "fix(auth): remove redundant authStore declaration in resetStore function"
+          },
+          {
+            "hash": "3e4e17abd8cea9cea29912c77ea3795a0c4d9bc8",
+            "datetime": "2025-06-09 22:10:30 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 23,
+        "added": 1394,
+        "removed": 1572,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            2804
+          ],
+          [
+            "CHANGELOG.md",
+            61
+          ],
+          [
+            "package.json",
+            42
+          ],
+          [
+            "packages",
+            30
+          ],
+          [
+            "src/App.vue",
+            9
+          ],
+          [
+            "src/locales/langs",
+            6
+          ],
+          [
+            "src/layouts/modules",
+            5
+          ],
+          [
+            "src/theme/settings.ts",
+            3
+          ],
+          [
+            "src/typings/app.d.ts",
+            3
+          ],
+          [
+            "src/store/modules",
+            3
+          ]
+        ],
+        "subjects": [
+          "feat(projects): add configurable user name watermark option",
+          "chore(projects): release v1.3.14",
+          "fix(auth): remove redundant authStore declaration in resetStore function",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

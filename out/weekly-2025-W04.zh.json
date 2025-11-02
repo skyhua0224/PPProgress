@@ -1,0 +1,186 @@
+{
+  "title": "周报（2025-01-21 至 2025-01-26）",
+  "lang": "zh",
+  "since": "2025-01-21",
+  "until": "2025-01-26",
+  "generatedAt": "2025-11-02T11:43:20.898Z",
+  "progress": {
+    "totals": {
+      "commits": 10,
+      "files": 408,
+      "added": 910,
+      "removed": 138200
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "428ac5eb3c9baa1c01f1fe7718a3f757189d723a",
+            "datetime": "2025-01-26 15:37:35 +0800",
+            "subject": "feat: 添加cups服务器管理"
+          },
+          {
+            "hash": "86da767e24d851226bbe7cb190b90f3e21022496",
+            "datetime": "2025-01-25 18:38:49 +0800",
+            "subject": "fix(projects): fix multiple calls to the login API when clicking quickly. fixed #697 (#698)"
+          },
+          {
+            "hash": "54e7d6d00a098b8177825adc9856137fd087b0e1",
+            "datetime": "2025-01-24 18:12:59 +0800",
+            "subject": "fix(projects): hidden multi-language button in login page. fix #694"
+          }
+        ],
+        "files": 18,
+        "added": 677,
+        "removed": 2,
+        "heat": [
+          [
+            "src/views/hardware-manage",
+            463
+          ],
+          [
+            "src/locales/langs",
+            76
+          ],
+          [
+            "src/service/api",
+            63
+          ],
+          [
+            "src/router/elegant",
+            35
+          ],
+          [
+            "src/typings/api.d.ts",
+            26
+          ],
+          [
+            "src/views/_builtin",
+            9
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            7
+          ],
+          [
+            "src/locales/lang",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 添加cups服务器管理",
+          "fix(projects): fix multiple calls to the login API when clicking quickly. fixed #697 (#698)",
+          "fix(projects): hidden multi-language button in login page. fix #694"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "6d2fd64ade2be56c18f687ff760885c45e3e2778",
+            "datetime": "2025-01-26 11:15:11 +0800",
+            "subject": "feat: 修改结算按钮文本为“支付”，调整按钮和总价栏样式以保持一致性"
+          },
+          {
+            "hash": "3651545957833883ec74daaed92c762a647de8f3",
+            "datetime": "2025-01-26 11:05:03 +0800",
+            "subject": "feat: 更新文件图标显示逻辑，优化结算按钮文本，并调整样式以保持一致性"
+          },
+          {
+            "hash": "9279b6f93c6b98fc58c045e3e8f9d167ec53ab89",
+            "datetime": "2025-01-26 10:40:51 +0800",
+            "subject": "feat: 更新文件存储逻辑，使用uni存储替代localStorage，并优化样式注释"
+          },
+          {
+            "hash": "9658c1a5292d255b0d85c297c636986bc2a2b626",
+            "datetime": "2025-01-26 10:32:12 +0800",
+            "subject": "feat: 调整文件上传页面底部样式，优化文件选择类型和位置"
+          },
+          {
+            "hash": "0302b05de76f1cdf00daa2c898a158d224478a5f",
+            "datetime": "2025-01-25 17:30:32 +0800",
+            "subject": "feat: 实现了PDF文件预览"
+          }
+        ],
+        "files": 385,
+        "added": 114,
+        "removed": 138198,
+        "heat": [
+          [
+            "src/static/pdf",
+            138160
+          ],
+          [
+            "src/pages-sub/filePrinting",
+            100
+          ],
+          [
+            "src/pages-sub/checkout",
+            48
+          ],
+          [
+            "src/store/file.ts",
+            4
+          ],
+          [
+            "utils",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 修改结算按钮文本为“支付”，调整按钮和总价栏样式以保持一致性",
+          "feat: 更新文件图标显示逻辑，优化结算按钮文本，并调整样式以保持一致性",
+          "feat: 更新文件存储逻辑，使用uni存储替代localStorage，并优化样式注释",
+          "feat: 调整文件上传页面底部样式，优化文件选择类型和位置",
+          "feat: 实现了PDF文件预览"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "e7646c3af3d101796abc83c05703a28540c25536",
+            "datetime": "2025-01-26 15:52:59 +0800",
+            "subject": "feat: 添加CupsServer的增删改查功能，支持服务器记录的添加、编辑和删除"
+          },
+          {
+            "hash": "9444608c64b3786228388b0beaf5c54e9df52aa8",
+            "datetime": "2025-01-26 15:37:53 +0800",
+            "subject": "feat: 添加CupsServer控制器和服务，支持分页获取所有CupsServer记录"
+          }
+        ],
+        "files": 5,
+        "added": 119,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            119
+          ],
+          [
+            "target",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 添加CupsServer的增删改查功能，支持服务器记录的添加、编辑和删除",
+          "feat: 添加CupsServer控制器和服务，支持分页获取所有CupsServer记录"
+        ]
+      }
+    ]
+  }
+}

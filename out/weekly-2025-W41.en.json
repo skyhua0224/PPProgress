@@ -3,13 +3,13 @@
   "lang": "en",
   "since": "2025-10-06",
   "until": "2025-10-12",
-  "generatedAt": "2025-11-02T11:29:20.782Z",
+  "generatedAt": "2025-11-02T11:43:49.338Z",
   "progress": {
     "totals": {
-      "commits": 59,
-      "files": 227,
-      "added": 73411,
-      "removed": 3543
+      "commits": 20,
+      "files": 111,
+      "added": 20554,
+      "removed": 1521
     },
     "modules": [
       {
@@ -50,146 +50,42 @@
         "path": "admin",
         "commits": [
           {
-            "hash": "a31cdbea625790cda77cf67fec6b5f43a6f86874",
-            "datetime": "2025-10-12 10:40:21 +0000",
-            "subject": "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n"
-          },
-          {
-            "hash": "bccc1d53df43ff1ae4002efca733ad5deae017df",
-            "datetime": "2025-10-12 06:28:07 +0000",
-            "subject": "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n"
-          },
-          {
-            "hash": "959401283b6e12ceaf946f887151b0375b3c87b0",
-            "datetime": "2025-10-12 06:20:09 +0000",
-            "subject": "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n"
-          },
-          {
-            "hash": "bc8e7943590c6a8d7dc35f2b607fabb2ece996bb",
-            "datetime": "2025-10-12 06:10:33 +0000",
-            "subject": "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n"
-          },
-          {
-            "hash": "136c2c64e6ff45335f3219b556c281c43135caf4",
-            "datetime": "2025-10-12 06:03:14 +0000",
-            "subject": "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n"
-          },
-          {
-            "hash": "65f56d97854dacb2cf1ab7881e7775edacf7705c",
-            "datetime": "2025-10-12 05:49:13 +0000",
-            "subject": "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n"
-          },
-          {
-            "hash": "f6ae42901fc83a6a268be652c232cbab1e531651",
-            "datetime": "2025-10-12 05:40:54 +0000",
-            "subject": "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n"
-          },
-          {
-            "hash": "bd0869f78c268ca12b756265633b9c71e2797ab4",
-            "datetime": "2025-10-12 05:39:11 +0000",
-            "subject": "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n"
-          },
-          {
-            "hash": "0ccb6fc483baaa8e6cf22e243d4ab8cc6bf80c7f",
-            "datetime": "2025-10-12 05:36:34 +0000",
-            "subject": "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n"
-          },
-          {
-            "hash": "a2df39f1cd05f6f72f22e846bb7267343196cedf",
-            "datetime": "2025-10-12 05:24:26 +0000",
-            "subject": "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n"
-          },
-          {
-            "hash": "f43f1257acc5a11188dc84c625196d0e037cc0bd",
-            "datetime": "2025-10-10 14:57:31 +0000",
-            "subject": "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n"
-          },
-          {
-            "hash": "f140d1b625a44b8a458d09e7d2e85fe5b0e48b19",
-            "datetime": "2025-10-10 13:57:24 +0000",
-            "subject": "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n"
-          },
-          {
-            "hash": "f8b6f71f3bf9a79ff3de2890f2a2a4577aad10c6",
-            "datetime": "2025-10-10 03:26:40 +0000",
-            "subject": "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n"
-          },
-          {
-            "hash": "4c685448b766708e0ce2d8cf60050f19f96cfca3",
-            "datetime": "2025-10-10 02:50:33 +0000",
-            "subject": "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n"
-          },
-          {
-            "hash": "945e804223089b3530c78a151b247e2e08081ff6",
-            "datetime": "2025-10-10 02:31:29 +0000",
-            "subject": "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n"
-          },
-          {
-            "hash": "905fa92c265fd9326a1f436daf605d6dd4ffae74",
-            "datetime": "2025-10-09 15:57:09 +0000",
-            "subject": "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n"
-          },
-          {
-            "hash": "9641a3a37c886a5992e8bf5004e2911b7b6fe285",
-            "datetime": "2025-10-07 23:36:46 +0800",
-            "subject": "feat: 为下一阶段开发设计全新的任务指引"
-          },
-          {
-            "hash": "fbca8974fc0c5fbca775d9babd35fbf9ad8c4e4d",
-            "datetime": "2025-10-06 23:24:46 +0800",
-            "subject": "feat: 同步订单-支付-订单状态的文档以及mockup 页面"
-          },
-          {
-            "hash": "4e7718d9648db359ac952e57e23334e9ed9995e1",
-            "datetime": "2025-10-06 15:23:50 +0000",
-            "subject": "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+            "hash": "7a4b164c71f2ecfbd2e4e4a048bb94d1b976836d",
+            "datetime": "2025-10-06 23:22:44 +0800",
+            "subject": "feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责"
           }
         ],
-        "files": 61,
-        "added": 18357,
-        "removed": 890,
+        "files": 8,
+        "added": 935,
+        "removed": 232,
         "heat": [
           [
-            "docs",
-            19021
+            "src/views/order",
+            737
           ],
           [
-            "analysis",
-            192
+            "src/service/api",
+            212
           ],
           [
-            "backend",
-            30
+            "src/typings/api.d.ts",
+            139
           ],
           [
-            "frontend",
-            2
+            "src/views/platform",
+            70
           ],
           [
-            "admin",
-            2
+            "pnpm-lock.yaml",
+            8
+          ],
+          [
+            "package.json",
+            1
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n",
-          "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n",
-          "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n",
-          "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n",
-          "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n",
-          "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n",
-          "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n",
-          "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n",
-          "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n",
-          "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n",
-          "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n",
-          "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n",
-          "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n",
-          "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n",
-          "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n",
-          "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n",
-          "feat: 为下一阶段开发设计全新的任务指引",
-          "feat: 同步订单-支付-订单状态的文档以及mockup 页面",
-          "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+          "feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责"
         ]
       },
       {
@@ -197,146 +93,34 @@
         "path": "frontend",
         "commits": [
           {
-            "hash": "a31cdbea625790cda77cf67fec6b5f43a6f86874",
-            "datetime": "2025-10-12 10:40:21 +0000",
-            "subject": "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n"
-          },
-          {
-            "hash": "bccc1d53df43ff1ae4002efca733ad5deae017df",
-            "datetime": "2025-10-12 06:28:07 +0000",
-            "subject": "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n"
-          },
-          {
-            "hash": "959401283b6e12ceaf946f887151b0375b3c87b0",
-            "datetime": "2025-10-12 06:20:09 +0000",
-            "subject": "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n"
-          },
-          {
-            "hash": "bc8e7943590c6a8d7dc35f2b607fabb2ece996bb",
-            "datetime": "2025-10-12 06:10:33 +0000",
-            "subject": "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n"
-          },
-          {
-            "hash": "136c2c64e6ff45335f3219b556c281c43135caf4",
-            "datetime": "2025-10-12 06:03:14 +0000",
-            "subject": "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n"
-          },
-          {
-            "hash": "65f56d97854dacb2cf1ab7881e7775edacf7705c",
-            "datetime": "2025-10-12 05:49:13 +0000",
-            "subject": "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n"
-          },
-          {
-            "hash": "f6ae42901fc83a6a268be652c232cbab1e531651",
-            "datetime": "2025-10-12 05:40:54 +0000",
-            "subject": "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n"
-          },
-          {
-            "hash": "bd0869f78c268ca12b756265633b9c71e2797ab4",
-            "datetime": "2025-10-12 05:39:11 +0000",
-            "subject": "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n"
-          },
-          {
-            "hash": "0ccb6fc483baaa8e6cf22e243d4ab8cc6bf80c7f",
-            "datetime": "2025-10-12 05:36:34 +0000",
-            "subject": "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n"
-          },
-          {
-            "hash": "a2df39f1cd05f6f72f22e846bb7267343196cedf",
-            "datetime": "2025-10-12 05:24:26 +0000",
-            "subject": "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n"
-          },
-          {
-            "hash": "f43f1257acc5a11188dc84c625196d0e037cc0bd",
-            "datetime": "2025-10-10 14:57:31 +0000",
-            "subject": "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n"
-          },
-          {
-            "hash": "f140d1b625a44b8a458d09e7d2e85fe5b0e48b19",
-            "datetime": "2025-10-10 13:57:24 +0000",
-            "subject": "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n"
-          },
-          {
-            "hash": "f8b6f71f3bf9a79ff3de2890f2a2a4577aad10c6",
-            "datetime": "2025-10-10 03:26:40 +0000",
-            "subject": "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n"
-          },
-          {
-            "hash": "4c685448b766708e0ce2d8cf60050f19f96cfca3",
-            "datetime": "2025-10-10 02:50:33 +0000",
-            "subject": "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n"
-          },
-          {
-            "hash": "945e804223089b3530c78a151b247e2e08081ff6",
-            "datetime": "2025-10-10 02:31:29 +0000",
-            "subject": "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n"
-          },
-          {
-            "hash": "905fa92c265fd9326a1f436daf605d6dd4ffae74",
-            "datetime": "2025-10-09 15:57:09 +0000",
-            "subject": "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n"
-          },
-          {
-            "hash": "9641a3a37c886a5992e8bf5004e2911b7b6fe285",
-            "datetime": "2025-10-07 23:36:46 +0800",
-            "subject": "feat: 为下一阶段开发设计全新的任务指引"
-          },
-          {
-            "hash": "fbca8974fc0c5fbca775d9babd35fbf9ad8c4e4d",
-            "datetime": "2025-10-06 23:24:46 +0800",
-            "subject": "feat: 同步订单-支付-订单状态的文档以及mockup 页面"
-          },
-          {
-            "hash": "4e7718d9648db359ac952e57e23334e9ed9995e1",
-            "datetime": "2025-10-06 15:23:50 +0000",
-            "subject": "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+            "hash": "5c1324e97a9ed911b8e383ef5952f2e564c8493c",
+            "datetime": "2025-10-09 23:38:55 +0800",
+            "subject": "feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑"
           }
         ],
-        "files": 61,
-        "added": 18357,
-        "removed": 890,
+        "files": 5,
+        "added": 336,
+        "removed": 289,
         "heat": [
           [
-            "docs",
-            19021
+            "src/pages/order",
+            431
           ],
           [
-            "analysis",
-            192
+            "src/hooks/useOrderStatusMeta.ts",
+            189
           ],
           [
-            "backend",
-            30
+            ".eslintrc-auto-import.json",
+            3
           ],
           [
-            "frontend",
-            2
-          ],
-          [
-            "admin",
+            "src/types/auto-import.d.ts",
             2
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n",
-          "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n",
-          "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n",
-          "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n",
-          "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n",
-          "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n",
-          "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n",
-          "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n",
-          "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n",
-          "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n",
-          "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n",
-          "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n",
-          "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n",
-          "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n",
-          "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n",
-          "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n",
-          "feat: 为下一阶段开发设计全新的任务指引",
-          "feat: 同步订单-支付-订单状态的文档以及mockup 页面",
-          "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+          "feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑"
         ]
       },
       {
@@ -344,146 +128,116 @@
         "path": "backend",
         "commits": [
           {
-            "hash": "a31cdbea625790cda77cf67fec6b5f43a6f86874",
-            "datetime": "2025-10-12 10:40:21 +0000",
-            "subject": "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n"
+            "hash": "17c68482174f174361c81acc7982ffe2a603f12b",
+            "datetime": "2025-10-12 18:39:52 +0800",
+            "subject": "feat: 添加获取所有履行类别的接口，并引入相关依赖"
           },
           {
-            "hash": "bccc1d53df43ff1ae4002efca733ad5deae017df",
-            "datetime": "2025-10-12 06:28:07 +0000",
-            "subject": "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n"
+            "hash": "58c151b94f2adb632d93854ac2952a689a31cec7",
+            "datetime": "2025-10-12 14:27:35 +0800",
+            "subject": "feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段"
           },
           {
-            "hash": "959401283b6e12ceaf946f887151b0375b3c87b0",
-            "datetime": "2025-10-12 06:20:09 +0000",
-            "subject": "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n"
+            "hash": "e69b6eedf0651787ad4d1b3e8904405f67366de6",
+            "datetime": "2025-10-12 14:19:45 +0800",
+            "subject": "fix: 再次回滚以确保回滚到正确的文件版本"
           },
           {
-            "hash": "bc8e7943590c6a8d7dc35f2b607fabb2ece996bb",
-            "datetime": "2025-10-12 06:10:33 +0000",
-            "subject": "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n"
+            "hash": "40f0dee8a33052c6d60cebeab842a448cf19700a",
+            "datetime": "2025-10-12 14:10:10 +0800",
+            "subject": "fix: 回滚以修复报错"
           },
           {
-            "hash": "136c2c64e6ff45335f3219b556c281c43135caf4",
-            "datetime": "2025-10-12 06:03:14 +0000",
-            "subject": "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n"
+            "hash": "4d7e400e3ad1bc8fb9f1fcc23a8e292baa4f4810",
+            "datetime": "2025-10-12 14:02:49 +0800",
+            "subject": "feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件"
           },
           {
-            "hash": "65f56d97854dacb2cf1ab7881e7775edacf7705c",
-            "datetime": "2025-10-12 05:49:13 +0000",
-            "subject": "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n"
+            "hash": "1b60e5088272ee3e20c54353fe528309b1db1ff5",
+            "datetime": "2025-10-12 13:48:48 +0800",
+            "subject": "feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑"
           },
           {
-            "hash": "f6ae42901fc83a6a268be652c232cbab1e531651",
-            "datetime": "2025-10-12 05:40:54 +0000",
-            "subject": "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n"
+            "hash": "624818b44ae726629a9c44b07711b71819f3d748",
+            "datetime": "2025-10-12 13:40:26 +0800",
+            "subject": "feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类"
           },
           {
-            "hash": "bd0869f78c268ca12b756265633b9c71e2797ab4",
-            "datetime": "2025-10-12 05:39:11 +0000",
-            "subject": "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n"
+            "hash": "291b967a23a7fd509f923aa3f09895d6f18916d9",
+            "datetime": "2025-10-12 13:38:47 +0800",
+            "subject": "feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性"
           },
           {
-            "hash": "0ccb6fc483baaa8e6cf22e243d4ab8cc6bf80c7f",
-            "datetime": "2025-10-12 05:36:34 +0000",
-            "subject": "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n"
+            "hash": "faf57cf0c61461393f6e659d4eae47119ac22aa3",
+            "datetime": "2025-10-12 13:36:07 +0800",
+            "subject": "feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑"
           },
           {
-            "hash": "a2df39f1cd05f6f72f22e846bb7267343196cedf",
-            "datetime": "2025-10-12 05:24:26 +0000",
-            "subject": "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n"
+            "hash": "74b57264a07f8c6fdbf29d66f8c1bb3f7ba66853",
+            "datetime": "2025-10-12 13:24:01 +0800",
+            "subject": "feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段"
           },
           {
-            "hash": "f43f1257acc5a11188dc84c625196d0e037cc0bd",
-            "datetime": "2025-10-10 14:57:31 +0000",
-            "subject": "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n"
+            "hash": "0f29c1d56de6ba632e87dcb2fd194451a216ce49",
+            "datetime": "2025-10-11 22:59:16 +0800",
+            "subject": "feat: 重构订单分类逻辑，添加FulfillmentCategory和CategoryInfo类，修改 `FulfillmentComponent` 实体，将 `category` 字段改造为与 `FulfillmentCategory` 的多对一关联。"
           },
           {
-            "hash": "f140d1b625a44b8a458d09e7d2e85fe5b0e48b19",
-            "datetime": "2025-10-10 13:57:24 +0000",
-            "subject": "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n"
+            "hash": "be3dddcdfe1701db7bc220d7509eaf596fc901a5",
+            "datetime": "2025-10-10 22:57:07 +0800",
+            "subject": "feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性"
           },
           {
-            "hash": "f8b6f71f3bf9a79ff3de2890f2a2a4577aad10c6",
-            "datetime": "2025-10-10 03:26:40 +0000",
-            "subject": "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n"
+            "hash": "fc75dae06220386e5189ea19e2f1b73be8d6e932",
+            "datetime": "2025-10-10 21:56:58 +0800",
+            "subject": "feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入"
           },
           {
-            "hash": "4c685448b766708e0ce2d8cf60050f19f96cfca3",
-            "datetime": "2025-10-10 02:50:33 +0000",
-            "subject": "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n"
+            "hash": "a782ea258dd5058681c74c5c6208613cd977f71b",
+            "datetime": "2025-10-10 11:26:16 +0800",
+            "subject": "feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志"
           },
           {
-            "hash": "945e804223089b3530c78a151b247e2e08081ff6",
-            "datetime": "2025-10-10 02:31:29 +0000",
-            "subject": "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n"
+            "hash": "19517869ace09ee0d2a73caff19a7c070da0570c",
+            "datetime": "2025-10-10 10:50:06 +0800",
+            "subject": "feat: 添加订单更新时间字段，更新相关方法以支持状态更新"
           },
           {
-            "hash": "905fa92c265fd9326a1f436daf605d6dd4ffae74",
-            "datetime": "2025-10-09 15:57:09 +0000",
-            "subject": "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n"
-          },
-          {
-            "hash": "9641a3a37c886a5992e8bf5004e2911b7b6fe285",
-            "datetime": "2025-10-07 23:36:46 +0800",
-            "subject": "feat: 为下一阶段开发设计全新的任务指引"
-          },
-          {
-            "hash": "fbca8974fc0c5fbca775d9babd35fbf9ad8c4e4d",
-            "datetime": "2025-10-06 23:24:46 +0800",
-            "subject": "feat: 同步订单-支付-订单状态的文档以及mockup 页面"
-          },
-          {
-            "hash": "4e7718d9648db359ac952e57e23334e9ed9995e1",
-            "datetime": "2025-10-06 15:23:50 +0000",
-            "subject": "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+            "hash": "4f476910e9cb45308fd6adb5fd3d0b63f57184e4",
+            "datetime": "2025-10-10 10:30:59 +0800",
+            "subject": "feat: 添加自动完成订单的定时任务，支持超时订单的自动处理"
           }
         ],
-        "files": 61,
-        "added": 18357,
-        "removed": 890,
+        "files": 54,
+        "added": 943,
+        "removed": 127,
         "heat": [
           [
-            "docs",
-            19021
+            "src/main/java",
+            807
           ],
           [
-            "analysis",
-            192
-          ],
-          [
-            "backend",
-            30
-          ],
-          [
-            "frontend",
-            2
-          ],
-          [
-            "admin",
-            2
+            "src/main/resources",
+            263
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[17c6848: feat: 添加获取所有履行类别的接口，并引入相关依赖]\\n",
-          "[backend] 自动合并[58c151b: feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段]\\n",
-          "[backend] 自动合并[e69b6ee: fix: 再次回滚以确保回滚到正确的文件版本]\\n",
-          "[backend] 自动合并[40f0dee: fix: 回滚以修复报错]\\n",
-          "[backend] 自动合并[4d7e400: feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件]\\n",
-          "[backend] 自动合并[1b60e50: feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑]\\n",
-          "[backend] 自动合并[624818b: feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类]\\n",
-          "[backend] 自动合并[291b967: feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性]\\n",
-          "[backend] 自动合并[faf57cf: feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑]\\n",
-          "[backend] 自动合并[74b5726: feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段]\\n",
-          "[backend] 自动合并[be3dddc: feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性]\\n",
-          "[backend] 自动合并[fc75dae: feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入]\\n",
-          "[backend] 自动合并[a782ea2: feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志]\\n",
-          "[backend] 自动合并[1951786: feat: 添加订单更新时间字段，更新相关方法以支持状态更新]\\n",
-          "[backend] 自动合并[4f47691: feat: 添加自动完成订单的定时任务，支持超时订单的自动处理]\\n",
-          "[frontend] 自动合并[5c1324e: feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑]\\n",
-          "feat: 为下一阶段开发设计全新的任务指引",
-          "feat: 同步订单-支付-订单状态的文档以及mockup 页面",
-          "[admin] 自动合并[7a4b164c: feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责]\\n"
+          "feat: 添加获取所有履行类别的接口，并引入相关依赖",
+          "feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段",
+          "fix: 再次回滚以确保回滚到正确的文件版本",
+          "fix: 回滚以修复报错",
+          "feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件",
+          "feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑",
+          "feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类",
+          "feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性",
+          "feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑",
+          "feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段",
+          "feat: 重构订单分类逻辑，添加FulfillmentCategory和CategoryInfo类，修改 `FulfillmentComponent` 实体，将 `category` 字段改造为与 `FulfillmentCategory` 的多对一关联。",
+          "feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性",
+          "feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入",
+          "feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志",
+          "feat: 添加订单更新时间字段，更新相关方法以支持状态更新",
+          "feat: 添加自动完成订单的定时任务，支持超时订单的自动处理"
         ]
       }
     ]

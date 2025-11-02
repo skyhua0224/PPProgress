@@ -1,62 +1,69 @@
-# 周报（2025-08-05 至 2025-08-10）
+# 周报（2025-08-04 至 2025-08-10）
 
 ## 开发进展
 
-# 开发进展 — 主仓与子模块（自 2025-08-05 至 2025-08-10）
+# 开发进展 — 主仓与子模块（自 2025-08-04 至 2025-08-10）
 
 扫描的模块: ProjectPrinting, admin, frontend, backend
-提交总数: 114
-触达文件总数: 114
-行变更合计 +/-: +114 / -114
+提交总数: 47
+触达文件总数: 200
+行变更合计 +/-: +9563 / -7092
 
 ## 按模块汇总
-- ProjectPrinting (.): commits=0, files=0, +0/-0
-- admin (admin): commits=38, files=38, +38/-38
-- frontend (frontend): commits=38, files=38, +38/-38
-- backend (backend): commits=38, files=38, +38/-38
+- ProjectPrinting (.): commits=1, files=17, +344/-3156
+- admin (admin): commits=1, files=10, +770/-190
+- frontend (frontend): commits=5, files=64, +5219/-2631
+- backend (backend): commits=40, files=109, +3230/-1115
 
 ## 顶层目录热力（按模块）
+- ProjectPrinting:
+  - docs: 3496
+  - admin: 2
+  - backend: 2
 - admin:
-  - backend: 66
-  - frontend: 10
+  - src/views/store: 896
+  - src/typings/api.d.ts: 34
+  - src/service/api: 24
+  - src/components/business: 6
 - frontend:
-  - backend: 66
-  - frontend: 10
+  - src/pages-sub/filePrinting: 3859
+  - src/utils/http.ts: 591
+  - src/pages-sub/mine: 578
+  - pnpm-lock.yaml: 512
+  - src/components/StoreSelectorPopup.vue: 334
+  - src/service/userService.ts: 318
+  - src/components/LoginPopup.vue: 224
+  - src/store/user.ts: 189
+  - src/utils/requestWithAuth.ts: 162
+  - src/service/orderService.ts: 146
+  - src/utils/network-test.ts: 124
+  - src/components/PaymentFooter.vue: 103
+  - src/service/uploadService.ts: 82
+  - src/pages-sub/checkout: 72
+  - src/store/login.ts: 69
 - backend:
-  - backend: 66
-  - frontend: 10
+  - src/main/java: 4324
+  - pom.xml: 21
 
 ## 提交主题（每模块最多 10 条）
+- ProjectPrinting:
+  - [undefined] feat: 设计后半阶段订单-店铺三端统一设计方案
 - admin:
-  - [undefined] [backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\n
-  - [undefined] [frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\n
-  - [undefined] [frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\n
-  - [undefined] [frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\n
-  - [undefined] [backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\n
-  - [undefined] [backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\n
-  - [undefined] [backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\n
-  - [undefined] [backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\n
+  - [undefined] feat: 完成履约费用管理设计，修复了批量操作时的一些错误，移除了价格管理的批量操作按钮
 - frontend:
-  - [undefined] [backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\n
-  - [undefined] [frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\n
-  - [undefined] [frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\n
-  - [undefined] [frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\n
-  - [undefined] [backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\n
-  - [undefined] [backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\n
-  - [undefined] [backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\n
-  - [undefined] [backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\n
+  - [undefined] feat: 完成上传打印批量删除功能设计，调整图标样式
+  - [undefined] feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件
+  - [undefined] feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看
+  - [undefined] refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑
+  - [undefined] feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计
 - backend:
-  - [undefined] [backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\n
-  - [undefined] [frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\n
-  - [undefined] [frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\n
-  - [undefined] [frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\n
-  - [undefined] [backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\n
-  - [undefined] [backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\n
-  - [undefined] [backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\n
-  - [undefined] [backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\n
-  - [undefined] [backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\n
+  - [undefined] feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持
+  - [undefined] feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费
+  - [undefined] feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性
+  - [undefined] feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费
+  - [undefined] feat: 明确后道服务的计费逻辑，优化计费单位和小计计算
+  - [undefined] feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息
+  - [undefined] feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数
+  - [undefined] feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑
+  - [undefined] feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项
+  - [undefined] feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑

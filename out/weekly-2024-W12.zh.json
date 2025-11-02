@@ -1,0 +1,210 @@
+{
+  "title": "周报（2024-03-18 至 2024-03-24）",
+  "lang": "zh",
+  "since": "2024-03-18",
+  "until": "2024-03-24",
+  "generatedAt": "2025-11-02T11:43:10.053Z",
+  "progress": {
+    "totals": {
+      "commits": 15,
+      "files": 155,
+      "added": 2996,
+      "removed": 1430
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "c11d56da2928a02dadaef832c164605bfa6ddb2d",
+            "datetime": "2024-03-24 15:39:41 +0800",
+            "subject": "feat(projects): add auth example"
+          },
+          {
+            "hash": "41e8bc44f889132e552ebbd9ee274970cf7db679",
+            "datetime": "2024-03-24 06:23:56 +0800",
+            "subject": "feat(projects): add request exception example page"
+          },
+          {
+            "hash": "11a6a3bd8050a143b0cccd61813274ae5c27361d",
+            "datetime": "2024-03-24 05:11:30 +0800",
+            "subject": "feat(projects): add request refresh token & logout"
+          },
+          {
+            "hash": "1ed33dc47ab4e98f44acdabf229d14b51fe0ab92",
+            "datetime": "2024-03-24 04:10:55 +0800",
+            "subject": "feat(projects): login page: register"
+          },
+          {
+            "hash": "c91dd282a623a2cceaa27c628835d0962a657c7e",
+            "datetime": "2024-03-24 04:03:49 +0800",
+            "subject": "feat(projects): login page: code-login"
+          },
+          {
+            "hash": "f91ef30bd5097edc648c3aadd5ca0069d436627d",
+            "datetime": "2024-03-24 03:02:08 +0800",
+            "subject": "refactor(projects): perf code"
+          },
+          {
+            "hash": "187098136e70bef9fbf473c91f4d82425d028355",
+            "datetime": "2024-03-23 15:51:04 +0800",
+            "subject": "feat(projects): pef manage role"
+          },
+          {
+            "hash": "0abbfa5d0ca1481d76f40b4922db18b65a381a65",
+            "datetime": "2024-03-22 01:31:38 +0800",
+            "subject": "perf(projects): manage menu: add transform to component"
+          },
+          {
+            "hash": "71f2c5535bdc6a2e3926557104a13a9968e9a32b",
+            "datetime": "2024-03-22 01:23:24 +0800",
+            "subject": "perf(projects): perf manage menu"
+          },
+          {
+            "hash": "49558ca0484b5e709a4ca2a5836bf1f41b2d1a2c",
+            "datetime": "2024-03-21 19:49:00 +0800",
+            "subject": "feat(projects): change borderRadius to 6px of naiveUI"
+          },
+          {
+            "hash": "c0a65a165a3d49201b9e9f03171c9c7f6499f7dc",
+            "datetime": "2024-03-21 19:44:22 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "3fd15e56498ddc29dcd16eb2039d6b0138a6dde9",
+            "datetime": "2024-03-21 19:38:29 +0800",
+            "subject": "refactor(projects): finish refactor useTable and apply"
+          },
+          {
+            "hash": "4158a72bd8c1902882fc46dffc9e7d03b432ffce",
+            "datetime": "2024-03-21 08:29:15 +0800",
+            "subject": "feat(projects): update"
+          },
+          {
+            "hash": "8630175a3fb62a11bd38c6379e2033678faa5cb0",
+            "datetime": "2024-03-19 01:01:00 +0800",
+            "subject": "refactor(projects): finish refactor useTable"
+          },
+          {
+            "hash": "c3efa1b6e09425ee9d524199a7cae088158e79bf",
+            "datetime": "2024-03-18 08:36:17 +0800",
+            "subject": "refactor(projects): refactor useTable"
+          }
+        ],
+        "files": 155,
+        "added": 2996,
+        "removed": 1430,
+        "heat": [
+          [
+            "src/views/manage",
+            1188
+          ],
+          [
+            "pnpm-lock.yaml",
+            878
+          ],
+          [
+            "src/hooks/common",
+            831
+          ],
+          [
+            "packages",
+            309
+          ],
+          [
+            "src/views/_builtin",
+            273
+          ],
+          [
+            "src/service/request",
+            144
+          ],
+          [
+            "src/views/function",
+            143
+          ],
+          [
+            "src/hooks/business",
+            92
+          ],
+          [
+            "src/locales/langs",
+            76
+          ],
+          [
+            "src/typings/naive-ui.d.ts",
+            69
+          ],
+          [
+            "src/layouts/modules",
+            66
+          ],
+          [
+            "src/store/modules",
+            50
+          ],
+          [
+            "src/service/api",
+            49
+          ],
+          [
+            "src/router/elegant",
+            48
+          ],
+          [
+            "src/typings/env.d.ts",
+            32
+          ]
+        ],
+        "subjects": [
+          "feat(projects): add auth example",
+          "feat(projects): add request exception example page",
+          "feat(projects): add request refresh token & logout",
+          "feat(projects): login page: register",
+          "feat(projects): login page: code-login",
+          "refactor(projects): perf code",
+          "feat(projects): pef manage role",
+          "perf(projects): manage menu: add transform to component",
+          "perf(projects): perf manage menu",
+          "feat(projects): change borderRadius to 6px of naiveUI",
+          "chore(deps): update deps",
+          "refactor(projects): finish refactor useTable and apply",
+          "feat(projects): update",
+          "refactor(projects): finish refactor useTable",
+          "refactor(projects): refactor useTable"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

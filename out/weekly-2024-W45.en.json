@@ -1,0 +1,114 @@
+{
+  "title": "Weekly Report (2024-11-04 to 2024-11-07)",
+  "lang": "en",
+  "since": "2024-11-04",
+  "until": "2024-11-07",
+  "generatedAt": "2025-11-02T11:43:38.206Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 11,
+      "added": 223,
+      "removed": 39
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "3c53d633b81d573443d6a72847abdf70c78df69e",
+            "datetime": "2024-11-07 09:23:26 +0800",
+            "subject": "feat: 更新商品管理界面"
+          },
+          {
+            "hash": "7ea1c5c16c9752df9a41008af52f38de9ae9776a",
+            "datetime": "2024-11-05 13:43:31 +0800",
+            "subject": "feat: 更新商品管理界面"
+          },
+          {
+            "hash": "32c2180c4b4b2579c6cc56a106b55669c7582063",
+            "datetime": "2024-11-05 12:54:03 +0800",
+            "subject": "解决了优惠券列表创建时路由参数的传递的问题"
+          }
+        ],
+        "files": 11,
+        "added": 223,
+        "removed": 39,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            185
+          ],
+          [
+            "src/views/app-manage",
+            53
+          ],
+          [
+            "src/locales/langs",
+            5
+          ],
+          [
+            "src/typings/components.d.ts",
+            5
+          ],
+          [
+            "src/typings/app.d.ts",
+            4
+          ],
+          [
+            "src/typings/api.d.ts",
+            4
+          ],
+          [
+            "src/router/elegant",
+            3
+          ],
+          [
+            "src/service/api",
+            2
+          ],
+          [
+            "package.json",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 更新商品管理界面",
+          "feat: 更新商品管理界面",
+          "解决了优惠券列表创建时路由参数的传递的问题"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

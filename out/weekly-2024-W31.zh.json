@@ -1,0 +1,210 @@
+{
+  "title": "周报（2024-07-29 至 2024-08-01）",
+  "lang": "zh",
+  "since": "2024-07-29",
+  "until": "2024-08-01",
+  "generatedAt": "2025-11-02T11:43:12.733Z",
+  "progress": {
+    "totals": {
+      "commits": 15,
+      "files": 56,
+      "added": 1741,
+      "removed": 3141
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "e6aa25e9f882007ebabbc7b77489c4ade3ab3efe",
+            "datetime": "2024-08-01 16:02:56 +0800",
+            "subject": "chore(projects): release v1.3.4"
+          },
+          {
+            "hash": "968370b1aadd7306c713071cc21f61c6d76ef43d",
+            "datetime": "2024-08-01 00:06:00 +0800",
+            "subject": "chore(projects): update deps & fix vue-router type"
+          },
+          {
+            "hash": "cb1d44525da9230c2a51712a36191a0dc4d39c67",
+            "datetime": "2024-07-31 23:11:50 +0800",
+            "subject": "optimize(projects): optimize code"
+          },
+          {
+            "hash": "939c512f028c022afea3cd6c9fc9f8b90d4e5db6",
+            "datetime": "2024-07-31 23:11:16 +0800",
+            "subject": "refactor(projects)!: don't reset active menu of vertical-mix layout when it is mixSiderFixed"
+          },
+          {
+            "hash": "3f23993a830dd307591fd0d35b17097921052faf",
+            "datetime": "2024-07-30 18:03:26 +0800",
+            "subject": "chore(projects): release v1.3.3"
+          },
+          {
+            "hash": "ebc838c3e08eb15086cf33ee7f0de7c42fbd7789",
+            "datetime": "2024-07-30 18:03:06 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "5646a50ddf94dd25096ff1ea33460aa58223340e",
+            "datetime": "2024-07-30 17:53:17 +0800",
+            "subject": "fix(projects): fix watermark settings"
+          },
+          {
+            "hash": "217a3bb259f940afe367f9d22ec854145e2d3f51",
+            "datetime": "2024-07-30 17:18:16 +0800",
+            "subject": "chore(projects): release v1.3.2"
+          },
+          {
+            "hash": "d37591dd7a318b2398dcaba3ce8132d1b1084a0e",
+            "datetime": "2024-07-30 17:17:54 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "cf67d55cbfdc2eabe873db4f2ede96a3405fc16e",
+            "datetime": "2024-07-30 15:12:45 +0800",
+            "subject": "optimize(projects): optimize response code comparison"
+          },
+          {
+            "hash": "98b75c22c3e5ed574490c6cf90e0d116b46e6ed7",
+            "datetime": "2024-07-30 14:57:53 +0800",
+            "subject": "optimize(projects): remove home NAlert closable"
+          },
+          {
+            "hash": "993e9caf7955e3007745409650f58cd684129db4",
+            "datetime": "2024-07-30 14:55:45 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "f26d0a61ebcabb471a0aba439a313925cd696b4b",
+            "datetime": "2024-07-30 14:41:30 +0800",
+            "subject": "optimize(projects): add type WatermarkProps"
+          },
+          {
+            "hash": "eed617f9eb0f6455a98bda95cc1e319d7be0d1c1",
+            "datetime": "2024-07-30 09:31:26 +0800",
+            "subject": "optimize(types): remove useless types."
+          },
+          {
+            "hash": "ea8aa6c4e607fdc6a7cd972cb0adab4f964ef132",
+            "datetime": "2024-07-29 23:04:26 +0800",
+            "subject": "feat(projects): add full screen watermark. close#571 (#573)"
+          }
+        ],
+        "files": 56,
+        "added": 1741,
+        "removed": 3141,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            4395
+          ],
+          [
+            "src/typings/api.d.ts",
+            138
+          ],
+          [
+            "CHANGELOG.md",
+            66
+          ],
+          [
+            "package.json",
+            64
+          ],
+          [
+            "CHANGELOG.zh_CN.md",
+            56
+          ],
+          [
+            "packages",
+            52
+          ],
+          [
+            "src/layouts/modules",
+            26
+          ],
+          [
+            "src/App.vue",
+            24
+          ],
+          [
+            "src/router/elegant",
+            20
+          ],
+          [
+            "src/typings/app.d.ts",
+            13
+          ],
+          [
+            "src/service/request",
+            9
+          ],
+          [
+            "src/locales/langs",
+            8
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            4
+          ],
+          [
+            "src/theme/settings.ts",
+            4
+          ],
+          [
+            "src/views/home",
+            2
+          ]
+        ],
+        "subjects": [
+          "chore(projects): release v1.3.4",
+          "chore(projects): update deps & fix vue-router type",
+          "optimize(projects): optimize code",
+          "refactor(projects)!: don't reset active menu of vertical-mix layout when it is mixSiderFixed",
+          "chore(projects): release v1.3.3",
+          "docs(projects): update CHANGELOG",
+          "fix(projects): fix watermark settings",
+          "chore(projects): release v1.3.2",
+          "docs(projects): update CHANGELOG",
+          "optimize(projects): optimize response code comparison",
+          "optimize(projects): remove home NAlert closable",
+          "chore(deps): update deps",
+          "optimize(projects): add type WatermarkProps",
+          "optimize(types): remove useless types.",
+          "feat(projects): add full screen watermark. close#571 (#573)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

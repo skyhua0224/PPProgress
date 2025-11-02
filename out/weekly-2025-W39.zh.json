@@ -3,13 +3,13 @@
   "lang": "zh",
   "since": "2025-09-22",
   "until": "2025-09-28",
-  "generatedAt": "2025-11-02T11:29:12.114Z",
+  "generatedAt": "2025-11-02T11:43:26.952Z",
   "progress": {
     "totals": {
-      "commits": 84,
-      "files": 84,
-      "added": 84,
-      "removed": 84
+      "commits": 22,
+      "files": 105,
+      "added": 3700,
+      "removed": 1222
     },
     "modules": [
       {
@@ -27,566 +27,191 @@
         "path": "admin",
         "commits": [
           {
-            "hash": "ff66fcd4bbab69e9c1495bbd84f03240e7dac47b",
-            "datetime": "2025-09-28 08:37:24 +0000",
-            "subject": "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n"
-          },
-          {
-            "hash": "07a99a0fa8823d53e0dcdde2fdf7b62f7fe1f3d8",
-            "datetime": "2025-09-28 07:02:13 +0000",
-            "subject": "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n"
-          },
-          {
-            "hash": "693354c08e2deed1f0802684f3a22b49cc9e4907",
-            "datetime": "2025-09-28 05:58:39 +0000",
-            "subject": "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n"
-          },
-          {
-            "hash": "ff805c9e71eabca29aed67438a596f9ff5b5a089",
-            "datetime": "2025-09-28 05:47:38 +0000",
-            "subject": "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n"
-          },
-          {
-            "hash": "d26ffa0a5952832965adce53c0eeca74cfca000b",
-            "datetime": "2025-09-28 05:45:05 +0000",
-            "subject": "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n"
-          },
-          {
-            "hash": "e29fc795125f44bf73a5e12424a7d46e56c58831",
-            "datetime": "2025-09-28 05:08:08 +0000",
-            "subject": "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n"
-          },
-          {
-            "hash": "d118144711a8454c3197958039c4798ef9f59ac0",
-            "datetime": "2025-09-28 05:06:54 +0000",
-            "subject": "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n"
-          },
-          {
-            "hash": "06440ad4c1a8ca5caf0c52b1bebec6aacefad4b7",
-            "datetime": "2025-09-28 05:04:33 +0000",
-            "subject": "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n"
-          },
-          {
-            "hash": "255e58252a64d94db0b6cf7807f6e25407ac2421",
-            "datetime": "2025-09-28 04:58:28 +0000",
-            "subject": "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n"
-          },
-          {
-            "hash": "ab5816c136157e2d09009e4540af7b42e188ff3f",
-            "datetime": "2025-09-27 18:19:36 +0000",
-            "subject": "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n"
-          },
-          {
-            "hash": "cea39a65fec254b87456c11049d8799014de6a70",
-            "datetime": "2025-09-27 18:18:49 +0000",
-            "subject": "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n"
-          },
-          {
-            "hash": "a6bfe0b2afb96ab6f4b45496b368cd12ff7c8835",
-            "datetime": "2025-09-27 18:07:05 +0000",
-            "subject": "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n"
-          },
-          {
-            "hash": "234b6032d330896270ee4cfe106df335337b3ff6",
-            "datetime": "2025-09-27 17:55:05 +0000",
-            "subject": "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n"
-          },
-          {
-            "hash": "013cfa97733e530209d659632671511fd6b2f499",
-            "datetime": "2025-09-27 17:38:10 +0000",
-            "subject": "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n"
-          },
-          {
-            "hash": "95e443305af98bd25589bf739c08698ec4c2ff84",
-            "datetime": "2025-09-27 13:13:00 +0000",
-            "subject": "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n"
-          },
-          {
-            "hash": "cf0299099ead6d6f200fb332e1acf1a3a2919f0b",
-            "datetime": "2025-09-27 13:04:35 +0000",
-            "subject": "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n"
-          },
-          {
-            "hash": "debdd4dce07e7d3f3415ed94b4eb5e5cb5ca270e",
-            "datetime": "2025-09-26 13:35:46 +0000",
-            "subject": "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n"
-          },
-          {
-            "hash": "af23e7db703c86dadf8bea96ef23b4853ad0fe44",
-            "datetime": "2025-09-26 10:10:06 +0000",
-            "subject": "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n"
-          },
-          {
-            "hash": "764d59115dd7b5ffc4e20dfc26e5950ef146203a",
-            "datetime": "2025-09-24 18:43:56 +0000",
-            "subject": "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n"
-          },
-          {
-            "hash": "7e6e47aa8fc1874bf53ac1ec960c2bf5b3406c76",
-            "datetime": "2025-09-24 18:32:22 +0000",
-            "subject": "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n"
-          },
-          {
-            "hash": "cdf6163d2d77c488e8cb2fe79287d69670f87558",
-            "datetime": "2025-09-24 18:00:27 +0000",
-            "subject": "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n"
-          },
-          {
-            "hash": "df0b86b47bfeb06ef04c0b203ddbf3456f474f9e",
-            "datetime": "2025-09-24 17:47:25 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
-          },
-          {
-            "hash": "ccb1b3ccf550cafe793f40e85a3aa87d7f5ae4b5",
-            "datetime": "2025-09-24 17:43:59 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "368b83bd5620b9fc6a6a053aff233654520ab1bb",
-            "datetime": "2025-09-24 17:42:06 +0000",
-            "subject": "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n"
-          },
-          {
-            "hash": "b8402ae92a441769a7ef8e2591b00fde8ba142f9",
-            "datetime": "2025-09-24 16:47:10 +0000",
-            "subject": "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n"
-          },
-          {
-            "hash": "4f19dd408150d26f2efc710d282fd25612b8dd9a",
-            "datetime": "2025-09-24 16:22:54 +0000",
-            "subject": "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n"
-          },
-          {
-            "hash": "903f46fab40629324510d2b48c56b4d300a2b318",
-            "datetime": "2025-09-24 15:52:03 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "072bb91119259d5a5649899af1c8ddb0cb703716",
-            "datetime": "2025-09-23 05:09:26 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
+            "hash": "83eadbf1b41fda762bfb6cd9497ff144a1069a15",
+            "datetime": "2025-09-25 01:59:59 +0800",
+            "subject": "feat: 完成价格详情的页面设计"
           }
         ],
-        "files": 28,
-        "added": 28,
-        "removed": 28,
+        "files": 5,
+        "added": 640,
+        "removed": 138,
         "heat": [
           [
-            "backend",
-            54
+            "src/views/order",
+            631
           ],
           [
-            "admin",
+            "src/typings/api.d.ts",
+            117
+          ],
+          [
+            "src/service/api",
+            28
+          ],
+          [
+            "src/typings/components.d.ts",
             2
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n",
-          "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n",
-          "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n",
-          "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n",
-          "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n",
-          "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n",
-          "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n",
-          "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n",
-          "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n",
-          "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n",
-          "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n",
-          "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n",
-          "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n",
-          "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n",
-          "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n",
-          "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n",
-          "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n",
-          "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n",
-          "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n",
-          "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n",
-          "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
+          "feat: 完成价格详情的页面设计"
         ]
       },
       {
         "name": "frontend",
         "path": "frontend",
-        "commits": [
-          {
-            "hash": "ff66fcd4bbab69e9c1495bbd84f03240e7dac47b",
-            "datetime": "2025-09-28 08:37:24 +0000",
-            "subject": "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n"
-          },
-          {
-            "hash": "07a99a0fa8823d53e0dcdde2fdf7b62f7fe1f3d8",
-            "datetime": "2025-09-28 07:02:13 +0000",
-            "subject": "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n"
-          },
-          {
-            "hash": "693354c08e2deed1f0802684f3a22b49cc9e4907",
-            "datetime": "2025-09-28 05:58:39 +0000",
-            "subject": "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n"
-          },
-          {
-            "hash": "ff805c9e71eabca29aed67438a596f9ff5b5a089",
-            "datetime": "2025-09-28 05:47:38 +0000",
-            "subject": "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n"
-          },
-          {
-            "hash": "d26ffa0a5952832965adce53c0eeca74cfca000b",
-            "datetime": "2025-09-28 05:45:05 +0000",
-            "subject": "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n"
-          },
-          {
-            "hash": "e29fc795125f44bf73a5e12424a7d46e56c58831",
-            "datetime": "2025-09-28 05:08:08 +0000",
-            "subject": "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n"
-          },
-          {
-            "hash": "d118144711a8454c3197958039c4798ef9f59ac0",
-            "datetime": "2025-09-28 05:06:54 +0000",
-            "subject": "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n"
-          },
-          {
-            "hash": "06440ad4c1a8ca5caf0c52b1bebec6aacefad4b7",
-            "datetime": "2025-09-28 05:04:33 +0000",
-            "subject": "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n"
-          },
-          {
-            "hash": "255e58252a64d94db0b6cf7807f6e25407ac2421",
-            "datetime": "2025-09-28 04:58:28 +0000",
-            "subject": "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n"
-          },
-          {
-            "hash": "ab5816c136157e2d09009e4540af7b42e188ff3f",
-            "datetime": "2025-09-27 18:19:36 +0000",
-            "subject": "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n"
-          },
-          {
-            "hash": "cea39a65fec254b87456c11049d8799014de6a70",
-            "datetime": "2025-09-27 18:18:49 +0000",
-            "subject": "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n"
-          },
-          {
-            "hash": "a6bfe0b2afb96ab6f4b45496b368cd12ff7c8835",
-            "datetime": "2025-09-27 18:07:05 +0000",
-            "subject": "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n"
-          },
-          {
-            "hash": "234b6032d330896270ee4cfe106df335337b3ff6",
-            "datetime": "2025-09-27 17:55:05 +0000",
-            "subject": "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n"
-          },
-          {
-            "hash": "013cfa97733e530209d659632671511fd6b2f499",
-            "datetime": "2025-09-27 17:38:10 +0000",
-            "subject": "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n"
-          },
-          {
-            "hash": "95e443305af98bd25589bf739c08698ec4c2ff84",
-            "datetime": "2025-09-27 13:13:00 +0000",
-            "subject": "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n"
-          },
-          {
-            "hash": "cf0299099ead6d6f200fb332e1acf1a3a2919f0b",
-            "datetime": "2025-09-27 13:04:35 +0000",
-            "subject": "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n"
-          },
-          {
-            "hash": "debdd4dce07e7d3f3415ed94b4eb5e5cb5ca270e",
-            "datetime": "2025-09-26 13:35:46 +0000",
-            "subject": "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n"
-          },
-          {
-            "hash": "af23e7db703c86dadf8bea96ef23b4853ad0fe44",
-            "datetime": "2025-09-26 10:10:06 +0000",
-            "subject": "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n"
-          },
-          {
-            "hash": "764d59115dd7b5ffc4e20dfc26e5950ef146203a",
-            "datetime": "2025-09-24 18:43:56 +0000",
-            "subject": "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n"
-          },
-          {
-            "hash": "7e6e47aa8fc1874bf53ac1ec960c2bf5b3406c76",
-            "datetime": "2025-09-24 18:32:22 +0000",
-            "subject": "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n"
-          },
-          {
-            "hash": "cdf6163d2d77c488e8cb2fe79287d69670f87558",
-            "datetime": "2025-09-24 18:00:27 +0000",
-            "subject": "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n"
-          },
-          {
-            "hash": "df0b86b47bfeb06ef04c0b203ddbf3456f474f9e",
-            "datetime": "2025-09-24 17:47:25 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
-          },
-          {
-            "hash": "ccb1b3ccf550cafe793f40e85a3aa87d7f5ae4b5",
-            "datetime": "2025-09-24 17:43:59 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "368b83bd5620b9fc6a6a053aff233654520ab1bb",
-            "datetime": "2025-09-24 17:42:06 +0000",
-            "subject": "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n"
-          },
-          {
-            "hash": "b8402ae92a441769a7ef8e2591b00fde8ba142f9",
-            "datetime": "2025-09-24 16:47:10 +0000",
-            "subject": "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n"
-          },
-          {
-            "hash": "4f19dd408150d26f2efc710d282fd25612b8dd9a",
-            "datetime": "2025-09-24 16:22:54 +0000",
-            "subject": "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n"
-          },
-          {
-            "hash": "903f46fab40629324510d2b48c56b4d300a2b318",
-            "datetime": "2025-09-24 15:52:03 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "072bb91119259d5a5649899af1c8ddb0cb703716",
-            "datetime": "2025-09-23 05:09:26 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
-          }
-        ],
-        "files": 28,
-        "added": 28,
-        "removed": 28,
-        "heat": [
-          [
-            "backend",
-            54
-          ],
-          [
-            "admin",
-            2
-          ]
-        ],
-        "subjects": [
-          "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n",
-          "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n",
-          "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n",
-          "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n",
-          "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n",
-          "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n",
-          "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n",
-          "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n",
-          "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n",
-          "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n",
-          "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n",
-          "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n",
-          "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n",
-          "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n",
-          "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n",
-          "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n",
-          "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n",
-          "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n",
-          "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n",
-          "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n",
-          "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
-        ]
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
       },
       {
         "name": "backend",
         "path": "backend",
         "commits": [
           {
-            "hash": "ff66fcd4bbab69e9c1495bbd84f03240e7dac47b",
-            "datetime": "2025-09-28 08:37:24 +0000",
-            "subject": "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n"
+            "hash": "d0b8de986dc3c09fed01621367d9947793db998e",
+            "datetime": "2025-09-28 16:36:55 +0800",
+            "subject": "feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑"
           },
           {
-            "hash": "07a99a0fa8823d53e0dcdde2fdf7b62f7fe1f3d8",
-            "datetime": "2025-09-28 07:02:13 +0000",
-            "subject": "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n"
+            "hash": "dab7271e10ddd6b46f495e47725764ecbdd02b70",
+            "datetime": "2025-09-28 15:01:49 +0800",
+            "subject": "feat: 添加二维码数据生成逻辑，优化订单履约信息处理"
           },
           {
-            "hash": "693354c08e2deed1f0802684f3a22b49cc9e4907",
-            "datetime": "2025-09-28 05:58:39 +0000",
-            "subject": "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n"
+            "hash": "22cfb4223c50ea49765906b5a22856093f176be1",
+            "datetime": "2025-09-28 13:58:08 +0800",
+            "subject": "feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性"
           },
           {
-            "hash": "ff805c9e71eabca29aed67438a596f9ff5b5a089",
-            "datetime": "2025-09-28 05:47:38 +0000",
-            "subject": "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n"
+            "hash": "72078ffb7215a2ed5dc7888a665a5b2eb239c681",
+            "datetime": "2025-09-28 13:47:06 +0800",
+            "subject": "feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑"
           },
           {
-            "hash": "d26ffa0a5952832965adce53c0eeca74cfca000b",
-            "datetime": "2025-09-28 05:45:05 +0000",
-            "subject": "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n"
+            "hash": "c0343190023794eddac08d2f5be8b99fa45f81e0",
+            "datetime": "2025-09-28 13:44:40 +0800",
+            "subject": "refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑"
           },
           {
-            "hash": "e29fc795125f44bf73a5e12424a7d46e56c58831",
-            "datetime": "2025-09-28 05:08:08 +0000",
-            "subject": "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n"
+            "hash": "c0c4f0a6def5a5ddb8e0ee9ce02589961e495bd7",
+            "datetime": "2025-09-28 13:07:44 +0800",
+            "subject": "feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作"
           },
           {
-            "hash": "d118144711a8454c3197958039c4798ef9f59ac0",
-            "datetime": "2025-09-28 05:06:54 +0000",
-            "subject": "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n"
+            "hash": "42a25126ba132f5c4cc3369e23b92ae086151b33",
+            "datetime": "2025-09-28 13:06:31 +0800",
+            "subject": "feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束"
           },
           {
-            "hash": "06440ad4c1a8ca5caf0c52b1bebec6aacefad4b7",
-            "datetime": "2025-09-28 05:04:33 +0000",
-            "subject": "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n"
+            "hash": "dc0e6d74ebce56b0eec630ad26e605ab276f2170",
+            "datetime": "2025-09-28 13:04:01 +0800",
+            "subject": "feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行"
           },
           {
-            "hash": "255e58252a64d94db0b6cf7807f6e25407ac2421",
-            "datetime": "2025-09-28 04:58:28 +0000",
-            "subject": "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n"
+            "hash": "6b593a36fa3d9db84b1568f35f3396e37acb2c0a",
+            "datetime": "2025-09-28 12:57:59 +0800",
+            "subject": "feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）"
           },
           {
-            "hash": "ab5816c136157e2d09009e4540af7b42e188ff3f",
-            "datetime": "2025-09-27 18:19:36 +0000",
-            "subject": "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n"
+            "hash": "908017a7475eed20a827ba2fb215cd2940b5a8b6",
+            "datetime": "2025-09-28 02:19:11 +0800",
+            "subject": "feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码"
           },
           {
-            "hash": "cea39a65fec254b87456c11049d8799014de6a70",
-            "datetime": "2025-09-27 18:18:49 +0000",
-            "subject": "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n"
+            "hash": "bdd5899ab7816b0867b7c6ce16e207974cda7242",
+            "datetime": "2025-09-28 02:18:23 +0800",
+            "subject": "feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息"
           },
           {
-            "hash": "a6bfe0b2afb96ab6f4b45496b368cd12ff7c8835",
-            "datetime": "2025-09-27 18:07:05 +0000",
-            "subject": "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n"
+            "hash": "8cf21f71b2410437cbb98a5ec8acd0e9dee103dd",
+            "datetime": "2025-09-28 02:06:38 +0800",
+            "subject": "feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约"
           },
           {
-            "hash": "234b6032d330896270ee4cfe106df335337b3ff6",
-            "datetime": "2025-09-27 17:55:05 +0000",
-            "subject": "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n"
+            "hash": "188bd56b96990f03e1dc5fb0ec027be72229227c",
+            "datetime": "2025-09-28 01:54:34 +0800",
+            "subject": "feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约"
           },
           {
-            "hash": "013cfa97733e530209d659632671511fd6b2f499",
-            "datetime": "2025-09-27 17:38:10 +0000",
-            "subject": "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n"
+            "hash": "6c835caefbb884e6426c876ad8e453ee2a6c9f2d",
+            "datetime": "2025-09-28 01:37:44 +0800",
+            "subject": "feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑"
           },
           {
-            "hash": "95e443305af98bd25589bf739c08698ec4c2ff84",
-            "datetime": "2025-09-27 13:13:00 +0000",
-            "subject": "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n"
+            "hash": "ef70b039500827b005f528df0c408b215c6dfff3",
+            "datetime": "2025-09-27 21:12:33 +0800",
+            "subject": "refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性"
           },
           {
-            "hash": "cf0299099ead6d6f200fb332e1acf1a3a2919f0b",
-            "datetime": "2025-09-27 13:04:35 +0000",
-            "subject": "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n"
+            "hash": "430a86af4b2677bc6051690fb623dda694553d97",
+            "datetime": "2025-09-27 21:04:09 +0800",
+            "subject": "refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付"
           },
           {
-            "hash": "debdd4dce07e7d3f3415ed94b4eb5e5cb5ca270e",
-            "datetime": "2025-09-26 13:35:46 +0000",
-            "subject": "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n"
+            "hash": "537bc0163f88b41c6bc1e4f97b65fc89d5c2e284",
+            "datetime": "2025-09-26 21:35:16 +0800",
+            "subject": "feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑"
           },
           {
-            "hash": "af23e7db703c86dadf8bea96ef23b4853ad0fe44",
-            "datetime": "2025-09-26 10:10:06 +0000",
-            "subject": "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n"
+            "hash": "0450dc32ea6992595337b1073eb5c55e055894ff",
+            "datetime": "2025-09-26 18:09:36 +0800",
+            "subject": "refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义"
           },
           {
-            "hash": "764d59115dd7b5ffc4e20dfc26e5950ef146203a",
-            "datetime": "2025-09-24 18:43:56 +0000",
-            "subject": "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n"
+            "hash": "8c7ddb3733101dbf03f5884aa79e70efa49b9847",
+            "datetime": "2025-09-25 02:43:27 +0800",
+            "subject": "feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑"
           },
           {
-            "hash": "7e6e47aa8fc1874bf53ac1ec960c2bf5b3406c76",
-            "datetime": "2025-09-24 18:32:22 +0000",
-            "subject": "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n"
+            "hash": "b4ed3bfaa00577c83ee3ecc625f18930601c40da",
+            "datetime": "2025-09-25 02:31:54 +0800",
+            "subject": "feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息"
           },
           {
-            "hash": "cdf6163d2d77c488e8cb2fe79287d69670f87558",
-            "datetime": "2025-09-24 18:00:27 +0000",
-            "subject": "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n"
-          },
-          {
-            "hash": "df0b86b47bfeb06ef04c0b203ddbf3456f474f9e",
-            "datetime": "2025-09-24 17:47:25 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
-          },
-          {
-            "hash": "ccb1b3ccf550cafe793f40e85a3aa87d7f5ae4b5",
-            "datetime": "2025-09-24 17:43:59 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "368b83bd5620b9fc6a6a053aff233654520ab1bb",
-            "datetime": "2025-09-24 17:42:06 +0000",
-            "subject": "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n"
-          },
-          {
-            "hash": "b8402ae92a441769a7ef8e2591b00fde8ba142f9",
-            "datetime": "2025-09-24 16:47:10 +0000",
-            "subject": "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n"
-          },
-          {
-            "hash": "4f19dd408150d26f2efc710d282fd25612b8dd9a",
-            "datetime": "2025-09-24 16:22:54 +0000",
-            "subject": "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n"
-          },
-          {
-            "hash": "903f46fab40629324510d2b48c56b4d300a2b318",
-            "datetime": "2025-09-24 15:52:03 +0000",
-            "subject": "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n"
-          },
-          {
-            "hash": "072bb91119259d5a5649899af1c8ddb0cb703716",
-            "datetime": "2025-09-23 05:09:26 +0000",
-            "subject": "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
+            "hash": "df3ae3ef8a1d5cd96be646c7c8de22ff808214f8",
+            "datetime": "2025-09-23 13:08:59 +0800",
+            "subject": "feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑"
           }
         ],
-        "files": 28,
-        "added": 28,
-        "removed": 28,
+        "files": 100,
+        "added": 3060,
+        "removed": 1084,
         "heat": [
           [
-            "backend",
-            54
+            "src/main/java",
+            3954
           ],
           [
-            "admin",
-            2
+            "src/main/resources",
+            190
           ]
         ],
         "subjects": [
-          "[backend] 自动合并[d0b8de9: feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑]\\n",
-          "[backend] 自动合并[dab7271: feat: 添加二维码数据生成逻辑，优化订单履约信息处理]\\n",
-          "[backend] 自动合并[22cfb42: feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性]\\n",
-          "[backend] 自动合并[72078ff: feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑]\\n",
-          "[backend] 自动合并[c034319: refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑]\\n",
-          "[backend] 自动合并[c0c4f0a: feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作]\\n",
-          "[backend] 自动合并[42a2512: feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束]\\n",
-          "[backend] 自动合并[dc0e6d7: feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行]\\n",
-          "[backend] 自动合并[6b593a3: feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）]\\n",
-          "[backend] 自动合并[908017a: feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码]\\n",
-          "[backend] 自动合并[bdd5899: feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息]\\n",
-          "[backend] 自动合并[8cf21f7: feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[188bd56: feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约]\\n",
-          "[backend] 自动合并[6c835ca: feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑]\\n",
-          "[backend] 自动合并[ef70b03: refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性]\\n",
-          "[backend] 自动合并[430a86a: refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付]\\n",
-          "[backend] 自动合并[537bc01: feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑]\\n",
-          "[backend] 自动合并[0450dc3: refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义]\\n",
-          "[backend] 自动合并[8c7ddb3: feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑]\\n",
-          "[backend] 自动合并[b4ed3bf: feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息]\\n",
-          "[admin] 自动合并[83eadbf1: feat: 完成价格详情的页面设计]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[4c84a1e: feat: 更新订单详情 DTO 和组装逻辑，新增履约组件 ID 字段，优化价格快照构建逻辑]\\n",
-          "[backend] 自动合并[78fe322: feat: 新增客户端订单详情 DTO 和组装逻辑，优化订单查询和履约信息处理]\\n",
-          "[backend] 自动合并[1dfb5f2: feat: 新增通过 ID 查询订单及其详细信息的方法，优化懒加载问题]\\n",
-          "[backend] 自动合并[f2011e4: feat: 完善订单详情 V2 接口，新增快递信息和价格快照构建逻辑，优化订单查询和数据组装]\\n",
-          "[backend] 自动合并[df3ae3e: feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑]\\n"
+          "feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑",
+          "feat: 添加二维码数据生成逻辑，优化订单履约信息处理",
+          "feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性",
+          "feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑",
+          "refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑",
+          "feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作",
+          "feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束",
+          "feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行",
+          "feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）",
+          "feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码",
+          "feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息",
+          "feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约",
+          "feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约",
+          "feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑",
+          "refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性",
+          "refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付",
+          "feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑",
+          "refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义",
+          "feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑",
+          "feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息",
+          "feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑"
         ]
       }
     ]

@@ -1,0 +1,98 @@
+{
+  "title": "周报（2024-05-20 至 2024-05-24）",
+  "lang": "zh",
+  "since": "2024-05-20",
+  "until": "2024-05-24",
+  "generatedAt": "2025-11-02T11:43:11.352Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 14,
+      "added": 41,
+      "removed": 13
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "ac78b9a3947a0f6bccc547f08ea85603e5719b97",
+            "datetime": "2024-05-24 02:28:09 +0800",
+            "subject": "chore(projects): release v1.1.2"
+          },
+          {
+            "hash": "e379d6ce67cb483c1a917c8077bcea47b37629ad",
+            "datetime": "2024-05-24 02:23:59 +0800",
+            "subject": "fix(projects): fix multi tab page only render once. fixed #441"
+          },
+          {
+            "hash": "64fc0996e32935fce19e709b3b67af1c25ea32d2",
+            "datetime": "2024-05-24 02:12:33 +0800",
+            "subject": "fix(projects): fix header style & fix button highlight when click global-tab. fixed #446"
+          }
+        ],
+        "files": 14,
+        "added": 41,
+        "removed": 13,
+        "heat": [
+          [
+            "CHANGELOG.md",
+            16
+          ],
+          [
+            "packages",
+            16
+          ],
+          [
+            "src/layouts/modules",
+            16
+          ],
+          [
+            "src/store/modules",
+            4
+          ],
+          [
+            "package.json",
+            2
+          ]
+        ],
+        "subjects": [
+          "chore(projects): release v1.1.2",
+          "fix(projects): fix multi tab page only render once. fixed #441",
+          "fix(projects): fix header style & fix button highlight when click global-tab. fixed #446"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "title": "Weekly Report (2025-07-28 to 2025-08-03)",
+  "lang": "en",
+  "since": "2025-07-28",
+  "until": "2025-08-03",
+  "generatedAt": "2025-11-02T11:43:47.306Z",
+  "progress": {
+    "totals": {
+      "commits": 65,
+      "files": 386,
+      "added": 9072,
+      "removed": 6848
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "64305ca4d3a82514ca0748bae86a075436855fe4",
+            "datetime": "2025-08-03 14:53:52 +0800",
+            "subject": "feat: 优化配置履约流程"
+          },
+          {
+            "hash": "645099a55325b6f22c280d6c8cf04f878cd6e11f",
+            "datetime": "2025-08-02 22:47:26 +0800",
+            "subject": "feat: 完成店铺履约管理设计"
+          },
+          {
+            "hash": "b435a142f8cc54742a5509bb50694481eaca57c9",
+            "datetime": "2025-07-31 21:26:44 +0800",
+            "subject": "feat: 完成平台管理-模版管理/履约组件管理设计，修正服务组件管理，完善自动/手动同步路由脚本"
+          },
+          {
+            "hash": "18574b800ee5ff6b3005a412792b8b5ec62b00d8",
+            "datetime": "2025-07-29 12:55:43 +0800",
+            "subject": "refactor: 清理文件结构，使其符合新的菜单目录设计"
+          },
+          {
+            "hash": "9ce51206521bc9b967c7b7c8eaad781fed45f5a9",
+            "datetime": "2025-07-28 23:55:06 +0800",
+            "subject": "refactor: 重构admin菜单结构，为新价格页面建立页面"
+          }
+        ],
+        "files": 162,
+        "added": 4471,
+        "removed": 5417,
+        "heat": [
+          [
+            "src/views/app-manage",
+            4364
+          ],
+          [
+            "src/views/store",
+            1571
+          ],
+          [
+            "src/views/platform",
+            1477
+          ],
+          [
+            "src/router/elegant",
+            708
+          ],
+          [
+            "src/router/sync-config.json",
+            597
+          ],
+          [
+            "src/components/business",
+            282
+          ],
+          [
+            "src/service/api",
+            257
+          ],
+          [
+            "src/typings/api.d.ts",
+            170
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            132
+          ],
+          [
+            "src/locales/langs",
+            115
+          ],
+          [
+            "src/hooks/business",
+            69
+          ],
+          [
+            "src/theme/settings.ts",
+            63
+          ],
+          [
+            "packages",
+            30
+          ],
+          [
+            "src/views/test",
+            28
+          ],
+          [
+            "pnpm-lock.yaml",
+            19
+          ]
+        ],
+        "subjects": [
+          "feat: 优化配置履约流程",
+          "feat: 完成店铺履约管理设计",
+          "feat: 完成平台管理-模版管理/履约组件管理设计，修正服务组件管理，完善自动/手动同步路由脚本",
+          "refactor: 清理文件结构，使其符合新的菜单目录设计",
+          "refactor: 重构admin菜单结构，为新价格页面建立页面"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "a16de70249fd22a67b87d7d15413c9cc0e019388",
+            "datetime": "2025-08-03 19:35:59 +0800",
+            "subject": "refactor: 更新StorePriceItemDTO中的价格范围类型为double数组，并在PriceManageServiceImpl中相应调整价格处理逻辑"
+          },
+          {
+            "hash": "5b282eb0ff219654a2516c73275222ddaf9a32b0",
+            "datetime": "2025-08-03 18:48:51 +0800",
+            "subject": "feat: 支持服务组件价格范围设置"
+          },
+          {
+            "hash": "35e226f18ec947f41060b987ad6be22fafa11b53",
+            "datetime": "2025-08-03 16:52:24 +0800",
+            "subject": "refactor: 移除ServiceComponentPriceDTO，优化价格模板解析逻辑，使用Map结构处理服务配置"
+          },
+          {
+            "hash": "54a3ed87627b31a05a85f83a816dd421c3ffb69b",
+            "datetime": "2025-08-03 16:47:44 +0800",
+            "subject": "refactor: 更新ServiceComponentPriceDTO中的价格类型为BigDecimal，并在PriceManageServiceImpl和TemplateServiceImpl中相应调整价格处理逻辑"
+          },
+          {
+            "hash": "5b47b5734c7a3c0be0f63bdb94b3842fb4fe1565",
+            "datetime": "2025-08-03 15:43:30 +0800",
+            "subject": "refactor: 在PriceManageServiceImpl中引入StoreServiceSettingRepository，优化获取商店价格的逻辑，支持根据启用状态筛选服务设置"
+          },
+          {
+            "hash": "28711be69c0e1423f86825d65a16e0c156b4aa4b",
+            "datetime": "2025-08-03 15:29:41 +0800",
+            "subject": "refactor: 优化PriceManageController的请求映射以统一API路径；移除ServiceOption中的不必要的价格关联"
+          },
+          {
+            "hash": "90f212c218aa15d3666929f024169d18b234c0b2",
+            "datetime": "2025-08-03 15:23:37 +0800",
+            "subject": "refactor: 重构价格管理模块，更新DTO和实体类以支持价格更新功能；优化PriceManageServiceImpl中的价格获取和更新逻辑"
+          },
+          {
+            "hash": "d64f992b9156ff8af0809c38e4d0e5ef0ed954b7",
+            "datetime": "2025-08-03 14:30:31 +0800",
+            "subject": "refactor: 更新MenuRepository的查询以预加载权限；在MenuServiceImpl中为getAllEnabledRoutes方法添加只读事务注解以提高性能"
+          },
+          {
+            "hash": "2d22389e9109639ff476ef1156feeb2c963ccecd",
+            "datetime": "2025-08-03 14:08:29 +0800",
+            "subject": "refactor: 更新MenuController的请求映射以优化API路径；在MenuManageService中添加检查路由存在性的方法；在MenuManageServiceImpl中实现该方法"
+          },
+          {
+            "hash": "a8a2fd3386e930953de79e7b42a6f0ceab29b51c",
+            "datetime": "2025-08-03 14:03:42 +0800",
+            "subject": "refactor: 在MenuRepository中更新查询以预加载权限；在MenuServiceImpl中为getUserRoutes方法添加只读事务注解以提高性能"
+          },
+          {
+            "hash": "88ee6fd9db090b501fadec7178f3420340e71304",
+            "datetime": "2025-08-02 22:46:06 +0800",
+            "subject": "refactor: 在MenuManageServiceImpl中添加只读事务注解以提高性能；在getMenuTreeForManagement方法中预先初始化权限以避免LazyInitializationException"
+          },
+          {
+            "hash": "9e71867e8041626371e850c3c4b557e2ab821394",
+            "datetime": "2025-08-02 22:43:34 +0800",
+            "subject": "refactor: 在MenuServiceImpl中预先初始化权限以避免LazyInitializationException"
+          },
+          {
+            "hash": "ca6a7ac96d8303d16d8952da092c02b522a5ed1c",
+            "datetime": "2025-08-02 22:39:41 +0800",
+            "subject": "refactor: 更新StoreRepository和UserRepository以增强数据获取逻辑，添加权限覆盖信息；优化UserService中的用户获取逻辑，确保DTO包含完整用户信息；在MenuServiceImpl中添加只读事务注解以提高性能"
+          },
+          {
+            "hash": "e23709d824312c80e0752bf046777f96497ab12b",
+            "datetime": "2025-08-02 22:33:26 +0800",
+            "subject": "fix: 优化spring.jpa.open-in-view=false后出现的一些接口的问题"
+          },
+          {
+            "hash": "72f344ee1bf3f189d00854bcc03b44a36d595e60",
+            "datetime": "2025-08-02 21:48:33 +0800",
+            "subject": "refactor: 重构模板服务以支持多种视图，添加DTO以增强模板预览功能"
+          },
+          {
+            "hash": "d6b36cb0df592ccf723bfc526980e23b975286c8",
+            "datetime": "2025-08-02 20:59:26 +0800",
+            "subject": "refactor: 优化applyFulfillmentTemplate方法中的配置解析逻辑，增加空值检查以提高健壮性"
+          },
+          {
+            "hash": "294f3344965be9fc610e0d6678c00d127408eebf",
+            "datetime": "2025-08-02 20:47:03 +0800",
+            "subject": "refactor: 优化获取所有模板的方法，使用findAllIds以提高性能"
+          },
+          {
+            "hash": "78cab447a7a6a3b79739bf74b77a37104b7ab3fe",
+            "datetime": "2025-08-02 20:29:00 +0800",
+            "subject": "refactor: 添加应用履行模板功能以增强StoreFulfillment管理逻辑"
+          },
+          {
+            "hash": "8f771022b68cb660689b42336a47d5dcb594e2ef",
+            "datetime": "2025-08-02 20:17:07 +0800",
+            "subject": "refactor: 添加更新配置功能以增强StoreFulfillment管理逻辑"
+          },
+          {
+            "hash": "2dd948ec542741340d4583dd7d74f3140459e9c4",
+            "datetime": "2025-08-02 19:51:22 +0800",
+            "subject": "refactor: 添加日志记录以增强StoreFulfillment管理逻辑的可追踪性"
+          },
+          {
+            "hash": "d51b9d36f43e15396dcbab340570eebae9e6cb0a",
+            "datetime": "2025-08-01 22:35:18 +0800",
+            "subject": "refactor: 添加Jackson JSR310模块以支持Java 8日期时间类型"
+          },
+          {
+            "hash": "bedf7c3edfb3e4959159cddd41b19683cd30041f",
+            "datetime": "2025-08-01 22:28:24 +0800",
+            "subject": "refactor: 更新Jackson配置以使用Jackson2ObjectMapperBuilder构建ObjectMapper"
+          },
+          {
+            "hash": "6666c32b141bf65995c9a0ee05762213166c02c0",
+            "datetime": "2025-08-01 22:25:07 +0800",
+            "subject": "refactor: 移除冗余的Fulfillment相关类，重构StoreFulfillment管理逻辑"
+          },
+          {
+            "hash": "4d60833eb55658274fcdb22d6973d3d25d503e02",
+            "datetime": "2025-08-01 21:54:55 +0800",
+            "subject": "refactor: 更新StoreDeliveryScheme以修正enabled字段的列定义类型"
+          },
+          {
+            "hash": "abf3814b9e15beb4f59537c3167c71a714866b85",
+            "datetime": "2025-08-01 21:52:42 +0800",
+            "subject": "refactor: 更新StoreRepository以扩展EntityGraph注解，加载owner的权限覆盖信息"
+          },
+          {
+            "hash": "e9656ad2832c357ddb0ce91eb8dcdad402320d24",
+            "datetime": "2025-08-01 21:48:16 +0800",
+            "subject": "refactor: 更新StoreRepository以修正EntityGraph注解，确保加载owner角色信息"
+          },
+          {
+            "hash": "ca91cba438fd9d4f368be690f75ad03ecabda08b",
+            "datetime": "2025-08-01 21:44:52 +0800",
+            "subject": "refactor: 更新StoreRepository以优化实体图加载，更新UserRepository以移除不必要的EntityGraph注解"
+          },
+          {
+            "hash": "4920f9ef160fcbc6bf99f6cef91decea0aba28f1",
+            "datetime": "2025-08-01 21:41:58 +0800",
+            "subject": "refactor: 更新StoreRepository和UserRepository以优化实体图的加载策略"
+          },
+          {
+            "hash": "7c63c6a94df40a30f4041b3dc1c5a24ffcaadb8b",
+            "datetime": "2025-08-01 21:34:16 +0800",
+            "subject": "refactor: 更新MenuRepository和StoreRepository以优化查询和数据获取"
+          },
+          {
+            "hash": "b1a152bd43b04a31f3b782d41f88a739a734dd5f",
+            "datetime": "2025-08-01 21:27:25 +0800",
+            "subject": "refactor: 将Date类型替换为LocalDateTime以统一时间处理"
+          }
+        ],
+        "files": 224,
+        "added": 4601,
+        "removed": 1431,
+        "heat": [
+          [
+            "src/main/java",
+            5894
+          ],
+          [
+            "pom.xml",
+            138
+          ]
+        ],
+        "subjects": [
+          "refactor: 更新StorePriceItemDTO中的价格范围类型为double数组，并在PriceManageServiceImpl中相应调整价格处理逻辑",
+          "feat: 支持服务组件价格范围设置",
+          "refactor: 移除ServiceComponentPriceDTO，优化价格模板解析逻辑，使用Map结构处理服务配置",
+          "refactor: 更新ServiceComponentPriceDTO中的价格类型为BigDecimal，并在PriceManageServiceImpl和TemplateServiceImpl中相应调整价格处理逻辑",
+          "refactor: 在PriceManageServiceImpl中引入StoreServiceSettingRepository，优化获取商店价格的逻辑，支持根据启用状态筛选服务设置",
+          "refactor: 优化PriceManageController的请求映射以统一API路径；移除ServiceOption中的不必要的价格关联",
+          "refactor: 重构价格管理模块，更新DTO和实体类以支持价格更新功能；优化PriceManageServiceImpl中的价格获取和更新逻辑",
+          "refactor: 更新MenuRepository的查询以预加载权限；在MenuServiceImpl中为getAllEnabledRoutes方法添加只读事务注解以提高性能",
+          "refactor: 更新MenuController的请求映射以优化API路径；在MenuManageService中添加检查路由存在性的方法；在MenuManageServiceImpl中实现该方法",
+          "refactor: 在MenuRepository中更新查询以预加载权限；在MenuServiceImpl中为getUserRoutes方法添加只读事务注解以提高性能",
+          "refactor: 在MenuManageServiceImpl中添加只读事务注解以提高性能；在getMenuTreeForManagement方法中预先初始化权限以避免LazyInitializationException",
+          "refactor: 在MenuServiceImpl中预先初始化权限以避免LazyInitializationException",
+          "refactor: 更新StoreRepository和UserRepository以增强数据获取逻辑，添加权限覆盖信息；优化UserService中的用户获取逻辑，确保DTO包含完整用户信息；在MenuServiceImpl中添加只读事务注解以提高性能",
+          "fix: 优化spring.jpa.open-in-view=false后出现的一些接口的问题",
+          "refactor: 重构模板服务以支持多种视图，添加DTO以增强模板预览功能",
+          "refactor: 优化applyFulfillmentTemplate方法中的配置解析逻辑，增加空值检查以提高健壮性",
+          "refactor: 优化获取所有模板的方法，使用findAllIds以提高性能",
+          "refactor: 添加应用履行模板功能以增强StoreFulfillment管理逻辑",
+          "refactor: 添加更新配置功能以增强StoreFulfillment管理逻辑",
+          "refactor: 添加日志记录以增强StoreFulfillment管理逻辑的可追踪性",
+          "refactor: 添加Jackson JSR310模块以支持Java 8日期时间类型",
+          "refactor: 更新Jackson配置以使用Jackson2ObjectMapperBuilder构建ObjectMapper",
+          "refactor: 移除冗余的Fulfillment相关类，重构StoreFulfillment管理逻辑",
+          "refactor: 更新StoreDeliveryScheme以修正enabled字段的列定义类型",
+          "refactor: 更新StoreRepository以扩展EntityGraph注解，加载owner的权限覆盖信息",
+          "refactor: 更新StoreRepository以修正EntityGraph注解，确保加载owner角色信息",
+          "refactor: 更新StoreRepository以优化实体图加载，更新UserRepository以移除不必要的EntityGraph注解",
+          "refactor: 更新StoreRepository和UserRepository以优化实体图的加载策略",
+          "refactor: 更新MenuRepository和StoreRepository以优化查询和数据获取",
+          "refactor: 将Date类型替换为LocalDateTime以统一时间处理"
+        ]
+      }
+    ]
+  }
+}

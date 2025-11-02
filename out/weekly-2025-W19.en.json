@@ -1,0 +1,132 @@
+{
+  "title": "Weekly Report (2025-05-06 to 2025-05-11)",
+  "lang": "en",
+  "since": "2025-05-06",
+  "until": "2025-05-11",
+  "generatedAt": "2025-11-02T11:43:44.909Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 22,
+      "added": 3230,
+      "removed": 12
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "635ac56d6049976ca3a66bb9e7f4cbf584c8bf6e",
+            "datetime": "2025-05-08 14:31:42 +0800",
+            "subject": "docs: 20250508-docs"
+          }
+        ],
+        "files": 19,
+        "added": 3202,
+        "removed": 5,
+        "heat": [
+          [
+            "docs-old",
+            2139
+          ],
+          [
+            "PROJECT_PLAN.md",
+            631
+          ],
+          [
+            "docs",
+            394
+          ],
+          [
+            ".vscode",
+            35
+          ],
+          [
+            "admin",
+            2
+          ],
+          [
+            "backend",
+            2
+          ],
+          [
+            "frontend",
+            2
+          ],
+          [
+            ".eslintcache.txt",
+            1
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "docs: 20250508-docs"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "425ccbdef7bd5c894b840fb5873e38863aff27b9",
+            "datetime": "2025-05-06 20:32:09 +0800",
+            "subject": "fix: 修复i18n翻译渲染的问题"
+          }
+        ],
+        "files": 2,
+        "added": 15,
+        "removed": 5,
+        "heat": [
+          [
+            "src/store/modules",
+            16
+          ],
+          [
+            "src/views/system-manage",
+            4
+          ]
+        ],
+        "subjects": [
+          "fix: 修复i18n翻译渲染的问题"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "055bba92000a06903942b92ce7b1817e95d37ac9",
+            "datetime": "2025-05-06 20:32:19 +0800",
+            "subject": "feat(menu): 更新菜单元信息构建逻辑，使用menuName作为默认显示文本并添加i18nKey属性"
+          }
+        ],
+        "files": 1,
+        "added": 13,
+        "removed": 2,
+        "heat": [
+          [
+            "src/main/java",
+            15
+          ]
+        ],
+        "subjects": [
+          "feat(menu): 更新菜单元信息构建逻辑，使用menuName作为默认显示文本并添加i18nKey属性"
+        ]
+      }
+    ]
+  }
+}

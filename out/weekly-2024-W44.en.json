@@ -1,0 +1,129 @@
+{
+  "title": "Weekly Report (2024-10-28 to 2024-10-31)",
+  "lang": "en",
+  "since": "2024-10-28",
+  "until": "2024-10-31",
+  "generatedAt": "2025-11-02T11:43:38.022Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 40,
+      "added": 4195,
+      "removed": 596
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "05bc7458fdd9d2a22dab8dca8dc5e927dd4b6724",
+            "datetime": "2024-10-31 14:28:41 +0800",
+            "subject": "新增优惠券相关字段和接口，优化优惠券类型及叠加方式逻辑"
+          },
+          {
+            "hash": "c0ee51b7210a320272a4844d4ab7d71ed309dc0f",
+            "datetime": "2024-10-30 00:58:57 +0800",
+            "subject": "优化优惠券传参机制"
+          }
+        ],
+        "files": 17,
+        "added": 1130,
+        "removed": 331,
+        "heat": [
+          [
+            "src/views/app-manage",
+            1096
+          ],
+          [
+            "src/typings/app.d.ts",
+            152
+          ],
+          [
+            "src/locales/langs",
+            98
+          ],
+          [
+            "src/service/api",
+            86
+          ],
+          [
+            "src/typings/api.d.ts",
+            28
+          ],
+          [
+            "src/typings/components.d.ts",
+            1
+          ],
+          [
+            "src/main/java",
+            0
+          ]
+        ],
+        "subjects": [
+          "新增优惠券相关字段和接口，优化优惠券类型及叠加方式逻辑",
+          "优化优惠券传参机制"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "abe41c2a5f8a9409a79c994ed39e16e627ced013",
+            "datetime": "2024-10-31 14:27:43 +0800",
+            "subject": "feat: 添加有效期和叠加方式功能，更新优惠券相关类，修改数据库架构以支持新字段"
+          }
+        ],
+        "files": 23,
+        "added": 3065,
+        "removed": 265,
+        "heat": [
+          [
+            "openapi.yaml",
+            1521
+          ],
+          [
+            "api.md",
+            1074
+          ],
+          [
+            "src/main/java",
+            483
+          ],
+          [
+            "target",
+            231
+          ],
+          [
+            "src/main/resources",
+            21
+          ]
+        ],
+        "subjects": [
+          "feat: 添加有效期和叠加方式功能，更新优惠券相关类，修改数据库架构以支持新字段"
+        ]
+      }
+    ]
+  }
+}

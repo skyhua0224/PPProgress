@@ -1,0 +1,42 @@
+# Weekly Report (2024-03-25 to 2024-03-31)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-03-25 to 2024-03-31)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 11
+Total files touched: 46
+Total lines +/-: +870 / -530
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=11, files=46, +870/-530
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - pnpm-lock.yaml: 965
+  - CHANGELOG.md: 278
+  - packages: 52
+  - package.json: 48
+  - README.md: 20
+  - README.zh_CN.md: 14
+  - .gitattributes: 13
+  - src/components/custom: 6
+  - src/components/common: 2
+  - src/router/guard: 2
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] chore(projects): release v1.0.0
+  - [undefined] chore(projects): release v1.0.0-beta.3
+  - [undefined] chore(deps): update deps
+  - [undefined] docs(projects): update README.md
+  - [undefined] chore(projects): add .gitattributes
+  - [undefined] chore(projects): release v1.0.0-beta.2
+  - [undefined] fix(projects): fix pin-toggler toolTip zIndex
+  - [undefined] chore(deps): update deps
+  - [undefined] docs(projects): update README.md
+  - [undefined] docs(projects): update README.md

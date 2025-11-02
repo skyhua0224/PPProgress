@@ -1,0 +1,102 @@
+{
+  "title": "Weekly Report (2024-08-19 to 2024-08-23)",
+  "lang": "en",
+  "since": "2024-08-19",
+  "until": "2024-08-23",
+  "generatedAt": "2025-11-02T11:43:33.552Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 6,
+      "added": 534,
+      "removed": 533
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "3830ec7a69c82a41ca82f79ad1e9f7a1e887897a",
+            "datetime": "2024-08-23 10:50:03 +0800",
+            "subject": "fix(projects): fix login redirect"
+          },
+          {
+            "hash": "ef6cf93d96addfdf524456b672875084c4055963",
+            "datetime": "2024-08-21 18:25:33 +0800",
+            "subject": "fix(projects): avoid retrieving cached HTML (#605)"
+          },
+          {
+            "hash": "7fa55905fcb8b3176626e91a3c5f436487aa8f79",
+            "datetime": "2024-08-19 21:37:23 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 6,
+        "added": 534,
+        "removed": 533,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1019
+          ],
+          [
+            "package.json",
+            28
+          ],
+          [
+            "src/hooks/common",
+            10
+          ],
+          [
+            "src/store/modules",
+            4
+          ],
+          [
+            "src/plugins/app.ts",
+            4
+          ],
+          [
+            "packages",
+            2
+          ]
+        ],
+        "subjects": [
+          "fix(projects): fix login redirect",
+          "fix(projects): avoid retrieving cached HTML (#605)",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

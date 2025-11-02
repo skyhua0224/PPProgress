@@ -1,0 +1,84 @@
+{
+  "title": "周报（2024-05-07 至 2024-05-08）",
+  "lang": "zh",
+  "since": "2024-05-07",
+  "until": "2024-05-08",
+  "generatedAt": "2025-11-02T11:43:11.173Z",
+  "progress": {
+    "totals": {
+      "commits": 2,
+      "files": 3,
+      "added": 62,
+      "removed": 8
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "071241f8cbeb1c0a1f5ab31c7c3da75776dbd2b1",
+            "datetime": "2024-05-08 10:33:55 +0800",
+            "subject": "fix(styles): fix useTable type"
+          },
+          {
+            "hash": "1978397c9008ea41630c49a71038f47de938e379",
+            "datetime": "2024-05-07 21:32:03 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          }
+        ],
+        "files": 3,
+        "added": 62,
+        "removed": 8,
+        "heat": [
+          [
+            "CHANGELOG.zh_CN.md",
+            53
+          ],
+          [
+            "src/typings/naive-ui.d.ts",
+            11
+          ],
+          [
+            "packages",
+            6
+          ]
+        ],
+        "subjects": [
+          "fix(styles): fix useTable type",
+          "docs(projects): update CHANGELOG"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

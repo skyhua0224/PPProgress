@@ -1,0 +1,31 @@
+# 周报（2024-07-08 至 2024-07-12）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2024-07-08 至 2024-07-12）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 3
+触达文件总数: 16
+行变更合计 +/-: +425 / -350
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=3, files=16, +425/-350
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## 顶层目录热力（按模块）
+- admin:
+  - pnpm-lock.yaml: 722
+  - packages: 20
+  - CHANGELOG.md: 19
+  - package.json: 8
+  - src/store/modules: 4
+  - src/typings/router.d.ts: 2
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] chore(projects): release v1.2.7
+  - [undefined] chore(deps): update deps
+  - [undefined] optimize(projects):  supports custom menu icon sizes (#534)
