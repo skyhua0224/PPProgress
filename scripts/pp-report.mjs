@@ -776,6 +776,25 @@ function isoWeekKey(dateStr) {
   return `${y}-W${String(week).padStart(2, '0')}`
 }
 
+function prevIsoWeekSpanUTC(base = new Date()) {
+  // 使用 UTC 计算：找到“本周一(UTC)”和“上周一(UTC)”
+  const b = new Date(
+    Date.UTC(base.getUTCFullYear(), base.getUTCMonth(), base.getUTCDate()),
+  )
+  const day = (b.getUTCDay() + 6) % 7 // Monday=0
+  const thisMon = new Date(b)
+  thisMon.setUTCDate(thisMon.getUTCDate() - day)
+  const lastMon = new Date(thisMon)
+  lastMon.setUTCDate(lastMon.getUTCDate() - 7)
+  const lastSun = new Date(lastMon)
+  lastSun.setUTCDate(lastSun.getUTCDate() + 6)
+  const fmt = (d) => d.toISOString().slice(0, 10)
+  const since = fmt(lastMon)
+  const until = fmt(lastSun)
+  const key = isoWeekKey(since)
+  return { since, until, key }
+}
+
 async function runRetro(outDir, repoRoot, startISO, endISO, publish = false) {
   await ensureDir(outDir)
   const lang = String(args.lang || '').toLowerCase()
@@ -879,18 +898,27 @@ async function main() {
       console.log(out)
     }
   } else if (cmd === 'weekly') {
-    const stamp = `${sinceISO || 'recent'}_${untilISO || 'now'}`
+    // 默认：上一整周（ISO 周，周一至周日）
+    let span
+    if (sinceISO || untilISO) {
+      const s = sinceISO || null
+      const u = untilISO || null
+      const key = s ? isoWeekKey(s) : 'recent'
+      span = { since: s, until: u, key }
+    } else {
+      span = prevIsoWeekSpanUTC(new Date())
+    }
     const publish = String(args.publish || 'false') === 'true'
     const original = args.lang
     if (String(args.lang).toLowerCase() === 'both') {
       for (const l of ['zh', 'en']) {
         args.lang = l
-        const out = path.join(outDir, `weekly-${stamp}.${l}.md`)
+        const out = path.join(outDir, `weekly-${span.key}.${l}.md`)
         const result = await runWeekly(
           out,
           repoRoot,
-          sinceISO,
-          untilISO,
+          span.since,
+          span.until,
           publish,
         )
         if (result) console.log(result)
@@ -898,12 +926,24 @@ async function main() {
       args.lang = original
     } else if (['zh', 'en'].includes(String(args.lang || '').toLowerCase())) {
       const l = String(args.lang).toLowerCase()
-      const out = path.join(outDir, `weekly-${stamp}.${l}.md`)
-      const result = await runWeekly(out, repoRoot, sinceISO, untilISO, publish)
+      const out = path.join(outDir, `weekly-${span.key}.${l}.md`)
+      const result = await runWeekly(
+        out,
+        repoRoot,
+        span.since,
+        span.until,
+        publish,
+      )
       if (result) console.log(result)
     } else {
-      const out = path.join(outDir, `weekly-${stamp}.md`)
-      const result = await runWeekly(out, repoRoot, sinceISO, untilISO, publish)
+      const out = path.join(outDir, `weekly-${span.key}.md`)
+      const result = await runWeekly(
+        out,
+        repoRoot,
+        span.since,
+        span.until,
+        publish,
+      )
       if (result) console.log(result)
     }
   } else if (cmd === 'retro') {

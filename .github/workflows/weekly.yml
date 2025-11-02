@@ -27,7 +27,6 @@ jobs:
                   MAIN_REPO_BRANCH: main
                   OUTPUT_DIR: out
                   MODE: weekly
-                  SINCE_DAYS: "7"
                   REPORT_LANG: both
                   INCLUDE_CAPS: "false"
                   PUBLISH_MD: "true"

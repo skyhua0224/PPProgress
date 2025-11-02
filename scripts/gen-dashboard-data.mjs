@@ -107,6 +107,40 @@ function runGit(args = []) {
   return res.stdout
 }
 
+// ------ Ensure repository has enough history for stats (fix shallow clones) ------
+function isShallowRepo(cwd) {
+  try {
+    const res = spawnSync('git', ['rev-parse', '--is-shallow-repository'], {
+      cwd,
+      encoding: 'utf8',
+    })
+    return String(res.stdout || '').trim() === 'true'
+  } catch {
+    return false
+  }
+}
+
+function tryUnshallow(cwd) {
+  try {
+    // Prefer unshallow; if it fails (already full), ignore
+    const r = spawnSync('git', ['fetch', '--unshallow', '--tags'], {
+      cwd,
+      encoding: 'utf8',
+    })
+    if (r.status === 0) return true
+  } catch {}
+  try {
+    // Fallback: deepen a lot
+    const r = spawnSync('git', ['fetch', '--deepen=500000', '--tags'], {
+      cwd,
+      encoding: 'utf8',
+    })
+    return r.status === 0
+  } catch {
+    return false
+  }
+}
+
 function sinceArg(days) {
   const d = new Date()
   d.setDate(d.getDate() - Number(days || 0))
@@ -737,6 +771,30 @@ async function countSloc(dir, options = {}) {
 }
 
 async function buildProjectStats() {
+  // Make sure we have enough history (main repo)
+  try {
+    if (isShallowRepo(ROOT)) {
+      tryUnshallow(ROOT)
+    }
+  } catch {}
+  // And for each allowed submodule
+  try {
+    const moduleConfig = await loadModuleConfig()
+    for (const name of moduleConfig.allowed || []) {
+      if (name === 'root') continue
+      const subPath = path.join(ROOT, name)
+      try {
+        const r = spawnSync('git', ['rev-parse', '--git-dir'], {
+          cwd: subPath,
+          encoding: 'utf8',
+        })
+        if (r.status === 0 && isShallowRepo(subPath)) {
+          tryUnshallow(subPath)
+        }
+      } catch {}
+    }
+  } catch {}
+
   const moduleConfig = await loadModuleConfig()
   const commitTrend = collectCommitTrend(TREND_DAYS)
   const commitTrend365 = collectCommitTrend(YEAR_DAYS)
