@@ -1694,13 +1694,21 @@ function closeModal() {
   document.getElementById('modal').classList.add('hidden')
   document.getElementById('modal').classList.remove('flex')
 
-  // Destroy charts
-  Object.values(STATE.charts).forEach((chart) => {
+  // 仅销毁“周报详情模态窗”内部的图表，避免误删仪表盘上的趋势与分布图
+  ;['module', 'changes'].forEach((key) => {
+    const chart = STATE.charts[key]
     if (chart && typeof chart.destroy === 'function') {
-      chart.destroy()
+      try {
+        chart.destroy()
+      } catch {}
     }
+    delete STATE.charts[key]
   })
-  STATE.charts = {}
+
+  // 可选：在关闭模态后根据当前视图状态刷新仪表盘，确保画布正确渲染
+  try {
+    updateDashboardByView()
+  } catch {}
 }
 
 // 允许通过 URL 直接打开具体周报，例如: ?report=weekly-2025-W21.zh.md
