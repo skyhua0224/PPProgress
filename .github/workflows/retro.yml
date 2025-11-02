@@ -1,0 +1,74 @@
+name: Retro Backfill Reports
+
+on:
+    workflow_dispatch:
+        inputs:
+            lang:
+                description: "Report language (both/zh/en)"
+                required: false
+                default: "both"
+            publish_md:
+                description: "Also publish Markdown (.md)"
+                type: boolean
+                required: false
+                default: true
+            include_caps:
+                description: "Include static capabilities scan"
+                type: boolean
+                required: false
+                default: false
+            init_submodules:
+                description: "Init submodules (recursive)"
+                type: boolean
+                required: false
+                default: true
+            generate_live:
+                description: "Also generate LIVE JSON (account/project stats)"
+                type: boolean
+                required: false
+                default: true
+
+permissions:
+    contents: write
+
+jobs:
+    retro:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Progress repo
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Run retro backfill
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+                  MAIN_REPO: skyhua0224/ProjectPrinting
+                  MAIN_REPO_BRANCH: main
+                  OUTPUT_DIR: out
+                  MODE: retro
+                  # Fixed backfill start; end omitted means 'today' per orchestrator logic
+                  RETRO_START: "2024-01-01"
+                  REPORT_LANG: ${{ inputs.lang }}
+                  INCLUDE_CAPS: ${{ inputs.include_caps }}
+                  PUBLISH_MD: ${{ inputs.publish_md }}
+                  INIT_SUBMODULES: ${{ inputs.init_submodules }}
+                  GENERATE_LIVE: ${{ inputs.generate_live }}
+              run: |
+                  node --version
+                  node scripts/pull-and-generate.mjs
+
+            - name: Commit and push if changed
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  if [ -n "$(git status --porcelain)" ]; then
+                    git add out
+                    git commit -m "chore: retro: backfill reports [skip ci]"
+                    git push
+                  else
+                    echo "No changes to commit."
+                  fi

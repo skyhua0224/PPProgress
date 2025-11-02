@@ -60,8 +60,8 @@ try {
     GENERATOR_PATH_A,
     GENERATOR_PATH_B,
   ].find((p) => existsSync(p))
-  const TMP_OUT = join(work, 'tmp-out')
-  mkdirSync(TMP_OUT, { recursive: true })
+  // Ensure final outDir exists for direct writes
+  mkdirSync(outDir, { recursive: true })
 
   if (!existsSync(GENERATOR_PATH)) {
     console.error(`[error] Generator script not found: ${GENERATOR_PATH}`)
@@ -114,7 +114,7 @@ try {
       `--lang=${REPORT_LANG}`,
       '--publish=true',
       `--includeCaps=${INCLUDE_CAPS}`,
-      `--outDir=${TMP_OUT}`,
+      `--outDir=${outDir}`,
     )
     console.log(
       `[generate] MODE=${MODE_STR} -> node ${GENERATOR_PATH} ${args.join(' ')}`,
@@ -125,7 +125,7 @@ try {
       `--lang=${REPORT_LANG}`,
       '--publish=true',
       `--includeCaps=${INCLUDE_CAPS}`,
-      `--outDir=${TMP_OUT}`,
+      `--outDir=${outDir}`,
     )
     console.log(
       `[generate] MODE=${MODE_STR} -> node ${GENERATOR_PATH} ${args.join(' ')}`,
@@ -142,7 +142,7 @@ try {
       `--lang=${REPORT_LANG}`,
       '--publish=true',
       `--includeCaps=${INCLUDE_CAPS}`,
-      `--outDir=${TMP_OUT}`,
+      `--outDir=${outDir}`,
     )
     console.log(
       `[generate] MODE=${MODE_STR} (fallback weekly) -> node ${GENERATOR_PATH} ${args.join(
@@ -173,12 +173,12 @@ try {
         console.log(
           '[generate] running gen-dashboard-data to produce LIVE JSON ...',
         )
-        execSync(`node ${GEN_LIVE} --outDir=${TMP_OUT}`.trim(), {
+        execSync(`node ${GEN_LIVE} --outDir=${outDir}`.trim(), {
           stdio: 'inherit',
           cwd: mainRepoDir,
           env: { ...process.env, GITHUB_TOKEN },
         })
-        // Outputs already in TMP_OUT when using --outDir, no copy required
+        // Outputs already in outDir when using --outDir, no copy required
       } else {
         console.log(
           '[info] gen-dashboard-data.mjs not found; skipping LIVE JSON generation',
@@ -189,17 +189,7 @@ try {
     console.warn('[warn] LIVE JSON generation skipped:', e?.message)
   }
 
-  console.log('[copy] syncing data files into repo out/...')
-  mkdirSync(outDir, { recursive: true })
-  // only copy data files and delete removed ones
-  // Include markdown only when PUBLISH_MD=true
-  const rsyncCmd =
-    PUBLISH_MD === 'true'
-      ? `rsync -a --delete --include='*/' --include='*.json' --include='*.md' --exclude='*' ${TMP_OUT}/ ${outDir}/`
-      : `rsync -a --delete --include='*/' --include='*.json' --exclude='*' ${TMP_OUT}/ ${outDir}/`
-  execSync(rsyncCmd, { stdio: 'inherit' })
-
-  console.log('[done] Data generated and synced to out/.')
+  console.log('[done] Data generated directly into out/.')
 } catch (err) {
   console.error('[fatal]', err?.message || err)
   process.exit(3)
