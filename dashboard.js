@@ -135,8 +135,9 @@ const escapeHtml = (str) => {
 }
 
 const formatDate = (isoString) => {
-  if (!isoString) return ''
-  const date = new Date(isoString)
+  if (isoString === undefined || isoString === null) return ''
+  const date = parseDateSafe(isoString)
+  if (!date) return ''
   return currentLang === 'zh'
     ? date.toLocaleString('zh-CN', {
         year: 'numeric',
@@ -155,8 +156,9 @@ const formatDate = (isoString) => {
 }
 
 const formatRelativeTime = (isoString) => {
-  if (!isoString) return ''
-  const date = new Date(isoString)
+  if (isoString === undefined || isoString === null) return ''
+  const date = parseDateSafe(isoString)
+  if (!date) return ''
   const now = new Date()
   const diff = now - date
   const seconds = Math.floor(diff / 1000)
@@ -174,6 +176,30 @@ const formatRelativeTime = (isoString) => {
     if (hours > 0) return `${hours}h ago`
     if (minutes > 0) return `${minutes}m ago`
     return `${seconds}s ago`
+  }
+}
+
+// 兼容 Safari 的安全日期解析（支持数值时间戳、RFC3339、"YYYY-MM-DD HH:mm:ss +0800" 等）
+function parseDateSafe(value) {
+  try {
+    if (typeof value === 'number') {
+      const d = new Date(value)
+      return isNaN(d.getTime()) ? null : d
+    }
+    let s = String(value)
+    // 先尝试直接解析
+    let d = new Date(s)
+    if (!isNaN(d.getTime())) return d
+    // 将空格替换为 T，并将 +0800 -> +08:00（RFC3339）
+    s = s.replace(' ', 'T').replace(/([+-]\d{2})(\d{2})$/, '$1:$2')
+    d = new Date(s)
+    if (!isNaN(d.getTime())) return d
+    // 去掉时区部分，按本地时间解析日期部分
+    const noTZ = s.replace(/\s*[+-]\d{2}:?\d{2}$/, '')
+    d = new Date(noTZ)
+    return isNaN(d.getTime()) ? null : d
+  } catch {
+    return null
   }
 }
 
@@ -511,8 +537,15 @@ function updateDashboardByView() {
     } else if (STATE.view.range === '1w') {
       // 近一周: 优先使用last30再截取,或者直接使用year数据截取
       trendData = (series.last30 || series.year || []).slice(-7)
-    } else if (STATE.view.range === '1m' || STATE.view.range === 'month') {
+    } else if (STATE.view.range === '1m') {
       trendData = series.last30 || []
+    } else if (STATE.view.range === 'month' && STATE.view.month) {
+      // 从一年序列中过滤出所选月份
+      trendData = (series.year || []).filter(
+        (p) => String(p.date || '').slice(0, 7) === STATE.view.month,
+      )
+      // 若该月无数据，退回 last30
+      if (!trendData.length) trendData = series.last30 || []
     } else {
       trendData = series.last30 || []
     }
@@ -527,8 +560,15 @@ function updateDashboardByView() {
       // 近一周: 从commitTrend截取最后7天
       const src = LIVE.project.commitTrend || LIVE.project.commitTrend365 || []
       trendData = src.slice(-7)
-    } else if (STATE.view.range === '1m' || STATE.view.range === 'month') {
+    } else if (STATE.view.range === '1m') {
       trendData = LIVE.project.commitTrend || []
+    } else if (STATE.view.range === 'month' && STATE.view.month) {
+      // 使用全年日序列过滤指定月份
+      const src = LIVE.project.commitTrend365 || []
+      trendData = src.filter(
+        (p) => String(p.date || '').slice(0, 7) === STATE.view.month,
+      )
+      if (!trendData.length) trendData = LIVE.project.commitTrend || []
     } else {
       trendData = LIVE.project.commitTrend || []
     }
@@ -756,6 +796,10 @@ function renderContributionHeatmap(modules) {
         .join('')}
     </div>
   `
+  // 默认滚动到最右侧（显示最近日期，更符合 GitHub 展示习惯）
+  try {
+    requestAnimationFrame(() => (container.scrollLeft = container.scrollWidth))
+  } catch {}
 }
 
 // ==================== 渲染提交趋势图表 ====================
@@ -1226,17 +1270,27 @@ function renderRecentCommitsFromProject(project) {
   }
   const now = new Date()
   if (range === '1w') {
-    filtered = filtered.filter(
-      (c) => now - new Date(c.datetime) <= 7 * 86400000,
-    )
+    filtered = filtered.filter((c) => {
+      const d = parseDateSafe(c.datetime)
+      return d && now - d <= 7 * 86400000
+    })
   } else if (range === '1m') {
-    filtered = filtered.filter(
-      (c) => now - new Date(c.datetime) <= 30 * 86400000,
-    )
+    filtered = filtered.filter((c) => {
+      const d = parseDateSafe(c.datetime)
+      return d && now - d <= 30 * 86400000
+    })
   } else if (range === '1y') {
     filtered = filtered // 已是近一年
   } else if (range === 'month' && month) {
-    filtered = filtered.filter((c) => (c.datetime || '').slice(0, 7) === month)
+    filtered = filtered.filter((c) => {
+      const d = parseDateSafe(c.datetime)
+      if (!d) return false
+      const ym = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+        2,
+        '0',
+      )}`
+      return ym === month
+    })
   }
   const shown = filtered.slice(0, STATE.view.commitsShown)
   renderRecentCommitsFromList(shown)
@@ -1419,6 +1473,9 @@ function renderContributionHeatmapFromMap(map) {
         .join('')}
     </div>
   `
+  try {
+    requestAnimationFrame(() => (container.scrollLeft = container.scrollWidth))
+  } catch {}
 }
 
 async function loadLiveStats() {

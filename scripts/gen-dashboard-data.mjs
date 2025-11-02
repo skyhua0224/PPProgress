@@ -917,7 +917,7 @@ async function buildProjectStats() {
       since,
       '--no-merges',
       '--pretty=format:%H|%ad|%an|%ae|%s',
-      '--date=iso',
+      '--date=iso-strict',
     ])
     const names = runGit([
       'log',
@@ -981,7 +981,7 @@ async function buildProjectStats() {
             since,
             '--no-merges',
             '--pretty=format:%H|%ad|%an|%ae|%s',
-            '--date=iso',
+            '--date=iso-strict',
           ],
           {
             cwd: submodulePath,
