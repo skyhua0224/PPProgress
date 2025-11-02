@@ -71,6 +71,21 @@ try {
   // Optionally init submodules (private) to ensure complete stats
   if (INIT_SUBMODULES === 'true') {
     try {
+      // Ensure GitHub HTTPS URLs use the provided token for any submodule fetches
+      try {
+        execSync(
+          `git config --local url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"`,
+          { stdio: 'inherit', cwd: mainRepoDir },
+        )
+        console.log(
+          '[git] configured https://github.com -> token rewrite (local)',
+        )
+      } catch (e) {
+        console.warn(
+          '[warn] failed to set url.insteadOf for token rewrite:',
+          e?.message,
+        )
+      }
       if (isRetro) {
         console.log('[pull] init submodules (recursive, full history) ...')
         execSync('git submodule update --init --recursive', {

@@ -949,13 +949,14 @@ async function buildProjectStats() {
       modulesByHash.set(currentHash, Array.from(currentMods))
     }
 
-    // 主仓库提交(不过滤,显示所有提交)
+    // 主仓库提交（过滤机器人/自动合并等噪声提交）
     meta
       .split(/\r?\n/)
       .filter(Boolean)
       .forEach((l) => {
         const [hash, datetime, author, email, ...rest] = l.split('|')
         const subject = rest.join('|')
+        if (isBotCommit(author, email, subject)) return
         allCommits.push({
           hash,
           datetime,
