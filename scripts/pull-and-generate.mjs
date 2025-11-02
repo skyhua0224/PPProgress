@@ -80,6 +80,52 @@ try {
         console.log(
           '[git] configured https://github.com -> token rewrite (local)',
         )
+        // Also set as global to ensure nested git processes (spawned by submodule) inherit the rewrite
+        try {
+          execSync(
+            `git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"`,
+            { stdio: 'inherit' },
+          )
+          console.log('[git] configured token rewrite (global)')
+        } catch (e) {
+          console.warn('[warn] failed to set global token rewrite:', e?.message)
+        }
+        // Proactively rewrite .gitmodules URLs to embed the token for HTTPS submodules, then sync
+        try {
+          const listing = execSync(
+            'git config -f .gitmodules --get-regexp ^submodule\\..*\\.url',
+            { cwd: mainRepoDir },
+          )
+            .toString()
+            .trim()
+          if (listing) {
+            const lines = listing.split(/\r?\n/)
+            for (const line of lines) {
+              const idx = line.indexOf(' ')
+              if (idx <= 0) continue
+              const key = line.slice(0, idx).trim()
+              const url = line.slice(idx + 1).trim()
+              if (url.startsWith('https://github.com/')) {
+                const rest = url.replace('https://github.com/', '')
+                const newUrl = `https://x-access-token:${GITHUB_TOKEN}@github.com/${rest}`
+                execSync(
+                  `git config -f .gitmodules ${JSON.stringify(
+                    key,
+                  )} ${JSON.stringify(newUrl)}`,
+                  { cwd: mainRepoDir, stdio: 'inherit' },
+                )
+              }
+            }
+            // sync updated .gitmodules into local git config
+            execSync('git submodule sync --recursive', {
+              cwd: mainRepoDir,
+              stdio: 'inherit',
+            })
+            console.log('[git] .gitmodules rewritten (if needed) and synced')
+          }
+        } catch (e) {
+          console.warn('[warn] .gitmodules rewrite/sync skipped:', e?.message)
+        }
       } catch (e) {
         console.warn(
           '[warn] failed to set url.insteadOf for token rewrite:',
