@@ -1,0 +1,348 @@
+{
+  "title": "Weekly Report (2025-08-18 to 2025-08-24)",
+  "lang": "en",
+  "since": "2025-08-18",
+  "until": "2025-08-24",
+  "generatedAt": "2025-11-02T10:56:00.670Z",
+  "progress": {
+    "totals": {
+      "commits": 33,
+      "files": 151,
+      "added": 5629,
+      "removed": 2569
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "b94877cac533c9b1fe0068a1a73116240c3c0af8",
+            "datetime": "2025-08-23 22:36:28 +0800",
+            "subject": "feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利"
+          },
+          {
+            "hash": "5e0d49382f9b00e4baf4dd2b9d578d5da3dcf264",
+            "datetime": "2025-08-21 23:17:49 +0800",
+            "subject": "feat: 增强优惠券发放功能，新增状态/补救等功能"
+          },
+          {
+            "hash": "bbb267baf0fec27641bf58260968ce01a0eb0212",
+            "datetime": "2025-08-20 23:07:13 +0800",
+            "subject": "fix: 修复优惠券系列代码可见问题"
+          },
+          {
+            "hash": "7997b761117dd0ce223f49b960bcc7be2e9153eb",
+            "datetime": "2025-08-20 01:16:55 +0800",
+            "subject": "feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码"
+          }
+        ],
+        "files": 51,
+        "added": 3150,
+        "removed": 1521,
+        "heat": [
+          [
+            "src/views/marketing",
+            2364
+          ],
+          [
+            "src/views/system",
+            966
+          ],
+          [
+            "src/service/api",
+            735
+          ],
+          [
+            "src/components/business",
+            298
+          ],
+          [
+            "src/typings/api.d.ts",
+            126
+          ],
+          [
+            "src/locales/langs",
+            111
+          ],
+          [
+            "src/typings/app.d.ts",
+            18
+          ],
+          [
+            "src/router/sync-config.json",
+            13
+          ],
+          [
+            "src/router/elegant",
+            11
+          ],
+          [
+            "pnpm-lock.yaml",
+            9
+          ],
+          [
+            "src/typings/components.d.ts",
+            8
+          ],
+          [
+            "src/typings/marketing-augmentation.d.ts",
+            8
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            2
+          ],
+          [
+            "src/typings/abc.code-profile",
+            1
+          ],
+          [
+            "package.json",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 新增客户等级管理页面，用于更好的管理组内逻辑中的会员等级福利",
+          "feat: 增强优惠券发放功能，新增状态/补救等功能",
+          "fix: 修复优惠券系列代码可见问题",
+          "feat: 完善优惠券发布有关用户方面的代码，重新整理用户接口逻辑与实体，重构部分用户管理代码"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "71647ec62a6f0ed3e885759f16b871b79e5aef5c",
+            "datetime": "2025-08-20 01:17:20 +0800",
+            "subject": "feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程"
+          }
+        ],
+        "files": 4,
+        "added": 215,
+        "removed": 130,
+        "heat": [
+          [
+            "src/pages-sub/mine",
+            206
+          ],
+          [
+            "src/service/userService.ts",
+            92
+          ],
+          [
+            "src/utils/http.ts",
+            46
+          ],
+          [
+            "src/store/user.ts",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 修改用户相关代码，使其符合新的用户表结构，优化初始化流程"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "4edbb46e3dc2b8f1aff421d62d69c69c0098004e",
+            "datetime": "2025-08-23 22:26:39 +0800",
+            "subject": "feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理"
+          },
+          {
+            "hash": "d5411834fa3d7ea04a679e9c78edb4e79e17bf7f",
+            "datetime": "2025-08-23 15:43:41 +0800",
+            "subject": "feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑"
+          },
+          {
+            "hash": "3e603237503d55f353358feed9ce6c42fc7f5c0e",
+            "datetime": "2025-08-23 15:29:14 +0800",
+            "subject": "fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0"
+          },
+          {
+            "hash": "632716cbb0b499e35547e95a62cd31668b45c65d",
+            "datetime": "2025-08-23 15:27:59 +0800",
+            "subject": "feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法"
+          },
+          {
+            "hash": "0f40292cdbd3bee296daf7ec2d3d9a5b052630b8",
+            "datetime": "2025-08-23 15:27:25 +0800",
+            "subject": "feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理"
+          },
+          {
+            "hash": "cff9c8481f8eef1a3947d0bc8cad86ab9107abb2",
+            "datetime": "2025-08-23 14:12:55 +0800",
+            "subject": "feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象"
+          },
+          {
+            "hash": "68d4241e3cfe0857854f3f68ca91ef75533f88de",
+            "datetime": "2025-08-23 13:54:10 +0800",
+            "subject": "feat: 添加客户端搜索功能，支持根据关键字查询用户"
+          },
+          {
+            "hash": "c42b205c763beffaaf07dbfcab9c00209f250b81",
+            "datetime": "2025-08-22 21:53:05 +0800",
+            "subject": "feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑"
+          },
+          {
+            "hash": "deca07929e25ee39deee8f3581b5dcb698f79072",
+            "datetime": "2025-08-21 22:08:38 +0800",
+            "subject": "feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断"
+          },
+          {
+            "hash": "4261df15bd424c04be560419ad23c471c6926d09",
+            "datetime": "2025-08-21 22:04:09 +0800",
+            "subject": "fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题"
+          },
+          {
+            "hash": "cad9b4577b37e9d3f8818c47856834bdf2080ac4",
+            "datetime": "2025-08-21 21:59:09 +0800",
+            "subject": "feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作"
+          },
+          {
+            "hash": "37658cc10ede98af49fc307b08e457198f5bb916",
+            "datetime": "2025-08-21 21:10:03 +0800",
+            "subject": "feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动"
+          },
+          {
+            "hash": "4071e58fb83f460b5c10c2d099c2016db9e740b5",
+            "datetime": "2025-08-21 20:39:35 +0800",
+            "subject": "feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段"
+          },
+          {
+            "hash": "6032323f83d6b5f26123044cfeb7ed38812e9e6c",
+            "datetime": "2025-08-21 17:12:12 +0800",
+            "subject": "fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误"
+          },
+          {
+            "hash": "a15b227ce51c456886c10787c0d26fbf613cd78a",
+            "datetime": "2025-08-21 16:56:33 +0800",
+            "subject": "feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理"
+          },
+          {
+            "hash": "8849a01aee8e2fa141ee872984543e46b6828767",
+            "datetime": "2025-08-21 16:10:23 +0800",
+            "subject": "feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter"
+          },
+          {
+            "hash": "94b55e00729ecec8e476acc6593c5a982d7460d9",
+            "datetime": "2025-08-21 15:32:20 +0800",
+            "subject": "feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑"
+          },
+          {
+            "hash": "2e49ad893c15629b6992a2d7a9f9a4857736fc22",
+            "datetime": "2025-08-21 15:19:55 +0800",
+            "subject": "feat: 规范化获取活动的排序字段，避免属性引用异常"
+          },
+          {
+            "hash": "dc6f4949855ee3b1b588607238dba4077a50610f",
+            "datetime": "2025-08-21 14:50:59 +0800",
+            "subject": "feat: 添加排序功能到获取优惠券的方法，支持多字段排序"
+          },
+          {
+            "hash": "2f37b30cdd09df639b3e78ee08851a7ef1b01a78",
+            "datetime": "2025-08-20 22:11:47 +0800",
+            "subject": "feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理"
+          },
+          {
+            "hash": "9442b042d5133d175d2e024fc2471f8fbc868470",
+            "datetime": "2025-08-20 01:28:46 +0800",
+            "subject": "refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能"
+          },
+          {
+            "hash": "b980e66ccc3e4f7999d8c7cdbc0ada399c4b61d3",
+            "datetime": "2025-08-20 01:14:48 +0800",
+            "subject": "feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计"
+          },
+          {
+            "hash": "8d9380520ca5f3dc42211eb8e0d87604078cc8e3",
+            "datetime": "2025-08-20 00:16:08 +0800",
+            "subject": "feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总"
+          },
+          {
+            "hash": "f27d40b00792f2d595567214c7c4cae41cbd3a27",
+            "datetime": "2025-08-19 23:18:42 +0800",
+            "subject": "feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持"
+          },
+          {
+            "hash": "6ce53b077d9cb6502c1cfa2d4c4bdfab6a6b0a6e",
+            "datetime": "2025-08-19 22:48:28 +0800",
+            "subject": "fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解"
+          },
+          {
+            "hash": "005b2005ee5837408de295c6a75cdc9bd6fbdf6c",
+            "datetime": "2025-08-19 22:43:35 +0800",
+            "subject": "feat: 为获取管理员档案的方法添加只读事务注解，优化数据访问性能"
+          },
+          {
+            "hash": "878658e8e8a00984f469ed88d30888ff5601fffe",
+            "datetime": "2025-08-19 22:04:18 +0800",
+            "subject": "feat: 添加 ClientProfileDTO 类，更新 UserDTO 以支持客户端配置文件，并在 UserService 中处理权限代码"
+          },
+          {
+            "hash": "4ed9c35c0a5fd3d46d2bcec0b1261a72e8857d30",
+            "datetime": "2025-08-19 15:58:38 +0800",
+            "subject": "feat: 重构用户表，并新增clientProfile，并将用户表的部分数据列迁移到 clientProfile 中"
+          }
+        ],
+        "files": 96,
+        "added": 2264,
+        "removed": 918,
+        "heat": [
+          [
+            "src/main/java",
+            3168
+          ],
+          [
+            "pom.xml",
+            14
+          ]
+        ],
+        "subjects": [
+          "feat: 添加 targetLevels 属性到 CouponCampaignDto、CouponCampaignResponseDto 和 CouponCampaign 实体，支持会员等级管理",
+          "feat: 更新 ClientLevel 实体类，修改 benefits 属性类型为 String，并添加 JSON 转换逻辑",
+          "fix: 更新 hypersistence-utils-hibernate-60 依赖版本至 3.7.0",
+          "feat: 添加 ClientLevel 实体类，定义客户端等级的属性和方法",
+          "feat: 添加 ClientLevel 相关功能，包括 DTO、服务、控制器和仓库，实现客户端等级管理",
+          "feat: 添加 ClientPickerDTO 类，支持从 User 对象构建客户端选择器数据传输对象",
+          "feat: 添加客户端搜索功能，支持根据关键字查询用户",
+          "feat: 添加 ItemConstraint 以支持更灵活的优惠券规则，优化订单计算逻辑",
+          "feat: 添加 appendAuditTag 方法，优化 updatedBy 字段的处理，避免数据库截断",
+          "fix: 修复 CampaignOperationLog 中的 JsonIgnore 注解，避免循环引用问题",
+          "feat: 添加活动操作日志功能，支持获取日志、追回已发券和赔付用户操作",
+          "feat: 添加状态转换逻辑，确保在将活动状态切换为 DRAFT 时正确处理已发布的计划活动",
+          "feat: 添加发布活动功能，支持未来时间调度和即时激活，增强审计字段",
+          "fix: 修复更新活动时的关联处理，避免 orphanRemoval 错误",
+          "feat: 添加强制删除和强制停止活动的功能，支持 DRAFT 和 ACTIVE 状态的处理",
+          "feat: 重构 CampaignCouponAssociation 和 CampaignCouponId，使用复合主键并添加相应的 getter 和 setter",
+          "feat: 移除未使用的 CampaignCouponAssociationRepository，优化创建和更新活动的逻辑",
+          "feat: 规范化获取活动的排序字段，避免属性引用异常",
+          "feat: 添加排序功能到获取优惠券的方法，支持多字段排序",
+          "feat: 重构优惠券相关功能，新增用户优惠券获取和使用逻辑，优化订单计算服务中的优惠券处理",
+          "refactor: 修改 AdminProfileDTO 和 User 实体，调整 managedStores 的加载策略为懒加载，并移除冗余注解以优化性能",
+          "feat: 添加获取客户端用户的方法，更新 UserService 以支持基于客户端配置文件的用户统计",
+          "feat: 添加 PermissionSummaryDTO 类，优化权限管理，更新 AdminProfileDTO 和 UserService 以支持权限汇总",
+          "feat: 更新获取管理员档案的方法，重构 AdminProfileDTO，添加权限覆盖和有效权限支持",
+          "fix: 修改 AdminProfile 中的 managedStores 关系为 EAGER 以确保数据及时加载，并移除冗余注解",
+          "feat: 为获取管理员档案的方法添加只读事务注解，优化数据访问性能",
+          "feat: 添加 ClientProfileDTO 类，更新 UserDTO 以支持客户端配置文件，并在 UserService 中处理权限代码",
+          "feat: 重构用户表，并新增clientProfile，并将用户表的部分数据列迁移到 clientProfile 中"
+        ]
+      }
+    ]
+  }
+}

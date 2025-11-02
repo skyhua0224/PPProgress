@@ -1,0 +1,245 @@
+{
+  "title": "Weekly Report (2025-10-06 to 2025-10-12)",
+  "lang": "en",
+  "since": "2025-10-06",
+  "until": "2025-10-12",
+  "generatedAt": "2025-11-02T10:56:02.947Z",
+  "progress": {
+    "totals": {
+      "commits": 20,
+      "files": 111,
+      "added": 20554,
+      "removed": 1521
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "9641a3a37c886a5992e8bf5004e2911b7b6fe285",
+            "datetime": "2025-10-07 23:36:46 +0800",
+            "subject": "feat: 为下一阶段开发设计全新的任务指引"
+          },
+          {
+            "hash": "fbca8974fc0c5fbca775d9babd35fbf9ad8c4e4d",
+            "datetime": "2025-10-06 23:24:46 +0800",
+            "subject": "feat: 同步订单-支付-订单状态的文档以及mockup 页面"
+          }
+        ],
+        "files": 44,
+        "added": 18340,
+        "removed": 873,
+        "heat": [
+          [
+            "docs",
+            19021
+          ],
+          [
+            "analysis",
+            192
+          ]
+        ],
+        "subjects": [
+          "feat: 为下一阶段开发设计全新的任务指引",
+          "feat: 同步订单-支付-订单状态的文档以及mockup 页面"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "7a4b164c71f2ecfbd2e4e4a048bb94d1b976836d",
+            "datetime": "2025-10-06 23:22:44 +0800",
+            "subject": "feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责"
+          }
+        ],
+        "files": 8,
+        "added": 935,
+        "removed": 232,
+        "heat": [
+          [
+            "src/views/order",
+            737
+          ],
+          [
+            "src/service/api",
+            212
+          ],
+          [
+            "src/typings/api.d.ts",
+            139
+          ],
+          [
+            "src/views/platform",
+            70
+          ],
+          [
+            "pnpm-lock.yaml",
+            8
+          ],
+          [
+            "package.json",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 增强履约组件管理以及订单管理，完善组件设计逻辑，分离履约组件configMode 的职责"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "5c1324e97a9ed911b8e383ef5952f2e564c8493c",
+            "datetime": "2025-10-09 23:38:55 +0800",
+            "subject": "feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑"
+          }
+        ],
+        "files": 5,
+        "added": 336,
+        "removed": 289,
+        "heat": [
+          [
+            "src/pages/order",
+            431
+          ],
+          [
+            "src/hooks/useOrderStatusMeta.ts",
+            189
+          ],
+          [
+            ".eslintrc-auto-import.json",
+            3
+          ],
+          [
+            "src/types/auto-import.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 添加 useOrderStatusMeta hook，优化订单状态和履约类型的元数据处理，更新相关组件以使用新逻辑"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "17c68482174f174361c81acc7982ffe2a603f12b",
+            "datetime": "2025-10-12 18:39:52 +0800",
+            "subject": "feat: 添加获取所有履行类别的接口，并引入相关依赖"
+          },
+          {
+            "hash": "58c151b94f2adb632d93854ac2952a689a31cec7",
+            "datetime": "2025-10-12 14:27:35 +0800",
+            "subject": "feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段"
+          },
+          {
+            "hash": "e69b6eedf0651787ad4d1b3e8904405f67366de6",
+            "datetime": "2025-10-12 14:19:45 +0800",
+            "subject": "fix: 再次回滚以确保回滚到正确的文件版本"
+          },
+          {
+            "hash": "40f0dee8a33052c6d60cebeab842a448cf19700a",
+            "datetime": "2025-10-12 14:10:10 +0800",
+            "subject": "fix: 回滚以修复报错"
+          },
+          {
+            "hash": "4d7e400e3ad1bc8fb9f1fcc23a8e292baa4f4810",
+            "datetime": "2025-10-12 14:02:49 +0800",
+            "subject": "feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件"
+          },
+          {
+            "hash": "1b60e5088272ee3e20c54353fe528309b1db1ff5",
+            "datetime": "2025-10-12 13:48:48 +0800",
+            "subject": "feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑"
+          },
+          {
+            "hash": "624818b44ae726629a9c44b07711b71819f3d748",
+            "datetime": "2025-10-12 13:40:26 +0800",
+            "subject": "feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类"
+          },
+          {
+            "hash": "291b967a23a7fd509f923aa3f09895d6f18916d9",
+            "datetime": "2025-10-12 13:38:47 +0800",
+            "subject": "feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性"
+          },
+          {
+            "hash": "faf57cf0c61461393f6e659d4eae47119ac22aa3",
+            "datetime": "2025-10-12 13:36:07 +0800",
+            "subject": "feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑"
+          },
+          {
+            "hash": "74b57264a07f8c6fdbf29d66f8c1bb3f7ba66853",
+            "datetime": "2025-10-12 13:24:01 +0800",
+            "subject": "feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段"
+          },
+          {
+            "hash": "0f29c1d56de6ba632e87dcb2fd194451a216ce49",
+            "datetime": "2025-10-11 22:59:16 +0800",
+            "subject": "feat: 重构订单分类逻辑，添加FulfillmentCategory和CategoryInfo类，修改 `FulfillmentComponent` 实体，将 `category` 字段改造为与 `FulfillmentCategory` 的多对一关联。"
+          },
+          {
+            "hash": "be3dddcdfe1701db7bc220d7509eaf596fc901a5",
+            "datetime": "2025-10-10 22:57:07 +0800",
+            "subject": "feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性"
+          },
+          {
+            "hash": "fc75dae06220386e5189ea19e2f1b73be8d6e932",
+            "datetime": "2025-10-10 21:56:58 +0800",
+            "subject": "feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入"
+          },
+          {
+            "hash": "a782ea258dd5058681c74c5c6208613cd977f71b",
+            "datetime": "2025-10-10 11:26:16 +0800",
+            "subject": "feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志"
+          },
+          {
+            "hash": "19517869ace09ee0d2a73caff19a7c070da0570c",
+            "datetime": "2025-10-10 10:50:06 +0800",
+            "subject": "feat: 添加订单更新时间字段，更新相关方法以支持状态更新"
+          },
+          {
+            "hash": "4f476910e9cb45308fd6adb5fd3d0b63f57184e4",
+            "datetime": "2025-10-10 10:30:59 +0800",
+            "subject": "feat: 添加自动完成订单的定时任务，支持超时订单的自动处理"
+          }
+        ],
+        "files": 54,
+        "added": 943,
+        "removed": 127,
+        "heat": [
+          [
+            "src/main/java",
+            807
+          ],
+          [
+            "src/main/resources",
+            263
+          ]
+        ],
+        "subjects": [
+          "feat: 添加获取所有履行类别的接口，并引入相关依赖",
+          "feat: 添加 PIN_ONLY 自助打印组件，更新 fulfillment_components 表结构以包含更多字段",
+          "fix: 再次回滚以确保回滚到正确的文件版本",
+          "fix: 回滚以修复报错",
+          "feat: 更新 fulfillment_categories 和 fulfillment_components，修复数据迁移逻辑并添加新组件",
+          "feat: 更新 fulfillment_categories 数据，调整分类和组件关联以支持新逻辑",
+          "feat: 更新 fulfillment_components 中的 category_id 关联，添加更多组件键并处理空值分类",
+          "feat: 更新fulfillment_categories插入语句，支持重复键更新以确保数据一致性",
+          "feat: 更新FulfillmentOption构造函数，添加CategoryInfo中的规则字段以支持新逻辑",
+          "feat: 更新CategoryInfo类，添加SelectionRule字段并修改构造函数，更新相关服务实现以支持新字段",
+          "feat: 重构订单分类逻辑，添加FulfillmentCategory和CategoryInfo类，修改 `FulfillmentComponent` 实体，将 `category` 字段改造为与 `FulfillmentCategory` 的多对一关联。",
+          "feat: 添加确认送达接口，支持订单状态手动确认并处理幂等性",
+          "feat: 添加配送和快递信息更新接口，支持订单状态变更和信息录入",
+          "feat: 更新订单状态处理逻辑，支持预约订单转为QUEUE_NUMBER模式并记录状态日志",
+          "feat: 添加订单更新时间字段，更新相关方法以支持状态更新",
+          "feat: 添加自动完成订单的定时任务，支持超时订单的自动处理"
+        ]
+      }
+    ]
+  }
+}

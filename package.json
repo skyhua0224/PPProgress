@@ -1,0 +1,9 @@
+{
+  "name": "ppprogress",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:daily": "MODE=daily SINCE_DAYS=7 node scripts/pull-and-generate.mjs",
+    "generate:weekly": "MODE=weekly SINCE_DAYS=7 node scripts/pull-and-generate.mjs"
+  }
+}

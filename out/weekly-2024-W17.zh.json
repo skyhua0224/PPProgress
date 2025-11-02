@@ -1,0 +1,300 @@
+{
+  "title": "周报（2024-04-23 至 2024-04-27）",
+  "lang": "zh",
+  "since": "2024-04-23",
+  "until": "2024-04-27",
+  "generatedAt": "2025-11-02T10:55:06.377Z",
+  "progress": {
+    "totals": {
+      "commits": 44,
+      "files": 190,
+      "added": 2587,
+      "removed": 1563
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "52188d8853c7e02294d48c4dfb839b1e6082eb64",
+            "datetime": "2024-04-27 13:47:53 +0800",
+            "subject": "chore(projects): update .npmrc"
+          },
+          {
+            "hash": "fbc2e61f49160c772fe677fb7ed80005194b2b66",
+            "datetime": "2024-04-27 13:32:45 +0800",
+            "subject": "feat(packages): @sa/scripts: add new commit type `optimize` and commit scope `packages`"
+          },
+          {
+            "hash": "55d7cc09d7d18c0c96ccbaf59452772cde91efb3",
+            "datetime": "2024-04-27 13:21:04 +0800",
+            "subject": "chore(projects): release v1.0.8"
+          },
+          {
+            "hash": "dae2aa5513dfb0a183881d937e4389ad8a5d327e",
+            "datetime": "2024-04-27 13:07:19 +0800",
+            "subject": "fix(projects): recovery the layout config before is mobile. fixed #408, fixed #361"
+          },
+          {
+            "hash": "e3bd39724808b8b961b9c77261d491f6e14aa3a0",
+            "datetime": "2024-04-27 02:29:39 +0800",
+            "subject": "feat(projects): support repeated request errors occur once in a short time. close #368, close #369"
+          },
+          {
+            "hash": "b3e9bbaeaa5e21cb333823555e114f49f9afff51",
+            "datetime": "2024-04-27 02:00:51 +0800",
+            "subject": "perf(projects): perf judgement the fixed tab"
+          },
+          {
+            "hash": "4708eded4c7765eec77f0c90f58980f393353a73",
+            "datetime": "2024-04-27 00:25:56 +0800",
+            "subject": "fix(projects): fix tab fixedIndex as null case"
+          },
+          {
+            "hash": "3d10ef1a907342955c7afead1fa04cf3d5584022",
+            "datetime": "2024-04-27 00:03:17 +0800",
+            "subject": "fix(projects): menu fixedIndexInTab default null"
+          },
+          {
+            "hash": "3ddb17a0f5d7268a2c2b70edc2f2271be7f7e31a",
+            "datetime": "2024-04-26 23:00:34 +0800",
+            "subject": "fix(projects): text level low. #409"
+          },
+          {
+            "hash": "dbe31eb1dca83e74c52742fc6a9d1d4a8d86680f",
+            "datetime": "2024-04-26 20:00:23 +0800",
+            "subject": "feat(projects): add menu route field"
+          },
+          {
+            "hash": "a8dbc03e231dbfd2d5aa5b14e3502802c1a58d31",
+            "datetime": "2024-04-26 08:53:37 +0800",
+            "subject": "refactor(projects): `Soybean Admin` to `SoybeanAdmin`"
+          },
+          {
+            "hash": "c0ed1f26f7ba054254ddc7aa347b372155e1173c",
+            "datetime": "2024-04-26 02:22:51 +0800",
+            "subject": "fix(components): fix PinToggler label. fixed #407"
+          },
+          {
+            "hash": "a1920fcad93cba27aaec9acb4564c482a8f8b290",
+            "datetime": "2024-04-26 02:18:36 +0800",
+            "subject": "feat(projects): add recommend color switch. closed #388"
+          },
+          {
+            "hash": "34999971fda08ae99da7034d51131f4e6a24ab38",
+            "datetime": "2024-04-26 01:42:35 +0800",
+            "subject": "refactor(projects): refactor @sa/color-palette => @sa/color & perf @sa/utils"
+          },
+          {
+            "hash": "1cb3816e4842efcf379bfdcd83a44447c7ab67f6",
+            "datetime": "2024-04-25 23:51:09 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "4749b411bd5b3611b373a998a635b6e67b7ec52c",
+            "datetime": "2024-04-25 23:25:17 +0800",
+            "subject": "chore(projects): release v1.0.7"
+          },
+          {
+            "hash": "fbd80c289a27c76dd09e615e0ad5c3bf576bc676",
+            "datetime": "2024-04-25 23:24:42 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "da12d4a5cdb98d4f066358a9b4f0346fa335a187",
+            "datetime": "2024-04-25 23:08:38 +0800",
+            "subject": "feat(projects): support iframe page with diffrent url of custom route"
+          },
+          {
+            "hash": "3e61eab498767f13aea11c70ad328ee856e1fcd2",
+            "datetime": "2024-04-25 22:46:21 +0800",
+            "subject": "feat(projects): add table showTotal options"
+          },
+          {
+            "hash": "1c3b4734fa72b42db10b8f2036bbb68efde0b841",
+            "datetime": "2024-04-25 22:09:59 +0800",
+            "subject": "chore(projects): release v1.0.6"
+          },
+          {
+            "hash": "93c7ff712215a0acc3ce441e1fcedf3929d473b5",
+            "datetime": "2024-04-25 22:07:23 +0800",
+            "subject": "fix(projects): fix mix-menu blank. fixed #389 & cache mixMenuFixed"
+          },
+          {
+            "hash": "1e14293d671cde4f712ad9e6b5d4609d328abe89",
+            "datetime": "2024-04-25 21:49:14 +0800",
+            "subject": "refactor(projects): useMixMenuContext replace useMixMenu"
+          },
+          {
+            "hash": "19e65c1a9f9dc3a6941b10944083ed90cc7f0f78",
+            "datetime": "2024-04-25 21:27:59 +0800",
+            "subject": "chore(projects): update pnpm version requirement"
+          },
+          {
+            "hash": "e57bf0b0768919dea06bd4a5dc96a67a59fce9c3",
+            "datetime": "2024-04-25 15:01:23 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "5d45cef1f0c6691431adb56133cb2dd97bffef89",
+            "datetime": "2024-04-25 15:00:47 +0800",
+            "subject": "perf(hooks): perf useSignal"
+          },
+          {
+            "hash": "d460e5cc6dc4215798e04766988d47b68d185cf4",
+            "datetime": "2024-04-25 13:09:26 +0800",
+            "subject": "perf(projects): add tsconfig.json for @sa/color-palette"
+          },
+          {
+            "hash": "3b5e4b340567321e969c8b1d01b0b94a7016e135",
+            "datetime": "2024-04-25 13:08:38 +0800",
+            "subject": "refactor(hooks): refactor useSignal, useComputed"
+          },
+          {
+            "hash": "1fc34cc5f8db1c0aeb480632d81493215dd4aa30",
+            "datetime": "2024-04-25 04:44:47 +0800",
+            "subject": "feat(projects): Add prefix to local storage"
+          },
+          {
+            "hash": "dcd51f4cda154093d91a5f26973f2e9cd170b627",
+            "datetime": "2024-04-25 10:24:48 +0800",
+            "subject": "chore(projects): use `engines` replace `packageManager`"
+          },
+          {
+            "hash": "09f64646781111e154ffdb2a753d8c7367a1381a",
+            "datetime": "2024-04-25 01:39:59 +0800",
+            "subject": "feat(hooks): add state hooks: useRef, useState, useSignal"
+          }
+        ],
+        "files": 190,
+        "added": 2587,
+        "removed": 1563,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1632
+          ],
+          [
+            "packages",
+            836
+          ],
+          [
+            "CHANGELOG.md",
+            506
+          ],
+          [
+            "src/views/manage",
+            292
+          ],
+          [
+            "src/store/modules",
+            201
+          ],
+          [
+            "src/router/routes",
+            109
+          ],
+          [
+            "src/locales/langs",
+            64
+          ],
+          [
+            "src/service/request",
+            53
+          ],
+          [
+            "src/layouts/modules",
+            45
+          ],
+          [
+            "src/layouts/context",
+            45
+          ],
+          [
+            "src/layouts/hooks",
+            44
+          ],
+          [
+            "src/views/function",
+            36
+          ],
+          [
+            "package.json",
+            35
+          ],
+          [
+            "src/typings/app.d.ts",
+            30
+          ],
+          [
+            "src/views/_builtin",
+            29
+          ]
+        ],
+        "subjects": [
+          "chore(projects): update .npmrc",
+          "feat(packages): @sa/scripts: add new commit type `optimize` and commit scope `packages`",
+          "chore(projects): release v1.0.8",
+          "fix(projects): recovery the layout config before is mobile. fixed #408, fixed #361",
+          "feat(projects): support repeated request errors occur once in a short time. close #368, close #369",
+          "perf(projects): perf judgement the fixed tab",
+          "fix(projects): fix tab fixedIndex as null case",
+          "fix(projects): menu fixedIndexInTab default null",
+          "fix(projects): text level low. #409",
+          "feat(projects): add menu route field",
+          "refactor(projects): `Soybean Admin` to `SoybeanAdmin`",
+          "fix(components): fix PinToggler label. fixed #407",
+          "feat(projects): add recommend color switch. closed #388",
+          "refactor(projects): refactor @sa/color-palette => @sa/color & perf @sa/utils",
+          "chore(deps): update deps",
+          "chore(projects): release v1.0.7",
+          "chore(deps): update deps",
+          "feat(projects): support iframe page with diffrent url of custom route",
+          "feat(projects): add table showTotal options",
+          "chore(projects): release v1.0.6",
+          "fix(projects): fix mix-menu blank. fixed #389 & cache mixMenuFixed",
+          "refactor(projects): useMixMenuContext replace useMixMenu",
+          "chore(projects): update pnpm version requirement",
+          "chore(deps): update deps",
+          "perf(hooks): perf useSignal",
+          "perf(projects): add tsconfig.json for @sa/color-palette",
+          "refactor(hooks): refactor useSignal, useComputed",
+          "feat(projects): Add prefix to local storage",
+          "chore(projects): use `engines` replace `packageManager`",
+          "feat(hooks): add state hooks: useRef, useState, useSignal"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

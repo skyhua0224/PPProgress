@@ -1,0 +1,28 @@
+# OS & editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node
+node_modules/
+.npm/
+
+# Vercel/Deploy
+.vercel/
+
+# Logs & temps
+*.log
+.tmp/
+tmp/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+/dist/
+
+# Keep out/ tracked (generated JSON served by Vercel)
+# !out/

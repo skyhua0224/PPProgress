@@ -1,0 +1,175 @@
+{
+  "title": "Weekly Report (2025-02-10 to 2025-02-15)",
+  "lang": "en",
+  "since": "2025-02-10",
+  "until": "2025-02-15",
+  "generatedAt": "2025-11-02T10:55:51.589Z",
+  "progress": {
+    "totals": {
+      "commits": 6,
+      "files": 43,
+      "added": 3137,
+      "removed": 1873
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "15163d7011cfcbcc4e2ab5f82df5adc194cc3940",
+            "datetime": "2025-02-11 23:57:16 +0800",
+            "subject": "Revert \"fix(projects): fix multiple calls to the login API when clicking quickly. fixed #697 (#698)\""
+          },
+          {
+            "hash": "132e101243ec05ec5832a259acfdd06b9ff2556f",
+            "datetime": "2025-02-11 23:49:24 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 4,
+        "added": 805,
+        "removed": 785,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1544
+          ],
+          [
+            "package.json",
+            34
+          ],
+          [
+            "src/views/_builtin",
+            8
+          ],
+          [
+            "packages",
+            4
+          ]
+        ],
+        "subjects": [
+          "Revert \"fix(projects): fix multiple calls to the login API when clicking quickly. fixed #697 (#698)\"",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "cb4cd1fc8dce951c9db4c28e74ee904c996a1168",
+            "datetime": "2025-02-13 22:11:41 +0800",
+            "subject": "style: 调整订单详情组件的内边距和字体大小，优化视觉效果"
+          },
+          {
+            "hash": "8e8c98fbc2cd2ac774938a1589faecd370239bbf",
+            "datetime": "2025-02-12 21:29:04 +0800",
+            "subject": "feat: 添加订单详情相关组件，支持文件列表和基本信息展示，优化复制功能"
+          },
+          {
+            "hash": "49a422fc9de40458182ccdeb3ecba28467d16f97",
+            "datetime": "2025-02-11 19:57:57 +0800",
+            "subject": "feat: 优化订单进度组件，更新支付和打印状态的显示逻辑"
+          },
+          {
+            "hash": "33f6af636b65a3e9819ce02322ff4ed4d5072f2f",
+            "datetime": "2025-02-11 18:34:40 +0800",
+            "subject": "feat: 添加订单详情页面和相关组件，优化文件列表和订单进度显示"
+          }
+        ],
+        "files": 39,
+        "added": 2332,
+        "removed": 1088,
+        "heat": [
+          [
+            "src/pages-sub/order",
+            1377
+          ],
+          [
+            "src/pages/order",
+            1319
+          ],
+          [
+            "src/service/orderMockData.ts",
+            309
+          ],
+          [
+            "src/components/OrderProgress.vue",
+            228
+          ],
+          [
+            "src/{ => pages/order}",
+            127
+          ],
+          [
+            "tsconfig.json",
+            51
+          ],
+          [
+            ".gitignore",
+            4
+          ],
+          [
+            "src/pages.json",
+            4
+          ],
+          [
+            "src/types/uni-pages.d.ts",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ],
+          [
+            "src/.DS_Store",
+            0
+          ],
+          [
+            "src/App.vue",
+            0
+          ],
+          [
+            "src/env.d.ts",
+            0
+          ],
+          [
+            "src/main.ts",
+            0
+          ],
+          [
+            "src/manifest.json",
+            0
+          ]
+        ],
+        "subjects": [
+          "style: 调整订单详情组件的内边距和字体大小，优化视觉效果",
+          "feat: 添加订单详情相关组件，支持文件列表和基本信息展示，优化复制功能",
+          "feat: 优化订单进度组件，更新支付和打印状态的显示逻辑",
+          "feat: 添加订单详情页面和相关组件，优化文件列表和订单进度显示"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

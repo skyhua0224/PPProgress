@@ -1,0 +1,168 @@
+{
+  "title": "Weekly Report (2024-10-22 to 2024-10-25)",
+  "lang": "en",
+  "since": "2024-10-22",
+  "until": "2024-10-25",
+  "generatedAt": "2025-11-02T10:55:45.989Z",
+  "progress": {
+    "totals": {
+      "commits": 8,
+      "files": 65,
+      "added": 2808,
+      "removed": 1210
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "a77dad30ae29e6f24edba7f9799138a73a7b1b8d",
+            "datetime": "2024-10-25 11:18:12 +0800",
+            "subject": "完善了优惠券创建流程"
+          },
+          {
+            "hash": "1c45646d7013427794d6185b69f4bc15e2e24216",
+            "datetime": "2024-10-25 01:24:57 +0800",
+            "subject": "设置创建优惠券的i18nkey，并且优化了优惠券类型显示逻辑"
+          },
+          {
+            "hash": "0c1741096bc0bddd595447582037000b9d5a08fd",
+            "datetime": "2024-10-25 01:14:09 +0800",
+            "subject": "chore(projects): release v1.3.8"
+          },
+          {
+            "hash": "71e6307db27d570c6eeb2f29b110068763bffb19",
+            "datetime": "2024-10-25 01:12:40 +0800",
+            "subject": "chore(projects): update deps & fix sass usage"
+          },
+          {
+            "hash": "b667eab76ac1afdeb762c0e94b3c368a472dc124",
+            "datetime": "2024-10-25 00:54:17 +0800",
+            "subject": "refactor(projects)!: refactor route cache & support reset route cache strategy"
+          },
+          {
+            "hash": "00ebac6c31fbee509ad0318313802d62368bdbc7",
+            "datetime": "2024-10-24 23:33:15 +0800",
+            "subject": "feat: 添加用户管理界面"
+          },
+          {
+            "hash": "1f67e1d697766f6bccf194e26e03366d83b0752a",
+            "datetime": "2024-10-24 13:48:03 +0800",
+            "subject": "暂存基本信息设置"
+          },
+          {
+            "hash": "372a4eb600a7c6a8d078c4162f9559d09cabaa13",
+            "datetime": "2024-10-24 13:18:12 +0800",
+            "subject": "新增创建优惠券页面和优惠券类型界面"
+          }
+        ],
+        "files": 65,
+        "added": 2808,
+        "removed": 1210,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1902
+          ],
+          [
+            "src/views/app-manage",
+            928
+          ],
+          [
+            "src/views/user-manage",
+            486
+          ],
+          [
+            "src/locales/langs",
+            165
+          ],
+          [
+            "src/typings/api.d.ts",
+            133
+          ],
+          [
+            "src/store/modules",
+            82
+          ],
+          [
+            "src/typings/app.d.ts",
+            64
+          ],
+          [
+            "packages",
+            50
+          ],
+          [
+            "package.json",
+            37
+          ],
+          [
+            "CHANGELOG.md",
+            36
+          ],
+          [
+            "src/typings/components.d.ts",
+            34
+          ],
+          [
+            "src/layouts/modules",
+            22
+          ],
+          [
+            "src/service/api",
+            19
+          ],
+          [
+            "src/constants/business.ts",
+            13
+          ],
+          [
+            "src/router/elegant",
+            13
+          ]
+        ],
+        "subjects": [
+          "完善了优惠券创建流程",
+          "设置创建优惠券的i18nkey，并且优化了优惠券类型显示逻辑",
+          "chore(projects): release v1.3.8",
+          "chore(projects): update deps & fix sass usage",
+          "refactor(projects)!: refactor route cache & support reset route cache strategy",
+          "feat: 添加用户管理界面",
+          "暂存基本信息设置",
+          "新增创建优惠券页面和优惠券类型界面"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

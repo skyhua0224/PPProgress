@@ -1,0 +1,74 @@
+{
+  "title": "Weekly Report (2024-12-25 to 2024-12-26)",
+  "lang": "en",
+  "since": "2024-12-25",
+  "until": "2024-12-26",
+  "generatedAt": "2025-11-02T10:55:50.319Z",
+  "progress": {
+    "totals": {
+      "commits": 1,
+      "files": 2,
+      "added": 7,
+      "removed": 9
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "60dd22624bb50621fc19f87bb0573f55bb0887e0",
+            "datetime": "2024-12-26 11:07:19 +0800",
+            "subject": "fix(projects): fix login success notification. fixed #688"
+          }
+        ],
+        "files": 2,
+        "added": 7,
+        "removed": 9,
+        "heat": [
+          [
+            "src/store/modules",
+            12
+          ],
+          [
+            "src/hooks/common",
+            4
+          ]
+        ],
+        "subjects": [
+          "fix(projects): fix login success notification. fixed #688"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

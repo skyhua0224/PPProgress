@@ -1,0 +1,51 @@
+# 周报（2025-01-21 至 2025-01-26）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2025-01-21 至 2025-01-26）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 10
+触达文件总数: 408
+行变更合计 +/-: +910 / -138200
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=3, files=18, +677/-2
+- frontend (frontend): commits=5, files=385, +114/-138198
+- backend (backend): commits=2, files=5, +119/-0
+
+## 顶层目录热力（按模块）
+- admin:
+  - src/views/hardware-manage: 463
+  - src/locales/langs: 76
+  - src/service/api: 63
+  - src/router/elegant: 35
+  - src/typings/api.d.ts: 26
+  - src/views/_builtin: 9
+  - src/typings/elegant-router.d.ts: 7
+  - src/locales/lang: 0
+- frontend:
+  - src/static/pdf: 138160
+  - src/pages-sub/filePrinting: 100
+  - src/pages-sub/checkout: 48
+  - src/store/file.ts: 4
+  - utils: 0
+- backend:
+  - src/main/java: 119
+  - target: 0
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] feat: 添加cups服务器管理
+  - [undefined] fix(projects): fix multiple calls to the login API when clicking quickly. fixed #697 (#698)
+  - [undefined] fix(projects): hidden multi-language button in login page. fix #694
+- frontend:
+  - [undefined] feat: 修改结算按钮文本为“支付”，调整按钮和总价栏样式以保持一致性
+  - [undefined] feat: 更新文件图标显示逻辑，优化结算按钮文本，并调整样式以保持一致性
+  - [undefined] feat: 更新文件存储逻辑，使用uni存储替代localStorage，并优化样式注释
+  - [undefined] feat: 调整文件上传页面底部样式，优化文件选择类型和位置
+  - [undefined] feat: 实现了PDF文件预览
+- backend:
+  - [undefined] feat: 添加CupsServer的增删改查功能，支持服务器记录的添加、编辑和删除
+  - [undefined] feat: 添加CupsServer控制器和服务，支持分页获取所有CupsServer记录

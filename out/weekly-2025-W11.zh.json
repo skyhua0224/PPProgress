@@ -1,0 +1,313 @@
+{
+  "title": "周报（2025-03-10 至 2025-03-16）",
+  "lang": "zh",
+  "since": "2025-03-10",
+  "until": "2025-03-16",
+  "generatedAt": "2025-11-02T10:55:21.715Z",
+  "progress": {
+    "totals": {
+      "commits": 24,
+      "files": 147,
+      "added": 5749,
+      "removed": 3241
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "dc6289acc873ab97b59e4e9d98d7b711993319a0",
+            "datetime": "2025-03-14 16:33:10 +0800",
+            "subject": "chore: 添加 .spring-api-helper.json 到 .gitignore"
+          }
+        ],
+        "files": 1,
+        "added": 1,
+        "removed": 0,
+        "heat": [
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore: 添加 .spring-api-helper.json 到 .gitignore"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "cea3957962b234521cda6f877cfe4c88659b7004",
+            "datetime": "2025-03-16 00:51:57 +0800",
+            "subject": "refactor: 优化楼宇管理页面"
+          },
+          {
+            "hash": "3febb65d70f98517d49413d3787ad3751efc282d",
+            "datetime": "2025-03-14 14:59:55 +0800",
+            "subject": "docs(projects): update README (#718)"
+          },
+          {
+            "hash": "5d8b782d37856388343fb742c680d70866acada1",
+            "datetime": "2025-03-14 10:29:54 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "8b12ef9fd8e591ca6d0f2ebc50bbc46231073efa",
+            "datetime": "2025-03-14 10:26:12 +0800",
+            "subject": "chore(projects): update vscode settings and launch"
+          },
+          {
+            "hash": "133f53cefb17b75939e311c7032185244c7f7f36",
+            "datetime": "2025-03-14 09:23:36 +0800",
+            "subject": "fix: 修复楼宇管理新增时替换原楼宇的问题"
+          },
+          {
+            "hash": "fa16821f9162ddb48c452ed5453d27a9130e8c70",
+            "datetime": "2025-03-13 00:11:40 +0800",
+            "subject": "feat: 添加配送管理相关接口和组件，优化配送配置搜索功能"
+          },
+          {
+            "hash": "a6a47247ffc7e678083e302e98f851fe036916c1",
+            "datetime": "2025-03-12 23:09:57 +0800",
+            "subject": "chore(projects): release v1.3.12"
+          },
+          {
+            "hash": "4cc1487f46b8b1b14b7872de14abf35215961025",
+            "datetime": "2025-03-12 23:08:24 +0800",
+            "subject": "feat(projects): support proxy log in terminal"
+          },
+          {
+            "hash": "b8112613eaec19093a694543df93a27f70af654b",
+            "datetime": "2025-03-12 22:24:59 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "a1a5c74c74e523d3b023eb41bc07d034bf147354",
+            "datetime": "2025-03-11 11:30:02 +0800",
+            "subject": "feat(projects): feat(projects): TableColumnCheck title support VNode (#716)"
+          },
+          {
+            "hash": "71b298cf60d685ef291bc6483c2fa6bbca4864c9",
+            "datetime": "2025-03-11 00:01:10 +0800",
+            "subject": "feat: 修改配送费文件位置，新增两个新的delivery route"
+          }
+        ],
+        "files": 90,
+        "added": 3114,
+        "removed": 1377,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1855
+          ],
+          [
+            "src/views/app-manage",
+            1804
+          ],
+          [
+            "src/typings/app.d.ts",
+            257
+          ],
+          [
+            "src/locales/langs",
+            140
+          ],
+          [
+            "src/service/api",
+            126
+          ],
+          [
+            "src/router/elegant",
+            66
+          ],
+          [
+            "CHANGELOG.md",
+            34
+          ],
+          [
+            "packages",
+            32
+          ],
+          [
+            "src/store/modules",
+            32
+          ],
+          [
+            "build",
+            29
+          ],
+          [
+            "package.json",
+            24
+          ],
+          [
+            "src/layouts/modules",
+            18
+          ],
+          [
+            "src/views/_builtin",
+            14
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            9
+          ],
+          [
+            "src/plugins/loading.ts",
+            6
+          ]
+        ],
+        "subjects": [
+          "refactor: 优化楼宇管理页面",
+          "docs(projects): update README (#718)",
+          "chore(deps): update deps",
+          "chore(projects): update vscode settings and launch",
+          "fix: 修复楼宇管理新增时替换原楼宇的问题",
+          "feat: 添加配送管理相关接口和组件，优化配送配置搜索功能",
+          "chore(projects): release v1.3.12",
+          "feat(projects): support proxy log in terminal",
+          "chore(deps): update deps",
+          "feat(projects): feat(projects): TableColumnCheck title support VNode (#716)",
+          "feat: 修改配送费文件位置，新增两个新的delivery route"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "ce93c5a1c1644f6ae119ba03a584afd988fb34d7",
+            "datetime": "2025-03-14 16:30:27 +0800",
+            "subject": "feat: 完成对送货卡片的设计"
+          },
+          {
+            "hash": "643335acc0c06490fd3e4901f21f1d2c5b6be7de",
+            "datetime": "2025-03-14 11:31:13 +0800",
+            "subject": "feat: 完成对校园场景楼宇选择的设计"
+          },
+          {
+            "hash": "d5908c7211624d18bb8bde4a7fe9c75f20c9640f",
+            "datetime": "2025-03-14 09:11:18 +0800",
+            "subject": "fix: 解决宿舍楼等数字范围楼的选择器渲染问题"
+          },
+          {
+            "hash": "cac61de62e946f3a23e4f0ac80f8a2ef028c5e77",
+            "datetime": "2025-03-13 16:29:07 +0800",
+            "subject": "feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示"
+          }
+        ],
+        "files": 26,
+        "added": 2274,
+        "removed": 1719,
+        "heat": [
+          [
+            "src/pages-sub/checkout",
+            2714
+          ],
+          [
+            "pnpm-lock.yaml",
+            492
+          ],
+          [
+            "src/service/orderService.ts",
+            242
+          ],
+          [
+            "src/service/delivery.ts",
+            185
+          ],
+          [
+            "src/service/deliveryConfigService.ts",
+            143
+          ],
+          [
+            "src/pages/order",
+            133
+          ],
+          [
+            "src/pages-sub/order",
+            46
+          ],
+          [
+            "package.json",
+            38
+          ]
+        ],
+        "subjects": [
+          "feat: 完成对送货卡片的设计",
+          "feat: 完成对校园场景楼宇选择的设计",
+          "fix: 解决宿舍楼等数字范围楼的选择器渲染问题",
+          "feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "f85b2829046f516237772e3ec006225ed936926b",
+            "datetime": "2025-03-16 00:40:39 +0800",
+            "subject": "feat: 增加根据配送类型和楼宇类型查询楼宇的方法"
+          },
+          {
+            "hash": "090675078248db2d84e75739163def2c53736423",
+            "datetime": "2025-03-14 01:03:07 +0800",
+            "subject": "feat: 增加按店铺ID和类型获取所有配送配置的方法"
+          },
+          {
+            "hash": "87fa8ab06cc324836665047a5f2acac376eeedb2",
+            "datetime": "2025-03-13 15:07:59 +0800",
+            "subject": "fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段"
+          },
+          {
+            "hash": "d8b4cdc3de584a0a9fc8fc6e5fcc24ab5fba4433",
+            "datetime": "2025-03-12 15:05:25 +0800",
+            "subject": "fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法"
+          },
+          {
+            "hash": "d09f13ce486c189ac69737b97314bfd8217a3b87",
+            "datetime": "2025-03-12 14:52:00 +0800",
+            "subject": "feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询"
+          },
+          {
+            "hash": "e775a9fd566ba7f952412ea2e5d11cf49354b4ad",
+            "datetime": "2025-03-12 01:14:35 +0800",
+            "subject": "feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置"
+          },
+          {
+            "hash": "ef6539f7431fec1fbd1d22d2e43e806d9f0ad420",
+            "datetime": "2025-03-12 01:02:35 +0800",
+            "subject": "fix: 修正订单服务中配送类型的设置，使用代码而非值"
+          },
+          {
+            "hash": "41581325b035c3c92218c799fe1d3d8384f08a20",
+            "datetime": "2025-03-12 00:59:17 +0800",
+            "subject": "feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型"
+          }
+        ],
+        "files": 30,
+        "added": 360,
+        "removed": 145,
+        "heat": [
+          [
+            "src/main/java",
+            505
+          ]
+        ],
+        "subjects": [
+          "feat: 增加根据配送类型和楼宇类型查询楼宇的方法",
+          "feat: 增加按店铺ID和类型获取所有配送配置的方法",
+          "fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段",
+          "fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法",
+          "feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询",
+          "feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置",
+          "fix: 修正订单服务中配送类型的设置，使用代码而非值",
+          "feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型"
+        ]
+      }
+    ]
+  }
+}

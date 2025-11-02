@@ -1,0 +1,55 @@
+# 周报（2024-11-11 至 2024-11-17）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2024-11-11 至 2024-11-17）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 9
+触达文件总数: 65
+行变更合计 +/-: +2376 / -1445
+
+## 按模块汇总
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=5, files=24, +1300/-1167
+- frontend (frontend): commits=1, files=2, +267/-169
+- backend (backend): commits=3, files=39, +809/-109
+
+## 顶层目录热力（按模块）
+- admin:
+  - pnpm-lock.yaml: 1982
+  - src/router/guard: 169
+  - src/views/app-manage: 149
+  - package.json: 46
+  - src/typings/api.d.ts: 42
+  - src/locales/langs: 26
+  - packages: 14
+  - src/store/modules: 12
+  - src/typings/app.d.ts: 12
+  - src/typings/components.d.ts: 8
+  - .env.test: 3
+  - .env: 2
+  - src/service/api: 2
+- frontend:
+  - src/pages/mine: 436
+- backend:
+  - src/main/java: 639
+  - target: 238
+  - src/main/resources: 31
+  - pom.xml: 5
+  - .vscode: 3
+  - .gitignore: 2
+
+## 提交主题（每模块最多 10 条）
+- admin:
+  - [undefined] chore(projects): add desc for base url of app
+  - [undefined] chore(deps): update deps
+  - [undefined] refactor(projects): refactor router guard. fix #655 (#667)
+  - [undefined] feat: 更新优惠券和商品管理相关接口及类型定义，添加状态和库存字段
+  - [undefined] 修改了新增按钮消失的错误
+- frontend:
+  - [undefined] feat: 修改了分辨率问题
+- backend:
+  - [undefined] fix: 更新 .gitignore，修正目标类目录路径
+  - [undefined] feat: 添加 CORS 配置，更新应用程序属性以支持新端口和请求处理
+  - [undefined] feat: 添加打印机和CUPS服务器相关功能，创建相应的Repository和Controller，更新数据库架构以支持新表

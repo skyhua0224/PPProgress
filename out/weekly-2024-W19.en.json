@@ -1,0 +1,94 @@
+{
+  "title": "Weekly Report (2024-05-07 to 2024-05-08)",
+  "lang": "en",
+  "since": "2024-05-07",
+  "until": "2024-05-08",
+  "generatedAt": "2025-11-02T10:55:38.011Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 4,
+      "added": 68,
+      "removed": 9
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "071241f8cbeb1c0a1f5ab31c7c3da75776dbd2b1",
+            "datetime": "2024-05-08 10:33:55 +0800",
+            "subject": "fix(styles): fix useTable type"
+          },
+          {
+            "hash": "1978397c9008ea41630c49a71038f47de938e379",
+            "datetime": "2024-05-07 21:32:03 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "e4d53aa7b56f8a230cef4aec7fa27b2e5ae184de",
+            "datetime": "2024-05-07 19:17:20 +0800",
+            "subject": "feat(hooks): add setOptions for useEcharts"
+          }
+        ],
+        "files": 4,
+        "added": 68,
+        "removed": 9,
+        "heat": [
+          [
+            "CHANGELOG.zh_CN.md",
+            53
+          ],
+          [
+            "src/typings/naive-ui.d.ts",
+            11
+          ],
+          [
+            "src/hooks/common",
+            7
+          ],
+          [
+            "packages",
+            6
+          ]
+        ],
+        "subjects": [
+          "fix(styles): fix useTable type",
+          "docs(projects): update CHANGELOG",
+          "feat(hooks): add setOptions for useEcharts"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

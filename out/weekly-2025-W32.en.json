@@ -1,0 +1,387 @@
+{
+  "title": "Weekly Report (2025-08-04 to 2025-08-10)",
+  "lang": "en",
+  "since": "2025-08-04",
+  "until": "2025-08-10",
+  "generatedAt": "2025-11-02T10:55:59.914Z",
+  "progress": {
+    "totals": {
+      "commits": 50,
+      "files": 209,
+      "added": 10087,
+      "removed": 7093
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "38a63be6637871e41494aedc1f70906606a5ffc4",
+            "datetime": "2025-08-05 15:37:36 +0800",
+            "subject": "feat: 设计后半阶段订单-店铺三端统一设计方案"
+          }
+        ],
+        "files": 17,
+        "added": 344,
+        "removed": 3156,
+        "heat": [
+          [
+            "docs",
+            3496
+          ],
+          [
+            "admin",
+            2
+          ],
+          [
+            "backend",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 设计后半阶段订单-店铺三端统一设计方案"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "771b0e89c8c066072b172f6fff3dc31056628e48",
+            "datetime": "2025-08-04 22:34:09 +0800",
+            "subject": "feat: 完成履约费用管理设计，修复了批量操作时的一些错误，移除了价格管理的批量操作按钮"
+          }
+        ],
+        "files": 10,
+        "added": 770,
+        "removed": 190,
+        "heat": [
+          [
+            "src/views/store",
+            896
+          ],
+          [
+            "src/typings/api.d.ts",
+            34
+          ],
+          [
+            "src/service/api",
+            24
+          ],
+          [
+            "src/components/business",
+            6
+          ]
+        ],
+        "subjects": [
+          "feat: 完成履约费用管理设计，修复了批量操作时的一些错误，移除了价格管理的批量操作按钮"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "cf2525039ec79a6f3c501fba8972001924e9c335",
+            "datetime": "2025-08-10 00:39:13 +0800",
+            "subject": "feat: 完成上传打印批量删除功能设计，调整图标样式"
+          },
+          {
+            "hash": "23b848b8418af0bc456ea4bd995d15f6922adb72",
+            "datetime": "2025-08-09 21:24:03 +0800",
+            "subject": "feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件"
+          },
+          {
+            "hash": "b88aad08cf3324618b6fe798ecced11e7118bae0",
+            "datetime": "2025-08-09 16:23:51 +0800",
+            "subject": "feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看"
+          },
+          {
+            "hash": "1a4d6e1c3082eb473a28a043373242df24f77874",
+            "datetime": "2025-08-08 23:29:39 +0800",
+            "subject": "refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑"
+          },
+          {
+            "hash": "75cfad8eaf02c627358115e47f02bcf8106dfffa",
+            "datetime": "2025-08-06 23:38:53 +0800",
+            "subject": "feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计"
+          }
+        ],
+        "files": 64,
+        "added": 5219,
+        "removed": 2631,
+        "heat": [
+          [
+            "src/pages-sub/filePrinting",
+            3859
+          ],
+          [
+            "src/utils/http.ts",
+            591
+          ],
+          [
+            "src/pages-sub/mine",
+            578
+          ],
+          [
+            "pnpm-lock.yaml",
+            512
+          ],
+          [
+            "src/components/StoreSelectorPopup.vue",
+            334
+          ],
+          [
+            "src/service/userService.ts",
+            318
+          ],
+          [
+            "src/components/LoginPopup.vue",
+            224
+          ],
+          [
+            "src/store/user.ts",
+            189
+          ],
+          [
+            "src/utils/requestWithAuth.ts",
+            162
+          ],
+          [
+            "src/service/orderService.ts",
+            146
+          ],
+          [
+            "src/utils/network-test.ts",
+            124
+          ],
+          [
+            "src/components/PaymentFooter.vue",
+            103
+          ],
+          [
+            "src/service/uploadService.ts",
+            82
+          ],
+          [
+            "src/pages-sub/checkout",
+            72
+          ],
+          [
+            "src/store/login.ts",
+            69
+          ]
+        ],
+        "subjects": [
+          "feat: 完成上传打印批量删除功能设计，调整图标样式",
+          "feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件",
+          "feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看",
+          "refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑",
+          "feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "15db36dbbef27b82eaf8d5f798763009238c91f2",
+            "datetime": "2025-08-10 17:04:12 +0800",
+            "subject": "feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持"
+          },
+          {
+            "hash": "5805aee00965fee043578355ecddef370663d6ca",
+            "datetime": "2025-08-09 16:12:52 +0800",
+            "subject": "feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费"
+          },
+          {
+            "hash": "83db417664c4d989df8c5500a379c4ff6ec71ba0",
+            "datetime": "2025-08-09 16:05:42 +0800",
+            "subject": "feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性"
+          },
+          {
+            "hash": "6fd397e23e700640c6e142d22357fb928b0b142d",
+            "datetime": "2025-08-09 15:59:30 +0800",
+            "subject": "feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费"
+          },
+          {
+            "hash": "98a9aa7f04cef8a3189665d31dbce48d6abbcd76",
+            "datetime": "2025-08-09 15:38:14 +0800",
+            "subject": "feat: 明确后道服务的计费逻辑，优化计费单位和小计计算"
+          },
+          {
+            "hash": "783f0f38055a573adfe4583a2e77f13bbfd73e85",
+            "datetime": "2025-08-09 15:30:03 +0800",
+            "subject": "feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息"
+          },
+          {
+            "hash": "08e08c24b89df294f07652ccea88a31444c26ddc",
+            "datetime": "2025-08-09 00:48:59 +0800",
+            "subject": "feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数"
+          },
+          {
+            "hash": "640179ee72f7ca5637016ed64840d9e0ab28dab5",
+            "datetime": "2025-08-09 00:42:17 +0800",
+            "subject": "feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑"
+          },
+          {
+            "hash": "ae3710011542dd2f288ccf4497932dcb095f5ad6",
+            "datetime": "2025-08-08 22:01:20 +0800",
+            "subject": "feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项"
+          },
+          {
+            "hash": "84c6f7c8df47c8e425392a65e4f1821332b071ad",
+            "datetime": "2025-08-08 16:17:01 +0800",
+            "subject": "feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑"
+          },
+          {
+            "hash": "bc25a4b672f7d3d436ebf8e2a945db3bd33b95fd",
+            "datetime": "2025-08-07 20:09:44 +0800",
+            "subject": "feat: 优化WebClient配置，增加内存大小限制至100MB"
+          },
+          {
+            "hash": "20fcc3ae7a9870fbabb1c4354e66e8944c959a40",
+            "datetime": "2025-08-07 19:58:13 +0800",
+            "subject": "feat: 更新JWT过期时间和刷新时间，调整为2小时和7天"
+          },
+          {
+            "hash": "7ea3ff37995a8526241f034e83afcba6ad0e558d",
+            "datetime": "2025-08-07 19:44:18 +0800",
+            "subject": "feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价"
+          },
+          {
+            "hash": "1b8d2d7063b2de45893ecf08bf33cb575dbd4a2a",
+            "datetime": "2025-08-06 23:25:27 +0800",
+            "subject": "feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑"
+          },
+          {
+            "hash": "cf4ab94cab10578019e78c570b7de7865c86974c",
+            "datetime": "2025-08-06 23:18:28 +0800",
+            "subject": "feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑"
+          },
+          {
+            "hash": "4d2254e6c287529974e2a92f6ffe3cd0eb865661",
+            "datetime": "2025-08-06 22:55:30 +0800",
+            "subject": "feat: 添加获取手机号码的公共API路径，增强用户认证功能"
+          },
+          {
+            "hash": "bf853b60dd85df5abf32a016962fb217462bdaa8",
+            "datetime": "2025-08-06 21:50:51 +0800",
+            "subject": "feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程"
+          },
+          {
+            "hash": "2749807c5f2cc00e8c1eee265413b6a7b396d780",
+            "datetime": "2025-08-06 21:42:55 +0800",
+            "subject": "feat: 添加获取用户个人资料的接口，增强用户信息访问功能"
+          },
+          {
+            "hash": "2c5a87a09a03cbca9264d7640aa638630dffd945",
+            "datetime": "2025-08-06 21:33:19 +0800",
+            "subject": "feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证"
+          },
+          {
+            "hash": "dd2e12032dae76ce09368670e7ba9b98309cacdb",
+            "datetime": "2025-08-06 20:35:13 +0800",
+            "subject": "feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能"
+          },
+          {
+            "hash": "d77845b40637c518f1fc70533e8afc886f53726a",
+            "datetime": "2025-08-06 20:31:40 +0800",
+            "subject": "feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性"
+          },
+          {
+            "hash": "e595a2da0ff92b4b66851149ee666f9785133266",
+            "datetime": "2025-08-06 20:06:52 +0800",
+            "subject": "feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证"
+          },
+          {
+            "hash": "0b17c78d53b793a7722a08700c6abe6e28bd8633",
+            "datetime": "2025-08-06 19:58:39 +0800",
+            "subject": "feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息"
+          },
+          {
+            "hash": "5aa740182e9fb9d400042880e7982191d14e0976",
+            "datetime": "2025-08-06 19:54:37 +0800",
+            "subject": "feat: 在用户登录响应中添加刷新Token"
+          },
+          {
+            "hash": "7eef9d7c8950d54925a072784c56b577b966f75d",
+            "datetime": "2025-08-06 19:47:41 +0800",
+            "subject": "feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能"
+          },
+          {
+            "hash": "aaec1b69fc0b770eed1b9b597304c17e493c2554",
+            "datetime": "2025-08-06 19:17:51 +0800",
+            "subject": "feat: 更新用户资料接口，增加Token无效时的错误处理逻辑"
+          },
+          {
+            "hash": "f8bcc0d08196a08e9c098953e8ee9a55287eadc7",
+            "datetime": "2025-08-06 18:04:46 +0800",
+            "subject": "feat: 更新用户资料接口，支持通过用户Token获取用户信息并处理错误响应"
+          },
+          {
+            "hash": "f03beae224c1aa5c28aa278086e2802f3ab3b2cf",
+            "datetime": "2025-08-06 17:48:33 +0800",
+            "subject": "feat: 更新用户资料接口，修改错误响应码为1001以提高一致性"
+          },
+          {
+            "hash": "7785a924b0754af3f5bbc48deb05e51e63f6a06a",
+            "datetime": "2025-08-06 17:41:37 +0800",
+            "subject": "feat: 更新用户资料接口，支持性别和生日字段的更新"
+          },
+          {
+            "hash": "d717514a6d4c6deb981e8484d1e1a153609e3600",
+            "datetime": "2025-08-06 17:18:18 +0800",
+            "subject": "feat: 添加用户初始化状态，更新登录逻辑以支持新用户初始化"
+          }
+        ],
+        "files": 118,
+        "added": 3754,
+        "removed": 1116,
+        "heat": [
+          [
+            "src/main/java",
+            4849
+          ],
+          [
+            "pom.xml",
+            21
+          ]
+        ],
+        "subjects": [
+          "feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持",
+          "feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费",
+          "feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性",
+          "feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费",
+          "feat: 明确后道服务的计费逻辑，优化计费单位和小计计算",
+          "feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息",
+          "feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数",
+          "feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑",
+          "feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项",
+          "feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑",
+          "feat: 优化WebClient配置，增加内存大小限制至100MB",
+          "feat: 更新JWT过期时间和刷新时间，调整为2小时和7天",
+          "feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价",
+          "feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑",
+          "feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑",
+          "feat: 添加获取手机号码的公共API路径，增强用户认证功能",
+          "feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程",
+          "feat: 添加获取用户个人资料的接口，增强用户信息访问功能",
+          "feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证",
+          "feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能",
+          "feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性",
+          "feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证",
+          "feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息",
+          "feat: 在用户登录响应中添加刷新Token",
+          "feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能",
+          "feat: 更新用户资料接口，增加Token无效时的错误处理逻辑",
+          "feat: 更新用户资料接口，支持通过用户Token获取用户信息并处理错误响应",
+          "feat: 更新用户资料接口，修改错误响应码为1001以提高一致性",
+          "feat: 更新用户资料接口，支持性别和生日字段的更新",
+          "feat: 添加用户初始化状态，更新登录逻辑以支持新用户初始化"
+        ]
+      }
+    ]
+  }
+}

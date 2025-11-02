@@ -1,0 +1,46 @@
+# Weekly Report (2025-09-08 to 2025-09-14)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-09-08 to 2025-09-14)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 10
+Total files touched: 24
+Total lines +/-: +1351 / -975
+
+## Per-module summary
+- ProjectPrinting (.): commits=1, files=2, +396/-0
+- admin (admin): commits=0, files=0, +0/-0
+- frontend (frontend): commits=4, files=16, +746/-940
+- backend (backend): commits=5, files=6, +209/-35
+
+## Heat by top-level directory (per module)
+- ProjectPrinting:
+  - docs: 396
+- frontend:
+  - src/pages-sub/order: 888
+  - src/pages-sub/checkout: 558
+  - src/service/orderMockData.ts: 163
+  - src/service/orderService.ts: 41
+  - src/pages/order: 26
+  - src/pages-sub/payment: 5
+  - src/pages.json: 4
+  - src/types/uni-pages.d.ts: 1
+- backend:
+  - src/main/java: 244
+
+## Commit subjects (up to 10 per module)
+- ProjectPrinting:
+  - [undefined] feat: 设计订单支付流程文档
+- frontend:
+  - [undefined] feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数
+  - [undefined] feat: 删除旧支付页面组件，防止错误识别
+  - [undefined] feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据
+  - [undefined] fix: 修复 mock 数据导致的无法编译
+- backend:
+  - [undefined] feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性
+  - [undefined] feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理
+  - [undefined] feat: 添加订单号生成逻辑，确保唯一性并优化可读性
+  - [undefined] feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性
+  - [undefined] feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑

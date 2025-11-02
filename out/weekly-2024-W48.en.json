@@ -1,0 +1,189 @@
+{
+  "title": "Weekly Report (2024-11-25 to 2024-11-28)",
+  "lang": "en",
+  "since": "2024-11-25",
+  "until": "2024-11-28",
+  "generatedAt": "2025-11-02T10:55:49.109Z",
+  "progress": {
+    "totals": {
+      "commits": 9,
+      "files": 1967,
+      "added": 187638,
+      "removed": 187540
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "5c53957e0e7d842337e57808c868730f982b0977",
+            "datetime": "2024-11-28 15:47:05 +0800",
+            "subject": "feat: 更新微信小程序appid，移除分类页面相关配置，修改优惠券接口地址，升级依赖版本"
+          },
+          {
+            "hash": "0f89aaf727a6cd2f27189af5a1b403321eafaf0c",
+            "datetime": "2024-11-28 11:22:22 +0800",
+            "subject": "stash: 暂存微信登录设置"
+          },
+          {
+            "hash": "720aaa960bc88d8b207a9dbdb334a040385ee47b",
+            "datetime": "2024-11-27 17:29:51 +0800",
+            "subject": "feat: 更新商品管理界面"
+          },
+          {
+            "hash": "05e6f2863c4cbde2bba18392ebd93dbeb0d22670",
+            "datetime": "2024-11-27 15:43:24 +0800",
+            "subject": "feat: 修改我的页面，替换所有的router-link为button"
+          },
+          {
+            "hash": "49104b5229229d65e1df9844223d770a7ea278b6",
+            "datetime": "2024-11-26 22:05:49 +0800",
+            "subject": "修改bug"
+          },
+          {
+            "hash": "93e9f3848e0af33a291666e0c3cfd9839b9029a3",
+            "datetime": "2024-11-26 17:50:23 +0800",
+            "subject": "feat: 优化代码结构，移除未使用的导入，添加地址编辑页面"
+          },
+          {
+            "hash": "99816be47b86e70e2c81c52d9d884ee3067935ef",
+            "datetime": "2024-11-26 13:23:51 +0800",
+            "subject": "feat: 更新地址管理"
+          }
+        ],
+        "files": 1959,
+        "added": 187407,
+        "removed": 187538,
+        "heat": [
+          [
+            "dist",
+            365128
+          ],
+          [
+            "pnpm-lock.yaml",
+            6281
+          ],
+          [
+            "src/pages/mine",
+            890
+          ],
+          [
+            "src/pages-sub/mine",
+            722
+          ],
+          [
+            "src/pages/order",
+            539
+          ],
+          [
+            "src/types/auto-import.d.ts",
+            271
+          ],
+          [
+            "src/pages-sub/filePrinting",
+            209
+          ],
+          [
+            "package.json",
+            115
+          ],
+          [
+            "src/pages.json",
+            108
+          ],
+          [
+            "src/pages-sub/checkout",
+            101
+          ],
+          [
+            "src/pages/home",
+            92
+          ],
+          [
+            "src/pages/library",
+            86
+          ],
+          [
+            "pages.config.ts",
+            82
+          ],
+          [
+            "src/mock/index.js",
+            70
+          ],
+          [
+            "vite.config.ts",
+            55
+          ]
+        ],
+        "subjects": [
+          "feat: 更新微信小程序appid，移除分类页面相关配置，修改优惠券接口地址，升级依赖版本",
+          "stash: 暂存微信登录设置",
+          "feat: 更新商品管理界面",
+          "feat: 修改我的页面，替换所有的router-link为button",
+          "修改bug",
+          "feat: 优化代码结构，移除未使用的导入，添加地址编辑页面",
+          "feat: 更新地址管理"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "62310c2fd25fe2e920d499663bf9a83db70d376c",
+            "datetime": "2024-11-28 13:33:17 +0800",
+            "subject": "feat: 添加微信登录，更新用户模型，增加角色类型枚举"
+          },
+          {
+            "hash": "c31e6159c4c2c63b8a87b7bf2c349d6a5b47e8f6",
+            "datetime": "2024-11-25 19:33:23 +0800",
+            "subject": "feat: 添加从字符串值转换为优惠券状态的静态方法"
+          }
+        ],
+        "files": 8,
+        "added": 231,
+        "removed": 2,
+        "heat": [
+          [
+            "src/main/java",
+            225
+          ],
+          [
+            "target",
+            5
+          ],
+          [
+            "src/main/resources",
+            3
+          ]
+        ],
+        "subjects": [
+          "feat: 添加微信登录，更新用户模型，增加角色类型枚举",
+          "feat: 添加从字符串值转换为优惠券状态的静态方法"
+        ]
+      }
+    ]
+  }
+}

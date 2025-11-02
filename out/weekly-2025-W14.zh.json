@@ -1,0 +1,136 @@
+{
+  "title": "周报（2025-04-01 至 2025-04-05）",
+  "lang": "zh",
+  "since": "2025-04-01",
+  "until": "2025-04-05",
+  "generatedAt": "2025-11-02T10:55:22.683Z",
+  "progress": {
+    "totals": {
+      "commits": 5,
+      "files": 20,
+      "added": 1654,
+      "removed": 786
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "29698bef69ddee728e7bcad2cad18ce1fe57e77a",
+            "datetime": "2025-04-04 12:00:52 +0800",
+            "subject": "feat(projects): support vite devtools specify the editor by launchEditor option. (#730)"
+          }
+        ],
+        "files": 4,
+        "added": 17,
+        "removed": 2,
+        "heat": [
+          [
+            "build",
+            13
+          ],
+          [
+            ".env",
+            4
+          ],
+          [
+            "src/typings/vite-env.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat(projects): support vite devtools specify the editor by launchEditor option. (#730)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "f861968edece5c01eca73ac85aa39d95f0265001",
+            "datetime": "2025-04-05 12:16:45 +0800",
+            "subject": "fix: 更新文件份数变化处理逻辑以正确计算价格并更新文件列表"
+          },
+          {
+            "hash": "d3a7a8794f51ab98642671347276617af13a91d4",
+            "datetime": "2025-04-05 12:04:59 +0800",
+            "subject": "fix: 优化文件列表卡片的显示和打印设置解析逻辑"
+          },
+          {
+            "hash": "e764ceb72f3382d158aa7e21462574e0d644eccf",
+            "datetime": "2025-04-04 00:55:51 +0800",
+            "subject": "refactor: 重构打印设置与文件列表页 (使用后端规则估算)"
+          }
+        ],
+        "files": 11,
+        "added": 1351,
+        "removed": 764,
+        "heat": [
+          [
+            "src/pages-sub/filePrinting",
+            1694
+          ],
+          [
+            "src/utils/priceCalculator.ts",
+            159
+          ],
+          [
+            "src/components/PaymentFooter.vue",
+            108
+          ],
+          [
+            "src/store/priceRule.ts",
+            64
+          ],
+          [
+            "src/store/file.ts",
+            51
+          ],
+          [
+            "src/typings.ts",
+            39
+          ]
+        ],
+        "subjects": [
+          "fix: 更新文件份数变化处理逻辑以正确计算价格并更新文件列表",
+          "fix: 优化文件列表卡片的显示和打印设置解析逻辑",
+          "refactor: 重构打印设置与文件列表页 (使用后端规则估算)"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "96b59e505176f27a66d27427e8929d24346f2268",
+            "datetime": "2025-04-03 09:36:36 +0800",
+            "subject": "feat: 添加价格计算服务和规则管理功能，支持动态获取和计算价格"
+          }
+        ],
+        "files": 5,
+        "added": 286,
+        "removed": 20,
+        "heat": [
+          [
+            "src/main/java",
+            306
+          ]
+        ],
+        "subjects": [
+          "feat: 添加价格计算服务和规则管理功能，支持动态获取和计算价格"
+        ]
+      }
+    ]
+  }
+}

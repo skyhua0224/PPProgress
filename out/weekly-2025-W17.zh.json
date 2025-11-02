@@ -1,0 +1,199 @@
+{
+  "title": "周报（2025-04-21 至 2025-04-24）",
+  "lang": "zh",
+  "since": "2025-04-21",
+  "until": "2025-04-24",
+  "generatedAt": "2025-11-02T10:55:23.629Z",
+  "progress": {
+    "totals": {
+      "commits": 12,
+      "files": 34,
+      "added": 1435,
+      "removed": 565
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "9e3cbe9f479e3a674702f5fc909f1ff95dd4e55e",
+            "datetime": "2025-04-24 12:04:33 +0800",
+            "subject": "feat: 修改gen-route和sync-route衔接逻辑"
+          },
+          {
+            "hash": "ce8c09acf83ec6b627f09c450449fea65f800882",
+            "datetime": "2025-04-24 00:54:23 +0800",
+            "subject": "feat: 完成按钮权限管理和页面排序的界面设计"
+          },
+          {
+            "hash": "a013ea2c461683444f27f4964339ef3766ab75b3",
+            "datetime": "2025-04-23 22:23:13 +0800",
+            "subject": "docs(README): Add supporting ecosystem tools to the open-source repository (#740)"
+          },
+          {
+            "hash": "61244f0f2aa191e86db04538edd6bf7d9b649859",
+            "datetime": "2025-04-23 21:34:48 +0800",
+            "subject": "chore(deps): add vscode recommend plugin (#739) close #738"
+          },
+          {
+            "hash": "85e40b19431c403ea3ce7cfcc120e01ac49fe6c6",
+            "datetime": "2025-04-23 21:34:18 +0800",
+            "subject": "fix(hooks): fixed the issue where loading was not properly closed in some cases. (#737)"
+          },
+          {
+            "hash": "123d2c9074b8dd1a5cef7476d22d95ba835ae885",
+            "datetime": "2025-04-23 21:34:06 +0800",
+            "subject": "feat(types): enhance Option type to support customizable label types (#735)"
+          },
+          {
+            "hash": "3e550f7e65beccf19a8807d8be7dcd62757b3dac",
+            "datetime": "2025-04-23 20:46:26 +0800",
+            "subject": "fix: 修复路由同步时会出现重复路由的问题"
+          },
+          {
+            "hash": "d782438a7b1da1ea2a4c66b569d42677997cae71",
+            "datetime": "2025-04-21 23:03:15 +0800",
+            "subject": "feat: 新增系统信息获取和更新功能，优化菜单排序组件逻辑，进一步完成排序功能"
+          }
+        ],
+        "files": 24,
+        "added": 747,
+        "removed": 379,
+        "heat": [
+          [
+            "src/views/system-manage",
+            719
+          ],
+          [
+            "build",
+            250
+          ],
+          [
+            "src/router/elegant",
+            35
+          ],
+          [
+            "src/router/sync-config.json",
+            33
+          ],
+          [
+            "src/service/api",
+            31
+          ],
+          [
+            "src/views/test",
+            21
+          ],
+          [
+            "src/typings/api.d.ts",
+            12
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            6
+          ],
+          [
+            "src/utils/common.ts",
+            6
+          ],
+          [
+            "src/hooks/common",
+            4
+          ],
+          [
+            ".vscode",
+            3
+          ],
+          [
+            "package.json",
+            2
+          ],
+          [
+            "src/typings/common.d.ts",
+            2
+          ],
+          [
+            "README.en_US.md",
+            1
+          ],
+          [
+            "README.md",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 修改gen-route和sync-route衔接逻辑",
+          "feat: 完成按钮权限管理和页面排序的界面设计",
+          "docs(README): Add supporting ecosystem tools to the open-source repository (#740)",
+          "chore(deps): add vscode recommend plugin (#739) close #738",
+          "fix(hooks): fixed the issue where loading was not properly closed in some cases. (#737)",
+          "feat(types): enhance Option type to support customizable label types (#735)",
+          "fix: 修复路由同步时会出现重复路由的问题",
+          "feat: 新增系统信息获取和更新功能，优化菜单排序组件逻辑，进一步完成排序功能"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "a98dab397a48a0ab2e391540c3489a34de70b981",
+            "datetime": "2025-04-24 12:05:44 +0800",
+            "subject": "feat(menu): 优化同步速度，添加根据 uniqueKey 删除/新增菜单的功能"
+          },
+          {
+            "hash": "013d5bae85517778c61a50c27d73b2b9d9ed5bbc",
+            "datetime": "2025-04-24 09:21:51 +0800",
+            "subject": "feat(menu): 添加菜单排序功能，支持更新菜单顺序并验证父菜单一致性"
+          },
+          {
+            "hash": "a0ca5634a993eeb4f2945837b06ace58eaa0d571",
+            "datetime": "2025-04-24 01:04:10 +0800",
+            "subject": "fix: 修复二级目录被错误的识别为菜单的问题"
+          },
+          {
+            "hash": "ee775aeb17ac692df0b300ced48ea97cc6d134ff",
+            "datetime": "2025-04-23 20:46:34 +0800",
+            "subject": "fix: 修复路由同步时会出现重复路由的问题"
+          }
+        ],
+        "files": 10,
+        "added": 688,
+        "removed": 186,
+        "heat": [
+          [
+            "src/main/java",
+            874
+          ]
+        ],
+        "subjects": [
+          "feat(menu): 优化同步速度，添加根据 uniqueKey 删除/新增菜单的功能",
+          "feat(menu): 添加菜单排序功能，支持更新菜单顺序并验证父菜单一致性",
+          "fix: 修复二级目录被错误的识别为菜单的问题",
+          "fix: 修复路由同步时会出现重复路由的问题"
+        ]
+      }
+    ]
+  }
+}

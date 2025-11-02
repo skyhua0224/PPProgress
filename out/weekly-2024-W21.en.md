@@ -1,0 +1,30 @@
+# Weekly Report (2024-05-20 to 2024-05-24)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-05-20 to 2024-05-24)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 3
+Total files touched: 14
+Total lines +/-: +41 / -13
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=3, files=14, +41/-13
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - CHANGELOG.md: 16
+  - packages: 16
+  - src/layouts/modules: 16
+  - src/store/modules: 4
+  - package.json: 2
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] chore(projects): release v1.1.2
+  - [undefined] fix(projects): fix multi tab page only render once. fixed #441
+  - [undefined] fix(projects): fix header style & fix button highlight when click global-tab. fixed #446

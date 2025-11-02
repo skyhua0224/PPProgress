@@ -1,0 +1,170 @@
+{
+  "title": "周报（2024-05-29 至 2024-06-02）",
+  "lang": "zh",
+  "since": "2024-05-29",
+  "until": "2024-06-02",
+  "generatedAt": "2025-11-02T10:55:07.638Z",
+  "progress": {
+    "totals": {
+      "commits": 11,
+      "files": 25,
+      "added": 910,
+      "removed": 1108
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "d08a3817d1e753b03220ecd30b1a0edb7927088c",
+            "datetime": "2024-06-02 01:43:30 +0800",
+            "subject": "chore(projects): close http proxy"
+          },
+          {
+            "hash": "d0380ce5cb30311b295847d76129e4ca54c7020c",
+            "datetime": "2024-06-02 01:42:39 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "756f84ab1da041688c0e7488b03908798b463d70",
+            "datetime": "2024-06-02 01:28:22 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "5a4f844d24d172ced0da5b7a6ce8eaf6ca8ce975",
+            "datetime": "2024-06-02 01:21:15 +0800",
+            "subject": "chore(projects): release v1.1.3"
+          },
+          {
+            "hash": "59faf1522969387b5e2e0a1b5d6665432b311606",
+            "datetime": "2024-06-02 01:14:48 +0800",
+            "subject": "fix(projects): fix reCacheRoute. fixed #464"
+          },
+          {
+            "hash": "5bd96b8dd3861b774698616e0b959156f8b4f033",
+            "datetime": "2024-06-02 00:41:00 +0800",
+            "subject": "fix(components): Fix the issue of search box popping up repeatedly due to carriage return (#468)"
+          },
+          {
+            "hash": "8efdb10d86ebb61b7ce2bff5c55df4dbc986bdcc",
+            "datetime": "2024-06-02 00:15:46 +0800",
+            "subject": "fix(projects): fix click menu search. fixed #466, close #467"
+          },
+          {
+            "hash": "2aa85c6f930d26cf2cc09237ec114eae37fba959",
+            "datetime": "2024-06-01 16:45:25 +0200",
+            "subject": "optimize(components): accuracy draggable area for TableColumnSetting with animation (#465)"
+          },
+          {
+            "hash": "3ad438984e2e97853c2aec92174190b29c3f20fa",
+            "datetime": "2024-06-01 10:53:08 +0200",
+            "subject": "optimize (components): ButtonIcon with smarter class merging and tippy (#463)"
+          },
+          {
+            "hash": "f1850416c81f053aecc3bdf68f6095397fb98241",
+            "datetime": "2024-06-01 13:18:44 +0800",
+            "subject": "chore(other): correct spell mistake (#462)"
+          },
+          {
+            "hash": "086bad474eebfa38c91c7795d280251cc15de1fd",
+            "datetime": "2024-05-31 17:14:47 +0200",
+            "subject": "chore(other): correct spell mistake (#460)"
+          }
+        ],
+        "files": 25,
+        "added": 910,
+        "removed": 1108,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1798
+          ],
+          [
+            "src/components/custom",
+            54
+          ],
+          [
+            "package.json",
+            41
+          ],
+          [
+            "CHANGELOG.zh_CN.md",
+            34
+          ],
+          [
+            "CHANGELOG.md",
+            34
+          ],
+          [
+            "packages",
+            22
+          ],
+          [
+            "src/store/modules",
+            21
+          ],
+          [
+            "src/components/advanced",
+            6
+          ],
+          [
+            "src/layouts/modules",
+            4
+          ],
+          [
+            ".env",
+            2
+          ],
+          [
+            "src/router/guard",
+            2
+          ]
+        ],
+        "subjects": [
+          "chore(projects): close http proxy",
+          "chore(deps): update deps",
+          "docs(projects): update CHANGELOG",
+          "chore(projects): release v1.1.3",
+          "fix(projects): fix reCacheRoute. fixed #464",
+          "fix(components): Fix the issue of search box popping up repeatedly due to carriage return (#468)",
+          "fix(projects): fix click menu search. fixed #466, close #467",
+          "optimize(components): accuracy draggable area for TableColumnSetting with animation (#465)",
+          "optimize (components): ButtonIcon with smarter class merging and tippy (#463)",
+          "chore(other): correct spell mistake (#462)",
+          "chore(other): correct spell mistake (#460)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

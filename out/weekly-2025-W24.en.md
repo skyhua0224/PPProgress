@@ -1,0 +1,36 @@
+# Weekly Report (2025-06-09 to 2025-06-14)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-06-09 to 2025-06-14)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 4
+Total files touched: 23
+Total lines +/-: +1394 / -1572
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=4, files=23, +1394/-1572
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - pnpm-lock.yaml: 2804
+  - CHANGELOG.md: 61
+  - package.json: 42
+  - packages: 30
+  - src/App.vue: 9
+  - src/locales/langs: 6
+  - src/layouts/modules: 5
+  - src/theme/settings.ts: 3
+  - src/typings/app.d.ts: 3
+  - src/store/modules: 3
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] feat(projects): add configurable user name watermark option
+  - [undefined] chore(projects): release v1.3.14
+  - [undefined] fix(auth): remove redundant authStore declaration in resetStore function
+  - [undefined] chore(deps): update deps

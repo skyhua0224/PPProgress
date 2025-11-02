@@ -1,0 +1,49 @@
+name: Publish Weekly Report
+
+on:
+    schedule:
+        - cron: "10 1 * * 1" # UTC 01:10 every Monday ≈ Beijing 09:10
+    workflow_dispatch: {}
+
+permissions:
+    contents: write
+
+jobs:
+    publish-weekly:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Progress repo
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Generate weekly reports (zh/en)
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+                  MAIN_REPO: skyhua0224/ProjectPrinting
+                  MAIN_REPO_BRANCH: main
+                  OUTPUT_DIR: out
+                  MODE: weekly
+                  SINCE_DAYS: "7"
+                  REPORT_LANG: both
+                  INCLUDE_CAPS: "false"
+                  PUBLISH_MD: "true"
+                  INIT_SUBMODULES: "true"
+              run: |
+                  node --version
+                  node scripts/pull-and-generate.mjs
+
+            - name: Commit and push if changed
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  if [ -n "$(git status --porcelain)" ]; then
+                    git add out
+                    git commit -m "chore: weekly: update reports [skip ci]"
+                    git push
+                  else
+                    echo "No changes to commit."
+                  fi

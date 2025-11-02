@@ -1,0 +1,31 @@
+# Weekly Report (2025-05-20 to 2025-05-25)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-05-20 to 2025-05-25)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 3
+Total files touched: 10
+Total lines +/-: +1146 / -405
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=3, files=10, +1146/-405
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - src/views/hardware-manage: 1420
+  - src/typings/api.d.ts: 75
+  - src/types/business.d.ts: 24
+  - src/typings/business.d.ts: 24
+  - src/router/elegant: 5
+  - src/typings/components.d.ts: 3
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] feat: 更新打印机详情组件以支持图标颜色的预览和保存功能
+  - [undefined] feat: 添加打印机详情组件的队列数据处理和滚动条样式
+  - [undefined] feat: 添加初版打印机详情组件

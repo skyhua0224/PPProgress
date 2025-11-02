@@ -1,0 +1,29 @@
+# Weekly Report (2024-05-07 to 2024-05-08)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-05-07 to 2024-05-08)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 3
+Total files touched: 4
+Total lines +/-: +68 / -9
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=3, files=4, +68/-9
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - CHANGELOG.zh_CN.md: 53
+  - src/typings/naive-ui.d.ts: 11
+  - src/hooks/common: 7
+  - packages: 6
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] fix(styles): fix useTable type
+  - [undefined] docs(projects): update CHANGELOG
+  - [undefined] feat(hooks): add setOptions for useEcharts

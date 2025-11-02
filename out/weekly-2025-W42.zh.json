@@ -1,0 +1,250 @@
+{
+  "title": "周报（2025-10-13 至 2025-10-19）",
+  "lang": "zh",
+  "since": "2025-10-13",
+  "until": "2025-10-19",
+  "generatedAt": "2025-11-02T10:55:31.571Z",
+  "progress": {
+    "totals": {
+      "commits": 18,
+      "files": 95,
+      "added": 6153,
+      "removed": 1088
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "5c7788e041d9b14eee0cb324f613b561da311ddf",
+            "datetime": "2025-10-14 23:56:51 +0800",
+            "subject": "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+          }
+        ],
+        "files": 5,
+        "added": 1886,
+        "removed": 99,
+        "heat": [
+          [
+            "docs",
+            1985
+          ]
+        ],
+        "subjects": [
+          "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "ae42984638bf33122d85cd9717956c4f6943d122",
+            "datetime": "2025-10-17 10:45:55 +0800",
+            "subject": "feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题"
+          },
+          {
+            "hash": "6401121778121deee89ef7d2c191a936e9dc8426",
+            "datetime": "2025-10-17 01:39:02 +0800",
+            "subject": "feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端"
+          },
+          {
+            "hash": "6918386b03b7135794e2ca3742852eeca1227ef2",
+            "datetime": "2025-10-15 02:11:40 +0800",
+            "subject": "feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能"
+          }
+        ],
+        "files": 36,
+        "added": 2443,
+        "removed": 683,
+        "heat": [
+          [
+            "src/pages-sub/filePrinting",
+            668
+          ],
+          [
+            "src/pages-sub/checkout",
+            645
+          ],
+          [
+            "src/components/StoreSelectorItem.vue",
+            333
+          ],
+          [
+            "src/pages/order",
+            269
+          ],
+          [
+            "src/service/storeService.ts",
+            226
+          ],
+          [
+            "src/components/StoreSelectorPopup.vue",
+            212
+          ],
+          [
+            "src/service/storeMetricsService.ts",
+            192
+          ],
+          [
+            "src/components/StoreCompactCard.vue",
+            178
+          ],
+          [
+            "src/components/ModePill.vue",
+            152
+          ],
+          [
+            "src/components/PaymentFooter.vue",
+            84
+          ],
+          [
+            "src/store/metrics.ts",
+            66
+          ],
+          [
+            "src/components/BusynessSignal.vue",
+            48
+          ],
+          [
+            "src/components/CategoryChip.vue",
+            30
+          ],
+          [
+            "src/pages-sub/payment",
+            11
+          ],
+          [
+            "src/types/components.d.ts",
+            7
+          ]
+        ],
+        "subjects": [
+          "feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题",
+          "feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端",
+          "feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "3ce0f9ad358d3d953e3b3162db43748354f927cc",
+            "datetime": "2025-10-19 16:48:53 +0800",
+            "subject": "fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出"
+          },
+          {
+            "hash": "8faad0fab6ed52efab810ece22a3975a43a0a890",
+            "datetime": "2025-10-19 16:46:20 +0800",
+            "subject": "fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限"
+          },
+          {
+            "hash": "040900c0d1e1157f312907c8cb2463cedbd62671",
+            "datetime": "2025-10-19 14:54:49 +0800",
+            "subject": "fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题"
+          },
+          {
+            "hash": "4345e35a16f81aee275179d4e8b7f970e6c9a418",
+            "datetime": "2025-10-19 14:38:47 +0800",
+            "subject": "feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题"
+          },
+          {
+            "hash": "283d05940991cf736871fd756c84e7683bcc4832",
+            "datetime": "2025-10-18 22:34:25 +0800",
+            "subject": "refactor: 移除订单排队位置相关代码"
+          },
+          {
+            "hash": "6290ddf1f45438b94b85c3c7cf89dc5e9b4d79fc",
+            "datetime": "2025-10-17 10:36:48 +0800",
+            "subject": "feat: 调整每张打印耗时为 3 秒"
+          },
+          {
+            "hash": "b5cb90c761e8c418415a2e96de773c5df5d32413",
+            "datetime": "2025-10-17 10:31:18 +0800",
+            "subject": "refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询"
+          },
+          {
+            "hash": "21a495598cf505f62233254b0af14bbe5fa2aa8f",
+            "datetime": "2025-10-17 01:32:13 +0800",
+            "subject": "fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable"
+          },
+          {
+            "hash": "4c7734cf110d91cc5d947d1dba72788acb5a6321",
+            "datetime": "2025-10-17 01:24:02 +0800",
+            "subject": "feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE"
+          },
+          {
+            "hash": "b3c169286989953e7514049d75703c625e17032c",
+            "datetime": "2025-10-16 22:06:16 +0800",
+            "subject": "feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items"
+          },
+          {
+            "hash": "de0803bb66072649379a148d2c08eb1462818ba9",
+            "datetime": "2025-10-16 21:24:32 +0800",
+            "subject": "refactor: 按模式分离店铺指标统计并改进批量查询逻辑"
+          },
+          {
+            "hash": "c46e663b7bb53ad7698f8cc7038ea9788dc8df3b",
+            "datetime": "2025-10-16 01:45:41 +0800",
+            "subject": "refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性"
+          },
+          {
+            "hash": "1331858e62b0c701c8166cbd4bac98f524e04198",
+            "datetime": "2025-10-16 01:39:55 +0800",
+            "subject": "feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口"
+          },
+          {
+            "hash": "8ea4ae8ed2efd23554232dfa7cedc0cc161dd9dd",
+            "datetime": "2025-10-16 01:03:42 +0800",
+            "subject": "feat: 添加店铺实时指标与订单排队位置信息"
+          }
+        ],
+        "files": 54,
+        "added": 1824,
+        "removed": 306,
+        "heat": [
+          [
+            "src/main/java",
+            1994
+          ],
+          [
+            "src/main/resources",
+            136
+          ],
+          [
+            "src/test/java",
+            0
+          ]
+        ],
+        "subjects": [
+          "fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出",
+          "fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限",
+          "fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题",
+          "feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题",
+          "refactor: 移除订单排队位置相关代码",
+          "feat: 调整每张打印耗时为 3 秒",
+          "refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询",
+          "fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable",
+          "feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE",
+          "feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items",
+          "refactor: 按模式分离店铺指标统计并改进批量查询逻辑",
+          "refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性",
+          "feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口",
+          "feat: 添加店铺实时指标与订单排队位置信息"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "title": "Weekly Report (2025-09-22 to 2025-09-28)",
+  "lang": "en",
+  "since": "2025-09-22",
+  "until": "2025-09-28",
+  "generatedAt": "2025-11-02T10:56:02.316Z",
+  "progress": {
+    "totals": {
+      "commits": 22,
+      "files": 105,
+      "added": 3700,
+      "removed": 1222
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "83eadbf1b41fda762bfb6cd9497ff144a1069a15",
+            "datetime": "2025-09-25 01:59:59 +0800",
+            "subject": "feat: 完成价格详情的页面设计"
+          }
+        ],
+        "files": 5,
+        "added": 640,
+        "removed": 138,
+        "heat": [
+          [
+            "src/views/order",
+            631
+          ],
+          [
+            "src/typings/api.d.ts",
+            117
+          ],
+          [
+            "src/service/api",
+            28
+          ],
+          [
+            "src/typings/components.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 完成价格详情的页面设计"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "d0b8de986dc3c09fed01621367d9947793db998e",
+            "datetime": "2025-09-28 16:36:55 +0800",
+            "subject": "feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑"
+          },
+          {
+            "hash": "dab7271e10ddd6b46f495e47725764ecbdd02b70",
+            "datetime": "2025-09-28 15:01:49 +0800",
+            "subject": "feat: 添加二维码数据生成逻辑，优化订单履约信息处理"
+          },
+          {
+            "hash": "22cfb4223c50ea49765906b5a22856093f176be1",
+            "datetime": "2025-09-28 13:58:08 +0800",
+            "subject": "feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性"
+          },
+          {
+            "hash": "72078ffb7215a2ed5dc7888a665a5b2eb239c681",
+            "datetime": "2025-09-28 13:47:06 +0800",
+            "subject": "feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑"
+          },
+          {
+            "hash": "c0343190023794eddac08d2f5be8b99fa45f81e0",
+            "datetime": "2025-09-28 13:44:40 +0800",
+            "subject": "refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑"
+          },
+          {
+            "hash": "c0c4f0a6def5a5ddb8e0ee9ce02589961e495bd7",
+            "datetime": "2025-09-28 13:07:44 +0800",
+            "subject": "feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作"
+          },
+          {
+            "hash": "42a25126ba132f5c4cc3369e23b92ae086151b33",
+            "datetime": "2025-09-28 13:06:31 +0800",
+            "subject": "feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束"
+          },
+          {
+            "hash": "dc0e6d74ebce56b0eec630ad26e605ab276f2170",
+            "datetime": "2025-09-28 13:04:01 +0800",
+            "subject": "feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行"
+          },
+          {
+            "hash": "6b593a36fa3d9db84b1568f35f3396e37acb2c0a",
+            "datetime": "2025-09-28 12:57:59 +0800",
+            "subject": "feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）"
+          },
+          {
+            "hash": "908017a7475eed20a827ba2fb215cd2940b5a8b6",
+            "datetime": "2025-09-28 02:19:11 +0800",
+            "subject": "feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码"
+          },
+          {
+            "hash": "bdd5899ab7816b0867b7c6ce16e207974cda7242",
+            "datetime": "2025-09-28 02:18:23 +0800",
+            "subject": "feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息"
+          },
+          {
+            "hash": "8cf21f71b2410437cbb98a5ec8acd0e9dee103dd",
+            "datetime": "2025-09-28 02:06:38 +0800",
+            "subject": "feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约"
+          },
+          {
+            "hash": "188bd56b96990f03e1dc5fb0ec027be72229227c",
+            "datetime": "2025-09-28 01:54:34 +0800",
+            "subject": "feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约"
+          },
+          {
+            "hash": "6c835caefbb884e6426c876ad8e453ee2a6c9f2d",
+            "datetime": "2025-09-28 01:37:44 +0800",
+            "subject": "feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑"
+          },
+          {
+            "hash": "ef70b039500827b005f528df0c408b215c6dfff3",
+            "datetime": "2025-09-27 21:12:33 +0800",
+            "subject": "refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性"
+          },
+          {
+            "hash": "430a86af4b2677bc6051690fb623dda694553d97",
+            "datetime": "2025-09-27 21:04:09 +0800",
+            "subject": "refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付"
+          },
+          {
+            "hash": "537bc0163f88b41c6bc1e4f97b65fc89d5c2e284",
+            "datetime": "2025-09-26 21:35:16 +0800",
+            "subject": "feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑"
+          },
+          {
+            "hash": "0450dc32ea6992595337b1073eb5c55e055894ff",
+            "datetime": "2025-09-26 18:09:36 +0800",
+            "subject": "refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义"
+          },
+          {
+            "hash": "8c7ddb3733101dbf03f5884aa79e70efa49b9847",
+            "datetime": "2025-09-25 02:43:27 +0800",
+            "subject": "feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑"
+          },
+          {
+            "hash": "b4ed3bfaa00577c83ee3ecc625f18930601c40da",
+            "datetime": "2025-09-25 02:31:54 +0800",
+            "subject": "feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息"
+          },
+          {
+            "hash": "df3ae3ef8a1d5cd96be646c7c8de22ff808214f8",
+            "datetime": "2025-09-23 13:08:59 +0800",
+            "subject": "feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑"
+          }
+        ],
+        "files": 100,
+        "added": 3060,
+        "removed": 1084,
+        "heat": [
+          [
+            "src/main/java",
+            3954
+          ],
+          [
+            "src/main/resources",
+            190
+          ]
+        ],
+        "subjects": [
+          "feat: 添加 JTI 服务以支持一次性令牌消费和预留，重构相关控制器和服务逻辑",
+          "feat: 添加二维码数据生成逻辑，优化订单履约信息处理",
+          "feat: 添加对 FulfillmentDetailDTO 中 PickupInfo 和 DeliveryInfo 类的 JsonIgnoreProperties 注解，以忽略未知属性",
+          "feat: 添加通过提货码查询订单的新方法，优化原有查询逻辑",
+          "refactor: 重构前端相关订单接口返回结构，支持新的二维码生成逻辑",
+          "feat: 移除清理订单数据变更集中对 order_status_history 表的删除操作",
+          "feat: 修复注释位置，确保在清理订单数据的变更集中正确描述外键约束",
+          "feat: 更新清理订单数据的变更集，添加预条件以确保在 MySQL 中正确执行",
+          "feat: 更新 PrintJobController 和 PermissionServiceImpl，添加权限注解并优化权限检查逻辑, 设置订单清理（此 commit 不适合日常使用）",
+          "feat: 添加回填 numeric_pickup_code 的变更集，从 fulfillment_info JSON 中提取现有订单的取件码",
+          "feat: 重构订单服务中的取件码生成逻辑，确保在保存订单后生成并合并取件码和二维码信息",
+          "feat: 在订单服务中生成并设置 numericPickupCode，更新履约信息以支持基于 PIN 码的履约",
+          "feat: 添加 numeric_pickup_code 字段及索引到订单表，以支持基于 PIN 码的履约",
+          "feat: 添加通过 PIN 码获取订单的功能，更新相关服务和控制器逻辑",
+          "refactor: 更新订单相关查询，使用 OrderStatus 枚举替代字符串状态，增强类型安全性",
+          "refactor: 重构打印和履约相关代码，使用 Token 替代原本的二维码实现，支持二维码自动履约，取消测试用自动完成支付",
+          "feat: 在 FulfillmentComponentDTO 和 FulfillmentComponentServiceImpl 中添加 fulfillmentType 字段及其处理逻辑",
+          "refactor: 重构有关履约组件的逻辑，使用新字段fulfillmentType 分离原 configMode 的多重含义",
+          "feat: 更新 Fulfillment 类，弃用 type 字段，新增 componentKey 字段以支持新逻辑",
+          "feat: 添加 Fulfillment 和 PickupInfo 扩展字段，支持配置模式和快递信息",
+          "feat: 更新订单详情 DTO 和相关组件，添加折后单价和折后总价字段，优化价格计算逻辑"
+        ]
+      }
+    ]
+  }
+}

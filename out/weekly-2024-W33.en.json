@@ -1,0 +1,136 @@
+{
+  "title": "Weekly Report (2024-08-13 to 2024-08-15)",
+  "lang": "en",
+  "since": "2024-08-13",
+  "until": "2024-08-15",
+  "generatedAt": "2025-11-02T10:55:41.419Z",
+  "progress": {
+    "totals": {
+      "commits": 6,
+      "files": 16,
+      "added": 765,
+      "removed": 597
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "2fa400b1135bcc6d2532f7af5ce986e566c8849f",
+            "datetime": "2024-08-15 17:55:40 +0800",
+            "subject": "feat(projects): README.zh_CN.md 添加合作推广 (#601)"
+          },
+          {
+            "hash": "73e917ad594e881c1a49e5112b718f4705addc95",
+            "datetime": "2024-08-15 16:56:39 +0800",
+            "subject": "docs(projects): update README"
+          },
+          {
+            "hash": "e9a2ee4a232355e947798929f7fd604a81a84f0b",
+            "datetime": "2024-08-14 18:55:13 +0800",
+            "subject": "docs(projects): update README"
+          },
+          {
+            "hash": "a1c14a1570b1ac17554697ccbde340909291b13f",
+            "datetime": "2024-08-14 10:29:13 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "b16a96323ae6cded0a2e97688a0a54ff1d07f561",
+            "datetime": "2024-08-14 10:25:30 +0800",
+            "subject": "chore(projects): use json5 resolve env `VITE_OTHER_SERVICE_BASE_URL` & fix proxy enable"
+          },
+          {
+            "hash": "26c93dff9a5678c76dcfd9439550fda500c54c19",
+            "datetime": "2024-08-14 09:28:22 +0800",
+            "subject": "fix(types): fix the type of TableApiFn (#599)"
+          }
+        ],
+        "files": 16,
+        "added": 765,
+        "removed": 597,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1246
+          ],
+          [
+            "package.json",
+            45
+          ],
+          [
+            "README.zh_CN.md",
+            34
+          ],
+          [
+            "packages",
+            10
+          ],
+          [
+            "README.md",
+            6
+          ],
+          [
+            "build",
+            6
+          ],
+          [
+            "src/utils/service.ts",
+            6
+          ],
+          [
+            "vite.config.ts",
+            4
+          ],
+          [
+            "src/typings/api.d.ts",
+            3
+          ],
+          [
+            "src/typings/naive-ui.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat(projects): README.zh_CN.md 添加合作推广 (#601)",
+          "docs(projects): update README",
+          "docs(projects): update README",
+          "chore(deps): update deps",
+          "chore(projects): use json5 resolve env `VITE_OTHER_SERVICE_BASE_URL` & fix proxy enable",
+          "fix(types): fix the type of TableApiFn (#599)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

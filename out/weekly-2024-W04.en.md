@@ -1,0 +1,47 @@
+# Weekly Report (2024-01-22 to 2024-01-28)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-01-22 to 2024-01-28)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 28
+Total files touched: 166
+Total lines +/-: +11638 / -9158
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=28, files=166, +11638/-9158
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - src/assets/svg-icon: 15402
+  - src/views/home: 1200
+  - src/views/manage: 1160
+  - pnpm-lock.yaml: 870
+  - src/hooks/common: 328
+  - src/locales/langs: 304
+  - src/views/function: 187
+  - src/components/custom: 175
+  - packages: 168
+  - src/typings/app.d.ts: 149
+  - src/typings/api.d.ts: 126
+  - src/layouts/modules: 122
+  - src/hooks/chart: 114
+  - src/components/advanced: 105
+  - src/router/elegant: 71
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] refactor(projects): manage_route => manage_menu
+  - [undefined] perf(projects): perf table columns style
+  - [undefined] feat(projects): page manage_user
+  - [undefined] refactor(projects): perf page manage_role
+  - [undefined] perf(projects): perf page manage_role, useTable
+  - [undefined] refactor(projects): page manage_role: extract module
+  - [undefined] feat(projects): page manage_role
+  - [undefined] refactor(projects): update mock api
+  - [undefined] chore(projects): remove soybean.svg
+  - [undefined] perf(projects): echarts loading style

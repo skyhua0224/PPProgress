@@ -1,0 +1,307 @@
+{
+  "title": "Weekly Report (2024-09-23 to 2024-09-29)",
+  "lang": "en",
+  "since": "2024-09-23",
+  "until": "2024-09-29",
+  "generatedAt": "2025-11-02T10:55:43.630Z",
+  "progress": {
+    "totals": {
+      "commits": 30,
+      "files": 629,
+      "added": 4778,
+      "removed": 1452
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "bb8a287e09818ffe4ce67d1c72f46e3fc788b183",
+            "datetime": "2024-09-29 17:01:31 +0800",
+            "subject": "feat: 更新优惠券"
+          },
+          {
+            "hash": "8b9e841bf41ea655eb35c5bbb54412348ad381fd",
+            "datetime": "2024-09-29 00:09:28 +0800",
+            "subject": "feat: 优化结算页面"
+          },
+          {
+            "hash": "04becff299682ece64d9834427758bf96939b46a",
+            "datetime": "2024-09-28 18:03:16 +0800",
+            "subject": "feat: 优化文件上传页面和文件打印设置"
+          },
+          {
+            "hash": "6a7e3606e4bef186dc288d1fc6ba49190ebea05e",
+            "datetime": "2024-09-28 17:34:15 +0800",
+            "subject": "feat: 优化文件上传页面"
+          },
+          {
+            "hash": "01907b1030d259825bd87535edc1e99c26d65ccf",
+            "datetime": "2024-09-28 01:37:35 +0800",
+            "subject": "feat: 添加文件上传成功和失败的通知"
+          },
+          {
+            "hash": "70ac4d7e669afb479dfc2a0ae15e115fa90b4249",
+            "datetime": "2024-09-28 00:27:01 +0800",
+            "subject": "feat: 暂时修改user.ts"
+          },
+          {
+            "hash": "fed26e41c6640dd0196c60aed9a4a7acf92a718c",
+            "datetime": "2024-09-28 00:11:12 +0800",
+            "subject": "feat: 修改上传与打印的设置"
+          },
+          {
+            "hash": "31fee54b037959bbd014b529e5492dfa080197ac",
+            "datetime": "2024-09-27 23:09:20 +0800",
+            "subject": "feat: 上传与打印设置联动"
+          },
+          {
+            "hash": "53c8a9e4357bbf25403726380bf96b14e268c440",
+            "datetime": "2024-09-27 11:58:22 +0800",
+            "subject": "style: 按钮位置右移"
+          },
+          {
+            "hash": "39e6cd8cf2eaa75d16ed71d2567d00c5bdcefdaa",
+            "datetime": "2024-09-27 01:17:24 +0800",
+            "subject": "feat: 更新checkout"
+          },
+          {
+            "hash": "4edcc519e6ff3e1e95d15cc12d7d0b5076fc9e8d",
+            "datetime": "2024-09-26 23:58:08 +0800",
+            "subject": "feat: 添加API文档和类型定义"
+          },
+          {
+            "hash": "9ef820b9e8e3f145e24736102c0708247c4963b5",
+            "datetime": "2024-09-26 12:21:35 +0800",
+            "subject": "feat : 更新checkout"
+          },
+          {
+            "hash": "4ec4382702a62d99b5c9f1a849f2a905d896ab1c",
+            "datetime": "2024-09-26 11:48:44 +0800",
+            "subject": "feat: store运用"
+          },
+          {
+            "hash": "de06bdf3b2419a89e18a246cdd00f807f07056f9",
+            "datetime": "2024-09-26 11:18:10 +0800",
+            "subject": "feat: 新增了图片打印页面及其元素"
+          },
+          {
+            "hash": "a12a0f4f94d42b757db31bfb1b1ba957a1747d66",
+            "datetime": "2024-09-25 20:42:18 +0800",
+            "subject": "feat: 重构地址管理界面，新增地址和编辑地址功能，移除收藏功能，更新页面路由"
+          },
+          {
+            "hash": "236746b27fb565e5ab2feea1e94aa519d2e252e8",
+            "datetime": "2024-09-25 20:40:05 +0800",
+            "subject": "refactor: 重写了checkout"
+          },
+          {
+            "hash": "74cc6ebbec1b3eddfde51bb638f986234c35a07e",
+            "datetime": "2024-09-25 10:40:35 +0800",
+            "subject": "feat: 把son的界面重构"
+          },
+          {
+            "hash": "c0895af4e0cbcf35a818f3204306f215634effd3",
+            "datetime": "2024-09-24 19:30:54 +0800",
+            "subject": "feat: navbar完善 栈储存历史界面(pinia状态管理)"
+          },
+          {
+            "hash": "96aee110c73c83214088ed762345363ca63447c0",
+            "datetime": "2024-09-24 19:19:16 +0800",
+            "subject": "feat: navbar完善 栈储存历史界面(pinia状态管理)"
+          },
+          {
+            "hash": "9c33b0e612ba427ebfab9673047b8aac697cb224",
+            "datetime": "2024-09-24 17:35:03 +0800",
+            "subject": "fix: 按钮右侧空隙"
+          },
+          {
+            "hash": "beb4eb9d0f934595ad13ba35a14dd3f2041ae2d2",
+            "datetime": "2024-09-24 16:52:30 +0800",
+            "subject": "feat: 添加打印设置页面和相关功能"
+          },
+          {
+            "hash": "befd10e55c0f54a1933cef3b9b93a822d2814ab6",
+            "datetime": "2024-09-24 16:51:51 +0800",
+            "subject": "fix: 按钮位置"
+          },
+          {
+            "hash": "db4c276b72f4085e90c51485311b76c86b4597a1",
+            "datetime": "2024-09-24 16:44:09 +0800",
+            "subject": "feat: 资料库跳转到uploadprinting"
+          },
+          {
+            "hash": "1a27404f9fd7d1559f5d2e64cef9f3c3d9cf2c0f",
+            "datetime": "2024-09-24 14:35:21 +0800",
+            "subject": "feat: axios pnpm"
+          },
+          {
+            "hash": "e9b5566e99019a86e6c29a863e10c3527176c913",
+            "datetime": "2024-09-24 14:30:42 +0800",
+            "subject": "feat: win10final"
+          },
+          {
+            "hash": "fd559c50f38b6a934a2d3d2fb473c96e040029a8",
+            "datetime": "2024-09-24 14:28:37 +0800",
+            "subject": "feat: win10final"
+          },
+          {
+            "hash": "36fee83715604b812a46aa3c673502f4682c9221",
+            "datetime": "2024-09-24 14:28:34 +0800",
+            "subject": "feat: mock资料库对接"
+          },
+          {
+            "hash": "7a58891652b5c7f096d11aad6c7dcd84c4ca6fda",
+            "datetime": "2024-09-24 13:55:19 +0800",
+            "subject": "refactor: 调整文件打印路径"
+          },
+          {
+            "hash": "907da9a2a81e13b93f12cae71b38bd9a1ad3327c",
+            "datetime": "2024-09-23 23:35:18 +0800",
+            "subject": "feat: 添加前端项目文件和目录结构，后端代码和mock"
+          }
+        ],
+        "files": 628,
+        "added": 4778,
+        "removed": 1444,
+        "heat": [
+          [
+            "frontend/src/pages-sub",
+            2560
+          ],
+          [
+            "frontend/pnpm-lock.yaml",
+            836
+          ],
+          [
+            "frontend/src/pages",
+            649
+          ],
+          [
+            "frontend/src/store",
+            471
+          ],
+          [
+            "backend/mvnw",
+            259
+          ],
+          [
+            "pnpm-lock.yaml",
+            224
+          ],
+          [
+            "README.md",
+            180
+          ],
+          [
+            "frontend/src/components",
+            166
+          ],
+          [
+            "backend/mvnw.cmd",
+            149
+          ],
+          [
+            "frontend/src/mock",
+            132
+          ],
+          [
+            "frontend/src/pages.json",
+            130
+          ],
+          [
+            "frontend/src/typings.ts",
+            104
+          ],
+          [
+            "pnpm-lock.yaml => frontend",
+            102
+          ],
+          [
+            "backend/pom.xml",
+            54
+          ],
+          [
+            "frontend/src/types",
+            41
+          ]
+        ],
+        "subjects": [
+          "feat: 更新优惠券",
+          "feat: 优化结算页面",
+          "feat: 优化文件上传页面和文件打印设置",
+          "feat: 优化文件上传页面",
+          "feat: 添加文件上传成功和失败的通知",
+          "feat: 暂时修改user.ts",
+          "feat: 修改上传与打印的设置",
+          "feat: 上传与打印设置联动",
+          "style: 按钮位置右移",
+          "feat: 更新checkout",
+          "feat: 添加API文档和类型定义",
+          "feat : 更新checkout",
+          "feat: store运用",
+          "feat: 新增了图片打印页面及其元素",
+          "feat: 重构地址管理界面，新增地址和编辑地址功能，移除收藏功能，更新页面路由",
+          "refactor: 重写了checkout",
+          "feat: 把son的界面重构",
+          "feat: navbar完善 栈储存历史界面(pinia状态管理)",
+          "feat: navbar完善 栈储存历史界面(pinia状态管理)",
+          "fix: 按钮右侧空隙",
+          "feat: 添加打印设置页面和相关功能",
+          "fix: 按钮位置",
+          "feat: 资料库跳转到uploadprinting",
+          "feat: axios pnpm",
+          "feat: win10final",
+          "feat: win10final",
+          "feat: mock资料库对接",
+          "refactor: 调整文件打印路径",
+          "feat: 添加前端项目文件和目录结构，后端代码和mock"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "83ba798781a97d8da01f1d8ca7d931ef3ce6d020",
+            "datetime": "2024-09-25 18:44:30 +0800",
+            "subject": "chore(types): remove type declaration for document.startViewTransition (TypeScript 5.6 includes it) (#633)"
+          }
+        ],
+        "files": 1,
+        "added": 0,
+        "removed": 8,
+        "heat": [
+          [
+            "src/typings/global.d.ts",
+            8
+          ]
+        ],
+        "subjects": [
+          "chore(types): remove type declaration for document.startViewTransition (TypeScript 5.6 includes it) (#633)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

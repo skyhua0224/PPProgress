@@ -1,0 +1,6 @@
+{
+  "allowed": ["root", "admin", "backend", "frontend"],
+  "alias": {
+    "": "root"
+  }
+}

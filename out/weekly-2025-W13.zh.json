@@ -1,0 +1,268 @@
+{
+  "title": "周报（2025-03-24 至 2025-03-29）",
+  "lang": "zh",
+  "since": "2025-03-24",
+  "until": "2025-03-29",
+  "generatedAt": "2025-11-02T10:55:22.371Z",
+  "progress": {
+    "totals": {
+      "commits": 17,
+      "files": 138,
+      "added": 10221,
+      "removed": 5419
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "49d199b39465b16eea6933908ef8615cedee7262",
+            "datetime": "2025-03-29 14:32:33 +0800",
+            "subject": "style: 测试eslint并解决coupon-create作为样例"
+          },
+          {
+            "hash": "5949fb9d1c46394b5074c50bf3386ad6c884ddf5",
+            "datetime": "2025-03-29 13:50:43 +0800",
+            "subject": "feat: 调整商品管理页面的导入顺序，优化代码结构"
+          },
+          {
+            "hash": "93fde86bf82e956b6c7b7807068f8653f2b1b28b",
+            "datetime": "2025-03-27 15:28:21 +0800",
+            "subject": "feat: 修改发放详情的内容逻辑"
+          },
+          {
+            "hash": "7be630f40089107a6cc41fcc83718769997a5147",
+            "datetime": "2025-03-27 10:32:29 +0800",
+            "subject": "feat: 添加优惠券发布记录的查看用户(组)功能"
+          },
+          {
+            "hash": "862af5e9f94cf2e4b3f1436ffd6a008e317eb6af",
+            "datetime": "2025-03-26 03:04:07 +0800",
+            "subject": "feat: 添加优惠券发布时选择功能"
+          },
+          {
+            "hash": "f4cfcbe4a9dd9311a01f04d63e948a16dd7e5e48",
+            "datetime": "2025-03-26 01:05:59 +0800",
+            "subject": "feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑"
+          },
+          {
+            "hash": "57516d1a9c6b3c7afd053b782152a33e14278782",
+            "datetime": "2025-03-25 03:04:52 +0800",
+            "subject": "feat: 添加优惠券发布记录功能，包含相关接口和组件"
+          }
+        ],
+        "files": 30,
+        "added": 2611,
+        "removed": 559,
+        "heat": [
+          [
+            "src/views/app-manage",
+            2783
+          ],
+          [
+            "src/service/api",
+            172
+          ],
+          [
+            "src/typings/api.d.ts",
+            66
+          ],
+          [
+            "src/locales/langs",
+            58
+          ],
+          [
+            ".vscode",
+            40
+          ],
+          [
+            "src/typings/app.d.ts",
+            38
+          ],
+          [
+            "src/router/elegant",
+            11
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "style: 测试eslint并解决coupon-create作为样例",
+          "feat: 调整商品管理页面的导入顺序，优化代码结构",
+          "feat: 修改发放详情的内容逻辑",
+          "feat: 添加优惠券发布记录的查看用户(组)功能",
+          "feat: 添加优惠券发布时选择功能",
+          "feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑",
+          "feat: 添加优惠券发布记录功能，包含相关接口和组件"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "412377f178b32f1fa1e87d5b128ecc991b405a1b",
+            "datetime": "2025-03-28 09:32:06 +0800",
+            "subject": "fix: 更新环境变量配置和修复库页面的样式问题"
+          },
+          {
+            "hash": "ef6f3a5352f84964669329c088f805074298e2eb",
+            "datetime": "2025-03-27 09:13:58 +0800",
+            "subject": "fix(frontend): 修复类型定义和ESLint配置错误"
+          },
+          {
+            "hash": "ad4e8613145c67cd9e5f3dccfabf533a54d89168",
+            "datetime": "2025-03-27 09:09:08 +0800",
+            "subject": "fix: 修复剩余前端报红"
+          },
+          {
+            "hash": "ef551c40e84d67d3dd081e9464efb05235fd747b",
+            "datetime": "2025-03-25 15:23:37 +0800",
+            "subject": "fix: 修复checkout页面显示异常"
+          }
+        ],
+        "files": 58,
+        "added": 4946,
+        "removed": 4331,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            5179
+          ],
+          [
+            "src/pages-sub/checkout",
+            1556
+          ],
+          [
+            "src/service/orderMockData.ts",
+            500
+          ],
+          [
+            "src/pages/home",
+            388
+          ],
+          [
+            "src/pages/library",
+            369
+          ],
+          [
+            "src/utils/amap-wx.js",
+            148
+          ],
+          [
+            "src/service/delivery.ts",
+            147
+          ],
+          [
+            "src/service/couponService.ts",
+            122
+          ],
+          [
+            "src/pages-sub/mine",
+            98
+          ],
+          [
+            "src/service/printerService.ts",
+            92
+          ],
+          [
+            "src/service/storeService.ts",
+            68
+          ],
+          [
+            "src/service/goodsService.ts",
+            64
+          ],
+          [
+            "src/types/file.ts",
+            58
+          ],
+          [
+            "src/typings.ts",
+            58
+          ],
+          [
+            "src/service/orderService.ts",
+            52
+          ]
+        ],
+        "subjects": [
+          "fix: 更新环境变量配置和修复库页面的样式问题",
+          "fix(frontend): 修复类型定义和ESLint配置错误",
+          "fix: 修复剩余前端报红",
+          "fix: 修复checkout页面显示异常"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "1a4b09a0244c28ab2c3ca987d1df92a63df107d5",
+            "datetime": "2025-03-29 17:54:37 +0800",
+            "subject": "feat: 实现订单流程核心后端功能"
+          },
+          {
+            "hash": "02843b16575181de294ccb4f8bfbf30da12d214f",
+            "datetime": "2025-03-29 15:25:07 +0800",
+            "subject": "feat: 实现核心数据模型和服务接口/存根"
+          },
+          {
+            "hash": "dad50b668490480eddfa11d478622a1614760d28",
+            "datetime": "2025-03-29 13:48:58 +0800",
+            "subject": "feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布"
+          },
+          {
+            "hash": "c1a17f8e2f6706eba7c73d7b3bf40c07f70b3c57",
+            "datetime": "2025-03-27 15:37:59 +0800",
+            "subject": "feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询"
+          },
+          {
+            "hash": "ad2dab6fb5d19167a565aa8d8beacc7ebf5cf938",
+            "datetime": "2025-03-26 03:03:14 +0800",
+            "subject": "feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选"
+          },
+          {
+            "hash": "d69adf80112eab103e58ef36ed328e9f1e3d3636",
+            "datetime": "2025-03-25 03:03:41 +0800",
+            "subject": "feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口"
+          }
+        ],
+        "files": 50,
+        "added": 2664,
+        "removed": 529,
+        "heat": [
+          [
+            "src/main/java",
+            2916
+          ],
+          [
+            "api.md",
+            277
+          ]
+        ],
+        "subjects": [
+          "feat: 实现订单流程核心后端功能",
+          "feat: 实现核心数据模型和服务接口/存根",
+          "feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布",
+          "feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询",
+          "feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选",
+          "feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "title": "Weekly Report (2024-11-18 to 2024-11-22)",
+  "lang": "en",
+  "since": "2024-11-18",
+  "until": "2024-11-22",
+  "generatedAt": "2025-11-02T10:55:48.357Z",
+  "progress": {
+    "totals": {
+      "commits": 8,
+      "files": 95,
+      "added": 2115,
+      "removed": 1205
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "0cfb845ccd8b6b3a3d566f0be901cd52445d563b",
+            "datetime": "2024-11-22 01:38:45 +0800",
+            "subject": "style: 修复一些warning"
+          },
+          {
+            "hash": "af871b77983ffb1e7d5b80637dd638365c23b747",
+            "datetime": "2024-11-19 13:47:24 +0800",
+            "subject": "feat: 使用SSL加密后端地址"
+          }
+        ],
+        "files": 28,
+        "added": 820,
+        "removed": 572,
+        "heat": [
+          [
+            "src/views/app-manage",
+            1177
+          ],
+          [
+            "src/service/api",
+            117
+          ],
+          [
+            "src/locales/langs",
+            41
+          ],
+          [
+            "src/typings/app.d.ts",
+            18
+          ],
+          [
+            "src/views/user-manage",
+            14
+          ],
+          [
+            "src/typings/api.d.ts",
+            10
+          ],
+          [
+            ".env.test",
+            6
+          ],
+          [
+            ".vscode",
+            6
+          ],
+          [
+            ".env.prod",
+            2
+          ],
+          [
+            "eslint.config.js",
+            1
+          ]
+        ],
+        "subjects": [
+          "style: 修复一些warning",
+          "feat: 使用SSL加密后端地址"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "dc33de1054c81c4561bdd8638520d49cf51d2be6",
+            "datetime": "2024-11-21 23:49:33 +0800",
+            "subject": "feat: 更新优惠券获取逻辑，增加安全检查和错误处理"
+          },
+          {
+            "hash": "fd281132ed92ffa74ae0a16ab514322a9770f8b7",
+            "datetime": "2024-11-21 11:21:47 +0800",
+            "subject": "feat: 添加优惠券规则和过期优惠券页面"
+          },
+          {
+            "hash": "a2003fa545dcc7a908cc8be17c86bfa8dc679f46",
+            "datetime": "2024-11-19 13:22:15 +0800",
+            "subject": "feat: 地址管理"
+          }
+        ],
+        "files": 23,
+        "added": 1170,
+        "removed": 451,
+        "heat": [
+          [
+            "src/pages-sub/mine",
+            1298
+          ],
+          [
+            "src/components/VoucherCard.vue",
+            227
+          ],
+          [
+            "src/service/couponService.ts",
+            40
+          ],
+          [
+            "src/pages.json",
+            22
+          ],
+          [
+            "src/interceptors/request.ts",
+            15
+          ],
+          [
+            "src/types/uni-pages.d.ts",
+            7
+          ],
+          [
+            "src/utils/http.ts",
+            6
+          ],
+          [
+            "env",
+            2
+          ],
+          [
+            "index.html",
+            2
+          ],
+          [
+            "src/pages/mine",
+            2
+          ],
+          [
+            ".DS_Store",
+            0
+          ],
+          [
+            "src/.DS_Store",
+            0
+          ],
+          [
+            "src/pages-sub/.DS_Store",
+            0
+          ],
+          [
+            "src/pages/.DS_Store",
+            0
+          ],
+          [
+            "src/router/index.ts",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 更新优惠券获取逻辑，增加安全检查和错误处理",
+          "feat: 添加优惠券规则和过期优惠券页面",
+          "feat: 地址管理"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "52c26893d23ab584e76c35114d98be63201424be",
+            "datetime": "2024-11-22 00:02:49 +0800",
+            "subject": "style: 修复一些warning"
+          },
+          {
+            "hash": "a8a40ba362c7264dca5f6e07cccc7f5dd0a39811",
+            "datetime": "2024-11-21 23:49:59 +0800",
+            "subject": "feat: 更新应用程序配置，添加时区设置，启用定时任务，修改优惠券过期日期字段，支持多个跨域请求"
+          },
+          {
+            "hash": "3635be0157ba6bce7a5bb279e0c8237db1904f44",
+            "datetime": "2024-11-21 23:47:57 +0800",
+            "subject": "style: 修复一些warring"
+          }
+        ],
+        "files": 44,
+        "added": 125,
+        "removed": 182,
+        "heat": [
+          [
+            "target",
+            177
+          ],
+          [
+            "src/main/java",
+            114
+          ],
+          [
+            "pom.xml",
+            10
+          ],
+          [
+            ".vscode",
+            6
+          ]
+        ],
+        "subjects": [
+          "style: 修复一些warning",
+          "feat: 更新应用程序配置，添加时区设置，启用定时任务，修改优惠券过期日期字段，支持多个跨域请求",
+          "style: 修复一些warring"
+        ]
+      }
+    ]
+  }
+}

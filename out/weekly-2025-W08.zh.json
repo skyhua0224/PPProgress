@@ -1,0 +1,272 @@
+{
+  "title": "周报（2025-02-17 至 2025-02-20）",
+  "lang": "zh",
+  "since": "2025-02-17",
+  "until": "2025-02-20",
+  "generatedAt": "2025-11-02T10:55:20.526Z",
+  "progress": {
+    "totals": {
+      "commits": 19,
+      "files": 111,
+      "added": 5614,
+      "removed": 2171
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "57eecbd9d9ebfe5d36c45459939c3189eef6fe19",
+            "datetime": "2025-02-20 09:56:48 +0800",
+            "subject": "feat: 添加角色管理功能，包含角色响应接口和批量删除角色的实现，优化角色数据处理"
+          },
+          {
+            "hash": "235095d3414de235ff8aeea1e74322a53d0bbbef",
+            "datetime": "2025-02-19 15:21:24 +0800",
+            "subject": "feat: 添加优惠券发布功能，支持发布到所有用户、特定用户、用户组及条件发布（代码还存在报错但可使用）"
+          },
+          {
+            "hash": "a03becdaed882c52511818b57c7f0817f44c8210",
+            "datetime": "2025-02-19 12:12:00 +0800",
+            "subject": "feat(projects): tab support touch event"
+          },
+          {
+            "hash": "09cc767de3ebabf32617137231670cdb742dce9b",
+            "datetime": "2025-02-19 00:32:12 +0800",
+            "subject": "feat: 更新门店创建和编辑接口，简化数据结构并调整API路径"
+          },
+          {
+            "hash": "7214a9e355ffdd825552fab9e47efe673964d1f4",
+            "datetime": "2025-02-19 00:00:26 +0800",
+            "subject": "feat: 添加门店管理功能，包含API接口、国际化支持和视图组件"
+          },
+          {
+            "hash": "22492d96a293b86331de0fe56f820a12a2137d9a",
+            "datetime": "2025-02-18 21:41:49 +0800",
+            "subject": "feat: 添加门店管理功能，包含路由、API和视图"
+          }
+        ],
+        "files": 29,
+        "added": 1185,
+        "removed": 374,
+        "heat": [
+          [
+            "src/views/app-manage",
+            865
+          ],
+          [
+            "src/views/system-manage",
+            308
+          ],
+          [
+            "src/service/api",
+            204
+          ],
+          [
+            "src/locales/langs",
+            79
+          ],
+          [
+            "src/typings/api.d.ts",
+            54
+          ],
+          [
+            "src/typings/app.d.ts",
+            32
+          ],
+          [
+            "src/router/elegant",
+            13
+          ],
+          [
+            "src/layouts/modules",
+            2
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 添加角色管理功能，包含角色响应接口和批量删除角色的实现，优化角色数据处理",
+          "feat: 添加优惠券发布功能，支持发布到所有用户、特定用户、用户组及条件发布（代码还存在报错但可使用）",
+          "feat(projects): tab support touch event",
+          "feat: 更新门店创建和编辑接口，简化数据结构并调整API路径",
+          "feat: 添加门店管理功能，包含API接口、国际化支持和视图组件",
+          "feat: 添加门店管理功能，包含路由、API和视图"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "09bb15f97a47b654550f3ce0b0ded539bb21969b",
+            "datetime": "2025-02-20 15:39:37 +0800",
+            "subject": "feat: 优化配送方式选择逻辑，增加自助点提示，调整布局和样式"
+          },
+          {
+            "hash": "7dceb70fd080ae9f6ee2a96c7f36540503124b63",
+            "datetime": "2025-02-19 00:35:27 +0800",
+            "subject": "feat: 更新获取店铺列表的响应字段，改为使用records替代stores"
+          },
+          {
+            "hash": "6842067eee716a72bb0fd7853cb8791faa287888",
+            "datetime": "2025-02-19 00:01:22 +0800",
+            "subject": "feat: 更新获取店铺列表的API路径，改为/all"
+          },
+          {
+            "hash": "2ea4421e4a4cfb875b1ed5de923a51a48ecc6530",
+            "datetime": "2025-02-18 21:03:54 +0800",
+            "subject": "feat: 优化结账页面逻辑，重构价格参数获取，调整店铺卡片布局"
+          },
+          {
+            "hash": "1bb8f26ab53393065394c32fc5a493a0bcf91531",
+            "datetime": "2025-02-18 20:54:42 +0800",
+            "subject": "feat: 替换SVG图标为wd-icon组件，优化支付页面样式和布局"
+          },
+          {
+            "hash": "8d460b4d63fca19cc7d800562673bfd63a69d6f6",
+            "datetime": "2025-02-18 20:42:51 +0800",
+            "subject": "feat: 添加基础打印价格显示，优化店铺类型映射逻辑，获取默认旗舰店"
+          },
+          {
+            "hash": "bfa4e73b3ab6ef120ba62fe4eaa8fcdec7e959c5",
+            "datetime": "2025-02-18 19:48:52 +0800",
+            "subject": "feat: 将svg文件合并至vue以减少HTTP请求"
+          },
+          {
+            "hash": "a5703802887d5785378db1c4a9a6795cbb48032f",
+            "datetime": "2025-02-18 19:40:58 +0800",
+            "subject": "feat: 优化文件图标获取逻辑，重构文件上传处理，更新相关事件处理函数"
+          },
+          {
+            "hash": "b135e96fda778b26e5c15b1efbda1e5e1391147f",
+            "datetime": "2025-02-18 16:14:03 +0800",
+            "subject": "feat: 添加店铺选择页面和相关组件，优化文件上传功能，更新类型定义"
+          }
+        ],
+        "files": 43,
+        "added": 2342,
+        "removed": 1715,
+        "heat": [
+          [
+            "src/pages-sub/checkout",
+            2264
+          ],
+          [
+            "src/pages-sub/filePrinting",
+            1489
+          ],
+          [
+            "src/typings.ts",
+            110
+          ],
+          [
+            "src/components/PaymentFooter.vue",
+            95
+          ],
+          [
+            "src/service/storeService.ts",
+            56
+          ],
+          [
+            "src/types/file.ts",
+            36
+          ],
+          [
+            "src/pages.json",
+            4
+          ],
+          [
+            "tsconfig.json",
+            2
+          ],
+          [
+            "src/types/uni-pages.d.ts",
+            1
+          ],
+          [
+            "src/{pages-sub/checkout => static",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 优化配送方式选择逻辑，增加自助点提示，调整布局和样式",
+          "feat: 更新获取店铺列表的响应字段，改为使用records替代stores",
+          "feat: 更新获取店铺列表的API路径，改为/all",
+          "feat: 优化结账页面逻辑，重构价格参数获取，调整店铺卡片布局",
+          "feat: 替换SVG图标为wd-icon组件，优化支付页面样式和布局",
+          "feat: 添加基础打印价格显示，优化店铺类型映射逻辑，获取默认旗舰店",
+          "feat: 将svg文件合并至vue以减少HTTP请求",
+          "feat: 优化文件图标获取逻辑，重构文件上传处理，更新相关事件处理函数",
+          "feat: 添加店铺选择页面和相关组件，优化文件上传功能，更新类型定义"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "b7978e853e5384c706cac9732671879deba627a7",
+            "datetime": "2025-02-20 10:22:07 +0800",
+            "subject": "feat: 新增优惠券兑换码和发布范围相关的实体及仓库，增强角色管理功能"
+          },
+          {
+            "hash": "e8e8849068213d084515eeb7d2e60fd2cd442e6d",
+            "datetime": "2025-02-19 14:47:14 +0800",
+            "subject": "feat: 新增店铺创建和更新功能，使用DTO封装请求数据，增强数据验证"
+          },
+          {
+            "hash": "7ff47305f923c63c20f2208aa9b70d199323a26a",
+            "datetime": "2025-02-19 00:01:04 +0800",
+            "subject": "feat: 新增商店管理功能，包括商店实体、服务和仓库，支持分页查询和状态过滤"
+          },
+          {
+            "hash": "d726b888dd4d545a9d3ac0a72c7e3b7868b7276b",
+            "datetime": "2025-02-17 23:32:21 +0800",
+            "subject": "feat: 新增订单相关枚举和字段，支持配送类型和打印状态管理"
+          }
+        ],
+        "files": 39,
+        "added": 2087,
+        "removed": 82,
+        "heat": [
+          [
+            "src/main/java",
+            2138
+          ],
+          [
+            "pom.xml",
+            14
+          ],
+          [
+            "src/main/resources",
+            12
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ]
+        ],
+        "subjects": [
+          "feat: 新增优惠券兑换码和发布范围相关的实体及仓库，增强角色管理功能",
+          "feat: 新增店铺创建和更新功能，使用DTO封装请求数据，增强数据验证",
+          "feat: 新增商店管理功能，包括商店实体、服务和仓库，支持分页查询和状态过滤",
+          "feat: 新增订单相关枚举和字段，支持配送类型和打印状态管理"
+        ]
+      }
+    ]
+  }
+}

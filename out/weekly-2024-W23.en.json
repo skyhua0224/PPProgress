@@ -1,0 +1,240 @@
+{
+  "title": "Weekly Report (2024-06-03 to 2024-06-07)",
+  "lang": "en",
+  "since": "2024-06-03",
+  "until": "2024-06-07",
+  "generatedAt": "2025-11-02T10:55:39.071Z",
+  "progress": {
+    "totals": {
+      "commits": 20,
+      "files": 77,
+      "added": 824,
+      "removed": 605
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "62592872406f2f5ee957cb742b1519661cc16a80",
+            "datetime": "2024-06-07 16:06:33 +0800",
+            "subject": "fix(projects): hide AppVersionNotification in DEV mode (#482)"
+          },
+          {
+            "hash": "22004ff4dcc0407a2c699060a004dc6d4f0eac6f",
+            "datetime": "2024-06-07 11:55:07 +0800",
+            "subject": "chore(projects): release v1.2.1"
+          },
+          {
+            "hash": "08827a42a3cc1081105b907e2429d23f454b1af2",
+            "datetime": "2024-06-07 11:38:41 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "6a6eb9afd64a428db57d4f99ede67e0f43c4488d",
+            "datetime": "2024-06-07 11:33:22 +0800",
+            "subject": "fix(projects): fix setupAppVersionNotification render"
+          },
+          {
+            "hash": "ff51b72dac6c5eaf960890fb47d9fb322116f96f",
+            "datetime": "2024-06-07 11:28:49 +0800",
+            "subject": "fix(projects): fix get user info when page reload"
+          },
+          {
+            "hash": "fe06b8c499f15796faaf935c15ed2ea244ce798a",
+            "datetime": "2024-06-06 23:33:16 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "4b63bbcf673a093d263c337fb5f1a725f2d0c0c9",
+            "datetime": "2024-06-06 23:31:43 +0800",
+            "subject": "chore(projects): release v1.2.0"
+          },
+          {
+            "hash": "5531a68641fe510448b5aece4e615b4791b1fca2",
+            "datetime": "2024-06-06 20:22:28 +0800",
+            "subject": "feat(projects): get user info in router guard and remove in localStorage. close #459"
+          },
+          {
+            "hash": "584cd54d6d86b4e440f35a8cfe89611a84c6b4c9",
+            "datetime": "2024-06-06 20:08:00 +0800",
+            "subject": "feat(projects): support system new version update notification. close #420"
+          },
+          {
+            "hash": "2bec89903100c0b969b7bc721bbe90563c25abc6",
+            "datetime": "2024-06-06 23:30:21 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "83862ba76e1bd7c0ec2e5b6f9d0db1601b2c8098",
+            "datetime": "2024-06-06 23:26:15 +0800",
+            "subject": "chore(projects): release v1.1.5"
+          },
+          {
+            "hash": "060c0a91c7184eaf9b606e739cf9b75ff996f64e",
+            "datetime": "2024-06-06 23:23:13 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "76649e2a0853c61579cc8985ae31b5d3464ad330",
+            "datetime": "2024-06-06 19:17:27 +0800",
+            "subject": "chore(projects): update vscode settings: vue official"
+          },
+          {
+            "hash": "ddf3823a552ac2f4c016b439b3011d760adc1636",
+            "datetime": "2024-06-06 15:57:58 +0800",
+            "subject": "fix(projects): fix register name, CodeLogin => Register (#478)"
+          },
+          {
+            "hash": "e75fd73f3432a2ac290fee527fb3ddfc4fec3cb3",
+            "datetime": "2024-06-06 10:31:15 +0800",
+            "subject": "chore(projects): release v1.1.4"
+          },
+          {
+            "hash": "1f4647b99560f335465e0cc2a7287f486a240cb7",
+            "datetime": "2024-06-06 10:30:51 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "910dfca8bbce766ae36feef2f27ef0ff0c0b67a4",
+            "datetime": "2024-06-06 10:27:03 +0800",
+            "subject": "chore(projects): update vscode settings"
+          },
+          {
+            "hash": "ffb48b15bc360daab967c3cc23158e395fd3d386",
+            "datetime": "2024-06-06 10:24:14 +0800",
+            "subject": "optimize(projects): optimize RouteMeta remarks"
+          },
+          {
+            "hash": "e6086f0f35edd1c80a1719842469157693ebab3c",
+            "datetime": "2024-06-04 20:23:22 +0800",
+            "subject": "chore(projects): update mock url"
+          },
+          {
+            "hash": "9b05d73e6d70e501bd027922c35465a9015fc296",
+            "datetime": "2024-06-04 08:46:38 +0800",
+            "subject": "docs(projects): update Node&pnpm version (#472)"
+          }
+        ],
+        "files": 77,
+        "added": 824,
+        "removed": 605,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            986
+          ],
+          [
+            "CHANGELOG.md",
+            81
+          ],
+          [
+            "src/store/modules",
+            70
+          ],
+          [
+            "packages",
+            68
+          ],
+          [
+            "CHANGELOG.zh_CN.md",
+            62
+          ],
+          [
+            "src/plugins/app.ts",
+            59
+          ],
+          [
+            "package.json",
+            20
+          ],
+          [
+            "build",
+            19
+          ],
+          [
+            "src/locales/langs",
+            12
+          ],
+          [
+            "src/router/guard",
+            9
+          ],
+          [
+            "src/typings/router.d.ts",
+            7
+          ],
+          [
+            ".vscode",
+            5
+          ],
+          [
+            "src/main.ts",
+            4
+          ],
+          [
+            "src/typings/app.d.ts",
+            4
+          ],
+          [
+            "README.md",
+            4
+          ]
+        ],
+        "subjects": [
+          "fix(projects): hide AppVersionNotification in DEV mode (#482)",
+          "chore(projects): release v1.2.1",
+          "chore(deps): update deps",
+          "fix(projects): fix setupAppVersionNotification render",
+          "fix(projects): fix get user info when page reload",
+          "docs(projects): update CHANGELOG",
+          "chore(projects): release v1.2.0",
+          "feat(projects): get user info in router guard and remove in localStorage. close #459",
+          "feat(projects): support system new version update notification. close #420",
+          "docs(projects): update CHANGELOG",
+          "chore(projects): release v1.1.5",
+          "chore(deps): update deps",
+          "chore(projects): update vscode settings: vue official",
+          "fix(projects): fix register name, CodeLogin => Register (#478)",
+          "chore(projects): release v1.1.4",
+          "chore(deps): update deps",
+          "chore(projects): update vscode settings",
+          "optimize(projects): optimize RouteMeta remarks",
+          "chore(projects): update mock url",
+          "docs(projects): update Node&pnpm version (#472)"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

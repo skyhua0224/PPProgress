@@ -1,0 +1,370 @@
+{
+  "title": "周报（2025-07-21 至 2025-07-27）",
+  "lang": "zh",
+  "since": "2025-07-21",
+  "until": "2025-07-27",
+  "generatedAt": "2025-11-02T10:55:27.558Z",
+  "progress": {
+    "totals": {
+      "commits": 39,
+      "files": 285,
+      "added": 11198,
+      "removed": 14331
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "4b0404301a23295dbaa0619f644bfa3b95a06795",
+            "datetime": "2025-07-26 09:17:51 +0800",
+            "subject": "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划"
+          },
+          {
+            "hash": "3fd0cdf7a212fc16bcabdc30821c534ce2681b45",
+            "datetime": "2025-07-25 21:28:42 +0800",
+            "subject": "feat: 更新1.2版本V12后端文档"
+          },
+          {
+            "hash": "769c1d53465345c16afbf3964d1ce31158f1f334",
+            "datetime": "2025-07-25 20:49:08 +0800",
+            "subject": "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性"
+          },
+          {
+            "hash": "13301d32cd9ca12318621a8c4e4f98ed4d9d6403",
+            "datetime": "2025-07-25 17:23:17 +0800",
+            "subject": "feat: 新增店铺管理设计稿"
+          },
+          {
+            "hash": "7b32d3d47baa595ca98926689b1612585e8f83bb",
+            "datetime": "2025-07-24 22:55:13 +0800",
+            "subject": "feat: 添加方案模板管理页面的模版"
+          },
+          {
+            "hash": "e3a21da31f7e22027a2f09647d1ab556a13264b8",
+            "datetime": "2025-07-24 21:38:02 +0800",
+            "subject": "feat: 设计了价格/商品管理体系的前端页面逻辑"
+          }
+        ],
+        "files": 47,
+        "added": 4598,
+        "removed": 8046,
+        "heat": [
+          [
+            "docs",
+            12392
+          ],
+          [
+            "docs-old",
+            250
+          ],
+          [
+            "backend",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划",
+          "feat: 更新1.2版本V12后端文档",
+          "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性",
+          "feat: 新增店铺管理设计稿",
+          "feat: 添加方案模板管理页面的模版",
+          "feat: 设计了价格/商品管理体系的前端页面逻辑"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "d0b0e75f2ff2b527345e3d7878806a73344227e3",
+            "datetime": "2025-07-23 20:26:05 +0800",
+            "subject": "feat: 完成价格模型中的平台核心服务菜单设计"
+          },
+          {
+            "hash": "6a0dac4ded5f2008c16d2ca16b01cafe9091191c",
+            "datetime": "2025-07-22 16:51:19 +0800",
+            "subject": "feat: 完成用户管理界面设计，优化权限码Picker的设计，解决商店管理的权限错误"
+          }
+        ],
+        "files": 47,
+        "added": 1772,
+        "removed": 654,
+        "heat": [
+          [
+            "src/views/system-manage",
+            951
+          ],
+          [
+            "src/views/app-manage",
+            440
+          ],
+          [
+            "src/service/api",
+            276
+          ],
+          [
+            "src/components/custom",
+            137
+          ],
+          [
+            "build",
+            111
+          ],
+          [
+            "src/typings/api.d.ts",
+            110
+          ],
+          [
+            "src/store/modules",
+            103
+          ],
+          [
+            "src/locales/langs",
+            63
+          ],
+          [
+            "src/router/elegant",
+            58
+          ],
+          [
+            "src/router/sync-config.json",
+            50
+          ],
+          [
+            "src/layouts/base-layout",
+            33
+          ],
+          [
+            "packages",
+            20
+          ],
+          [
+            "src/hooks/common",
+            15
+          ],
+          [
+            "pnpm-lock.yaml",
+            12
+          ],
+          [
+            "src/service/request",
+            12
+          ]
+        ],
+        "subjects": [
+          "feat: 完成价格模型中的平台核心服务菜单设计",
+          "feat: 完成用户管理界面设计，优化权限码Picker的设计，解决商店管理的权限错误"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "3252d61ddf8efb1427b305f4b5f2a973d8777d0d",
+            "datetime": "2025-07-25 23:35:37 +0800",
+            "subject": "refactor: 移除OrderRepository中的冗余查询方法，简化接口"
+          },
+          {
+            "hash": "336f350f42b0a52246e2272a99366363a01aec1d",
+            "datetime": "2025-07-25 23:32:02 +0800",
+            "subject": "fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误"
+          },
+          {
+            "hash": "1f1aec68cfeb6bb26aeb861c16b65301162a81ff",
+            "datetime": "2025-07-25 23:28:46 +0800",
+            "subject": "refactor: 完全重构任何与价格和订单有关的接口"
+          },
+          {
+            "hash": "cc78b3a126c32ffee61858fcff8850fc4b7ac729",
+            "datetime": "2025-07-23 21:31:42 +0800",
+            "subject": "refactor: 重构配送费管理，使其符合V8价格模型"
+          },
+          {
+            "hash": "88cd12f4203cb7015e45e6e99c003bd2c2c25485",
+            "datetime": "2025-07-23 20:38:24 +0800",
+            "subject": "feat: 注释掉调试日志，避免在转换数据库数据时输出信息"
+          },
+          {
+            "hash": "c31d80033a891f7769b81e17d15e978915470b1f",
+            "datetime": "2025-07-23 19:26:53 +0800",
+            "subject": "feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验"
+          },
+          {
+            "hash": "355be66dd34b864a8761d22c18e5950617195b9a",
+            "datetime": "2025-07-23 17:58:53 +0800",
+            "subject": "feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理"
+          },
+          {
+            "hash": "36228fc8feb5f50da417f3c2b7cc6ad444922700",
+            "datetime": "2025-07-23 17:56:42 +0800",
+            "subject": "feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持"
+          },
+          {
+            "hash": "528db217204d7dba6d7edd8963a8136dec3db9df",
+            "datetime": "2025-07-23 17:54:21 +0800",
+            "subject": "feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey"
+          },
+          {
+            "hash": "6c1981a88c3b97b720445fa35393338992035985",
+            "datetime": "2025-07-23 17:52:50 +0800",
+            "subject": "feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型"
+          },
+          {
+            "hash": "ace8b34a42dc3ff4986ac528607d99af8286b10c",
+            "datetime": "2025-07-23 17:37:52 +0800",
+            "subject": "fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理"
+          },
+          {
+            "hash": "5e936c82a258cdb1e1deddeada37be689326a85d",
+            "datetime": "2025-07-23 17:30:02 +0800",
+            "subject": "feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse"
+          },
+          {
+            "hash": "531e6ede9fb1e96897eea8d3b7d5383cd8f5032d",
+            "datetime": "2025-07-23 17:07:33 +0800",
+            "subject": "feat: 添加获取所有服务组件的接口及实现"
+          },
+          {
+            "hash": "4d5b3f35bfbdca5877ddcd86354630086e2675b2",
+            "datetime": "2025-07-23 15:34:01 +0800",
+            "subject": "fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字"
+          },
+          {
+            "hash": "5e32fe78182293ff1dfe39ad21704900ac17175c",
+            "datetime": "2025-07-23 15:30:44 +0800",
+            "subject": "feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法"
+          },
+          {
+            "hash": "a36d27f18a4c5929cad408363cb07764ba9eb738",
+            "datetime": "2025-07-23 15:20:12 +0800",
+            "subject": "fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字"
+          },
+          {
+            "hash": "c839b8cb701e3d706ba2f0b3f30177aa8216dd7f",
+            "datetime": "2025-07-23 14:56:39 +0800",
+            "subject": "feat: 添加服务组件管理功能，包括增删改查接口及DTO支持"
+          },
+          {
+            "hash": "fa9d5fd440466b8fb800b02c586c0130a47f3c3b",
+            "datetime": "2025-07-22 20:58:34 +0800",
+            "subject": "feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由"
+          },
+          {
+            "hash": "72f348cbd9671e17f477af96e98aab445a7e52da",
+            "datetime": "2025-07-22 20:52:57 +0800",
+            "subject": "feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单"
+          },
+          {
+            "hash": "5491a7e8bc6fa75345b38960e4d00a3d0dd1ef3e",
+            "datetime": "2025-07-22 20:01:52 +0800",
+            "subject": "feat: 添加对sync-user的特殊权限处理逻辑"
+          },
+          {
+            "hash": "cceea8e506a1fa4577383867940cae41aa5e730e",
+            "datetime": "2025-07-22 20:00:13 +0800",
+            "subject": "feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程"
+          },
+          {
+            "hash": "c57ec52be53c20722a4c05f868b53bc004dd7ca7",
+            "datetime": "2025-07-22 19:53:42 +0800",
+            "subject": "feat: 添加生成同步令牌功能，包含新的API和服务逻辑"
+          },
+          {
+            "hash": "83e885ce306027427c6de9b7f3adf6cd2855818d",
+            "datetime": "2025-07-22 18:08:07 +0800",
+            "subject": "feat: 初步构建新价格/订单模型"
+          },
+          {
+            "hash": "197dfa199305de7eed0bcbea4d4ef598183eed0d",
+            "datetime": "2025-07-22 16:18:06 +0800",
+            "subject": "feat: 更新getCurrentAdminProfile方法，使用findByIdWithManagedStores查询以获取当前用户的AdminProfile及其管理的店铺"
+          },
+          {
+            "hash": "b3721288c2a9e0c9772464a7539ec9c4f51c476e",
+            "datetime": "2025-07-22 16:04:24 +0800",
+            "subject": "feat: 更新isSuperAdmin方法，修改角色代码为R_SUPER以符合新权限模型"
+          },
+          {
+            "hash": "f8ebf2ef5fb429c3cc9be6934d99c50dd5bd6c7b",
+            "datetime": "2025-07-22 16:01:33 +0800",
+            "subject": "feat: 优化getAllStores方法，处理当前管理的店铺ID为空的情况"
+          },
+          {
+            "hash": "503b4ef3cde57af9b2bc48b0da68dd68fd5f76da",
+            "datetime": "2025-07-22 14:34:30 +0800",
+            "subject": "feat: 更新UserService以使用带权限的角色查询，优化角色管理逻辑"
+          },
+          {
+            "hash": "ad81f7b2a0ab246c04cd56d08b7943fc570c7342",
+            "datetime": "2025-07-21 21:52:08 +0800",
+            "subject": "feat: 添加权限代码列表到RoleDTO，优化角色权限管理"
+          },
+          {
+            "hash": "a642865ee69a52d01ea30ad946f6a66cf9560009",
+            "datetime": "2025-07-21 21:13:50 +0800",
+            "subject": "feat: 在UserService中添加权限覆盖更新逻辑，支持PromoteAdminDTO的权限管理"
+          },
+          {
+            "hash": "2bec8e2f4eaa52fcccd34e20f6f42c97fcf82175",
+            "datetime": "2025-07-21 19:37:19 +0800",
+            "subject": "feat: 重置权限覆盖功能，更新AdminProfileDTO和User实体以支持权限管理"
+          }
+        ],
+        "files": 191,
+        "added": 4828,
+        "removed": 5631,
+        "heat": [
+          [
+            "src/main/java",
+            10459
+          ]
+        ],
+        "subjects": [
+          "refactor: 移除OrderRepository中的冗余查询方法，简化接口",
+          "fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误",
+          "refactor: 完全重构任何与价格和订单有关的接口",
+          "refactor: 重构配送费管理，使其符合V8价格模型",
+          "feat: 注释掉调试日志，避免在转换数据库数据时输出信息",
+          "feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验",
+          "feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理",
+          "feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持",
+          "feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey",
+          "feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型",
+          "fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理",
+          "feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse",
+          "feat: 添加获取所有服务组件的接口及实现",
+          "fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字",
+          "feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法",
+          "fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字",
+          "feat: 添加服务组件管理功能，包括增删改查接口及DTO支持",
+          "feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由",
+          "feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单",
+          "feat: 添加对sync-user的特殊权限处理逻辑",
+          "feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程",
+          "feat: 添加生成同步令牌功能，包含新的API和服务逻辑",
+          "feat: 初步构建新价格/订单模型",
+          "feat: 更新getCurrentAdminProfile方法，使用findByIdWithManagedStores查询以获取当前用户的AdminProfile及其管理的店铺",
+          "feat: 更新isSuperAdmin方法，修改角色代码为R_SUPER以符合新权限模型",
+          "feat: 优化getAllStores方法，处理当前管理的店铺ID为空的情况",
+          "feat: 更新UserService以使用带权限的角色查询，优化角色管理逻辑",
+          "feat: 添加权限代码列表到RoleDTO，优化角色权限管理",
+          "feat: 在UserService中添加权限覆盖更新逻辑，支持PromoteAdminDTO的权限管理",
+          "feat: 重置权限覆盖功能，更新AdminProfileDTO和User实体以支持权限管理"
+        ]
+      }
+    ]
+  }
+}

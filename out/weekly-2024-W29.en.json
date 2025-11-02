@@ -1,0 +1,210 @@
+{
+  "title": "Weekly Report (2024-07-15 to 2024-07-20)",
+  "lang": "en",
+  "since": "2024-07-15",
+  "until": "2024-07-20",
+  "generatedAt": "2025-11-02T10:55:40.390Z",
+  "progress": {
+    "totals": {
+      "commits": 15,
+      "files": 88,
+      "added": 948,
+      "removed": 4242
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "00f41dd25e40398e092cc762b22bc24ccf900fa7",
+            "datetime": "2024-07-20 04:05:24 +0800",
+            "subject": "refactor(projects): change css vars mount to root"
+          },
+          {
+            "hash": "1d1b148c8f619db474101de7932c09e66ad6c2e7",
+            "datetime": "2024-07-20 04:00:32 +0800",
+            "subject": "refactor(projects): combine `theme tokens` and `theme settings`. close #379"
+          },
+          {
+            "hash": "958d0baf3fa42935a1256b913cf481b4a1925428",
+            "datetime": "2024-07-20 03:16:02 +0800",
+            "subject": "feat(packages): @sa/scripts: add ignore pattern list for command `gitCommitVerify`. close #504"
+          },
+          {
+            "hash": "0206969e98fbf16bf7472ea107d7a24e040f9a81",
+            "datetime": "2024-07-20 03:07:46 +0800",
+            "subject": "chore(projects): add script `czh`"
+          },
+          {
+            "hash": "527fd79df243e1fe3d1c7941d8581576af0545f7",
+            "datetime": "2024-07-20 03:04:23 +0800",
+            "subject": "feat(packages): @sa/axios: replace CancelTokenSource by AbortController. close #530, close #532"
+          },
+          {
+            "hash": "06971f3935454ab7da124e2089931b19a6014e19",
+            "datetime": "2024-07-15 14:43:37 +0800",
+            "subject": "feat(packages): `@sa/scripts`: command `gitCommit` support chinese (#548)"
+          },
+          {
+            "hash": "f4eeb2ed6357e9a2ece2efac9d482f4bfbec3c78",
+            "datetime": "2024-07-15 13:37:40 +0800",
+            "subject": "fix(hooks): prevent program freezing when pagesize returns 0 (#545)"
+          },
+          {
+            "hash": "793b16e9ba8fb8841da6718abee5fd5dba599ee5",
+            "datetime": "2024-07-12 10:55:23 +0800",
+            "subject": "feat(projects): make branch `main` tiny & modify request retry times to 0"
+          },
+          {
+            "hash": "cf9fc7d31fc09ba4e51de984c66df2a5f0a49248",
+            "datetime": "2024-07-20 02:27:55 +0800",
+            "subject": "chore(projects): release v1.2.8"
+          },
+          {
+            "hash": "58fc09623ce5628871e05a6790da4170b68eb1f1",
+            "datetime": "2024-07-20 02:27:35 +0800",
+            "subject": "docs(projects): update CHANGELOG"
+          },
+          {
+            "hash": "276ea7fa2fd94e676110675dae8468ae883fe644",
+            "datetime": "2024-07-20 02:23:25 +0800",
+            "subject": "fix(types): fix data type of useHookTable"
+          },
+          {
+            "hash": "96c1044ffb1bd7df148cb25657bf82d358c9a4e0",
+            "datetime": "2024-07-20 02:18:58 +0800",
+            "subject": "fix(packages): @sa/hooks: fix searchParams of useHookTable. fixed #552"
+          },
+          {
+            "hash": "a91335d74be720bca00f356a9e3a497ea02be0ed",
+            "datetime": "2024-07-20 02:14:20 +0800",
+            "subject": "refactor(projects): replace `cloneDeep` of `lodash-es` with `klona`"
+          },
+          {
+            "hash": "3e2a993db8b9d2fd3a154877716a050cb92c2cb4",
+            "datetime": "2024-07-19 18:12:29 +0800",
+            "subject": "fix(types): Fixed the reference type error (#551)"
+          },
+          {
+            "hash": "cf0192ad7146766e354afc6f16060bab117722db",
+            "datetime": "2024-07-20 02:00:21 +0800",
+            "subject": "chore(deps): update deps"
+          }
+        ],
+        "files": 88,
+        "added": 948,
+        "removed": 4242,
+        "heat": [
+          [
+            "src/views/manage",
+            1908
+          ],
+          [
+            "pnpm-lock.yaml",
+            1120
+          ],
+          [
+            "src/locales/langs",
+            420
+          ],
+          [
+            "src/router/elegant",
+            318
+          ],
+          [
+            "src/views/function",
+            289
+          ],
+          [
+            "packages",
+            247
+          ],
+          [
+            "src/typings/app.d.ts",
+            216
+          ],
+          [
+            "src/router/routes",
+            155
+          ],
+          [
+            "src/views/about",
+            85
+          ],
+          [
+            "src/typings/elegant-router.d.ts",
+            80
+          ],
+          [
+            "src/service/api",
+            56
+          ],
+          [
+            "CHANGELOG.zh_CN.md",
+            54
+          ],
+          [
+            "src/store/modules",
+            53
+          ],
+          [
+            "package.json",
+            37
+          ],
+          [
+            "src/constants/business.ts",
+            29
+          ]
+        ],
+        "subjects": [
+          "refactor(projects): change css vars mount to root",
+          "refactor(projects): combine `theme tokens` and `theme settings`. close #379",
+          "feat(packages): @sa/scripts: add ignore pattern list for command `gitCommitVerify`. close #504",
+          "chore(projects): add script `czh`",
+          "feat(packages): @sa/axios: replace CancelTokenSource by AbortController. close #530, close #532",
+          "feat(packages): `@sa/scripts`: command `gitCommit` support chinese (#548)",
+          "fix(hooks): prevent program freezing when pagesize returns 0 (#545)",
+          "feat(projects): make branch `main` tiny & modify request retry times to 0",
+          "chore(projects): release v1.2.8",
+          "docs(projects): update CHANGELOG",
+          "fix(types): fix data type of useHookTable",
+          "fix(packages): @sa/hooks: fix searchParams of useHookTable. fixed #552",
+          "refactor(projects): replace `cloneDeep` of `lodash-es` with `klona`",
+          "fix(types): Fixed the reference type error (#551)",
+          "chore(deps): update deps"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "title": "Weekly Report (2024-03-04 to 2024-03-10)",
+  "lang": "en",
+  "since": "2024-03-04",
+  "until": "2024-03-10",
+  "generatedAt": "2025-11-02T10:55:35.106Z",
+  "progress": {
+    "totals": {
+      "commits": 9,
+      "files": 29,
+      "added": 551,
+      "removed": 338
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "7065f6f07324f4d341b9367540219d61257dba08",
+            "datetime": "2024-03-10 14:37:31 +0800",
+            "subject": "chore(projects): update pnpm version"
+          },
+          {
+            "hash": "dc24a36739cd622dee796c63ff28b3e6f4c740a5",
+            "datetime": "2024-03-10 14:36:05 +0800",
+            "subject": "perf(projects): perf code"
+          },
+          {
+            "hash": "874aaca5bbb41607b1b8067083db38bf0f2393b4",
+            "datetime": "2024-03-10 05:19:21 +0800",
+            "subject": "feat(projects): Add route meta parameter:fixedQuery"
+          },
+          {
+            "hash": "b37c1e94a01c31f76b5e2b72bbad63b3d79892cf",
+            "datetime": "2024-03-07 22:19:06 +0800",
+            "subject": "style(components): Uniform icon size for header"
+          },
+          {
+            "hash": "02d4b0a5743a4ae35d2a1ef6de9a98bdd7b91cb9",
+            "datetime": "2024-03-07 21:51:08 +0800",
+            "subject": "chore(deps): update deps"
+          },
+          {
+            "hash": "4e29acaae30e36c1c5104c6d10d48dda26063e1f",
+            "datetime": "2024-03-07 21:46:26 +0800",
+            "subject": "chore(projects): update vscode extensions.json"
+          },
+          {
+            "hash": "0126da47782b90c98feeb9fef2e57e47ac5df9a9",
+            "datetime": "2024-03-06 11:43:27 +0800",
+            "subject": "feat(projects): globalSearch add i18n"
+          },
+          {
+            "hash": "04aa10b4771f4267e534218f9d989336c955a9be",
+            "datetime": "2024-03-06 11:05:54 +0800",
+            "subject": "perf(components): components  name is converted to uppercase"
+          },
+          {
+            "hash": "9ea878915e49fbbd424ad9d122d9e865c907341f",
+            "datetime": "2024-03-06 10:59:40 +0800",
+            "subject": "feat(components): add GlobalSearch components"
+          }
+        ],
+        "files": 29,
+        "added": 551,
+        "removed": 338,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            515
+          ],
+          [
+            "src/layouts/modules",
+            281
+          ],
+          [
+            "src/store/modules",
+            45
+          ],
+          [
+            "package.json",
+            14
+          ],
+          [
+            "src/typings/components.d.ts",
+            9
+          ],
+          [
+            "src/locales/langs",
+            8
+          ],
+          [
+            "src/typings/router.d.ts",
+            6
+          ],
+          [
+            "packages",
+            6
+          ],
+          [
+            "src/typings/app.d.ts",
+            4
+          ],
+          [
+            ".vscode",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore(projects): update pnpm version",
+          "perf(projects): perf code",
+          "feat(projects): Add route meta parameter:fixedQuery",
+          "style(components): Uniform icon size for header",
+          "chore(deps): update deps",
+          "chore(projects): update vscode extensions.json",
+          "feat(projects): globalSearch add i18n",
+          "perf(components): components  name is converted to uppercase",
+          "feat(components): add GlobalSearch components"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

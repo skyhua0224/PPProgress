@@ -1,0 +1,192 @@
+{
+  "title": "Weekly Report (2024-01-29 to 2024-02-04)",
+  "lang": "en",
+  "since": "2024-01-29",
+  "until": "2024-02-04",
+  "generatedAt": "2025-11-02T10:55:33.740Z",
+  "progress": {
+    "totals": {
+      "commits": 12,
+      "files": 41,
+      "added": 650,
+      "removed": 1225
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "ef4af79a1103d9ec4501be62148c6b76c109d40a",
+            "datetime": "2024-02-04 01:09:48 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "806a1cba5fc5879b8479d32512a2b806a1c0b775",
+            "datetime": "2024-02-04 01:04:31 +0800",
+            "subject": "chore(projects): update repository url"
+          },
+          {
+            "hash": "147f60d17ee03ac9d7394965caa528234f453a66",
+            "datetime": "2024-02-04 00:48:04 +0800",
+            "subject": "chore(projects): update pnpm-lock.yaml"
+          },
+          {
+            "hash": "579636b0b47b279bc0f9ee2cf4b05ea572a2973e",
+            "datetime": "2024-02-04 00:28:38 +0800",
+            "subject": "chore(projects): update deps & remove packages docs"
+          },
+          {
+            "hash": "ebb154840ac41d7b5bd46ecb7d49f3b54804157e",
+            "datetime": "2024-02-04 00:25:25 +0800",
+            "subject": "chore(projects): add dev and build command with service env"
+          },
+          {
+            "hash": "ae6b6134f3cc181494ab98c3d82a9b2f686ce216",
+            "datetime": "2024-02-04 00:14:17 +0800",
+            "subject": "fix(projects): fix request msg"
+          },
+          {
+            "hash": "6ea9b85ff1e5246034ab66ed689edc0c552896ad",
+            "datetime": "2024-02-03 06:25:00 +0800",
+            "subject": "docs(projects): update README.md"
+          },
+          {
+            "hash": "0b56e44c0e519660e8a4b6a4d245628c40e510bc",
+            "datetime": "2024-02-02 00:52:29 +0800",
+            "subject": "chore(projects): update @elegant-router/vue, fix inject name in windows"
+          },
+          {
+            "hash": "13001bc83e851350118e5621c58892ed081122cb",
+            "datetime": "2024-02-01 22:46:08 +0800",
+            "subject": "chore(projects): update deps & fix keep-alive"
+          },
+          {
+            "hash": "adec0d75014adda5eb5b1a3e56a18fe02d055fde",
+            "datetime": "2024-02-01 22:07:57 +0800",
+            "subject": "chore(projects): update pnpm version"
+          },
+          {
+            "hash": "db17c916ef5454f1076b0ad2a49949ee847abeb4",
+            "datetime": "2024-01-30 00:33:26 +0800",
+            "subject": "feat(projects): page manage_menu operateDrawer"
+          },
+          {
+            "hash": "e2085e058dd7ab0a750cf9ebebc63c3253163bef",
+            "datetime": "2024-01-29 22:23:43 +0800",
+            "subject": "docs(projects): update README.md"
+          }
+        ],
+        "files": 41,
+        "added": 650,
+        "removed": 1225,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            1319
+          ],
+          [
+            "packages",
+            229
+          ],
+          [
+            "src/views/manage",
+            109
+          ],
+          [
+            "README.md",
+            54
+          ],
+          [
+            "README.zh_CN.md",
+            53
+          ],
+          [
+            "package.json",
+            51
+          ],
+          [
+            "src/locales/langs",
+            18
+          ],
+          [
+            "src/service/request",
+            10
+          ],
+          [
+            "src/utils/icon.ts",
+            9
+          ],
+          [
+            "src/constants/business.ts",
+            7
+          ],
+          [
+            "src/typings/app.d.ts",
+            7
+          ],
+          [
+            "src/typings/components.d.ts",
+            5
+          ],
+          [
+            "src/layouts/modules",
+            2
+          ],
+          [
+            "src/typings/api.d.ts",
+            2
+          ],
+          [
+            "public",
+            0
+          ]
+        ],
+        "subjects": [
+          "docs(projects): update README.md",
+          "chore(projects): update repository url",
+          "chore(projects): update pnpm-lock.yaml",
+          "chore(projects): update deps & remove packages docs",
+          "chore(projects): add dev and build command with service env",
+          "fix(projects): fix request msg",
+          "docs(projects): update README.md",
+          "chore(projects): update @elegant-router/vue, fix inject name in windows",
+          "chore(projects): update deps & fix keep-alive",
+          "chore(projects): update pnpm version",
+          "feat(projects): page manage_menu operateDrawer",
+          "docs(projects): update README.md"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}

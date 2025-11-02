@@ -1,0 +1,47 @@
+# Weekly Report (2024-07-15 to 2024-07-20)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2024-07-15 to 2024-07-20)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 15
+Total files touched: 88
+Total lines +/-: +948 / -4242
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=15, files=88, +948/-4242
+- frontend (frontend): commits=0, files=0, +0/-0
+- backend (backend): commits=0, files=0, +0/-0
+
+## Heat by top-level directory (per module)
+- admin:
+  - src/views/manage: 1908
+  - pnpm-lock.yaml: 1120
+  - src/locales/langs: 420
+  - src/router/elegant: 318
+  - src/views/function: 289
+  - packages: 247
+  - src/typings/app.d.ts: 216
+  - src/router/routes: 155
+  - src/views/about: 85
+  - src/typings/elegant-router.d.ts: 80
+  - src/service/api: 56
+  - CHANGELOG.zh_CN.md: 54
+  - src/store/modules: 53
+  - package.json: 37
+  - src/constants/business.ts: 29
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] refactor(projects): change css vars mount to root
+  - [undefined] refactor(projects): combine `theme tokens` and `theme settings`. close #379
+  - [undefined] feat(packages): @sa/scripts: add ignore pattern list for command `gitCommitVerify`. close #504
+  - [undefined] chore(projects): add script `czh`
+  - [undefined] feat(packages): @sa/axios: replace CancelTokenSource by AbortController. close #530, close #532
+  - [undefined] feat(packages): `@sa/scripts`: command `gitCommit` support chinese (#548)
+  - [undefined] fix(hooks): prevent program freezing when pagesize returns 0 (#545)
+  - [undefined] feat(projects): make branch `main` tiny & modify request retry times to 0
+  - [undefined] chore(projects): release v1.2.8
+  - [undefined] docs(projects): update CHANGELOG
