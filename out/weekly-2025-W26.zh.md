@@ -1,0 +1,84 @@
+# 周报（2025-06-23 至 2025-06-29）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2025-06-23 至 2025-06-29）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 101
+触达文件总数: 121
+行变更合计 +/-: +301 / -2825
+
+## 按模块汇总
+- ProjectPrinting (.): commits=2, files=7, +52/-683
+- admin (admin): commits=33, files=38, +83/-714
+- frontend (frontend): commits=33, files=38, +83/-714
+- backend (backend): commits=33, files=38, +83/-714
+
+## 顶层目录热力（按模块）
+- ProjectPrinting:
+  - PROJECT_PLAN.md: 631
+  - .gitignore: 49
+  - .vscode: 49
+  - admin: 2
+  - backend: 2
+  - frontend: 2
+- admin:
+  - PROJECT_PLAN.md: 631
+  - .gitignore: 49
+  - .vscode: 49
+  - backend: 42
+  - frontend: 18
+  - admin: 8
+- frontend:
+  - PROJECT_PLAN.md: 631
+  - .gitignore: 49
+  - .vscode: 49
+  - backend: 42
+  - frontend: 18
+  - admin: 8
+- backend:
+  - PROJECT_PLAN.md: 631
+  - .gitignore: 49
+  - .vscode: 49
+  - backend: 42
+  - frontend: 18
+  - admin: 8
+
+## 提交主题（每模块最多 10 条）
+- ProjectPrinting:
+  - [undefined] Delete PROJECT_PLAN.md and update .gitignore
+  - [undefined] chore: 更新.gitignore文件，删除.vscode配置文件
+- admin:
+  - [undefined] [frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\n
+  - [undefined] [backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\n
+  - [undefined] [frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\n
+  - [undefined] [frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\n
+  - [undefined] [frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\n
+  - [undefined] [frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\n
+  - [undefined] [frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\n
+  - [undefined] [frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\n
+  - [undefined] [admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\n
+  - [undefined] [backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\n
+- frontend:
+  - [undefined] [frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\n
+  - [undefined] [backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\n
+  - [undefined] [frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\n
+  - [undefined] [frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\n
+  - [undefined] [frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\n
+  - [undefined] [frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\n
+  - [undefined] [frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\n
+  - [undefined] [frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\n
+  - [undefined] [admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\n
+  - [undefined] [backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\n
+- backend:
+  - [undefined] [frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\n
+  - [undefined] [backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\n
+  - [undefined] [frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\n
+  - [undefined] [frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\n
+  - [undefined] [frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\n
+  - [undefined] [frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\n
+  - [undefined] [frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\n
+  - [undefined] [frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\n
+  - [undefined] [admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\n
+  - [undefined] [backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\n

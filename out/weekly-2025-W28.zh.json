@@ -1,0 +1,630 @@
+{
+  "title": "周报（2025-07-07 至 2025-07-13）",
+  "lang": "zh",
+  "since": "2025-07-07",
+  "until": "2025-07-13",
+  "generatedAt": "2025-11-02T11:29:10.792Z",
+  "progress": {
+    "totals": {
+      "commits": 102,
+      "files": 102,
+      "added": 102,
+      "removed": 102
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "8238383305381b411af61865c4ea11255fab4f26",
+            "datetime": "2025-07-12 08:53:56 +0000",
+            "subject": "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n"
+          },
+          {
+            "hash": "b35e5f0b0c143b5c8d9ac93fce288f250202e9a1",
+            "datetime": "2025-07-12 08:49:25 +0000",
+            "subject": "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n"
+          },
+          {
+            "hash": "99bfdc780d1ffdc83753ccee785ed3cf57d9bcd0",
+            "datetime": "2025-07-12 08:21:44 +0000",
+            "subject": "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n"
+          },
+          {
+            "hash": "86f2ab53e16c4726a35721ac3b1669e4c4fd5404",
+            "datetime": "2025-07-12 08:10:41 +0000",
+            "subject": "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n"
+          },
+          {
+            "hash": "acbbdb7f0c16eed8ac9aea1d252099b9aee33792",
+            "datetime": "2025-07-12 07:55:58 +0000",
+            "subject": "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n"
+          },
+          {
+            "hash": "d5d8a88f400452d2f747c2fffa19502a64532adc",
+            "datetime": "2025-07-11 14:43:25 +0000",
+            "subject": "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n"
+          },
+          {
+            "hash": "fe175aaf5efaffa9469aafbf819ca0451ae5d2a2",
+            "datetime": "2025-07-11 12:23:12 +0000",
+            "subject": "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n"
+          },
+          {
+            "hash": "cd3680a6a99c057ef2bf16cdd5869aa4907d59e0",
+            "datetime": "2025-07-11 08:28:45 +0000",
+            "subject": "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "6191f664425f81b55b8990325e5d6060691ad7a6",
+            "datetime": "2025-07-10 09:56:01 +0000",
+            "subject": "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n"
+          },
+          {
+            "hash": "3166de17b3885f7e4418e02e1ab95c4f16acca5d",
+            "datetime": "2025-07-10 09:47:41 +0000",
+            "subject": "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n"
+          },
+          {
+            "hash": "81ef998c16563aec31bfb520b53204a0a5cae867",
+            "datetime": "2025-07-10 09:35:41 +0000",
+            "subject": "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n"
+          },
+          {
+            "hash": "d084b8f1eb48a02558c623f6a53f0ba4cf83743c",
+            "datetime": "2025-07-10 09:21:09 +0000",
+            "subject": "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n"
+          },
+          {
+            "hash": "6ebb1029ad39e19e387878eade9353ed68d56c36",
+            "datetime": "2025-07-10 09:04:08 +0000",
+            "subject": "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n"
+          },
+          {
+            "hash": "51e3eb4c3acbf1922e34c1c3d1796957ff85a0a5",
+            "datetime": "2025-07-10 08:50:23 +0000",
+            "subject": "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n"
+          },
+          {
+            "hash": "6d771fa483dea8b12197fb80c490155dbd082c30",
+            "datetime": "2025-07-10 08:40:25 +0000",
+            "subject": "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n"
+          },
+          {
+            "hash": "a7c27c3a9efe4280ff3b495a67ca95e49ce09a71",
+            "datetime": "2025-07-09 17:04:48 +0000",
+            "subject": "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n"
+          },
+          {
+            "hash": "9bbfce194dffa80b4a5777979dbeeb0b5c291dda",
+            "datetime": "2025-07-09 16:51:38 +0000",
+            "subject": "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n"
+          },
+          {
+            "hash": "f86c1d0d57dd9d89abaac2bad8f08570a4117fde",
+            "datetime": "2025-07-09 16:44:16 +0000",
+            "subject": "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n"
+          },
+          {
+            "hash": "986487cd135547ec26c3c07636e8469e9f72b3af",
+            "datetime": "2025-07-09 15:28:46 +0000",
+            "subject": "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n"
+          },
+          {
+            "hash": "c7e0e3b2645bea168c7e6f15d59c675efb7d8a74",
+            "datetime": "2025-07-09 15:01:07 +0000",
+            "subject": "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n"
+          },
+          {
+            "hash": "cde66cbb14284e737fe31eab28d6eea16f5429d3",
+            "datetime": "2025-07-09 14:56:26 +0000",
+            "subject": "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n"
+          },
+          {
+            "hash": "8b7e353d8159dbe02b16622e901e8f340d4e482a",
+            "datetime": "2025-07-09 14:46:55 +0000",
+            "subject": "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n"
+          },
+          {
+            "hash": "f776890d946e1d3129d5cc6a4a67c55642b387ca",
+            "datetime": "2025-07-09 14:35:07 +0000",
+            "subject": "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n"
+          },
+          {
+            "hash": "374e4e4119fec49e22c9e6d79eeb5a7f99ce63b9",
+            "datetime": "2025-07-09 14:31:32 +0000",
+            "subject": "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n"
+          },
+          {
+            "hash": "1ecd70519ae5d03e851d9f69347195d3ae9157e4",
+            "datetime": "2025-07-09 14:20:40 +0000",
+            "subject": "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n"
+          },
+          {
+            "hash": "4087fe7868e6c4334bc602f2e7d6f0986ea43902",
+            "datetime": "2025-07-09 09:49:07 +0000",
+            "subject": "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n"
+          },
+          {
+            "hash": "6ff167904c036bcccfefbc38fd391e0f6bca521f",
+            "datetime": "2025-07-09 09:45:19 +0000",
+            "subject": "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n"
+          },
+          {
+            "hash": "93ca29fb07359127c1cab1ca55b3b01c6785fd46",
+            "datetime": "2025-07-09 09:35:58 +0000",
+            "subject": "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n"
+          },
+          {
+            "hash": "7619e99868420a9e7fef580e1a0320a8404b6eb0",
+            "datetime": "2025-07-09 09:32:37 +0000",
+            "subject": "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n"
+          },
+          {
+            "hash": "047faee41cdf66b3b0d063de2de144957eef706c",
+            "datetime": "2025-07-09 09:26:13 +0000",
+            "subject": "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 34,
+        "removed": 34,
+        "heat": [
+          [
+            "backend",
+            64
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n",
+          "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n",
+          "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n",
+          "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n",
+          "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n",
+          "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n",
+          "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n",
+          "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n",
+          "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n",
+          "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n",
+          "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n",
+          "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n",
+          "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n",
+          "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n",
+          "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n",
+          "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n",
+          "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n",
+          "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n",
+          "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n",
+          "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n",
+          "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n",
+          "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n",
+          "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n",
+          "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n",
+          "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n",
+          "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n",
+          "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n",
+          "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n",
+          "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n",
+          "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "8238383305381b411af61865c4ea11255fab4f26",
+            "datetime": "2025-07-12 08:53:56 +0000",
+            "subject": "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n"
+          },
+          {
+            "hash": "b35e5f0b0c143b5c8d9ac93fce288f250202e9a1",
+            "datetime": "2025-07-12 08:49:25 +0000",
+            "subject": "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n"
+          },
+          {
+            "hash": "99bfdc780d1ffdc83753ccee785ed3cf57d9bcd0",
+            "datetime": "2025-07-12 08:21:44 +0000",
+            "subject": "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n"
+          },
+          {
+            "hash": "86f2ab53e16c4726a35721ac3b1669e4c4fd5404",
+            "datetime": "2025-07-12 08:10:41 +0000",
+            "subject": "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n"
+          },
+          {
+            "hash": "acbbdb7f0c16eed8ac9aea1d252099b9aee33792",
+            "datetime": "2025-07-12 07:55:58 +0000",
+            "subject": "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n"
+          },
+          {
+            "hash": "d5d8a88f400452d2f747c2fffa19502a64532adc",
+            "datetime": "2025-07-11 14:43:25 +0000",
+            "subject": "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n"
+          },
+          {
+            "hash": "fe175aaf5efaffa9469aafbf819ca0451ae5d2a2",
+            "datetime": "2025-07-11 12:23:12 +0000",
+            "subject": "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n"
+          },
+          {
+            "hash": "cd3680a6a99c057ef2bf16cdd5869aa4907d59e0",
+            "datetime": "2025-07-11 08:28:45 +0000",
+            "subject": "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "6191f664425f81b55b8990325e5d6060691ad7a6",
+            "datetime": "2025-07-10 09:56:01 +0000",
+            "subject": "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n"
+          },
+          {
+            "hash": "3166de17b3885f7e4418e02e1ab95c4f16acca5d",
+            "datetime": "2025-07-10 09:47:41 +0000",
+            "subject": "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n"
+          },
+          {
+            "hash": "81ef998c16563aec31bfb520b53204a0a5cae867",
+            "datetime": "2025-07-10 09:35:41 +0000",
+            "subject": "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n"
+          },
+          {
+            "hash": "d084b8f1eb48a02558c623f6a53f0ba4cf83743c",
+            "datetime": "2025-07-10 09:21:09 +0000",
+            "subject": "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n"
+          },
+          {
+            "hash": "6ebb1029ad39e19e387878eade9353ed68d56c36",
+            "datetime": "2025-07-10 09:04:08 +0000",
+            "subject": "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n"
+          },
+          {
+            "hash": "51e3eb4c3acbf1922e34c1c3d1796957ff85a0a5",
+            "datetime": "2025-07-10 08:50:23 +0000",
+            "subject": "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n"
+          },
+          {
+            "hash": "6d771fa483dea8b12197fb80c490155dbd082c30",
+            "datetime": "2025-07-10 08:40:25 +0000",
+            "subject": "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n"
+          },
+          {
+            "hash": "a7c27c3a9efe4280ff3b495a67ca95e49ce09a71",
+            "datetime": "2025-07-09 17:04:48 +0000",
+            "subject": "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n"
+          },
+          {
+            "hash": "9bbfce194dffa80b4a5777979dbeeb0b5c291dda",
+            "datetime": "2025-07-09 16:51:38 +0000",
+            "subject": "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n"
+          },
+          {
+            "hash": "f86c1d0d57dd9d89abaac2bad8f08570a4117fde",
+            "datetime": "2025-07-09 16:44:16 +0000",
+            "subject": "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n"
+          },
+          {
+            "hash": "986487cd135547ec26c3c07636e8469e9f72b3af",
+            "datetime": "2025-07-09 15:28:46 +0000",
+            "subject": "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n"
+          },
+          {
+            "hash": "c7e0e3b2645bea168c7e6f15d59c675efb7d8a74",
+            "datetime": "2025-07-09 15:01:07 +0000",
+            "subject": "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n"
+          },
+          {
+            "hash": "cde66cbb14284e737fe31eab28d6eea16f5429d3",
+            "datetime": "2025-07-09 14:56:26 +0000",
+            "subject": "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n"
+          },
+          {
+            "hash": "8b7e353d8159dbe02b16622e901e8f340d4e482a",
+            "datetime": "2025-07-09 14:46:55 +0000",
+            "subject": "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n"
+          },
+          {
+            "hash": "f776890d946e1d3129d5cc6a4a67c55642b387ca",
+            "datetime": "2025-07-09 14:35:07 +0000",
+            "subject": "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n"
+          },
+          {
+            "hash": "374e4e4119fec49e22c9e6d79eeb5a7f99ce63b9",
+            "datetime": "2025-07-09 14:31:32 +0000",
+            "subject": "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n"
+          },
+          {
+            "hash": "1ecd70519ae5d03e851d9f69347195d3ae9157e4",
+            "datetime": "2025-07-09 14:20:40 +0000",
+            "subject": "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n"
+          },
+          {
+            "hash": "4087fe7868e6c4334bc602f2e7d6f0986ea43902",
+            "datetime": "2025-07-09 09:49:07 +0000",
+            "subject": "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n"
+          },
+          {
+            "hash": "6ff167904c036bcccfefbc38fd391e0f6bca521f",
+            "datetime": "2025-07-09 09:45:19 +0000",
+            "subject": "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n"
+          },
+          {
+            "hash": "93ca29fb07359127c1cab1ca55b3b01c6785fd46",
+            "datetime": "2025-07-09 09:35:58 +0000",
+            "subject": "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n"
+          },
+          {
+            "hash": "7619e99868420a9e7fef580e1a0320a8404b6eb0",
+            "datetime": "2025-07-09 09:32:37 +0000",
+            "subject": "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n"
+          },
+          {
+            "hash": "047faee41cdf66b3b0d063de2de144957eef706c",
+            "datetime": "2025-07-09 09:26:13 +0000",
+            "subject": "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 34,
+        "removed": 34,
+        "heat": [
+          [
+            "backend",
+            64
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n",
+          "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n",
+          "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n",
+          "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n",
+          "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n",
+          "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n",
+          "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n",
+          "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n",
+          "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n",
+          "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n",
+          "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n",
+          "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n",
+          "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n",
+          "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n",
+          "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n",
+          "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n",
+          "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n",
+          "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n",
+          "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n",
+          "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n",
+          "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n",
+          "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n",
+          "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n",
+          "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n",
+          "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n",
+          "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n",
+          "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n",
+          "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n",
+          "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n",
+          "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "8238383305381b411af61865c4ea11255fab4f26",
+            "datetime": "2025-07-12 08:53:56 +0000",
+            "subject": "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n"
+          },
+          {
+            "hash": "b35e5f0b0c143b5c8d9ac93fce288f250202e9a1",
+            "datetime": "2025-07-12 08:49:25 +0000",
+            "subject": "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n"
+          },
+          {
+            "hash": "99bfdc780d1ffdc83753ccee785ed3cf57d9bcd0",
+            "datetime": "2025-07-12 08:21:44 +0000",
+            "subject": "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n"
+          },
+          {
+            "hash": "86f2ab53e16c4726a35721ac3b1669e4c4fd5404",
+            "datetime": "2025-07-12 08:10:41 +0000",
+            "subject": "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n"
+          },
+          {
+            "hash": "acbbdb7f0c16eed8ac9aea1d252099b9aee33792",
+            "datetime": "2025-07-12 07:55:58 +0000",
+            "subject": "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n"
+          },
+          {
+            "hash": "d5d8a88f400452d2f747c2fffa19502a64532adc",
+            "datetime": "2025-07-11 14:43:25 +0000",
+            "subject": "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n"
+          },
+          {
+            "hash": "fe175aaf5efaffa9469aafbf819ca0451ae5d2a2",
+            "datetime": "2025-07-11 12:23:12 +0000",
+            "subject": "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n"
+          },
+          {
+            "hash": "cd3680a6a99c057ef2bf16cdd5869aa4907d59e0",
+            "datetime": "2025-07-11 08:28:45 +0000",
+            "subject": "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "6191f664425f81b55b8990325e5d6060691ad7a6",
+            "datetime": "2025-07-10 09:56:01 +0000",
+            "subject": "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n"
+          },
+          {
+            "hash": "3166de17b3885f7e4418e02e1ab95c4f16acca5d",
+            "datetime": "2025-07-10 09:47:41 +0000",
+            "subject": "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n"
+          },
+          {
+            "hash": "81ef998c16563aec31bfb520b53204a0a5cae867",
+            "datetime": "2025-07-10 09:35:41 +0000",
+            "subject": "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n"
+          },
+          {
+            "hash": "d084b8f1eb48a02558c623f6a53f0ba4cf83743c",
+            "datetime": "2025-07-10 09:21:09 +0000",
+            "subject": "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n"
+          },
+          {
+            "hash": "6ebb1029ad39e19e387878eade9353ed68d56c36",
+            "datetime": "2025-07-10 09:04:08 +0000",
+            "subject": "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n"
+          },
+          {
+            "hash": "51e3eb4c3acbf1922e34c1c3d1796957ff85a0a5",
+            "datetime": "2025-07-10 08:50:23 +0000",
+            "subject": "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n"
+          },
+          {
+            "hash": "6d771fa483dea8b12197fb80c490155dbd082c30",
+            "datetime": "2025-07-10 08:40:25 +0000",
+            "subject": "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n"
+          },
+          {
+            "hash": "a7c27c3a9efe4280ff3b495a67ca95e49ce09a71",
+            "datetime": "2025-07-09 17:04:48 +0000",
+            "subject": "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n"
+          },
+          {
+            "hash": "9bbfce194dffa80b4a5777979dbeeb0b5c291dda",
+            "datetime": "2025-07-09 16:51:38 +0000",
+            "subject": "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n"
+          },
+          {
+            "hash": "f86c1d0d57dd9d89abaac2bad8f08570a4117fde",
+            "datetime": "2025-07-09 16:44:16 +0000",
+            "subject": "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n"
+          },
+          {
+            "hash": "986487cd135547ec26c3c07636e8469e9f72b3af",
+            "datetime": "2025-07-09 15:28:46 +0000",
+            "subject": "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n"
+          },
+          {
+            "hash": "c7e0e3b2645bea168c7e6f15d59c675efb7d8a74",
+            "datetime": "2025-07-09 15:01:07 +0000",
+            "subject": "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n"
+          },
+          {
+            "hash": "cde66cbb14284e737fe31eab28d6eea16f5429d3",
+            "datetime": "2025-07-09 14:56:26 +0000",
+            "subject": "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n"
+          },
+          {
+            "hash": "8b7e353d8159dbe02b16622e901e8f340d4e482a",
+            "datetime": "2025-07-09 14:46:55 +0000",
+            "subject": "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n"
+          },
+          {
+            "hash": "f776890d946e1d3129d5cc6a4a67c55642b387ca",
+            "datetime": "2025-07-09 14:35:07 +0000",
+            "subject": "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n"
+          },
+          {
+            "hash": "374e4e4119fec49e22c9e6d79eeb5a7f99ce63b9",
+            "datetime": "2025-07-09 14:31:32 +0000",
+            "subject": "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n"
+          },
+          {
+            "hash": "1ecd70519ae5d03e851d9f69347195d3ae9157e4",
+            "datetime": "2025-07-09 14:20:40 +0000",
+            "subject": "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n"
+          },
+          {
+            "hash": "4087fe7868e6c4334bc602f2e7d6f0986ea43902",
+            "datetime": "2025-07-09 09:49:07 +0000",
+            "subject": "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n"
+          },
+          {
+            "hash": "6ff167904c036bcccfefbc38fd391e0f6bca521f",
+            "datetime": "2025-07-09 09:45:19 +0000",
+            "subject": "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n"
+          },
+          {
+            "hash": "93ca29fb07359127c1cab1ca55b3b01c6785fd46",
+            "datetime": "2025-07-09 09:35:58 +0000",
+            "subject": "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n"
+          },
+          {
+            "hash": "7619e99868420a9e7fef580e1a0320a8404b6eb0",
+            "datetime": "2025-07-09 09:32:37 +0000",
+            "subject": "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n"
+          },
+          {
+            "hash": "047faee41cdf66b3b0d063de2de144957eef706c",
+            "datetime": "2025-07-09 09:26:13 +0000",
+            "subject": "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 34,
+        "removed": 34,
+        "heat": [
+          [
+            "backend",
+            64
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\\n",
+          "[backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\\n",
+          "[backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\\n",
+          "[backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\\n",
+          "[backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\\n",
+          "[admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\\n",
+          "[backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\\n",
+          "[backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\\n",
+          "[backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\\n",
+          "[backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\\n",
+          "[backend] 自动合并[bd20984: feat(controller): 为菜单治理模块添加权限控制; 在获取菜单树、更新菜单、更新菜单结构和删除菜单的API中添加@PreAuthorize注解，确保只有具备相应权限的用户可以访问这些功能]\\n",
+          "[backend] 自动合并[418e62e: fix(vo): 修复菜单VO序列化问题;通过在children字段上添加@JsonInclude(NON_EMPTY)注解，避免了因潜在循环引用导致的JSON序列化失败问题，确保了/api/menu/tree接口的稳定性。]\\n",
+          "[backend] 自动合并[9d9901e: feat(service): 完善菜单管理功能，支持获取菜单树、更新菜单属性及结构、删除菜单时的安全检查]\\n",
+          "[backend] 自动合并[f5f307b: feat(controller&service&dto): 实现菜单治理模块的Controller、Service和DTO，支持菜单树获取、更新和删除功能]\\n",
+          "[backend] 自动合并[5677947: feat(controller&dto&service): 新增菜单治理模块的Controller、Service和DTO骨架;为后续实现菜单的增删改查及结构调整功能奠定基础]\\n",
+          "[backend] 自动合并[ee5973a: feat(service): 恢复已存在菜单状态为 ENABLED，优化元数据处理逻辑]\\n",
+          "[admin] 自动合并[d3e918fc: feat: 完善自动化动态路由同步功能，重构手动同步路由指令(git typecheck 似乎有问题未解决)]\\n",
+          "[backend] 自动合并[31da336: feat(service): 优化孤立菜单处理逻辑，支持标记和恢复菜单状态]\\n",
+          "[backend] 自动合并[2d01530: feat(service): 添加查找指定状态菜单的功能，优化用户路由获取逻辑]\\n",
+          "[backend] 自动合并[c613db1: feat(service): 更新菜单父子关系逻辑，根菜单的 parentId 默认为 null]\\n",
+          "[backend] 自动合并[2200cc9: feat(service): 添加菜单同步服务实现，支持路由同步和孤立菜单处理]\\n",
+          "[backend] 自动合并[65c98c4: feat(security): 更新菜单同步接口路径，统一为/api/menu/sync]\\n",
+          "[backend] 自动合并[9f3c887: feat(service): 添加根据固定标志查找菜单的功能，支持获取固定路由配置]\\n",
+          "[backend] 自动合并[0d1a7c6: feat(service): 移除过时的菜单同步服务实现，简化菜单管理逻辑]\\n",
+          "[backend] 自动合并[5e33f29: feat(service): 重构菜单同步逻辑，增强菜单状态管理，支持孤立状态标记]\\n",
+          "[backend] 自动合并[3c86748: feat(service): 优化菜单父级ID获取逻辑，确保在查找父级ID时处理空值情况]\\n",
+          "[backend] 自动合并[05eb26b: feat(service): 重构路由同步逻辑，优化数据处理流程，增强菜单更新和删除功能]\\n",
+          "[backend] 自动合并[1831e8f: feat(service): 优化菜单同步逻辑，确保唯一标识更新时不发生冲突; 增强路由处理的唯一性检查]\\n",
+          "[backend] 自动合并[aaec1cf: feat(service): 优化菜单同步逻辑，增加按ID索引的菜单处理，支持更新和创建新菜单]\\n",
+          "[backend] 自动合并[7287dd5: feat(service): 添加对菜单元数据处理的空值检查，增强日志记录]\\n"
+        ]
+      }
+    ]
+  }
+}

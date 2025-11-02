@@ -1,0 +1,408 @@
+{
+  "title": "周报（2025-03-24 至 2025-03-29）",
+  "lang": "zh",
+  "since": "2025-03-24",
+  "until": "2025-03-29",
+  "generatedAt": "2025-11-02T11:29:10.024Z",
+  "progress": {
+    "totals": {
+      "commits": 51,
+      "files": 51,
+      "added": 51,
+      "removed": 51
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "1fe49cf6781f9bb488b433770cc38a6e3c9ad086",
+            "datetime": "2025-03-29 09:55:08 +0000",
+            "subject": "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n"
+          },
+          {
+            "hash": "8af7945678ddaeb6547770609fdfc83e2c44886d",
+            "datetime": "2025-03-29 07:25:37 +0000",
+            "subject": "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n"
+          },
+          {
+            "hash": "c66c03acfc2c6c7760fb107e2277acdb9d2ee9f0",
+            "datetime": "2025-03-29 06:33:00 +0000",
+            "subject": "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n"
+          },
+          {
+            "hash": "d745dbaa0f6a3a77bc04e6d9edd913c315b76e41",
+            "datetime": "2025-03-29 05:51:11 +0000",
+            "subject": "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n"
+          },
+          {
+            "hash": "9e4a8df8c6f82c6812d12c6b267c1c81d6c139e1",
+            "datetime": "2025-03-29 05:49:31 +0000",
+            "subject": "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n"
+          },
+          {
+            "hash": "8bb87f5ea931935d65cc731ccc2c83a2c886f36e",
+            "datetime": "2025-03-28 01:32:46 +0000",
+            "subject": "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n"
+          },
+          {
+            "hash": "8caec926e4b27a6bc48f1086bf9f42dcedf3399d",
+            "datetime": "2025-03-27 07:38:29 +0000",
+            "subject": "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n"
+          },
+          {
+            "hash": "f4cd04d9a27a8e98ed642b84f7c64442df58ec36",
+            "datetime": "2025-03-27 07:28:49 +0000",
+            "subject": "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n"
+          },
+          {
+            "hash": "b12f35dd8e640f1455812817508af9598e762677",
+            "datetime": "2025-03-27 02:32:58 +0000",
+            "subject": "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n"
+          },
+          {
+            "hash": "484612d3cc71e63cfeea8acf0a2bbdcc461c2450",
+            "datetime": "2025-03-27 01:14:37 +0000",
+            "subject": "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n"
+          },
+          {
+            "hash": "664c36b4159712e6c4e0e8f156c3b0bbe149be9f",
+            "datetime": "2025-03-27 01:09:39 +0000",
+            "subject": "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n"
+          },
+          {
+            "hash": "10d8bc4db505ce4a46c0eb18b3bdfaec992cebd4",
+            "datetime": "2025-03-25 19:04:35 +0000",
+            "subject": "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n"
+          },
+          {
+            "hash": "4de4f22ebc62660c9838770bb8ab4861bce99eef",
+            "datetime": "2025-03-25 19:03:48 +0000",
+            "subject": "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n"
+          },
+          {
+            "hash": "9dd10e67a2ddb63e4401d7388b5ba01c83eeff9f",
+            "datetime": "2025-03-25 17:06:32 +0000",
+            "subject": "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n"
+          },
+          {
+            "hash": "7f954b4a242702dd6ac5de262f3d8b957f34dc4b",
+            "datetime": "2025-03-25 07:24:06 +0000",
+            "subject": "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n"
+          },
+          {
+            "hash": "c3a3f3d92704fc8956f9ebf12ec80ef8166b420b",
+            "datetime": "2025-03-24 19:05:21 +0000",
+            "subject": "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n"
+          },
+          {
+            "hash": "ed945770ef60175da0f23cc1ca5663ad91bcdccd",
+            "datetime": "2025-03-24 19:04:17 +0000",
+            "subject": "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+          }
+        ],
+        "files": 17,
+        "added": 17,
+        "removed": 17,
+        "heat": [
+          [
+            "admin",
+            14
+          ],
+          [
+            "backend",
+            12
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n",
+          "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n",
+          "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n",
+          "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n",
+          "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n",
+          "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n",
+          "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n",
+          "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n",
+          "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n",
+          "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n",
+          "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n",
+          "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n",
+          "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n",
+          "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n",
+          "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n",
+          "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n",
+          "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "1fe49cf6781f9bb488b433770cc38a6e3c9ad086",
+            "datetime": "2025-03-29 09:55:08 +0000",
+            "subject": "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n"
+          },
+          {
+            "hash": "8af7945678ddaeb6547770609fdfc83e2c44886d",
+            "datetime": "2025-03-29 07:25:37 +0000",
+            "subject": "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n"
+          },
+          {
+            "hash": "c66c03acfc2c6c7760fb107e2277acdb9d2ee9f0",
+            "datetime": "2025-03-29 06:33:00 +0000",
+            "subject": "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n"
+          },
+          {
+            "hash": "d745dbaa0f6a3a77bc04e6d9edd913c315b76e41",
+            "datetime": "2025-03-29 05:51:11 +0000",
+            "subject": "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n"
+          },
+          {
+            "hash": "9e4a8df8c6f82c6812d12c6b267c1c81d6c139e1",
+            "datetime": "2025-03-29 05:49:31 +0000",
+            "subject": "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n"
+          },
+          {
+            "hash": "8bb87f5ea931935d65cc731ccc2c83a2c886f36e",
+            "datetime": "2025-03-28 01:32:46 +0000",
+            "subject": "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n"
+          },
+          {
+            "hash": "8caec926e4b27a6bc48f1086bf9f42dcedf3399d",
+            "datetime": "2025-03-27 07:38:29 +0000",
+            "subject": "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n"
+          },
+          {
+            "hash": "f4cd04d9a27a8e98ed642b84f7c64442df58ec36",
+            "datetime": "2025-03-27 07:28:49 +0000",
+            "subject": "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n"
+          },
+          {
+            "hash": "b12f35dd8e640f1455812817508af9598e762677",
+            "datetime": "2025-03-27 02:32:58 +0000",
+            "subject": "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n"
+          },
+          {
+            "hash": "484612d3cc71e63cfeea8acf0a2bbdcc461c2450",
+            "datetime": "2025-03-27 01:14:37 +0000",
+            "subject": "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n"
+          },
+          {
+            "hash": "664c36b4159712e6c4e0e8f156c3b0bbe149be9f",
+            "datetime": "2025-03-27 01:09:39 +0000",
+            "subject": "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n"
+          },
+          {
+            "hash": "10d8bc4db505ce4a46c0eb18b3bdfaec992cebd4",
+            "datetime": "2025-03-25 19:04:35 +0000",
+            "subject": "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n"
+          },
+          {
+            "hash": "4de4f22ebc62660c9838770bb8ab4861bce99eef",
+            "datetime": "2025-03-25 19:03:48 +0000",
+            "subject": "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n"
+          },
+          {
+            "hash": "9dd10e67a2ddb63e4401d7388b5ba01c83eeff9f",
+            "datetime": "2025-03-25 17:06:32 +0000",
+            "subject": "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n"
+          },
+          {
+            "hash": "7f954b4a242702dd6ac5de262f3d8b957f34dc4b",
+            "datetime": "2025-03-25 07:24:06 +0000",
+            "subject": "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n"
+          },
+          {
+            "hash": "c3a3f3d92704fc8956f9ebf12ec80ef8166b420b",
+            "datetime": "2025-03-24 19:05:21 +0000",
+            "subject": "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n"
+          },
+          {
+            "hash": "ed945770ef60175da0f23cc1ca5663ad91bcdccd",
+            "datetime": "2025-03-24 19:04:17 +0000",
+            "subject": "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+          }
+        ],
+        "files": 17,
+        "added": 17,
+        "removed": 17,
+        "heat": [
+          [
+            "admin",
+            14
+          ],
+          [
+            "backend",
+            12
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n",
+          "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n",
+          "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n",
+          "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n",
+          "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n",
+          "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n",
+          "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n",
+          "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n",
+          "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n",
+          "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n",
+          "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n",
+          "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n",
+          "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n",
+          "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n",
+          "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n",
+          "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n",
+          "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "1fe49cf6781f9bb488b433770cc38a6e3c9ad086",
+            "datetime": "2025-03-29 09:55:08 +0000",
+            "subject": "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n"
+          },
+          {
+            "hash": "8af7945678ddaeb6547770609fdfc83e2c44886d",
+            "datetime": "2025-03-29 07:25:37 +0000",
+            "subject": "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n"
+          },
+          {
+            "hash": "c66c03acfc2c6c7760fb107e2277acdb9d2ee9f0",
+            "datetime": "2025-03-29 06:33:00 +0000",
+            "subject": "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n"
+          },
+          {
+            "hash": "d745dbaa0f6a3a77bc04e6d9edd913c315b76e41",
+            "datetime": "2025-03-29 05:51:11 +0000",
+            "subject": "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n"
+          },
+          {
+            "hash": "9e4a8df8c6f82c6812d12c6b267c1c81d6c139e1",
+            "datetime": "2025-03-29 05:49:31 +0000",
+            "subject": "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n"
+          },
+          {
+            "hash": "8bb87f5ea931935d65cc731ccc2c83a2c886f36e",
+            "datetime": "2025-03-28 01:32:46 +0000",
+            "subject": "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n"
+          },
+          {
+            "hash": "8caec926e4b27a6bc48f1086bf9f42dcedf3399d",
+            "datetime": "2025-03-27 07:38:29 +0000",
+            "subject": "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n"
+          },
+          {
+            "hash": "f4cd04d9a27a8e98ed642b84f7c64442df58ec36",
+            "datetime": "2025-03-27 07:28:49 +0000",
+            "subject": "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n"
+          },
+          {
+            "hash": "b12f35dd8e640f1455812817508af9598e762677",
+            "datetime": "2025-03-27 02:32:58 +0000",
+            "subject": "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n"
+          },
+          {
+            "hash": "484612d3cc71e63cfeea8acf0a2bbdcc461c2450",
+            "datetime": "2025-03-27 01:14:37 +0000",
+            "subject": "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n"
+          },
+          {
+            "hash": "664c36b4159712e6c4e0e8f156c3b0bbe149be9f",
+            "datetime": "2025-03-27 01:09:39 +0000",
+            "subject": "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n"
+          },
+          {
+            "hash": "10d8bc4db505ce4a46c0eb18b3bdfaec992cebd4",
+            "datetime": "2025-03-25 19:04:35 +0000",
+            "subject": "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n"
+          },
+          {
+            "hash": "4de4f22ebc62660c9838770bb8ab4861bce99eef",
+            "datetime": "2025-03-25 19:03:48 +0000",
+            "subject": "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n"
+          },
+          {
+            "hash": "9dd10e67a2ddb63e4401d7388b5ba01c83eeff9f",
+            "datetime": "2025-03-25 17:06:32 +0000",
+            "subject": "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n"
+          },
+          {
+            "hash": "7f954b4a242702dd6ac5de262f3d8b957f34dc4b",
+            "datetime": "2025-03-25 07:24:06 +0000",
+            "subject": "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n"
+          },
+          {
+            "hash": "c3a3f3d92704fc8956f9ebf12ec80ef8166b420b",
+            "datetime": "2025-03-24 19:05:21 +0000",
+            "subject": "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n"
+          },
+          {
+            "hash": "ed945770ef60175da0f23cc1ca5663ad91bcdccd",
+            "datetime": "2025-03-24 19:04:17 +0000",
+            "subject": "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+          }
+        ],
+        "files": 17,
+        "added": 17,
+        "removed": 17,
+        "heat": [
+          [
+            "admin",
+            14
+          ],
+          [
+            "backend",
+            12
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[0444adf: feat: 实现订单流程核心后端功能]\\n",
+          "[backend] 自动合并[c6cb72e: feat: 实现核心数据模型和服务接口/存根]\\n",
+          "[admin] 自动合并[49d199b: style: 测试eslint并解决coupon-create作为样例]\\n",
+          "[admin] 自动合并[5949fb9: feat: 调整商品管理页面的导入顺序，优化代码结构]\\n",
+          "[backend] 自动合并[3fb1db9: feat: 移除与组相关的发布逻辑，调整发布范围以支持条件发布]\\n",
+          "[frontend] 自动合并[412377f: fix: 更新环境变量配置和修复库页面的样式问题]\\n",
+          "[backend] 自动合并[c4f24c8: feat: 添加用户根据ID查询功能，支持关键字过滤和分页 feat: 增强优惠券发布功能，支持按组发布和更新发布组 feat: 优化优惠券实体，添加发布时刻字段 feat: 增加从优惠券发布中移除用户的功能 feat: 添加优惠券查询功能，支持根据ID列表和过期状态查询]\\n",
+          "[admin] 自动合并[93fde86: feat: 修改发放详情的内容逻辑]\\n",
+          "[admin] 自动合并[7be630f: feat: 添加优惠券发布记录的查看用户(组)功能]\\n",
+          "[frontend] 自动合并[ef6f3a5: fix(frontend): 修复类型定义和ESLint配置错误]\\n",
+          "[frontend] 自动合并[ad4e861: fix: 修复剩余前端报红]\\n",
+          "[admin] 自动合并[862af5e: feat: 添加优惠券发布时选择功能]\\n",
+          "[backend] 自动合并[cd4bfef: feat: 添加通用搜索功能，支持通过ID、用户名和昵称进行用户筛选]\\n",
+          "[admin] 自动合并[f4cfcbe: feat: 添加兑换码删除功能，支持单个和批量删除，优化分页逻辑]\\n",
+          "[frontend] 自动合并[ef551c4: fix: 修复checkout页面显示异常]\\n",
+          "[admin] 自动合并[57516d1: feat: 添加优惠券发布记录功能，包含相关接口和组件]\\n",
+          "[backend] 自动合并[8f63d54: feat: 添加优惠券发布记录和兑换码的查询功能，增强相关接口]\\n"
+        ]
+      }
+    ]
+  }
+}

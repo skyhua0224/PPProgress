@@ -1,0 +1,642 @@
+{
+  "title": "Weekly Report (2025-08-25 to 2025-08-31)",
+  "lang": "en",
+  "since": "2025-08-25",
+  "until": "2025-08-31",
+  "generatedAt": "2025-11-02T11:29:19.983Z",
+  "progress": {
+    "totals": {
+      "commits": 195,
+      "files": 198,
+      "added": 198,
+      "removed": 198
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "6bcec31d3bde8a977d2b009daa024493c4073c16",
+            "datetime": "2025-08-31 09:06:50 +0000",
+            "subject": "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n"
+          },
+          {
+            "hash": "e5217c6040b03afb398fd04e520016a985a39cb5",
+            "datetime": "2025-08-31 09:04:54 +0000",
+            "subject": "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n"
+          },
+          {
+            "hash": "01a34775c9b598944cba8be94018d8562fd0f544",
+            "datetime": "2025-08-31 09:00:51 +0000",
+            "subject": "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n"
+          },
+          {
+            "hash": "ac1e9d07bc694aebfb2ae95cac656c25ba07305f",
+            "datetime": "2025-08-31 08:57:31 +0000",
+            "subject": "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n"
+          },
+          {
+            "hash": "d99247ecf59913ea00ca89f0e6d37bfc79180009",
+            "datetime": "2025-08-31 08:53:00 +0000",
+            "subject": "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n"
+          },
+          {
+            "hash": "22032dcb4214b8dfe7a65dc52b92644cc14e1c89",
+            "datetime": "2025-08-31 08:48:49 +0000",
+            "subject": "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n"
+          },
+          {
+            "hash": "ef4bc55cdcb60f856bd6572739c91147903461a9",
+            "datetime": "2025-08-30 19:03:35 +0000",
+            "subject": "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n"
+          },
+          {
+            "hash": "6ab0e3e711ebe8a48dea205809d3f9afe5c7d295",
+            "datetime": "2025-08-30 18:54:46 +0000",
+            "subject": "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n"
+          },
+          {
+            "hash": "51c0409285a9efb0a3d5b38d7d955d1e4715bd70",
+            "datetime": "2025-08-30 18:48:47 +0000",
+            "subject": "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n"
+          },
+          {
+            "hash": "913cc3e2e95ee3c49bc9dd3aceaaf33e2761e563",
+            "datetime": "2025-08-30 18:14:14 +0000",
+            "subject": "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "1d2d64d72c37f0393373596eae6eaa02e8bd8da7",
+            "datetime": "2025-08-30 18:09:02 +0000",
+            "subject": "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n"
+          },
+          {
+            "hash": "769363f1ad3b94f1fe2b22424c5e204abe9a4456",
+            "datetime": "2025-08-30 17:58:29 +0000",
+            "subject": "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n"
+          },
+          {
+            "hash": "3dcfcc19c4697cff6986ec93f0d08978bb9468a5",
+            "datetime": "2025-08-30 17:50:10 +0000",
+            "subject": "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "83cdcbd5bed1290bdf26fe74592c3ab6799970b5",
+            "datetime": "2025-08-30 17:35:29 +0000",
+            "subject": "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n"
+          },
+          {
+            "hash": "d8beabfbe74ab743e62821b537ed15e3e911eafd",
+            "datetime": "2025-08-30 17:19:40 +0000",
+            "subject": "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n"
+          },
+          {
+            "hash": "13de26b99fdef899b2abb901b1938b580dad71da",
+            "datetime": "2025-08-30 17:13:09 +0000",
+            "subject": "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "f50911c3ecf82c7fd1548583478139bbf0dbd779",
+            "datetime": "2025-08-30 09:29:54 +0000",
+            "subject": "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "8e215d1e18795da6924210b60189f3d686de2108",
+            "datetime": "2025-08-30 08:56:49 +0000",
+            "subject": "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n"
+          },
+          {
+            "hash": "d534299eb2aef9ae74f5e898ab2fd429507ccff0",
+            "datetime": "2025-08-30 08:42:45 +0000",
+            "subject": "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n"
+          },
+          {
+            "hash": "81d5ffc38badd3bd4fbd7ee89d53093b628a17eb",
+            "datetime": "2025-08-30 08:20:31 +0000",
+            "subject": "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n"
+          },
+          {
+            "hash": "05a04aa230820f86fb7d1bcf6420663c433cb8d7",
+            "datetime": "2025-08-29 15:14:27 +0000",
+            "subject": "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n"
+          },
+          {
+            "hash": "6a6e4667bd5c50621ee4ae6a3a778b695293ae8a",
+            "datetime": "2025-08-29 15:14:04 +0000",
+            "subject": "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n"
+          },
+          {
+            "hash": "f85bbf80fbe51e2ca5e64cf3dbb992a36e456af6",
+            "datetime": "2025-08-29 15:11:27 +0000",
+            "subject": "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n"
+          },
+          {
+            "hash": "ce2d6f2d1ea76700e725b4dd05e39efa005c94be",
+            "datetime": "2025-08-29 15:06:14 +0000",
+            "subject": "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n"
+          },
+          {
+            "hash": "8b9c149969cdaecbf2c5115d0d3926a30c648e19",
+            "datetime": "2025-08-29 14:04:23 +0000",
+            "subject": "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n"
+          },
+          {
+            "hash": "ade5fed928185e53d1bab2cda78903efe1f10c9e",
+            "datetime": "2025-08-29 13:57:27 +0000",
+            "subject": "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n"
+          },
+          {
+            "hash": "137367e02e3cd11151a45f532562ce72a6ae04fb",
+            "datetime": "2025-08-29 13:51:37 +0000",
+            "subject": "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n"
+          },
+          {
+            "hash": "125ecc86552d092de6ba0da0502251875fbcfe51",
+            "datetime": "2025-08-29 12:38:30 +0000",
+            "subject": "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n"
+          },
+          {
+            "hash": "d391cf57e6e19994c4553f366cc98985b90d6ccb",
+            "datetime": "2025-08-29 12:31:56 +0000",
+            "subject": "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n"
+          },
+          {
+            "hash": "4d1fbf0533d1e5a897e05f5c77f62ec6fb1ed6bf",
+            "datetime": "2025-08-29 12:22:01 +0000",
+            "subject": "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+          }
+        ],
+        "files": 66,
+        "added": 66,
+        "removed": 66,
+        "heat": [
+          [
+            "backend",
+            122
+          ],
+          [
+            "frontend",
+            6
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n",
+          "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n",
+          "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n",
+          "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n",
+          "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n",
+          "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n",
+          "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n",
+          "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n",
+          "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n",
+          "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n",
+          "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n",
+          "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n",
+          "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n",
+          "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n",
+          "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n",
+          "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n",
+          "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n",
+          "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n",
+          "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n",
+          "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n",
+          "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n",
+          "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n",
+          "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n",
+          "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n",
+          "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n",
+          "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "6bcec31d3bde8a977d2b009daa024493c4073c16",
+            "datetime": "2025-08-31 09:06:50 +0000",
+            "subject": "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n"
+          },
+          {
+            "hash": "e5217c6040b03afb398fd04e520016a985a39cb5",
+            "datetime": "2025-08-31 09:04:54 +0000",
+            "subject": "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n"
+          },
+          {
+            "hash": "01a34775c9b598944cba8be94018d8562fd0f544",
+            "datetime": "2025-08-31 09:00:51 +0000",
+            "subject": "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n"
+          },
+          {
+            "hash": "ac1e9d07bc694aebfb2ae95cac656c25ba07305f",
+            "datetime": "2025-08-31 08:57:31 +0000",
+            "subject": "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n"
+          },
+          {
+            "hash": "d99247ecf59913ea00ca89f0e6d37bfc79180009",
+            "datetime": "2025-08-31 08:53:00 +0000",
+            "subject": "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n"
+          },
+          {
+            "hash": "22032dcb4214b8dfe7a65dc52b92644cc14e1c89",
+            "datetime": "2025-08-31 08:48:49 +0000",
+            "subject": "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n"
+          },
+          {
+            "hash": "ef4bc55cdcb60f856bd6572739c91147903461a9",
+            "datetime": "2025-08-30 19:03:35 +0000",
+            "subject": "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n"
+          },
+          {
+            "hash": "6ab0e3e711ebe8a48dea205809d3f9afe5c7d295",
+            "datetime": "2025-08-30 18:54:46 +0000",
+            "subject": "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n"
+          },
+          {
+            "hash": "51c0409285a9efb0a3d5b38d7d955d1e4715bd70",
+            "datetime": "2025-08-30 18:48:47 +0000",
+            "subject": "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n"
+          },
+          {
+            "hash": "913cc3e2e95ee3c49bc9dd3aceaaf33e2761e563",
+            "datetime": "2025-08-30 18:14:14 +0000",
+            "subject": "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "1d2d64d72c37f0393373596eae6eaa02e8bd8da7",
+            "datetime": "2025-08-30 18:09:02 +0000",
+            "subject": "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n"
+          },
+          {
+            "hash": "769363f1ad3b94f1fe2b22424c5e204abe9a4456",
+            "datetime": "2025-08-30 17:58:29 +0000",
+            "subject": "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n"
+          },
+          {
+            "hash": "3dcfcc19c4697cff6986ec93f0d08978bb9468a5",
+            "datetime": "2025-08-30 17:50:10 +0000",
+            "subject": "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "83cdcbd5bed1290bdf26fe74592c3ab6799970b5",
+            "datetime": "2025-08-30 17:35:29 +0000",
+            "subject": "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n"
+          },
+          {
+            "hash": "d8beabfbe74ab743e62821b537ed15e3e911eafd",
+            "datetime": "2025-08-30 17:19:40 +0000",
+            "subject": "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n"
+          },
+          {
+            "hash": "13de26b99fdef899b2abb901b1938b580dad71da",
+            "datetime": "2025-08-30 17:13:09 +0000",
+            "subject": "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "f50911c3ecf82c7fd1548583478139bbf0dbd779",
+            "datetime": "2025-08-30 09:29:54 +0000",
+            "subject": "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "8e215d1e18795da6924210b60189f3d686de2108",
+            "datetime": "2025-08-30 08:56:49 +0000",
+            "subject": "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n"
+          },
+          {
+            "hash": "d534299eb2aef9ae74f5e898ab2fd429507ccff0",
+            "datetime": "2025-08-30 08:42:45 +0000",
+            "subject": "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n"
+          },
+          {
+            "hash": "81d5ffc38badd3bd4fbd7ee89d53093b628a17eb",
+            "datetime": "2025-08-30 08:20:31 +0000",
+            "subject": "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n"
+          },
+          {
+            "hash": "05a04aa230820f86fb7d1bcf6420663c433cb8d7",
+            "datetime": "2025-08-29 15:14:27 +0000",
+            "subject": "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n"
+          },
+          {
+            "hash": "6a6e4667bd5c50621ee4ae6a3a778b695293ae8a",
+            "datetime": "2025-08-29 15:14:04 +0000",
+            "subject": "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n"
+          },
+          {
+            "hash": "f85bbf80fbe51e2ca5e64cf3dbb992a36e456af6",
+            "datetime": "2025-08-29 15:11:27 +0000",
+            "subject": "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n"
+          },
+          {
+            "hash": "ce2d6f2d1ea76700e725b4dd05e39efa005c94be",
+            "datetime": "2025-08-29 15:06:14 +0000",
+            "subject": "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n"
+          },
+          {
+            "hash": "8b9c149969cdaecbf2c5115d0d3926a30c648e19",
+            "datetime": "2025-08-29 14:04:23 +0000",
+            "subject": "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n"
+          },
+          {
+            "hash": "ade5fed928185e53d1bab2cda78903efe1f10c9e",
+            "datetime": "2025-08-29 13:57:27 +0000",
+            "subject": "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n"
+          },
+          {
+            "hash": "137367e02e3cd11151a45f532562ce72a6ae04fb",
+            "datetime": "2025-08-29 13:51:37 +0000",
+            "subject": "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n"
+          },
+          {
+            "hash": "125ecc86552d092de6ba0da0502251875fbcfe51",
+            "datetime": "2025-08-29 12:38:30 +0000",
+            "subject": "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n"
+          },
+          {
+            "hash": "d391cf57e6e19994c4553f366cc98985b90d6ccb",
+            "datetime": "2025-08-29 12:31:56 +0000",
+            "subject": "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n"
+          },
+          {
+            "hash": "4d1fbf0533d1e5a897e05f5c77f62ec6fb1ed6bf",
+            "datetime": "2025-08-29 12:22:01 +0000",
+            "subject": "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+          }
+        ],
+        "files": 66,
+        "added": 66,
+        "removed": 66,
+        "heat": [
+          [
+            "backend",
+            122
+          ],
+          [
+            "frontend",
+            6
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n",
+          "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n",
+          "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n",
+          "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n",
+          "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n",
+          "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n",
+          "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n",
+          "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n",
+          "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n",
+          "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n",
+          "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n",
+          "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n",
+          "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n",
+          "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n",
+          "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n",
+          "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n",
+          "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n",
+          "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n",
+          "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n",
+          "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n",
+          "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n",
+          "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n",
+          "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n",
+          "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n",
+          "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n",
+          "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "6bcec31d3bde8a977d2b009daa024493c4073c16",
+            "datetime": "2025-08-31 09:06:50 +0000",
+            "subject": "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n"
+          },
+          {
+            "hash": "e5217c6040b03afb398fd04e520016a985a39cb5",
+            "datetime": "2025-08-31 09:04:54 +0000",
+            "subject": "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n"
+          },
+          {
+            "hash": "01a34775c9b598944cba8be94018d8562fd0f544",
+            "datetime": "2025-08-31 09:00:51 +0000",
+            "subject": "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n"
+          },
+          {
+            "hash": "ac1e9d07bc694aebfb2ae95cac656c25ba07305f",
+            "datetime": "2025-08-31 08:57:31 +0000",
+            "subject": "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n"
+          },
+          {
+            "hash": "d99247ecf59913ea00ca89f0e6d37bfc79180009",
+            "datetime": "2025-08-31 08:53:00 +0000",
+            "subject": "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n"
+          },
+          {
+            "hash": "22032dcb4214b8dfe7a65dc52b92644cc14e1c89",
+            "datetime": "2025-08-31 08:48:49 +0000",
+            "subject": "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n"
+          },
+          {
+            "hash": "ef4bc55cdcb60f856bd6572739c91147903461a9",
+            "datetime": "2025-08-30 19:03:35 +0000",
+            "subject": "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n"
+          },
+          {
+            "hash": "6ab0e3e711ebe8a48dea205809d3f9afe5c7d295",
+            "datetime": "2025-08-30 18:54:46 +0000",
+            "subject": "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n"
+          },
+          {
+            "hash": "51c0409285a9efb0a3d5b38d7d955d1e4715bd70",
+            "datetime": "2025-08-30 18:48:47 +0000",
+            "subject": "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n"
+          },
+          {
+            "hash": "913cc3e2e95ee3c49bc9dd3aceaaf33e2761e563",
+            "datetime": "2025-08-30 18:14:14 +0000",
+            "subject": "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "1d2d64d72c37f0393373596eae6eaa02e8bd8da7",
+            "datetime": "2025-08-30 18:09:02 +0000",
+            "subject": "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n"
+          },
+          {
+            "hash": "769363f1ad3b94f1fe2b22424c5e204abe9a4456",
+            "datetime": "2025-08-30 17:58:29 +0000",
+            "subject": "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n"
+          },
+          {
+            "hash": "3dcfcc19c4697cff6986ec93f0d08978bb9468a5",
+            "datetime": "2025-08-30 17:50:10 +0000",
+            "subject": "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n"
+          },
+          {
+            "hash": "83cdcbd5bed1290bdf26fe74592c3ab6799970b5",
+            "datetime": "2025-08-30 17:35:29 +0000",
+            "subject": "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n"
+          },
+          {
+            "hash": "d8beabfbe74ab743e62821b537ed15e3e911eafd",
+            "datetime": "2025-08-30 17:19:40 +0000",
+            "subject": "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n"
+          },
+          {
+            "hash": "13de26b99fdef899b2abb901b1938b580dad71da",
+            "datetime": "2025-08-30 17:13:09 +0000",
+            "subject": "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "f50911c3ecf82c7fd1548583478139bbf0dbd779",
+            "datetime": "2025-08-30 09:29:54 +0000",
+            "subject": "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n"
+          },
+          {
+            "hash": "8e215d1e18795da6924210b60189f3d686de2108",
+            "datetime": "2025-08-30 08:56:49 +0000",
+            "subject": "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n"
+          },
+          {
+            "hash": "d534299eb2aef9ae74f5e898ab2fd429507ccff0",
+            "datetime": "2025-08-30 08:42:45 +0000",
+            "subject": "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n"
+          },
+          {
+            "hash": "81d5ffc38badd3bd4fbd7ee89d53093b628a17eb",
+            "datetime": "2025-08-30 08:20:31 +0000",
+            "subject": "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n"
+          },
+          {
+            "hash": "05a04aa230820f86fb7d1bcf6420663c433cb8d7",
+            "datetime": "2025-08-29 15:14:27 +0000",
+            "subject": "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n"
+          },
+          {
+            "hash": "6a6e4667bd5c50621ee4ae6a3a778b695293ae8a",
+            "datetime": "2025-08-29 15:14:04 +0000",
+            "subject": "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n"
+          },
+          {
+            "hash": "f85bbf80fbe51e2ca5e64cf3dbb992a36e456af6",
+            "datetime": "2025-08-29 15:11:27 +0000",
+            "subject": "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n"
+          },
+          {
+            "hash": "ce2d6f2d1ea76700e725b4dd05e39efa005c94be",
+            "datetime": "2025-08-29 15:06:14 +0000",
+            "subject": "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n"
+          },
+          {
+            "hash": "8b9c149969cdaecbf2c5115d0d3926a30c648e19",
+            "datetime": "2025-08-29 14:04:23 +0000",
+            "subject": "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n"
+          },
+          {
+            "hash": "ade5fed928185e53d1bab2cda78903efe1f10c9e",
+            "datetime": "2025-08-29 13:57:27 +0000",
+            "subject": "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n"
+          },
+          {
+            "hash": "137367e02e3cd11151a45f532562ce72a6ae04fb",
+            "datetime": "2025-08-29 13:51:37 +0000",
+            "subject": "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n"
+          },
+          {
+            "hash": "125ecc86552d092de6ba0da0502251875fbcfe51",
+            "datetime": "2025-08-29 12:38:30 +0000",
+            "subject": "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n"
+          },
+          {
+            "hash": "d391cf57e6e19994c4553f366cc98985b90d6ccb",
+            "datetime": "2025-08-29 12:31:56 +0000",
+            "subject": "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n"
+          },
+          {
+            "hash": "4d1fbf0533d1e5a897e05f5c77f62ec6fb1ed6bf",
+            "datetime": "2025-08-29 12:22:01 +0000",
+            "subject": "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+          }
+        ],
+        "files": 66,
+        "added": 66,
+        "removed": 66,
+        "heat": [
+          [
+            "backend",
+            122
+          ],
+          [
+            "frontend",
+            6
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[c58a077: feat: 添加默认构造函数以支持 Jackson 反序列化，并忽略未知属性]\\n",
+          "[backend] 自动合并[588cf86: feat: 更新获取店铺服务项的逻辑，支持从缓存反序列化的 LinkedHashMap 转换为 StorePriceItemDTO]\\n",
+          "[backend] 自动合并[020a25b: feat: 移除 Jackson 默认类型启用，避免反序列化时的安全风险和错误]\\n",
+          "[backend] 自动合并[49d339d: feat: 启用 Jackson 类型信息以支持 DTO 对象的正确反序列化；更新缓存策略以避免空结果]\\n",
+          "[backend] 自动合并[5f3532c: feat: 添加日志记录以捕获获取履约方式、店铺设置选项和店铺服务的错误]\\n",
+          "[backend] 自动合并[6781a81: feat: 将 RedisTemplate 替换为 StringRedisTemplate，以优化速率限制逻辑]\\n",
+          "[backend] 自动合并[2917667: feat: 禁用 Spring Data Redis 仓库自动配置以避免启动警告]\\n",
+          "[backend] 自动合并[8b3d75e: feat: 更新 Liquibase 配置，使用属性文件管理数据库连接信息]\\n",
+          "[backend] 自动合并[d746f62: feat: 添加 Liquibase 依赖并配置数据库变更日志，更新 application.properties 文件]\\n",
+          "[backend] 自动合并[264d503: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[7bd7189: feat: 使用 Loader 加载 PDF 文件，优化文档处理逻辑]\\n",
+          "[backend] 自动合并[5723941: feat: 更新 Spring Boot 版本至 4.0.0-M2，并优化依赖版本管理]\\n",
+          "[backend] 自动合并[55e3683: fix: 将 Spring Boot 版本从 4.0.0-M2 降级至 3.5.5，以解决兼容性问题]\\n",
+          "[backend] 自动合并[01d8190: feat: 添加 spring-boot-autoconfigure 依赖以支持自动配置功能]\\n",
+          "[backend] 自动合并[9ae9d73: feat: 将代码中需要运用 Redis 的部分进行全面优化，并提高项目安全性]\\n",
+          "[backend] 自动合并[1ae1787: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[32db9c4: feat: 添加 Redis 缓存配置和连接测试，优化缓存管理]\\n",
+          "[backend] 自动合并[37da512: feat: 更新 pom.xml，升级 Spring Boot 版本至 4.0.0-M2，新增 Maven 插件依赖，修正项目描述]\\n",
+          "[backend] 自动合并[e56b309: feat: 移除冲突的兑换码自动识别接口，确保代码整洁，正确实现已转移至 CodeRedemptionController]\\n",
+          "[backend] 自动合并[878861d: feat: 重构优惠券相关接口，新增 CouponCreateDTO 和 CouponQueryDTO，优化兑换逻辑，支持更灵活的查询和过滤]\\n",
+          "[frontend] 自动合并[053bdd9: feat: 支持优惠券兑换功能，完善优惠券体系样式设计]\\n",
+          "[admin] 自动合并[f69b6fb8: feat: 完善优惠券活动页面逻辑，支持查看和复制优惠券，选择仅查看归档优惠券，查看一码一用的兑换码列表并导出为 csv]\\n",
+          "[backend] 自动合并[4fc786e: feat: 使用 Specification 动态构造查询条件，优化优惠活动查询逻辑，默认排除归档数据]\\n",
+          "[backend] 自动合并[b8ba4e4: feat: 优化 CouponCampaignController 和 CouponCampaignServiceImpl 中的代码格式，提升可读性]\\n",
+          "[backend] 自动合并[a5f181a: feat: 优化导出唯一代码逻辑，调整代码格式并确保 CSV 文件正确生成]\\n",
+          "[backend] 自动合并[72d85b4: feat: 重构唯一代码导出接口，支持直接下载 CSV 文件并优化响应格式]\\n",
+          "[backend] 自动合并[f6e72ad: feat: 更新导出唯一代码接口，支持多种响应格式并添加昵称和头像字段]\\n",
+          "[backend] 自动合并[a5b5444: feat: 更新 UniqueCodeDto，添加昵称和头像字段，并在 CouponCampaignServiceImpl 中加载用户信息]\\n",
+          "[backend] 自动合并[fb03603: feat: 优化优惠码查询逻辑，支持分页和状态推导]\\n",
+          "[backend] 自动合并[332d58a: fix: 修复优惠券发放逻辑，确保活动限领基于 (campaignId, couponId) 维度统计]\\n"
+        ]
+      }
+    ]
+  }
+}

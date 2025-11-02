@@ -1,0 +1,109 @@
+# Weekly Report (2025-08-11 to 2025-08-17)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-08-11 to 2025-08-17)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 77
+Total files touched: 133
+Total lines +/-: +13521 / -2505
+
+## Per-module summary
+- ProjectPrinting (.): commits=2, files=16, +3363/-609
+- admin (admin): commits=25, files=39, +3386/-632
+- frontend (frontend): commits=25, files=39, +3386/-632
+- backend (backend): commits=25, files=39, +3386/-632
+
+## Heat by top-level directory (per module)
+- ProjectPrinting:
+  - docs: 1838
+  - COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md: 645
+  - COUPON_CAMPAIGN_MOCKUP.md: 465
+  - coupon-campaign-detail-mockup.html: 247
+  - analysis: 201
+  - coupon-campaign-create-mockup.html: 194
+  - coupon-campaign-list-mockup.html: 143
+  - COUPON_CAMPAIGN_PLAN.md: 125
+  - coupon-usage-log-mockup.html: 112
+  - .gitignore: 2
+- admin:
+  - docs: 1838
+  - COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md: 645
+  - COUPON_CAMPAIGN_MOCKUP.md: 465
+  - coupon-campaign-detail-mockup.html: 247
+  - analysis: 201
+  - coupon-campaign-create-mockup.html: 194
+  - coupon-campaign-list-mockup.html: 143
+  - COUPON_CAMPAIGN_PLAN.md: 125
+  - coupon-usage-log-mockup.html: 112
+  - backend: 34
+  - admin: 8
+  - frontend: 4
+  - .gitignore: 2
+- frontend:
+  - docs: 1838
+  - COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md: 645
+  - COUPON_CAMPAIGN_MOCKUP.md: 465
+  - coupon-campaign-detail-mockup.html: 247
+  - analysis: 201
+  - coupon-campaign-create-mockup.html: 194
+  - coupon-campaign-list-mockup.html: 143
+  - COUPON_CAMPAIGN_PLAN.md: 125
+  - coupon-usage-log-mockup.html: 112
+  - backend: 34
+  - admin: 8
+  - frontend: 4
+  - .gitignore: 2
+- backend:
+  - docs: 1838
+  - COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md: 645
+  - COUPON_CAMPAIGN_MOCKUP.md: 465
+  - coupon-campaign-detail-mockup.html: 247
+  - analysis: 201
+  - coupon-campaign-create-mockup.html: 194
+  - coupon-campaign-list-mockup.html: 143
+  - COUPON_CAMPAIGN_PLAN.md: 125
+  - coupon-usage-log-mockup.html: 112
+  - backend: 34
+  - admin: 8
+  - frontend: 4
+  - .gitignore: 2
+
+## Commit subjects (up to 10 per module)
+- ProjectPrinting:
+  - [undefined] feat: 上传优惠券营销 mockup 代码
+  - [undefined] feat: 上传 frontend/checkout, admin/coupon新设计稿
+- admin:
+  - [undefined] [backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\n
+  - [undefined] feat: 上传优惠券营销 mockup 代码
+  - [undefined] [admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\n
+  - [undefined] [backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\n
+  - [undefined] [backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\n
+  - [undefined] [admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\n
+  - [undefined] [backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\n
+  - [undefined] [backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\n
+  - [undefined] [backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\n
+  - [undefined] [admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\n
+- frontend:
+  - [undefined] [backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\n
+  - [undefined] feat: 上传优惠券营销 mockup 代码
+  - [undefined] [admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\n
+  - [undefined] [backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\n
+  - [undefined] [backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\n
+  - [undefined] [admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\n
+  - [undefined] [backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\n
+  - [undefined] [backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\n
+  - [undefined] [backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\n
+  - [undefined] [admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\n
+- backend:
+  - [undefined] [backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\n
+  - [undefined] feat: 上传优惠券营销 mockup 代码
+  - [undefined] [admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\n
+  - [undefined] [backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\n
+  - [undefined] [backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\n
+  - [undefined] [admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\n
+  - [undefined] [backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\n
+  - [undefined] [backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\n
+  - [undefined] [backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\n
+  - [undefined] [admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\n

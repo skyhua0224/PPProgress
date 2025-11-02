@@ -1,0 +1,62 @@
+# Weekly Report (2025-07-07 to 2025-07-13)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-07-07 to 2025-07-13)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 102
+Total files touched: 102
+Total lines +/-: +102 / -102
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=34, files=34, +34/-34
+- frontend (frontend): commits=34, files=34, +34/-34
+- backend (backend): commits=34, files=34, +34/-34
+
+## Heat by top-level directory (per module)
+- admin:
+  - backend: 64
+  - admin: 4
+- frontend:
+  - backend: 64
+  - admin: 4
+- backend:
+  - backend: 64
+  - admin: 4
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] [backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\n
+  - [undefined] [backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\n
+  - [undefined] [backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\n
+  - [undefined] [backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\n
+  - [undefined] [backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\n
+  - [undefined] [admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\n
+  - [undefined] [backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\n
+  - [undefined] [backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\n
+  - [undefined] [backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\n
+  - [undefined] [backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\n
+- frontend:
+  - [undefined] [backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\n
+  - [undefined] [backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\n
+  - [undefined] [backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\n
+  - [undefined] [backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\n
+  - [undefined] [backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\n
+  - [undefined] [admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\n
+  - [undefined] [backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\n
+  - [undefined] [backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\n
+  - [undefined] [backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\n
+  - [undefined] [backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\n
+- backend:
+  - [undefined] [backend] 自动合并[6fe6f29: feat(auth): 优化生成Token逻辑; 从UserService获取角色和权限信息，简化代码结构]\n
+  - [undefined] [backend] 自动合并[460b42e: feat(admin): 添加管理员角色管理功能; 实现用户提拔和降级为管理员的逻辑，更新相关DTO和服务方法]\n
+  - [undefined] [backend] 自动合并[f86d743: feat(dto): 添加RoleDetailDTO、RoleListDTO和RoleUpdateDTO类; 优化角色管理的数据传输对象]\n
+  - [undefined] [backend] 自动合并[1cc6743: feat(permission): 重构权限管理模块; 添加Permission实体、服务和控制器以支持权限的CRUD操作]\n
+  - [undefined] [backend] 自动合并[9e980ba: feat(entity): 移除Role和User类中的多对多关系; 简化角色和用户的关联逻辑]\n
+  - [undefined] [admin] 自动合并[50956615: feat: 完成菜单管理界面设计，优化管理体验]\n
+  - [undefined] [backend] 自动合并[0e63760: feat(service): 优化获取用户路由的逻辑; 构建并排序菜单树以提高性能，避免重复过滤子节点]\n
+  - [undefined] [backend] 自动合并[ddda365: feat(vo): 在MenuVO中添加状态字段及其getter和setter方法; 更新转换逻辑以支持新字段]\n
+  - [undefined] [backend] 自动合并[c6c2e9c: feat(controller): 移除菜单治理模块中对超级用户的权限控制注解; 使得相关API不再限制访问]\n
+  - [undefined] [backend] 自动合并[736ac6f: feat(controller): 更新菜单治理模块的权限控制; 将API中的权限检查从hasAuthority更改为hasRole('R_SUPER')，确保只有超级用户可以访问相关功能]\n

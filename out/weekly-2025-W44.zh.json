@@ -1,0 +1,234 @@
+{
+  "title": "周报（2025-10-27 至 2025-10-31）",
+  "lang": "zh",
+  "since": "2025-10-27",
+  "until": "2025-10-31",
+  "generatedAt": "2025-11-02T11:29:12.726Z",
+  "progress": {
+    "totals": {
+      "commits": 24,
+      "files": 24,
+      "added": 24,
+      "removed": 24
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "02bc7031108eb2ede4dba013677e08d066317e6f",
+            "datetime": "2025-10-30 18:39:50 +0000",
+            "subject": "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n"
+          },
+          {
+            "hash": "d8379dcd2b0c8aed3b56f0b2b13ccd7f3f1c362a",
+            "datetime": "2025-10-30 17:31:51 +0000",
+            "subject": "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n"
+          },
+          {
+            "hash": "1d2c31d237afea46bc28aa5b6a9fb9d9c308e055",
+            "datetime": "2025-10-30 17:22:48 +0000",
+            "subject": "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n"
+          },
+          {
+            "hash": "281099c87c1714969bfe71c4a6b35942107f3d98",
+            "datetime": "2025-10-30 17:12:37 +0000",
+            "subject": "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n"
+          },
+          {
+            "hash": "a55885ae2ee8cc337fa745a68f5fc36a1c022e03",
+            "datetime": "2025-10-30 16:54:16 +0000",
+            "subject": "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n"
+          },
+          {
+            "hash": "df7ec79bfdbe63d0fcc677a8d3b744824bda5aa1",
+            "datetime": "2025-10-30 16:17:43 +0000",
+            "subject": "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n"
+          },
+          {
+            "hash": "4c8e2734da71f36d53b206a4bd461ecb8153be91",
+            "datetime": "2025-10-30 15:48:05 +0000",
+            "subject": "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n"
+          },
+          {
+            "hash": "804dbab4e38c1491edd0610cc57e09bf9a5c899a",
+            "datetime": "2025-10-27 18:35:26 +0000",
+            "subject": "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+          }
+        ],
+        "files": 8,
+        "added": 8,
+        "removed": 8,
+        "heat": [
+          [
+            "backend",
+            12
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n",
+          "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n",
+          "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n",
+          "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n",
+          "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n",
+          "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n",
+          "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n",
+          "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "02bc7031108eb2ede4dba013677e08d066317e6f",
+            "datetime": "2025-10-30 18:39:50 +0000",
+            "subject": "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n"
+          },
+          {
+            "hash": "d8379dcd2b0c8aed3b56f0b2b13ccd7f3f1c362a",
+            "datetime": "2025-10-30 17:31:51 +0000",
+            "subject": "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n"
+          },
+          {
+            "hash": "1d2c31d237afea46bc28aa5b6a9fb9d9c308e055",
+            "datetime": "2025-10-30 17:22:48 +0000",
+            "subject": "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n"
+          },
+          {
+            "hash": "281099c87c1714969bfe71c4a6b35942107f3d98",
+            "datetime": "2025-10-30 17:12:37 +0000",
+            "subject": "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n"
+          },
+          {
+            "hash": "a55885ae2ee8cc337fa745a68f5fc36a1c022e03",
+            "datetime": "2025-10-30 16:54:16 +0000",
+            "subject": "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n"
+          },
+          {
+            "hash": "df7ec79bfdbe63d0fcc677a8d3b744824bda5aa1",
+            "datetime": "2025-10-30 16:17:43 +0000",
+            "subject": "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n"
+          },
+          {
+            "hash": "4c8e2734da71f36d53b206a4bd461ecb8153be91",
+            "datetime": "2025-10-30 15:48:05 +0000",
+            "subject": "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n"
+          },
+          {
+            "hash": "804dbab4e38c1491edd0610cc57e09bf9a5c899a",
+            "datetime": "2025-10-27 18:35:26 +0000",
+            "subject": "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+          }
+        ],
+        "files": 8,
+        "added": 8,
+        "removed": 8,
+        "heat": [
+          [
+            "backend",
+            12
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n",
+          "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n",
+          "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n",
+          "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n",
+          "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n",
+          "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n",
+          "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n",
+          "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "02bc7031108eb2ede4dba013677e08d066317e6f",
+            "datetime": "2025-10-30 18:39:50 +0000",
+            "subject": "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n"
+          },
+          {
+            "hash": "d8379dcd2b0c8aed3b56f0b2b13ccd7f3f1c362a",
+            "datetime": "2025-10-30 17:31:51 +0000",
+            "subject": "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n"
+          },
+          {
+            "hash": "1d2c31d237afea46bc28aa5b6a9fb9d9c308e055",
+            "datetime": "2025-10-30 17:22:48 +0000",
+            "subject": "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n"
+          },
+          {
+            "hash": "281099c87c1714969bfe71c4a6b35942107f3d98",
+            "datetime": "2025-10-30 17:12:37 +0000",
+            "subject": "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n"
+          },
+          {
+            "hash": "a55885ae2ee8cc337fa745a68f5fc36a1c022e03",
+            "datetime": "2025-10-30 16:54:16 +0000",
+            "subject": "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n"
+          },
+          {
+            "hash": "df7ec79bfdbe63d0fcc677a8d3b744824bda5aa1",
+            "datetime": "2025-10-30 16:17:43 +0000",
+            "subject": "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n"
+          },
+          {
+            "hash": "4c8e2734da71f36d53b206a4bd461ecb8153be91",
+            "datetime": "2025-10-30 15:48:05 +0000",
+            "subject": "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n"
+          },
+          {
+            "hash": "804dbab4e38c1491edd0610cc57e09bf9a5c899a",
+            "datetime": "2025-10-27 18:35:26 +0000",
+            "subject": "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+          }
+        ],
+        "files": 8,
+        "added": 8,
+        "removed": 8,
+        "heat": [
+          [
+            "backend",
+            12
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[aea08a11: feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。]\\n",
+          "[backend] 自动合并[6a379ed: fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限]\\n",
+          "[backend] 自动合并[e86416d: fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤]\\n",
+          "[backend] 自动合并[2c00de6: fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果]\\n",
+          "[backend] 自动合并[3fa72d4: fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合]\\n",
+          "[backend] 自动合并[08e432c: fix: 将权限同步扫描范围限定为 controller.admin 包]\\n",
+          "[backend] 自动合并[06d9ed7: feat: 统一订单备注为 userRemarks 并新增打印中心功能]\\n",
+          "[admin] 自动合并[345bed28: feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互]\\n"
+        ]
+      }
+    ]
+  }
+}

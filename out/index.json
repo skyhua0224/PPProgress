@@ -1,16 +1,340 @@
 {
   "items": [
     {
+      "file": "weekly-2025-W44.en.md",
+      "title": "Weekly Report (2025-10-27 to 2025-10-31)",
+      "lang": "en",
+      "mtime": 1762082961137.66
+    },
+    {
+      "file": "weekly-2025-W43.en.md",
+      "title": "Weekly Report (2025-10-20 to 2025-10-26)",
+      "lang": "en",
+      "mtime": 1762082961017.6611
+    },
+    {
+      "file": "weekly-2025-W42.en.md",
+      "title": "Weekly Report (2025-10-13 to 2025-10-19)",
+      "lang": "en",
+      "mtime": 1762082960869.6628
+    },
+    {
+      "file": "weekly-2025-W41.en.md",
+      "title": "Weekly Report (2025-10-06 to 2025-10-12)",
+      "lang": "en",
+      "mtime": 1762082960726.6646
+    },
+    {
+      "file": "weekly-2025-W40.en.md",
+      "title": "Weekly Report (2025-09-29 to 2025-10-05)",
+      "lang": "en",
+      "mtime": 1762082960562.664
+    },
+    {
+      "file": "weekly-2025-W39.en.md",
+      "title": "Weekly Report (2025-09-22 to 2025-09-28)",
+      "lang": "en",
+      "mtime": 1762082960457.6636
+    },
+    {
+      "file": "weekly-2025-W38.en.md",
+      "title": "Weekly Report (2025-09-15 to 2025-09-21)",
+      "lang": "en",
+      "mtime": 1762082960353.6633
+    },
+    {
+      "file": "weekly-2025-W37.en.md",
+      "title": "Weekly Report (2025-09-08 to 2025-09-14)",
+      "lang": "en",
+      "mtime": 1762082960243.6628
+    },
+    {
+      "file": "weekly-2025-W36.en.md",
+      "title": "Weekly Report (2025-09-01 to 2025-09-07)",
+      "lang": "en",
+      "mtime": 1762082960110.6626
+    },
+    {
+      "file": "weekly-2025-W35.en.md",
+      "title": "Weekly Report (2025-08-25 to 2025-08-31)",
+      "lang": "en",
+      "mtime": 1762082959947.6619
+    },
+    {
+      "file": "weekly-2025-W34.en.md",
+      "title": "Weekly Report (2025-08-18 to 2025-08-24)",
+      "lang": "en",
+      "mtime": 1762082959832.6616
+    },
+    {
+      "file": "weekly-2025-W33.en.md",
+      "title": "Weekly Report (2025-08-11 to 2025-08-17)",
+      "lang": "en",
+      "mtime": 1762082959703.6611
+    },
+    {
+      "file": "weekly-2025-W32.en.md",
+      "title": "Weekly Report (2025-08-05 to 2025-08-10)",
+      "lang": "en",
+      "mtime": 1762082959558.6606
+    },
+    {
+      "file": "weekly-2025-W30.en.md",
+      "title": "Weekly Report (2025-07-21 to 2025-07-27)",
+      "lang": "en",
+      "mtime": 1762082959403.6602
+    },
+    {
+      "file": "weekly-2025-W29.en.md",
+      "title": "Weekly Report (2025-07-14 to 2025-07-20)",
+      "lang": "en",
+      "mtime": 1762082959194.6594
+    },
+    {
+      "file": "weekly-2025-W28.en.md",
+      "title": "Weekly Report (2025-07-07 to 2025-07-13)",
+      "lang": "en",
+      "mtime": 1762082959034.659
+    },
+    {
+      "file": "weekly-2025-W27.en.md",
+      "title": "Weekly Report (2025-06-30 to 2025-07-06)",
+      "lang": "en",
+      "mtime": 1762082958905.6584
+    },
+    {
+      "file": "weekly-2025-W26.en.md",
+      "title": "Weekly Report (2025-06-23 to 2025-06-29)",
+      "lang": "en",
+      "mtime": 1762082958774.658
+    },
+    {
+      "file": "weekly-2025-W25.en.md",
+      "title": "Weekly Report (2025-06-19 to 2025-06-22)",
+      "lang": "en",
+      "mtime": 1762082958643.6575
+    },
+    {
+      "file": "weekly-2025-W22.en.md",
+      "title": "Weekly Report (2025-05-28 to 2025-05-30)",
+      "lang": "en",
+      "mtime": 1762082958518.6572
+    },
+    {
+      "file": "weekly-2025-W21.en.md",
+      "title": "Weekly Report (2025-05-20 to 2025-05-25)",
+      "lang": "en",
+      "mtime": 1762082958393.6567
+    },
+    {
+      "file": "weekly-2025-W13.en.md",
+      "title": "Weekly Report (2025-03-24 to 2025-03-29)",
+      "lang": "en",
+      "mtime": 1762082958177.656
+    },
+    {
+      "file": "weekly-2025-W11.en.md",
+      "title": "Weekly Report (2025-03-10 to 2025-03-15)",
+      "lang": "en",
+      "mtime": 1762082957998.6553
+    },
+    {
+      "file": "weekly-2024-W41.en.md",
+      "title": "Weekly Report (2024-10-07 to 2024-10-13)",
+      "lang": "en",
+      "mtime": 1762082957280.6528
+    },
+    {
+      "file": "weekly-2024-W39.en.md",
+      "title": "Weekly Report (2024-09-23 to 2024-09-29)",
+      "lang": "en",
+      "mtime": 1762082955565.6472
+    },
+    {
+      "file": "weekly-2024-W38.en.md",
+      "title": "Weekly Report (2024-09-16 to 2024-09-22)",
+      "lang": "en",
+      "mtime": 1762082953920.6416
+    },
+    {
+      "file": "weekly-2024-W37.en.md",
+      "title": "Weekly Report (2024-09-13 to 2024-09-15)",
+      "lang": "en",
+      "mtime": 1762082952963.694
+    },
+    {
+      "file": "weekly-2025-W44.zh.md",
+      "title": "周报（2025-10-27 至 2025-10-31）",
+      "lang": "zh",
+      "mtime": 1762082952702.712
+    },
+    {
+      "file": "weekly-2025-W43.zh.md",
+      "title": "周报（2025-10-20 至 2025-10-26）",
+      "lang": "zh",
+      "mtime": 1762082952595.7114
+    },
+    {
+      "file": "weekly-2025-W42.zh.md",
+      "title": "周报（2025-10-13 至 2025-10-19）",
+      "lang": "zh",
+      "mtime": 1762082952457.7112
+    },
+    {
+      "file": "weekly-2025-W41.zh.md",
+      "title": "周报（2025-10-06 至 2025-10-12）",
+      "lang": "zh",
+      "mtime": 1762082952323.7107
+    },
+    {
+      "file": "weekly-2025-W40.zh.md",
+      "title": "周报（2025-09-29 至 2025-10-05）",
+      "lang": "zh",
+      "mtime": 1762082952177.7102
+    },
+    {
+      "file": "weekly-2025-W39.zh.md",
+      "title": "周报（2025-09-22 至 2025-09-28）",
+      "lang": "zh",
+      "mtime": 1762082952084.7097
+    },
+    {
+      "file": "weekly-2025-W38.zh.md",
+      "title": "周报（2025-09-15 至 2025-09-21）",
+      "lang": "zh",
+      "mtime": 1762082951986.7095
+    },
+    {
+      "file": "weekly-2025-W37.zh.md",
+      "title": "周报（2025-09-08 至 2025-09-14）",
+      "lang": "zh",
+      "mtime": 1762082951893.7092
+    },
+    {
+      "file": "weekly-2025-W36.zh.md",
+      "title": "周报（2025-09-01 至 2025-09-07）",
+      "lang": "zh",
+      "mtime": 1762082951766.7087
+    },
+    {
+      "file": "weekly-2025-W35.zh.md",
+      "title": "周报（2025-08-25 至 2025-08-31）",
+      "lang": "zh",
+      "mtime": 1762082951616.7083
+    },
+    {
+      "file": "weekly-2025-W34.zh.md",
+      "title": "周报（2025-08-18 至 2025-08-24）",
+      "lang": "zh",
+      "mtime": 1762082951506.7078
+    },
+    {
+      "file": "weekly-2025-W33.zh.md",
+      "title": "周报（2025-08-11 至 2025-08-17）",
+      "lang": "zh",
+      "mtime": 1762082951388.7075
+    },
+    {
+      "file": "weekly-2025-W32.zh.md",
+      "title": "周报（2025-08-05 至 2025-08-10）",
+      "lang": "zh",
+      "mtime": 1762082951255.707
+    },
+    {
+      "file": "weekly-2025-W30.zh.md",
+      "title": "周报（2025-07-21 至 2025-07-27）",
+      "lang": "zh",
+      "mtime": 1762082951107.7065
+    },
+    {
+      "file": "weekly-2025-W29.zh.md",
+      "title": "周报（2025-07-14 至 2025-07-20）",
+      "lang": "zh",
+      "mtime": 1762082950904.7058
+    },
+    {
+      "file": "weekly-2025-W28.zh.md",
+      "title": "周报（2025-07-07 至 2025-07-13）",
+      "lang": "zh",
+      "mtime": 1762082950754.7053
+    },
+    {
+      "file": "weekly-2025-W27.zh.md",
+      "title": "周报（2025-06-30 至 2025-07-06）",
+      "lang": "zh",
+      "mtime": 1762082950639.7048
+    },
+    {
+      "file": "weekly-2025-W26.zh.md",
+      "title": "周报（2025-06-23 至 2025-06-29）",
+      "lang": "zh",
+      "mtime": 1762082950522.7046
+    },
+    {
+      "file": "weekly-2025-W25.zh.md",
+      "title": "周报（2025-06-19 至 2025-06-22）",
+      "lang": "zh",
+      "mtime": 1762082950402.704
+    },
+    {
+      "file": "weekly-2025-W22.zh.md",
+      "title": "周报（2025-05-28 至 2025-05-30）",
+      "lang": "zh",
+      "mtime": 1762082950289.7039
+    },
+    {
+      "file": "weekly-2025-W21.zh.md",
+      "title": "周报（2025-05-20 至 2025-05-25）",
+      "lang": "zh",
+      "mtime": 1762082950175.7034
+    },
+    {
+      "file": "weekly-2025-W13.zh.md",
+      "title": "周报（2025-03-24 至 2025-03-29）",
+      "lang": "zh",
+      "mtime": 1762082949986.7026
+    },
+    {
+      "file": "weekly-2025-W11.zh.md",
+      "title": "周报（2025-03-10 至 2025-03-15）",
+      "lang": "zh",
+      "mtime": 1762082949828.7021
+    },
+    {
+      "file": "weekly-2024-W41.zh.md",
+      "title": "周报（2024-10-07 至 2024-10-13）",
+      "lang": "zh",
+      "mtime": 1762082949139.7
+    },
+    {
+      "file": "weekly-2024-W39.zh.md",
+      "title": "周报（2024-09-23 至 2024-09-29）",
+      "lang": "zh",
+      "mtime": 1762082947437.694
+    },
+    {
+      "file": "weekly-2024-W38.zh.md",
+      "title": "周报（2024-09-16 至 2024-09-22）",
+      "lang": "zh",
+      "mtime": 1762082945772.6885
+    },
+    {
+      "file": "weekly-2024-W37.zh.md",
+      "title": "周报（2024-09-13 至 2024-09-15）",
+      "lang": "zh",
+      "mtime": 1762082944834.6853
+    },
+    {
       "file": "weekly-2025-10-26_now.en.md",
       "title": "Weekly Report (2025-10-26 to now)",
       "lang": "en",
-      "mtime": 1762082128397.3276
+      "mtime": 1762082942784.6785
     },
     {
       "file": "weekly-2025-10-26_now.zh.md",
       "title": "周报（2025-10-26 至 当前）",
       "lang": "zh",
-      "mtime": 1762082128162.3162
+      "mtime": 1762082942784.6785
     }
   ]
 }

@@ -1,0 +1,295 @@
+{
+  "title": "周报（2025-09-08 至 2025-09-14）",
+  "lang": "zh",
+  "since": "2025-09-08",
+  "until": "2025-09-14",
+  "generatedAt": "2025-11-02T11:29:11.922Z",
+  "progress": {
+    "totals": {
+      "commits": 31,
+      "files": 35,
+      "added": 1611,
+      "removed": 27
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "23c783906858aaddc602e1fe7e03bcb1ca3af343",
+            "datetime": "2025-09-11 10:33:00 +0800",
+            "subject": "feat: 设计订单支付流程文档"
+          }
+        ],
+        "files": 2,
+        "added": 396,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            396
+          ]
+        ],
+        "subjects": [
+          "feat: 设计订单支付流程文档"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "1b57127a5296dda90025d2cf7d74031038619975",
+            "datetime": "2025-09-14 05:45:21 +0000",
+            "subject": "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n"
+          },
+          {
+            "hash": "8e4101f6967afd2325370a7e5a6b09217d27d0a3",
+            "datetime": "2025-09-14 05:34:48 +0000",
+            "subject": "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n"
+          },
+          {
+            "hash": "8d5c1d9b8c2742418261f30d43fe35a006e1b531",
+            "datetime": "2025-09-14 05:22:39 +0000",
+            "subject": "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n"
+          },
+          {
+            "hash": "c271d4fcf0a0178dfee306ae8ed9d57837e4ab77",
+            "datetime": "2025-09-14 05:13:52 +0000",
+            "subject": "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n"
+          },
+          {
+            "hash": "879c67e38e942ba7bc5f73033b5e872b1dd99550",
+            "datetime": "2025-09-12 12:10:53 +0000",
+            "subject": "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n"
+          },
+          {
+            "hash": "23c783906858aaddc602e1fe7e03bcb1ca3af343",
+            "datetime": "2025-09-11 10:33:00 +0800",
+            "subject": "feat: 设计订单支付流程文档"
+          },
+          {
+            "hash": "0b8d604219c2b3dfd7323619bb1117aec28bb691",
+            "datetime": "2025-09-10 15:06:49 +0000",
+            "subject": "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n"
+          },
+          {
+            "hash": "8c218a3c34dc52f4c0038a9083f7f2600d464eae",
+            "datetime": "2025-09-10 15:06:21 +0000",
+            "subject": "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n"
+          },
+          {
+            "hash": "8fa2d2bc2902c63c8365e96785c265c04b976d34",
+            "datetime": "2025-09-09 02:43:30 +0000",
+            "subject": "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n"
+          },
+          {
+            "hash": "cfb688ff6f5d88894297c6b7ad7a121ab87bc490",
+            "datetime": "2025-09-08 13:50:40 +0000",
+            "subject": "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+          }
+        ],
+        "files": 11,
+        "added": 405,
+        "removed": 9,
+        "heat": [
+          [
+            "docs",
+            396
+          ],
+          [
+            "backend",
+            10
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n",
+          "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n",
+          "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n",
+          "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n",
+          "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n",
+          "feat: 设计订单支付流程文档",
+          "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n",
+          "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n",
+          "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n",
+          "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "1b57127a5296dda90025d2cf7d74031038619975",
+            "datetime": "2025-09-14 05:45:21 +0000",
+            "subject": "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n"
+          },
+          {
+            "hash": "8e4101f6967afd2325370a7e5a6b09217d27d0a3",
+            "datetime": "2025-09-14 05:34:48 +0000",
+            "subject": "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n"
+          },
+          {
+            "hash": "8d5c1d9b8c2742418261f30d43fe35a006e1b531",
+            "datetime": "2025-09-14 05:22:39 +0000",
+            "subject": "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n"
+          },
+          {
+            "hash": "c271d4fcf0a0178dfee306ae8ed9d57837e4ab77",
+            "datetime": "2025-09-14 05:13:52 +0000",
+            "subject": "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n"
+          },
+          {
+            "hash": "879c67e38e942ba7bc5f73033b5e872b1dd99550",
+            "datetime": "2025-09-12 12:10:53 +0000",
+            "subject": "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n"
+          },
+          {
+            "hash": "23c783906858aaddc602e1fe7e03bcb1ca3af343",
+            "datetime": "2025-09-11 10:33:00 +0800",
+            "subject": "feat: 设计订单支付流程文档"
+          },
+          {
+            "hash": "0b8d604219c2b3dfd7323619bb1117aec28bb691",
+            "datetime": "2025-09-10 15:06:49 +0000",
+            "subject": "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n"
+          },
+          {
+            "hash": "8c218a3c34dc52f4c0038a9083f7f2600d464eae",
+            "datetime": "2025-09-10 15:06:21 +0000",
+            "subject": "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n"
+          },
+          {
+            "hash": "8fa2d2bc2902c63c8365e96785c265c04b976d34",
+            "datetime": "2025-09-09 02:43:30 +0000",
+            "subject": "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n"
+          },
+          {
+            "hash": "cfb688ff6f5d88894297c6b7ad7a121ab87bc490",
+            "datetime": "2025-09-08 13:50:40 +0000",
+            "subject": "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+          }
+        ],
+        "files": 11,
+        "added": 405,
+        "removed": 9,
+        "heat": [
+          [
+            "docs",
+            396
+          ],
+          [
+            "backend",
+            10
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n",
+          "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n",
+          "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n",
+          "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n",
+          "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n",
+          "feat: 设计订单支付流程文档",
+          "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n",
+          "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n",
+          "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n",
+          "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "1b57127a5296dda90025d2cf7d74031038619975",
+            "datetime": "2025-09-14 05:45:21 +0000",
+            "subject": "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n"
+          },
+          {
+            "hash": "8e4101f6967afd2325370a7e5a6b09217d27d0a3",
+            "datetime": "2025-09-14 05:34:48 +0000",
+            "subject": "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n"
+          },
+          {
+            "hash": "8d5c1d9b8c2742418261f30d43fe35a006e1b531",
+            "datetime": "2025-09-14 05:22:39 +0000",
+            "subject": "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n"
+          },
+          {
+            "hash": "c271d4fcf0a0178dfee306ae8ed9d57837e4ab77",
+            "datetime": "2025-09-14 05:13:52 +0000",
+            "subject": "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n"
+          },
+          {
+            "hash": "879c67e38e942ba7bc5f73033b5e872b1dd99550",
+            "datetime": "2025-09-12 12:10:53 +0000",
+            "subject": "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n"
+          },
+          {
+            "hash": "23c783906858aaddc602e1fe7e03bcb1ca3af343",
+            "datetime": "2025-09-11 10:33:00 +0800",
+            "subject": "feat: 设计订单支付流程文档"
+          },
+          {
+            "hash": "0b8d604219c2b3dfd7323619bb1117aec28bb691",
+            "datetime": "2025-09-10 15:06:49 +0000",
+            "subject": "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n"
+          },
+          {
+            "hash": "8c218a3c34dc52f4c0038a9083f7f2600d464eae",
+            "datetime": "2025-09-10 15:06:21 +0000",
+            "subject": "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n"
+          },
+          {
+            "hash": "8fa2d2bc2902c63c8365e96785c265c04b976d34",
+            "datetime": "2025-09-09 02:43:30 +0000",
+            "subject": "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n"
+          },
+          {
+            "hash": "cfb688ff6f5d88894297c6b7ad7a121ab87bc490",
+            "datetime": "2025-09-08 13:50:40 +0000",
+            "subject": "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+          }
+        ],
+        "files": 11,
+        "added": 405,
+        "removed": 9,
+        "heat": [
+          [
+            "docs",
+            396
+          ],
+          [
+            "backend",
+            10
+          ],
+          [
+            "frontend",
+            8
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\\n",
+          "[backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\\n",
+          "[backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\\n",
+          "[backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\\n",
+          "[frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\\n",
+          "feat: 设计订单支付流程文档",
+          "[frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\\n",
+          "[backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\\n",
+          "[frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\\n",
+          "[frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\\n"
+        ]
+      }
+    ]
+  }
+}

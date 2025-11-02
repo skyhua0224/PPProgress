@@ -1,0 +1,759 @@
+{
+  "title": "Weekly Report (2025-09-01 to 2025-09-07)",
+  "lang": "en",
+  "since": "2025-09-01",
+  "until": "2025-09-07",
+  "generatedAt": "2025-11-02T11:29:20.164Z",
+  "progress": {
+    "totals": {
+      "commits": 120,
+      "files": 236,
+      "added": 62248,
+      "removed": 1212
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "af0010d581c847175aa263b1e392d4564447dda2",
+            "datetime": "2025-09-05 22:49:29 +0800",
+            "subject": "feat: 新增支付确认测试页面以及支付系统文档"
+          },
+          {
+            "hash": "045ad372ef961309fbf48d974ac31c45c880a8d7",
+            "datetime": "2025-09-03 15:36:02 +0800",
+            "subject": "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点"
+          },
+          {
+            "hash": "ab32613eaaccc3d86c95ab366c4d2758a5c2eb4f",
+            "datetime": "2025-09-03 15:35:28 +0800",
+            "subject": "feat: 同步本地优惠券相关文档"
+          }
+        ],
+        "files": 32,
+        "added": 15535,
+        "removed": 276,
+        "heat": [
+          [
+            "docs",
+            14123
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            ".gitignore",
+            5
+          ],
+          [
+            "Coupon-Campaign-Audit-Report.md",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 新增支付确认测试页面以及支付系统文档",
+          "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点",
+          "feat: 同步本地优惠券相关文档"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "af805ddf7d0f7cef857510ad1a1ffec94781eac8",
+            "datetime": "2025-09-06 13:58:33 +0000",
+            "subject": "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n"
+          },
+          {
+            "hash": "af0010d581c847175aa263b1e392d4564447dda2",
+            "datetime": "2025-09-05 22:49:29 +0800",
+            "subject": "feat: 新增支付确认测试页面以及支付系统文档"
+          },
+          {
+            "hash": "374826cd2903d3a6f7a41e16b3effea81ee185e7",
+            "datetime": "2025-09-05 14:49:02 +0000",
+            "subject": "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n"
+          },
+          {
+            "hash": "e6e0339c94ed100b9ab04a665f9e1acb94f58d63",
+            "datetime": "2025-09-05 07:55:54 +0000",
+            "subject": "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n"
+          },
+          {
+            "hash": "57d14092a43ae861a03dcb07ccaf2c83995bf98e",
+            "datetime": "2025-09-05 07:40:04 +0000",
+            "subject": "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n"
+          },
+          {
+            "hash": "5df67b9deffb9c699decc757de1376477aa33117",
+            "datetime": "2025-09-05 07:33:31 +0000",
+            "subject": "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n"
+          },
+          {
+            "hash": "6a9e894288cf5691cde3b61ec5d09a5d4884ef6f",
+            "datetime": "2025-09-05 07:23:52 +0000",
+            "subject": "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n"
+          },
+          {
+            "hash": "c87143320a67a72989992aaaaf6d67cdb4b855cc",
+            "datetime": "2025-09-04 14:59:36 +0000",
+            "subject": "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n"
+          },
+          {
+            "hash": "24b7143836377b1a4b3589af3d436690f2690dfb",
+            "datetime": "2025-09-04 13:33:47 +0000",
+            "subject": "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n"
+          },
+          {
+            "hash": "d94911789c0ff95c9c7fe3e92e275cd6231ff9a2",
+            "datetime": "2025-09-03 11:17:46 +0000",
+            "subject": "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n"
+          },
+          {
+            "hash": "045ad372ef961309fbf48d974ac31c45c880a8d7",
+            "datetime": "2025-09-03 15:36:02 +0800",
+            "subject": "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点"
+          },
+          {
+            "hash": "ab32613eaaccc3d86c95ab366c4d2758a5c2eb4f",
+            "datetime": "2025-09-03 15:35:28 +0800",
+            "subject": "feat: 同步本地优惠券相关文档"
+          },
+          {
+            "hash": "e5b69fd4cb00d18032ee738d8f6370485b662080",
+            "datetime": "2025-09-02 18:46:13 +0000",
+            "subject": "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n"
+          },
+          {
+            "hash": "3f107898f9e729c3723a7d7b7bc5560a5ea9d6b4",
+            "datetime": "2025-09-02 18:36:11 +0000",
+            "subject": "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n"
+          },
+          {
+            "hash": "84aa1028c0e12e34e2a2064f7296edb96b7b9f4f",
+            "datetime": "2025-09-02 18:35:21 +0000",
+            "subject": "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n"
+          },
+          {
+            "hash": "0c944beaedc6788dbea0ad594ea71f8cff1a1702",
+            "datetime": "2025-09-02 18:32:07 +0000",
+            "subject": "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n"
+          },
+          {
+            "hash": "852f5905c5520157901a89e6a2964688fe6469d2",
+            "datetime": "2025-09-02 18:21:58 +0000",
+            "subject": "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n"
+          },
+          {
+            "hash": "98345c787198826356d322c57b77963ffc356f12",
+            "datetime": "2025-09-02 18:15:35 +0000",
+            "subject": "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n"
+          },
+          {
+            "hash": "a5c08f4d2a683aa062e69bc031ed2602d20f16be",
+            "datetime": "2025-09-02 18:14:28 +0000",
+            "subject": "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n"
+          },
+          {
+            "hash": "b06d0e7ce37acce605a087130b82075e7771ea43",
+            "datetime": "2025-09-02 18:10:40 +0000",
+            "subject": "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n"
+          },
+          {
+            "hash": "2edf7a9e13a96c08fb9720e90a825a38731af1de",
+            "datetime": "2025-09-02 18:01:39 +0000",
+            "subject": "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "5e332c90381b42aaf993c88d487b1bd31c1d6a7a",
+            "datetime": "2025-09-02 16:33:19 +0000",
+            "subject": "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n"
+          },
+          {
+            "hash": "bb6b0f82cdba55af5887f904f2791a98db09cc9b",
+            "datetime": "2025-09-02 16:17:03 +0000",
+            "subject": "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n"
+          },
+          {
+            "hash": "9c92cc6be9fd666b69a394fe4735d3685c1bf54d",
+            "datetime": "2025-09-02 16:12:30 +0000",
+            "subject": "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n"
+          },
+          {
+            "hash": "7e6bf6097696c6b3c0eb3c6686521571bd1a7280",
+            "datetime": "2025-09-02 15:47:54 +0000",
+            "subject": "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n"
+          },
+          {
+            "hash": "bf676706318726e3f907c58aae03e554dd6b6245",
+            "datetime": "2025-09-02 15:33:13 +0000",
+            "subject": "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n"
+          },
+          {
+            "hash": "24eef3f81d8d342fa8b48d6a398b8013abb172fd",
+            "datetime": "2025-09-02 15:07:04 +0000",
+            "subject": "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n"
+          },
+          {
+            "hash": "32eaf26eb6bf524fa3ecc88e353cf27a707edbb5",
+            "datetime": "2025-09-02 15:04:45 +0000",
+            "subject": "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n"
+          },
+          {
+            "hash": "5e630cd236399b581b0c84fd95b57769a81f3925",
+            "datetime": "2025-09-02 14:54:01 +0000",
+            "subject": "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n"
+          },
+          {
+            "hash": "c42517a8db1d5c4bb40ba4cbe4bc382a7ca4b2c8",
+            "datetime": "2025-09-02 09:57:12 +0000",
+            "subject": "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+          }
+        ],
+        "files": 68,
+        "added": 15571,
+        "removed": 312,
+        "heat": [
+          [
+            "docs",
+            14123
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "backend",
+            60
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            ".gitignore",
+            5
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "Coupon-Campaign-Audit-Report.md",
+            0
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n",
+          "feat: 新增支付确认测试页面以及支付系统文档",
+          "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n",
+          "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n",
+          "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n",
+          "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n",
+          "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n",
+          "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n",
+          "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n",
+          "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n",
+          "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点",
+          "feat: 同步本地优惠券相关文档",
+          "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n",
+          "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n",
+          "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n",
+          "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n",
+          "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n",
+          "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n",
+          "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n",
+          "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n",
+          "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n",
+          "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n",
+          "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n",
+          "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n",
+          "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n",
+          "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n",
+          "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n",
+          "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n",
+          "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n",
+          "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "af805ddf7d0f7cef857510ad1a1ffec94781eac8",
+            "datetime": "2025-09-06 13:58:33 +0000",
+            "subject": "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n"
+          },
+          {
+            "hash": "af0010d581c847175aa263b1e392d4564447dda2",
+            "datetime": "2025-09-05 22:49:29 +0800",
+            "subject": "feat: 新增支付确认测试页面以及支付系统文档"
+          },
+          {
+            "hash": "374826cd2903d3a6f7a41e16b3effea81ee185e7",
+            "datetime": "2025-09-05 14:49:02 +0000",
+            "subject": "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n"
+          },
+          {
+            "hash": "e6e0339c94ed100b9ab04a665f9e1acb94f58d63",
+            "datetime": "2025-09-05 07:55:54 +0000",
+            "subject": "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n"
+          },
+          {
+            "hash": "57d14092a43ae861a03dcb07ccaf2c83995bf98e",
+            "datetime": "2025-09-05 07:40:04 +0000",
+            "subject": "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n"
+          },
+          {
+            "hash": "5df67b9deffb9c699decc757de1376477aa33117",
+            "datetime": "2025-09-05 07:33:31 +0000",
+            "subject": "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n"
+          },
+          {
+            "hash": "6a9e894288cf5691cde3b61ec5d09a5d4884ef6f",
+            "datetime": "2025-09-05 07:23:52 +0000",
+            "subject": "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n"
+          },
+          {
+            "hash": "c87143320a67a72989992aaaaf6d67cdb4b855cc",
+            "datetime": "2025-09-04 14:59:36 +0000",
+            "subject": "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n"
+          },
+          {
+            "hash": "24b7143836377b1a4b3589af3d436690f2690dfb",
+            "datetime": "2025-09-04 13:33:47 +0000",
+            "subject": "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n"
+          },
+          {
+            "hash": "d94911789c0ff95c9c7fe3e92e275cd6231ff9a2",
+            "datetime": "2025-09-03 11:17:46 +0000",
+            "subject": "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n"
+          },
+          {
+            "hash": "045ad372ef961309fbf48d974ac31c45c880a8d7",
+            "datetime": "2025-09-03 15:36:02 +0800",
+            "subject": "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点"
+          },
+          {
+            "hash": "ab32613eaaccc3d86c95ab366c4d2758a5c2eb4f",
+            "datetime": "2025-09-03 15:35:28 +0800",
+            "subject": "feat: 同步本地优惠券相关文档"
+          },
+          {
+            "hash": "e5b69fd4cb00d18032ee738d8f6370485b662080",
+            "datetime": "2025-09-02 18:46:13 +0000",
+            "subject": "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n"
+          },
+          {
+            "hash": "3f107898f9e729c3723a7d7b7bc5560a5ea9d6b4",
+            "datetime": "2025-09-02 18:36:11 +0000",
+            "subject": "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n"
+          },
+          {
+            "hash": "84aa1028c0e12e34e2a2064f7296edb96b7b9f4f",
+            "datetime": "2025-09-02 18:35:21 +0000",
+            "subject": "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n"
+          },
+          {
+            "hash": "0c944beaedc6788dbea0ad594ea71f8cff1a1702",
+            "datetime": "2025-09-02 18:32:07 +0000",
+            "subject": "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n"
+          },
+          {
+            "hash": "852f5905c5520157901a89e6a2964688fe6469d2",
+            "datetime": "2025-09-02 18:21:58 +0000",
+            "subject": "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n"
+          },
+          {
+            "hash": "98345c787198826356d322c57b77963ffc356f12",
+            "datetime": "2025-09-02 18:15:35 +0000",
+            "subject": "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n"
+          },
+          {
+            "hash": "a5c08f4d2a683aa062e69bc031ed2602d20f16be",
+            "datetime": "2025-09-02 18:14:28 +0000",
+            "subject": "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n"
+          },
+          {
+            "hash": "b06d0e7ce37acce605a087130b82075e7771ea43",
+            "datetime": "2025-09-02 18:10:40 +0000",
+            "subject": "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n"
+          },
+          {
+            "hash": "2edf7a9e13a96c08fb9720e90a825a38731af1de",
+            "datetime": "2025-09-02 18:01:39 +0000",
+            "subject": "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "5e332c90381b42aaf993c88d487b1bd31c1d6a7a",
+            "datetime": "2025-09-02 16:33:19 +0000",
+            "subject": "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n"
+          },
+          {
+            "hash": "bb6b0f82cdba55af5887f904f2791a98db09cc9b",
+            "datetime": "2025-09-02 16:17:03 +0000",
+            "subject": "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n"
+          },
+          {
+            "hash": "9c92cc6be9fd666b69a394fe4735d3685c1bf54d",
+            "datetime": "2025-09-02 16:12:30 +0000",
+            "subject": "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n"
+          },
+          {
+            "hash": "7e6bf6097696c6b3c0eb3c6686521571bd1a7280",
+            "datetime": "2025-09-02 15:47:54 +0000",
+            "subject": "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n"
+          },
+          {
+            "hash": "bf676706318726e3f907c58aae03e554dd6b6245",
+            "datetime": "2025-09-02 15:33:13 +0000",
+            "subject": "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n"
+          },
+          {
+            "hash": "24eef3f81d8d342fa8b48d6a398b8013abb172fd",
+            "datetime": "2025-09-02 15:07:04 +0000",
+            "subject": "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n"
+          },
+          {
+            "hash": "32eaf26eb6bf524fa3ecc88e353cf27a707edbb5",
+            "datetime": "2025-09-02 15:04:45 +0000",
+            "subject": "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n"
+          },
+          {
+            "hash": "5e630cd236399b581b0c84fd95b57769a81f3925",
+            "datetime": "2025-09-02 14:54:01 +0000",
+            "subject": "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n"
+          },
+          {
+            "hash": "c42517a8db1d5c4bb40ba4cbe4bc382a7ca4b2c8",
+            "datetime": "2025-09-02 09:57:12 +0000",
+            "subject": "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+          }
+        ],
+        "files": 68,
+        "added": 15571,
+        "removed": 312,
+        "heat": [
+          [
+            "docs",
+            14123
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "backend",
+            60
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            ".gitignore",
+            5
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "Coupon-Campaign-Audit-Report.md",
+            0
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n",
+          "feat: 新增支付确认测试页面以及支付系统文档",
+          "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n",
+          "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n",
+          "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n",
+          "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n",
+          "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n",
+          "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n",
+          "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n",
+          "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n",
+          "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点",
+          "feat: 同步本地优惠券相关文档",
+          "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n",
+          "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n",
+          "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n",
+          "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n",
+          "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n",
+          "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n",
+          "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n",
+          "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n",
+          "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n",
+          "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n",
+          "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n",
+          "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n",
+          "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n",
+          "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n",
+          "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n",
+          "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n",
+          "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n",
+          "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "af805ddf7d0f7cef857510ad1a1ffec94781eac8",
+            "datetime": "2025-09-06 13:58:33 +0000",
+            "subject": "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n"
+          },
+          {
+            "hash": "af0010d581c847175aa263b1e392d4564447dda2",
+            "datetime": "2025-09-05 22:49:29 +0800",
+            "subject": "feat: 新增支付确认测试页面以及支付系统文档"
+          },
+          {
+            "hash": "374826cd2903d3a6f7a41e16b3effea81ee185e7",
+            "datetime": "2025-09-05 14:49:02 +0000",
+            "subject": "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n"
+          },
+          {
+            "hash": "e6e0339c94ed100b9ab04a665f9e1acb94f58d63",
+            "datetime": "2025-09-05 07:55:54 +0000",
+            "subject": "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n"
+          },
+          {
+            "hash": "57d14092a43ae861a03dcb07ccaf2c83995bf98e",
+            "datetime": "2025-09-05 07:40:04 +0000",
+            "subject": "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n"
+          },
+          {
+            "hash": "5df67b9deffb9c699decc757de1376477aa33117",
+            "datetime": "2025-09-05 07:33:31 +0000",
+            "subject": "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n"
+          },
+          {
+            "hash": "6a9e894288cf5691cde3b61ec5d09a5d4884ef6f",
+            "datetime": "2025-09-05 07:23:52 +0000",
+            "subject": "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n"
+          },
+          {
+            "hash": "c87143320a67a72989992aaaaf6d67cdb4b855cc",
+            "datetime": "2025-09-04 14:59:36 +0000",
+            "subject": "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n"
+          },
+          {
+            "hash": "24b7143836377b1a4b3589af3d436690f2690dfb",
+            "datetime": "2025-09-04 13:33:47 +0000",
+            "subject": "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n"
+          },
+          {
+            "hash": "d94911789c0ff95c9c7fe3e92e275cd6231ff9a2",
+            "datetime": "2025-09-03 11:17:46 +0000",
+            "subject": "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n"
+          },
+          {
+            "hash": "045ad372ef961309fbf48d974ac31c45c880a8d7",
+            "datetime": "2025-09-03 15:36:02 +0800",
+            "subject": "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点"
+          },
+          {
+            "hash": "ab32613eaaccc3d86c95ab366c4d2758a5c2eb4f",
+            "datetime": "2025-09-03 15:35:28 +0800",
+            "subject": "feat: 同步本地优惠券相关文档"
+          },
+          {
+            "hash": "e5b69fd4cb00d18032ee738d8f6370485b662080",
+            "datetime": "2025-09-02 18:46:13 +0000",
+            "subject": "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n"
+          },
+          {
+            "hash": "3f107898f9e729c3723a7d7b7bc5560a5ea9d6b4",
+            "datetime": "2025-09-02 18:36:11 +0000",
+            "subject": "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n"
+          },
+          {
+            "hash": "84aa1028c0e12e34e2a2064f7296edb96b7b9f4f",
+            "datetime": "2025-09-02 18:35:21 +0000",
+            "subject": "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n"
+          },
+          {
+            "hash": "0c944beaedc6788dbea0ad594ea71f8cff1a1702",
+            "datetime": "2025-09-02 18:32:07 +0000",
+            "subject": "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n"
+          },
+          {
+            "hash": "852f5905c5520157901a89e6a2964688fe6469d2",
+            "datetime": "2025-09-02 18:21:58 +0000",
+            "subject": "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n"
+          },
+          {
+            "hash": "98345c787198826356d322c57b77963ffc356f12",
+            "datetime": "2025-09-02 18:15:35 +0000",
+            "subject": "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n"
+          },
+          {
+            "hash": "a5c08f4d2a683aa062e69bc031ed2602d20f16be",
+            "datetime": "2025-09-02 18:14:28 +0000",
+            "subject": "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n"
+          },
+          {
+            "hash": "b06d0e7ce37acce605a087130b82075e7771ea43",
+            "datetime": "2025-09-02 18:10:40 +0000",
+            "subject": "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n"
+          },
+          {
+            "hash": "2edf7a9e13a96c08fb9720e90a825a38731af1de",
+            "datetime": "2025-09-02 18:01:39 +0000",
+            "subject": "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n"
+          },
+          {
+            "hash": "5e332c90381b42aaf993c88d487b1bd31c1d6a7a",
+            "datetime": "2025-09-02 16:33:19 +0000",
+            "subject": "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n"
+          },
+          {
+            "hash": "bb6b0f82cdba55af5887f904f2791a98db09cc9b",
+            "datetime": "2025-09-02 16:17:03 +0000",
+            "subject": "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n"
+          },
+          {
+            "hash": "9c92cc6be9fd666b69a394fe4735d3685c1bf54d",
+            "datetime": "2025-09-02 16:12:30 +0000",
+            "subject": "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n"
+          },
+          {
+            "hash": "7e6bf6097696c6b3c0eb3c6686521571bd1a7280",
+            "datetime": "2025-09-02 15:47:54 +0000",
+            "subject": "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n"
+          },
+          {
+            "hash": "bf676706318726e3f907c58aae03e554dd6b6245",
+            "datetime": "2025-09-02 15:33:13 +0000",
+            "subject": "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n"
+          },
+          {
+            "hash": "24eef3f81d8d342fa8b48d6a398b8013abb172fd",
+            "datetime": "2025-09-02 15:07:04 +0000",
+            "subject": "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n"
+          },
+          {
+            "hash": "32eaf26eb6bf524fa3ecc88e353cf27a707edbb5",
+            "datetime": "2025-09-02 15:04:45 +0000",
+            "subject": "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n"
+          },
+          {
+            "hash": "5e630cd236399b581b0c84fd95b57769a81f3925",
+            "datetime": "2025-09-02 14:54:01 +0000",
+            "subject": "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n"
+          },
+          {
+            "hash": "c42517a8db1d5c4bb40ba4cbe4bc382a7ca4b2c8",
+            "datetime": "2025-09-02 09:57:12 +0000",
+            "subject": "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+          }
+        ],
+        "files": 68,
+        "added": 15571,
+        "removed": 312,
+        "heat": [
+          [
+            "docs",
+            14123
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "backend",
+            60
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            ".gitignore",
+            5
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "Coupon-Campaign-Audit-Report.md",
+            0
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[576c279: feat: 完善订单页面设计，初步修正订单详情页面]\\n",
+          "feat: 新增支付确认测试页面以及支付系统文档",
+          "[frontend] 自动合并[dc85742: feat: 新增支付确认和支付成功页]\\n",
+          "[frontend] 自动合并[56a92ca: feat: 新增会员等级券支持]\\n",
+          "[backend] 自动合并[0c362ba: feat: 优化虚拟等级折扣券逻辑，确保用户信息重新加载以避免懒加载异常]\\n",
+          "[backend] 自动合并[1aa290b: feat: 优化虚拟券创建逻辑，添加日志记录以便调试，简化条件判断]\\n",
+          "[backend] 自动合并[8773a6a: feat: 添加虚拟等级折扣券支持，优化优惠券排序逻辑，更新 UserCouponDTO 源字段]\\n",
+          "[backend] 自动合并[aa3c3c9: feat: 添加支付处理功能，包括支付回调和订单状态更新，修复 user-coupon的懒加载报错]\\n",
+          "[backend] 自动合并[715ff6a: feat: 完成对于订单部分后端的主要设计和重构]\\n",
+          "[admin] 自动合并[be9d57b5: feat: 完成订单管理前端样式和逻辑设计]\\n",
+          "feat: 更新优惠券计划文档，重构导航与章节，补充最新进展与关键验证点",
+          "feat: 同步本地优惠券相关文档",
+          "[frontend] 自动合并[1fbe3fc: feat: 完善一切和优惠券有关的设计和代码，使其能够正常使用和计价]\\n",
+          "[admin] 自动合并[3923af0c: feat: 更新优惠券创建页面，支持选择服务或履约，优化绑定逻辑和翻译]\\n",
+          "[backend] 自动合并[89fa37c: feat: 更新 FulfillmentPriceRule 和 StoreFulfillmentSettingRepository 以优化履约费用处理逻辑]\\n",
+          "[backend] 自动合并[adc5295: feat: 添加 FulfillmentPriceRule 以支持 SPECIAL_PRICE 和 EXCHANGE 优惠券的履约价格验证]\\n",
+          "[backend] 自动合并[1527b17: feat: 更新 CouponDiscountCalculator 和 ScopeRule 以支持 boundFulfillmentKey 字段]\\n",
+          "[backend] 自动合并[298b6d1: feat: 在 SpecialPriceRule 中添加对 EXCHANGE 模板的处理逻辑]\\n",
+          "[backend] 自动合并[4936b7f: feat: 更新 SpecialPriceRule 以支持 EXCHANGE 模板和绑定的 fulfillmentKey]\\n",
+          "[backend] 自动合并[75412a6: feat: 在 UserCouponServiceImpl 中添加对 fulfillment 的处理逻辑，以支持订单上下文的完整性]\\n",
+          "[backend] 自动合并[eb79365: feat: 在 CouponRuleConfig 中添加 boundFulfillmentKey 字段，并更新相关逻辑以支持新字段]\\n",
+          "[backend] 自动合并[8cfac87: feat: 在 FulfillmentOptionDTO 中添加 configMode 字段，并在 ClientFulfillmentServiceImpl 中设置配置模式]\\n",
+          "[backend] 自动合并[1647a2e: feat: 简化优惠券选择器逻辑，通过轻量级检查区分请求类型]\\n",
+          "[backend] 自动合并[5c1399f: feat: 修改 CouponQueryDTO 中 orderContext 的类型为 Object，以增强灵活性]\\n",
+          "[backend] 自动合并[52b3a5f: fix: 修复类型转换异常，确保 OrderItemDTO 的安全转换]\\n",
+          "[backend] 自动合并[d4a17c5: feat: 引入 ClientPricingService，增强优惠券选择器逻辑，支持订单上下文的简化处理]\\n",
+          "[backend] 自动合并[e50de90: feat: 替换 OrderCalculationServiceImpl 中的 UserCouponService 为 UserCouponRepository，优化用户优惠券查询逻辑]\\n",
+          "[backend] 自动合并[ee2eaa4: feat: 移除 ClientPricingService 中的 calculateOrder 方法及相关依赖，简化定价服务逻辑]\\n",
+          "[backend] 自动合并[d76baea: feat: 增强优惠券选择器逻辑，支持订单上下文的两阶段处理，并引入订单计算服务进行精确折扣计算]\\n",
+          "[backend] 自动合并[af272ce: feat: 优化用户优惠券获取逻辑，简化“我的优惠券”响应结构并增强范围文本生成]\\n"
+        ]
+      }
+    ]
+  }
+}

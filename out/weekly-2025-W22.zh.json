@@ -1,0 +1,192 @@
+{
+  "title": "周报（2025-05-28 至 2025-05-30）",
+  "lang": "zh",
+  "since": "2025-05-28",
+  "until": "2025-05-30",
+  "generatedAt": "2025-11-02T11:29:10.327Z",
+  "progress": {
+    "totals": {
+      "commits": 15,
+      "files": 15,
+      "added": 15,
+      "removed": 15
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
+            "datetime": "2025-05-30 01:36:12 +0000",
+            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
+          },
+          {
+            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
+            "datetime": "2025-05-30 01:14:02 +0000",
+            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
+          },
+          {
+            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
+            "datetime": "2025-05-30 00:47:37 +0000",
+            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
+          },
+          {
+            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
+            "datetime": "2025-05-28 17:08:52 +0000",
+            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
+          },
+          {
+            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
+            "datetime": "2025-05-28 16:37:57 +0000",
+            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          }
+        ],
+        "files": 5,
+        "added": 5,
+        "removed": 5,
+        "heat": [
+          [
+            "backend",
+            4
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
+          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
+          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
+          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
+          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
+            "datetime": "2025-05-30 01:36:12 +0000",
+            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
+          },
+          {
+            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
+            "datetime": "2025-05-30 01:14:02 +0000",
+            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
+          },
+          {
+            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
+            "datetime": "2025-05-30 00:47:37 +0000",
+            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
+          },
+          {
+            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
+            "datetime": "2025-05-28 17:08:52 +0000",
+            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
+          },
+          {
+            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
+            "datetime": "2025-05-28 16:37:57 +0000",
+            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          }
+        ],
+        "files": 5,
+        "added": 5,
+        "removed": 5,
+        "heat": [
+          [
+            "backend",
+            4
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
+          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
+          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
+          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
+          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "7851410a16a3e4fc5c92f0a9b506333a517c5eb8",
+            "datetime": "2025-05-30 01:36:12 +0000",
+            "subject": "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n"
+          },
+          {
+            "hash": "a66f237a976b34ab018f582224957067f5b1ffd5",
+            "datetime": "2025-05-30 01:14:02 +0000",
+            "subject": "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n"
+          },
+          {
+            "hash": "9ed32b82bdd3112669272a77ece2483b69012f8c",
+            "datetime": "2025-05-30 00:47:37 +0000",
+            "subject": "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n"
+          },
+          {
+            "hash": "2d2b665214bf44d10ad71b567305268e8665943b",
+            "datetime": "2025-05-28 17:08:52 +0000",
+            "subject": "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n"
+          },
+          {
+            "hash": "af2da880675fe8787ad891c134be6efa4ce6ac59",
+            "datetime": "2025-05-28 16:37:57 +0000",
+            "subject": "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+          }
+        ],
+        "files": 5,
+        "added": 5,
+        "removed": 5,
+        "heat": [
+          [
+            "backend",
+            4
+          ],
+          [
+            "admin",
+            4
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[08cf6a1: refactor(StoreController): 移除不必要的跨域注解]\\n",
+          "[backend] 自动合并[8530e0f: feat：实现分享码生成、验证和管理功能]\\n",
+          "[frontend] 自动合并[f3c08cc: feat: library界面优化]\\n",
+          "[admin] 自动合并[6d4fc14: feat: 添加打印任务提交和测试页打印功能]\\n",
+          "[admin] 自动合并[4dba7eb: feat: 添加文件上传功能及打印设置界面]\\n"
+        ]
+      }
+    ]
+  }
+}

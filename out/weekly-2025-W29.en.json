@@ -1,0 +1,671 @@
+{
+  "title": "Weekly Report (2025-07-14 to 2025-07-20)",
+  "lang": "en",
+  "since": "2025-07-14",
+  "until": "2025-07-20",
+  "generatedAt": "2025-11-02T11:29:19.248Z",
+  "progress": {
+    "totals": {
+      "commits": 190,
+      "files": 289,
+      "added": 29765,
+      "removed": 193
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "1a5b8338484ebf6fddba3aa620cbb99e7f9057ee",
+            "datetime": "2025-07-19 18:05:06 +0800",
+            "subject": "feat: 上传文档以方便开发查阅"
+          }
+        ],
+        "files": 25,
+        "added": 7394,
+        "removed": 1,
+        "heat": [
+          [
+            "docs",
+            7394
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "feat: 上传文档以方便开发查阅"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "d450e8c46a91445ccb3816577be6b03ba1061eb4",
+            "datetime": "2025-07-20 08:27:09 +0000",
+            "subject": "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n"
+          },
+          {
+            "hash": "485700dd62fb0b2e9fd315de36e19bbe02868144",
+            "datetime": "2025-07-20 08:20:22 +0000",
+            "subject": "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n"
+          },
+          {
+            "hash": "bccf61306aa21209a4fb8cec7c5b88188ada9af0",
+            "datetime": "2025-07-20 07:22:18 +0000",
+            "subject": "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n"
+          },
+          {
+            "hash": "32f77f8e17e84d4b91a11656d4be3a6df70ad297",
+            "datetime": "2025-07-20 06:57:06 +0000",
+            "subject": "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n"
+          },
+          {
+            "hash": "c76a16222a76eb7507e08a8cc765da8852618569",
+            "datetime": "2025-07-20 06:51:01 +0000",
+            "subject": "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n"
+          },
+          {
+            "hash": "1460567ea0e5ff4aead3a30be291845355ba17d0",
+            "datetime": "2025-07-20 06:45:30 +0000",
+            "subject": "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n"
+          },
+          {
+            "hash": "6e431baea160d49319bbeacdab8d9a06807e0b9c",
+            "datetime": "2025-07-20 06:40:32 +0000",
+            "subject": "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n"
+          },
+          {
+            "hash": "dd7b6aa6983f24199a51fa6d91cb53a4c12b9e4b",
+            "datetime": "2025-07-20 06:19:27 +0000",
+            "subject": "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "a183831a7bed9734f46ec816157cbb0b85918b2a",
+            "datetime": "2025-07-20 06:15:40 +0000",
+            "subject": "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "19d62e29be1f99e0f4d474424fb8ae5409c792a4",
+            "datetime": "2025-07-20 06:06:48 +0000",
+            "subject": "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n"
+          },
+          {
+            "hash": "cd94974fe243c26ece4bca968a013691b7cc5e06",
+            "datetime": "2025-07-20 05:53:42 +0000",
+            "subject": "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n"
+          },
+          {
+            "hash": "c51d9f670527794aefacf4b288b1e94f9979dd76",
+            "datetime": "2025-07-20 05:49:37 +0000",
+            "subject": "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n"
+          },
+          {
+            "hash": "11a49a302d9004f39d705d32ab40f6860fe35be2",
+            "datetime": "2025-07-20 05:43:18 +0000",
+            "subject": "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n"
+          },
+          {
+            "hash": "55a392734071246769e1284942f25ddfb9df3698",
+            "datetime": "2025-07-20 05:34:52 +0000",
+            "subject": "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n"
+          },
+          {
+            "hash": "1a5b8338484ebf6fddba3aa620cbb99e7f9057ee",
+            "datetime": "2025-07-19 18:05:06 +0800",
+            "subject": "feat: 上传文档以方便开发查阅"
+          },
+          {
+            "hash": "e7a118d23b6ed23087aa68f3503a4555aaf000d3",
+            "datetime": "2025-07-18 08:05:02 +0000",
+            "subject": "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n"
+          },
+          {
+            "hash": "0eff384c65fc43831dbd130e593aeb2caef49601",
+            "datetime": "2025-07-18 08:01:02 +0000",
+            "subject": "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n"
+          },
+          {
+            "hash": "c2ca0b48d1036c5cd6e31646efb78e70aa7bc07c",
+            "datetime": "2025-07-18 07:56:04 +0000",
+            "subject": "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n"
+          },
+          {
+            "hash": "367857b9c14a87a037102d9143b1f2a959e630b0",
+            "datetime": "2025-07-18 07:46:46 +0000",
+            "subject": "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n"
+          },
+          {
+            "hash": "d0a64503f86e491eb2f713cc81a7a2ad3b3eeec0",
+            "datetime": "2025-07-18 07:39:17 +0000",
+            "subject": "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n"
+          },
+          {
+            "hash": "dc82465958ce6731e9145d45d1cbe9e9c5f97b64",
+            "datetime": "2025-07-18 07:17:11 +0000",
+            "subject": "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n"
+          },
+          {
+            "hash": "d1e4578f8ef9fe670980e21f94dadcfd77e9e5a9",
+            "datetime": "2025-07-18 06:35:45 +0000",
+            "subject": "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n"
+          },
+          {
+            "hash": "7581ef7d1102729cb51ad836e85a4805ae4a9c13",
+            "datetime": "2025-07-17 14:36:32 +0000",
+            "subject": "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n"
+          },
+          {
+            "hash": "039683c6b547916c90d4a4795623accba98d8a0a",
+            "datetime": "2025-07-17 14:29:23 +0000",
+            "subject": "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n"
+          },
+          {
+            "hash": "d935d20576e81ecb9a1965df85603d784cb39755",
+            "datetime": "2025-07-17 14:05:56 +0000",
+            "subject": "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n"
+          },
+          {
+            "hash": "e1d893d3246fbb49cd34edbf9d3b1a85fbddedf6",
+            "datetime": "2025-07-17 13:46:23 +0000",
+            "subject": "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n"
+          },
+          {
+            "hash": "a71d9386edab49a830c70474b3ee61b6582de870",
+            "datetime": "2025-07-17 13:38:14 +0000",
+            "subject": "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n"
+          },
+          {
+            "hash": "f290ac5163c0a0ef33080dd5105dfe46669fabaa",
+            "datetime": "2025-07-17 12:31:43 +0000",
+            "subject": "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n"
+          },
+          {
+            "hash": "29f130abdff9fd7579d2ffeb8a1893dcb5f34ff2",
+            "datetime": "2025-07-17 12:26:31 +0000",
+            "subject": "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n"
+          },
+          {
+            "hash": "1ebd239c6b3cda0d4b2f2d39593a398394b79e85",
+            "datetime": "2025-07-17 12:19:57 +0000",
+            "subject": "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+          }
+        ],
+        "files": 88,
+        "added": 7457,
+        "removed": 64,
+        "heat": [
+          [
+            "docs",
+            7394
+          ],
+          [
+            "backend",
+            116
+          ],
+          [
+            "admin",
+            10
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n",
+          "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n",
+          "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n",
+          "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n",
+          "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n",
+          "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n",
+          "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n",
+          "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n",
+          "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n",
+          "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n",
+          "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n",
+          "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n",
+          "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n",
+          "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n",
+          "feat: 上传文档以方便开发查阅",
+          "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n",
+          "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n",
+          "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n",
+          "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n",
+          "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n",
+          "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n",
+          "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n",
+          "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n",
+          "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n",
+          "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n",
+          "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n",
+          "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n",
+          "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n",
+          "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n",
+          "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "d450e8c46a91445ccb3816577be6b03ba1061eb4",
+            "datetime": "2025-07-20 08:27:09 +0000",
+            "subject": "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n"
+          },
+          {
+            "hash": "485700dd62fb0b2e9fd315de36e19bbe02868144",
+            "datetime": "2025-07-20 08:20:22 +0000",
+            "subject": "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n"
+          },
+          {
+            "hash": "bccf61306aa21209a4fb8cec7c5b88188ada9af0",
+            "datetime": "2025-07-20 07:22:18 +0000",
+            "subject": "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n"
+          },
+          {
+            "hash": "32f77f8e17e84d4b91a11656d4be3a6df70ad297",
+            "datetime": "2025-07-20 06:57:06 +0000",
+            "subject": "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n"
+          },
+          {
+            "hash": "c76a16222a76eb7507e08a8cc765da8852618569",
+            "datetime": "2025-07-20 06:51:01 +0000",
+            "subject": "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n"
+          },
+          {
+            "hash": "1460567ea0e5ff4aead3a30be291845355ba17d0",
+            "datetime": "2025-07-20 06:45:30 +0000",
+            "subject": "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n"
+          },
+          {
+            "hash": "6e431baea160d49319bbeacdab8d9a06807e0b9c",
+            "datetime": "2025-07-20 06:40:32 +0000",
+            "subject": "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n"
+          },
+          {
+            "hash": "dd7b6aa6983f24199a51fa6d91cb53a4c12b9e4b",
+            "datetime": "2025-07-20 06:19:27 +0000",
+            "subject": "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "a183831a7bed9734f46ec816157cbb0b85918b2a",
+            "datetime": "2025-07-20 06:15:40 +0000",
+            "subject": "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "19d62e29be1f99e0f4d474424fb8ae5409c792a4",
+            "datetime": "2025-07-20 06:06:48 +0000",
+            "subject": "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n"
+          },
+          {
+            "hash": "cd94974fe243c26ece4bca968a013691b7cc5e06",
+            "datetime": "2025-07-20 05:53:42 +0000",
+            "subject": "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n"
+          },
+          {
+            "hash": "c51d9f670527794aefacf4b288b1e94f9979dd76",
+            "datetime": "2025-07-20 05:49:37 +0000",
+            "subject": "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n"
+          },
+          {
+            "hash": "11a49a302d9004f39d705d32ab40f6860fe35be2",
+            "datetime": "2025-07-20 05:43:18 +0000",
+            "subject": "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n"
+          },
+          {
+            "hash": "55a392734071246769e1284942f25ddfb9df3698",
+            "datetime": "2025-07-20 05:34:52 +0000",
+            "subject": "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n"
+          },
+          {
+            "hash": "1a5b8338484ebf6fddba3aa620cbb99e7f9057ee",
+            "datetime": "2025-07-19 18:05:06 +0800",
+            "subject": "feat: 上传文档以方便开发查阅"
+          },
+          {
+            "hash": "e7a118d23b6ed23087aa68f3503a4555aaf000d3",
+            "datetime": "2025-07-18 08:05:02 +0000",
+            "subject": "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n"
+          },
+          {
+            "hash": "0eff384c65fc43831dbd130e593aeb2caef49601",
+            "datetime": "2025-07-18 08:01:02 +0000",
+            "subject": "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n"
+          },
+          {
+            "hash": "c2ca0b48d1036c5cd6e31646efb78e70aa7bc07c",
+            "datetime": "2025-07-18 07:56:04 +0000",
+            "subject": "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n"
+          },
+          {
+            "hash": "367857b9c14a87a037102d9143b1f2a959e630b0",
+            "datetime": "2025-07-18 07:46:46 +0000",
+            "subject": "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n"
+          },
+          {
+            "hash": "d0a64503f86e491eb2f713cc81a7a2ad3b3eeec0",
+            "datetime": "2025-07-18 07:39:17 +0000",
+            "subject": "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n"
+          },
+          {
+            "hash": "dc82465958ce6731e9145d45d1cbe9e9c5f97b64",
+            "datetime": "2025-07-18 07:17:11 +0000",
+            "subject": "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n"
+          },
+          {
+            "hash": "d1e4578f8ef9fe670980e21f94dadcfd77e9e5a9",
+            "datetime": "2025-07-18 06:35:45 +0000",
+            "subject": "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n"
+          },
+          {
+            "hash": "7581ef7d1102729cb51ad836e85a4805ae4a9c13",
+            "datetime": "2025-07-17 14:36:32 +0000",
+            "subject": "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n"
+          },
+          {
+            "hash": "039683c6b547916c90d4a4795623accba98d8a0a",
+            "datetime": "2025-07-17 14:29:23 +0000",
+            "subject": "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n"
+          },
+          {
+            "hash": "d935d20576e81ecb9a1965df85603d784cb39755",
+            "datetime": "2025-07-17 14:05:56 +0000",
+            "subject": "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n"
+          },
+          {
+            "hash": "e1d893d3246fbb49cd34edbf9d3b1a85fbddedf6",
+            "datetime": "2025-07-17 13:46:23 +0000",
+            "subject": "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n"
+          },
+          {
+            "hash": "a71d9386edab49a830c70474b3ee61b6582de870",
+            "datetime": "2025-07-17 13:38:14 +0000",
+            "subject": "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n"
+          },
+          {
+            "hash": "f290ac5163c0a0ef33080dd5105dfe46669fabaa",
+            "datetime": "2025-07-17 12:31:43 +0000",
+            "subject": "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n"
+          },
+          {
+            "hash": "29f130abdff9fd7579d2ffeb8a1893dcb5f34ff2",
+            "datetime": "2025-07-17 12:26:31 +0000",
+            "subject": "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n"
+          },
+          {
+            "hash": "1ebd239c6b3cda0d4b2f2d39593a398394b79e85",
+            "datetime": "2025-07-17 12:19:57 +0000",
+            "subject": "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+          }
+        ],
+        "files": 88,
+        "added": 7457,
+        "removed": 64,
+        "heat": [
+          [
+            "docs",
+            7394
+          ],
+          [
+            "backend",
+            116
+          ],
+          [
+            "admin",
+            10
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n",
+          "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n",
+          "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n",
+          "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n",
+          "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n",
+          "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n",
+          "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n",
+          "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n",
+          "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n",
+          "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n",
+          "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n",
+          "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n",
+          "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n",
+          "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n",
+          "feat: 上传文档以方便开发查阅",
+          "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n",
+          "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n",
+          "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n",
+          "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n",
+          "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n",
+          "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n",
+          "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n",
+          "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n",
+          "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n",
+          "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n",
+          "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n",
+          "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n",
+          "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n",
+          "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n",
+          "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "d450e8c46a91445ccb3816577be6b03ba1061eb4",
+            "datetime": "2025-07-20 08:27:09 +0000",
+            "subject": "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n"
+          },
+          {
+            "hash": "485700dd62fb0b2e9fd315de36e19bbe02868144",
+            "datetime": "2025-07-20 08:20:22 +0000",
+            "subject": "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n"
+          },
+          {
+            "hash": "bccf61306aa21209a4fb8cec7c5b88188ada9af0",
+            "datetime": "2025-07-20 07:22:18 +0000",
+            "subject": "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n"
+          },
+          {
+            "hash": "32f77f8e17e84d4b91a11656d4be3a6df70ad297",
+            "datetime": "2025-07-20 06:57:06 +0000",
+            "subject": "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n"
+          },
+          {
+            "hash": "c76a16222a76eb7507e08a8cc765da8852618569",
+            "datetime": "2025-07-20 06:51:01 +0000",
+            "subject": "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n"
+          },
+          {
+            "hash": "1460567ea0e5ff4aead3a30be291845355ba17d0",
+            "datetime": "2025-07-20 06:45:30 +0000",
+            "subject": "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n"
+          },
+          {
+            "hash": "6e431baea160d49319bbeacdab8d9a06807e0b9c",
+            "datetime": "2025-07-20 06:40:32 +0000",
+            "subject": "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n"
+          },
+          {
+            "hash": "dd7b6aa6983f24199a51fa6d91cb53a4c12b9e4b",
+            "datetime": "2025-07-20 06:19:27 +0000",
+            "subject": "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "a183831a7bed9734f46ec816157cbb0b85918b2a",
+            "datetime": "2025-07-20 06:15:40 +0000",
+            "subject": "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n"
+          },
+          {
+            "hash": "19d62e29be1f99e0f4d474424fb8ae5409c792a4",
+            "datetime": "2025-07-20 06:06:48 +0000",
+            "subject": "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n"
+          },
+          {
+            "hash": "cd94974fe243c26ece4bca968a013691b7cc5e06",
+            "datetime": "2025-07-20 05:53:42 +0000",
+            "subject": "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n"
+          },
+          {
+            "hash": "c51d9f670527794aefacf4b288b1e94f9979dd76",
+            "datetime": "2025-07-20 05:49:37 +0000",
+            "subject": "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n"
+          },
+          {
+            "hash": "11a49a302d9004f39d705d32ab40f6860fe35be2",
+            "datetime": "2025-07-20 05:43:18 +0000",
+            "subject": "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n"
+          },
+          {
+            "hash": "55a392734071246769e1284942f25ddfb9df3698",
+            "datetime": "2025-07-20 05:34:52 +0000",
+            "subject": "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n"
+          },
+          {
+            "hash": "1a5b8338484ebf6fddba3aa620cbb99e7f9057ee",
+            "datetime": "2025-07-19 18:05:06 +0800",
+            "subject": "feat: 上传文档以方便开发查阅"
+          },
+          {
+            "hash": "e7a118d23b6ed23087aa68f3503a4555aaf000d3",
+            "datetime": "2025-07-18 08:05:02 +0000",
+            "subject": "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n"
+          },
+          {
+            "hash": "0eff384c65fc43831dbd130e593aeb2caef49601",
+            "datetime": "2025-07-18 08:01:02 +0000",
+            "subject": "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n"
+          },
+          {
+            "hash": "c2ca0b48d1036c5cd6e31646efb78e70aa7bc07c",
+            "datetime": "2025-07-18 07:56:04 +0000",
+            "subject": "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n"
+          },
+          {
+            "hash": "367857b9c14a87a037102d9143b1f2a959e630b0",
+            "datetime": "2025-07-18 07:46:46 +0000",
+            "subject": "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n"
+          },
+          {
+            "hash": "d0a64503f86e491eb2f713cc81a7a2ad3b3eeec0",
+            "datetime": "2025-07-18 07:39:17 +0000",
+            "subject": "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n"
+          },
+          {
+            "hash": "dc82465958ce6731e9145d45d1cbe9e9c5f97b64",
+            "datetime": "2025-07-18 07:17:11 +0000",
+            "subject": "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n"
+          },
+          {
+            "hash": "d1e4578f8ef9fe670980e21f94dadcfd77e9e5a9",
+            "datetime": "2025-07-18 06:35:45 +0000",
+            "subject": "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n"
+          },
+          {
+            "hash": "7581ef7d1102729cb51ad836e85a4805ae4a9c13",
+            "datetime": "2025-07-17 14:36:32 +0000",
+            "subject": "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n"
+          },
+          {
+            "hash": "039683c6b547916c90d4a4795623accba98d8a0a",
+            "datetime": "2025-07-17 14:29:23 +0000",
+            "subject": "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n"
+          },
+          {
+            "hash": "d935d20576e81ecb9a1965df85603d784cb39755",
+            "datetime": "2025-07-17 14:05:56 +0000",
+            "subject": "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n"
+          },
+          {
+            "hash": "e1d893d3246fbb49cd34edbf9d3b1a85fbddedf6",
+            "datetime": "2025-07-17 13:46:23 +0000",
+            "subject": "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n"
+          },
+          {
+            "hash": "a71d9386edab49a830c70474b3ee61b6582de870",
+            "datetime": "2025-07-17 13:38:14 +0000",
+            "subject": "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n"
+          },
+          {
+            "hash": "f290ac5163c0a0ef33080dd5105dfe46669fabaa",
+            "datetime": "2025-07-17 12:31:43 +0000",
+            "subject": "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n"
+          },
+          {
+            "hash": "29f130abdff9fd7579d2ffeb8a1893dcb5f34ff2",
+            "datetime": "2025-07-17 12:26:31 +0000",
+            "subject": "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n"
+          },
+          {
+            "hash": "1ebd239c6b3cda0d4b2f2d39593a398394b79e85",
+            "datetime": "2025-07-17 12:19:57 +0000",
+            "subject": "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+          }
+        ],
+        "files": 88,
+        "added": 7457,
+        "removed": 64,
+        "heat": [
+          [
+            "docs",
+            7394
+          ],
+          [
+            "backend",
+            116
+          ],
+          [
+            "admin",
+            10
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2d91298: feat: 更新AdminProfile和User类，优化关联关系，确保角色信息始终可用]\\n",
+          "[backend] 自动合并[b41ac97: feat: 重构用户管理接口，新增获取管理员和客户端用户的方法，优化查询逻辑以支持不同用户类型]\\n",
+          "[backend] 自动合并[29d4e80: feat: 在User类中添加AdminProfile字段，并在UserService中优化查询以预加载AdminProfiles，避免N+1查询]\\n",
+          "[backend] 自动合并[46e7393: feat: 添加获取所有角色的接口，并简化RoleService中的getAllRoles方法]\\n",
+          "[admin] 自动合并[0431abe5: feat: 替换原adminRole方案，使用新的AdminProfile判断用户是否为管理员]\\n",
+          "[backend] 自动合并[7beb5b3: refactor: 更新getMenuTree方法以仅返回非常量菜单，并优化getUserRoutes方法以使用新的菜单树]\\n",
+          "[backend] 自动合并[e5ac236: feat: 添加ensureAdminProfileForSuperUser方法以确保R_SUPER用户拥有AdminProfile，支持V6迁移]\\n",
+          "[backend] 自动合并[5732ace: refactor: 将MenuVO中的constant字段重命名为isConstant，并更新相关getter和setter方法；在MenuSyncService中调整同步逻辑以使用新字段]\\n",
+          "[backend] 自动合并[cce3c67: refactor: 将Menu类中的constant字段重命名为isConstant，并更新相关方法；优化MenuRepository和MenuServiceImpl中的查询逻辑以使用新字段]\\n",
+          "[backend] 自动合并[a19804a: refactor: 移除JwtAuthenticationFilter中的公共路径匹配器，简化身份验证逻辑]\\n",
+          "[backend] 自动合并[22cf8fa: refactor: 优化SecurityConfig构造函数格式，增加换行以提升可读性；更新默认安全过滤链以允许访问/api/menus/constant]\\n",
+          "[backend] 自动合并[515658c: fix: 解决常量路由无法访问的问题]\\n",
+          "[backend] 自动合并[24cce60: refactor: 优化MenuRepository注释格式，增加空行以提升可读性]\\n",
+          "[admin] 自动合并[b5f79b16: feat: 完成用户管理权限改造，样式美化]\\n[backend] 自动合并[beb5541: refactor: 重构用户-角色设计模型，使用AdminProfile分离用户端和管理端]\\n",
+          "feat: 上传文档以方便开发查阅",
+          "[backend] 自动合并[1c65342: fix: 优化管理员角色判断逻辑，直接通过用户角色获取并验证是否为管理员]\\n",
+          "[backend] 自动合并[3a5e60d: refactor: 修改用户信息结构，确保用户仅有一个角色，并更新相关逻辑以支持单角色处理]\\n",
+          "[backend] 自动合并[281b192: refactor: 修改用户角色字段，确保一个用户只能对应一个角色]\\n",
+          "[backend] 自动合并[b8c1644: refactor: 重构用户更新逻辑，使用Map替代User对象以简化更新过程]\\n",
+          "[backend] 自动合并[98ef4e9: fix: 修复权限关联，确保正确引用权限代码]\\n",
+          "[backend] 自动合并[28015d0: fix: 修复用户权限覆盖逻辑，使用用户ID代替用户对象]\\n",
+          "[backend] 自动合并[3c54e49: feat: 添加用户权限更新功能，支持权限覆盖的获取和设置]\\n",
+          "[admin] 自动合并[6b0134eb: feat: 添加权限控制指令，支持基于权限的元素显示控制，完成菜单/页面按权限码控制显示]\\n",
+          "[backend] 自动合并[2928db5: fix: 修复权限同步逻辑，避免错误停用以:page结尾的权限]\\n",
+          "[backend] 自动合并[c9a0ee4: refactor: 注释掉自动生成页面权限的逻辑，简化权限处理流程]\\n",
+          "[backend] 自动合并[56051d4: feat: 添加权限字段及其获取和设置方法到 MenuVO 类]\\n",
+          "[backend] 自动合并[5570513: feat: 添加各模块查看权限的功能，支持根据权限代码后缀查询]\\n",
+          "[backend] 自动合并[97314a7: refactor: 优化用户路由权限检查逻辑，简化菜单可见性判断]\\n",
+          "[backend] 自动合并[5b17138: fix: 优化用户菜单可访问性检查逻辑，增强权限判断准确性]\\n",
+          "[backend] 自动合并[e44893e: refactor: 优化菜单树构建和权限检查逻辑，增强可读性]\\n"
+        ]
+      }
+    ]
+  }
+}

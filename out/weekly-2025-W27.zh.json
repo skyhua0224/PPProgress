@@ -1,0 +1,259 @@
+{
+  "title": "周报（2025-06-30 至 2025-07-06）",
+  "lang": "zh",
+  "since": "2025-06-30",
+  "until": "2025-07-06",
+  "generatedAt": "2025-11-02T11:29:10.676Z",
+  "progress": {
+    "totals": {
+      "commits": 25,
+      "files": 25,
+      "added": 1289,
+      "removed": 21
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "b036d1c6f08cbc8f46695618235416181eac1db9",
+            "datetime": "2025-07-01 23:54:16 +0800",
+            "subject": "feat: 资料库子页面HTML设计稿"
+          }
+        ],
+        "files": 1,
+        "added": 317,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            317
+          ]
+        ],
+        "subjects": [
+          "feat: 资料库子页面HTML设计稿"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "954b716e11407f74f93036f2f681c74f0ef2f4cb",
+            "datetime": "2025-07-06 08:24:28 +0000",
+            "subject": "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n"
+          },
+          {
+            "hash": "c6fc9f3ba8af311a513fba312fb613de94327eb5",
+            "datetime": "2025-07-05 16:05:07 +0000",
+            "subject": "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n"
+          },
+          {
+            "hash": "424576c41d5f71824cb2224cfec34cbdf5ddad5c",
+            "datetime": "2025-07-05 06:20:53 +0000",
+            "subject": "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n"
+          },
+          {
+            "hash": "84a768cd7dc83630aebbca0ee60ad5877daeefb4",
+            "datetime": "2025-07-04 08:04:37 +0000",
+            "subject": "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n"
+          },
+          {
+            "hash": "b6059ae1b77b81b868c743fc8e20e926202b595b",
+            "datetime": "2025-07-04 07:52:17 +0000",
+            "subject": "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n"
+          },
+          {
+            "hash": "415c3f3842d18535a3f732df3a86482ed7164a2c",
+            "datetime": "2025-07-04 06:44:52 +0000",
+            "subject": "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n"
+          },
+          {
+            "hash": "05fc0b27f8d6b1f316bfaa58f498311a0bc48148",
+            "datetime": "2025-07-02 08:22:04 +0000",
+            "subject": "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n"
+          },
+          {
+            "hash": "b036d1c6f08cbc8f46695618235416181eac1db9",
+            "datetime": "2025-07-01 23:54:16 +0800",
+            "subject": "feat: 资料库子页面HTML设计稿"
+          }
+        ],
+        "files": 8,
+        "added": 324,
+        "removed": 7,
+        "heat": [
+          [
+            "docs",
+            317
+          ],
+          [
+            "frontend",
+            12
+          ],
+          [
+            "admin",
+            2
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n",
+          "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n",
+          "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n",
+          "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n",
+          "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n",
+          "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n",
+          "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n",
+          "feat: 资料库子页面HTML设计稿"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "954b716e11407f74f93036f2f681c74f0ef2f4cb",
+            "datetime": "2025-07-06 08:24:28 +0000",
+            "subject": "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n"
+          },
+          {
+            "hash": "c6fc9f3ba8af311a513fba312fb613de94327eb5",
+            "datetime": "2025-07-05 16:05:07 +0000",
+            "subject": "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n"
+          },
+          {
+            "hash": "424576c41d5f71824cb2224cfec34cbdf5ddad5c",
+            "datetime": "2025-07-05 06:20:53 +0000",
+            "subject": "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n"
+          },
+          {
+            "hash": "84a768cd7dc83630aebbca0ee60ad5877daeefb4",
+            "datetime": "2025-07-04 08:04:37 +0000",
+            "subject": "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n"
+          },
+          {
+            "hash": "b6059ae1b77b81b868c743fc8e20e926202b595b",
+            "datetime": "2025-07-04 07:52:17 +0000",
+            "subject": "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n"
+          },
+          {
+            "hash": "415c3f3842d18535a3f732df3a86482ed7164a2c",
+            "datetime": "2025-07-04 06:44:52 +0000",
+            "subject": "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n"
+          },
+          {
+            "hash": "05fc0b27f8d6b1f316bfaa58f498311a0bc48148",
+            "datetime": "2025-07-02 08:22:04 +0000",
+            "subject": "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n"
+          },
+          {
+            "hash": "b036d1c6f08cbc8f46695618235416181eac1db9",
+            "datetime": "2025-07-01 23:54:16 +0800",
+            "subject": "feat: 资料库子页面HTML设计稿"
+          }
+        ],
+        "files": 8,
+        "added": 324,
+        "removed": 7,
+        "heat": [
+          [
+            "docs",
+            317
+          ],
+          [
+            "frontend",
+            12
+          ],
+          [
+            "admin",
+            2
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n",
+          "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n",
+          "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n",
+          "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n",
+          "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n",
+          "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n",
+          "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n",
+          "feat: 资料库子页面HTML设计稿"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "954b716e11407f74f93036f2f681c74f0ef2f4cb",
+            "datetime": "2025-07-06 08:24:28 +0000",
+            "subject": "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n"
+          },
+          {
+            "hash": "c6fc9f3ba8af311a513fba312fb613de94327eb5",
+            "datetime": "2025-07-05 16:05:07 +0000",
+            "subject": "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n"
+          },
+          {
+            "hash": "424576c41d5f71824cb2224cfec34cbdf5ddad5c",
+            "datetime": "2025-07-05 06:20:53 +0000",
+            "subject": "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n"
+          },
+          {
+            "hash": "84a768cd7dc83630aebbca0ee60ad5877daeefb4",
+            "datetime": "2025-07-04 08:04:37 +0000",
+            "subject": "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n"
+          },
+          {
+            "hash": "b6059ae1b77b81b868c743fc8e20e926202b595b",
+            "datetime": "2025-07-04 07:52:17 +0000",
+            "subject": "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n"
+          },
+          {
+            "hash": "415c3f3842d18535a3f732df3a86482ed7164a2c",
+            "datetime": "2025-07-04 06:44:52 +0000",
+            "subject": "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n"
+          },
+          {
+            "hash": "05fc0b27f8d6b1f316bfaa58f498311a0bc48148",
+            "datetime": "2025-07-02 08:22:04 +0000",
+            "subject": "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n"
+          },
+          {
+            "hash": "b036d1c6f08cbc8f46695618235416181eac1db9",
+            "datetime": "2025-07-01 23:54:16 +0800",
+            "subject": "feat: 资料库子页面HTML设计稿"
+          }
+        ],
+        "files": 8,
+        "added": 324,
+        "removed": 7,
+        "heat": [
+          [
+            "docs",
+            317
+          ],
+          [
+            "frontend",
+            12
+          ],
+          [
+            "admin",
+            2
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[4df1660: feat: 更新eslint配置，添加import/order规则；优化多个组件的样式和逻辑]\\n",
+          "[admin] 自动合并[2ed6967a: refactor: 升级Soybean-Admin框架版本，解决出现的eslint问题，重构优惠券创建错误使用AntUI的问题]\\n",
+          "[frontend] 自动合并[e1d581e: refactor: 修复了大量eslint报错和一些校验/定义问题]\\n",
+          "[frontend] 自动合并[7c14a72: feat: 删除自动合并和发布日志的工作流文件]\\n",
+          "[frontend] 自动合并[c0198fa: feat: 修复了unibest更新后的一些报错，并优化了资料库和订单的界面]\\n",
+          "[frontend] 自动合并[f90e300: feat: 更新unibest版本以优化性能与支持最新功能]\\n",
+          "[frontend] 自动合并[08eb41a: feat: 添加图书馆详情页面和文件卡片组件，更新相关路由和类型定义]\\n",
+          "feat: 资料库子页面HTML设计稿"
+        ]
+      }
+    ]
+  }
+}

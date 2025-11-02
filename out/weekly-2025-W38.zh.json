@@ -1,0 +1,504 @@
+{
+  "title": "周报（2025-09-15 至 2025-09-21）",
+  "lang": "zh",
+  "since": "2025-09-15",
+  "until": "2025-09-21",
+  "generatedAt": "2025-11-02T11:29:12.015Z",
+  "progress": {
+    "totals": {
+      "commits": 69,
+      "files": 69,
+      "added": 69,
+      "removed": 69
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "aed1ec7b61eaf370fba596df8df16c3b0534d672",
+            "datetime": "2025-09-21 11:14:03 +0000",
+            "subject": "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n"
+          },
+          {
+            "hash": "4c5fdc5e4c9743a3d9ec75f1e8b2631e3434c597",
+            "datetime": "2025-09-20 18:13:52 +0000",
+            "subject": "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n"
+          },
+          {
+            "hash": "d68e988dfeb3654e690a79e2c3ffacfe54836cdd",
+            "datetime": "2025-09-20 18:11:51 +0000",
+            "subject": "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n"
+          },
+          {
+            "hash": "dcc79c31f9f804769b12b6d18689dbce5dac79ce",
+            "datetime": "2025-09-20 18:06:17 +0000",
+            "subject": "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n"
+          },
+          {
+            "hash": "aa8475ad2d2b02a4065f79bb60133eec034ffb13",
+            "datetime": "2025-09-20 17:53:36 +0000",
+            "subject": "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n"
+          },
+          {
+            "hash": "8aa989100fd216ec071530e7afc2dc00a976b31f",
+            "datetime": "2025-09-20 17:41:16 +0000",
+            "subject": "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n"
+          },
+          {
+            "hash": "05aa000fbaf5585a5106bda8f9431d298a767b24",
+            "datetime": "2025-09-20 17:22:23 +0000",
+            "subject": "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n"
+          },
+          {
+            "hash": "3c9806f9fac2e171de82f20d0f79a4c89f89b616",
+            "datetime": "2025-09-20 16:50:40 +0000",
+            "subject": "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n"
+          },
+          {
+            "hash": "251b02d9d3a4dbfb5ccb831430709969296575f9",
+            "datetime": "2025-09-20 15:10:28 +0000",
+            "subject": "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n"
+          },
+          {
+            "hash": "5966243fecd1d61fb5114a97f81fa46879ee711a",
+            "datetime": "2025-09-20 14:59:56 +0000",
+            "subject": "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n"
+          },
+          {
+            "hash": "a76ca26447afae0c499dd30a9377cc11e77b543f",
+            "datetime": "2025-09-19 02:47:40 +0000",
+            "subject": "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n"
+          },
+          {
+            "hash": "4be66a8d614fa785b7aa667ae8aff1e07f3899aa",
+            "datetime": "2025-09-18 05:55:32 +0000",
+            "subject": "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n"
+          },
+          {
+            "hash": "2f40861fabd685294e91b790194194ed247a1bf1",
+            "datetime": "2025-09-17 11:56:53 +0000",
+            "subject": "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n"
+          },
+          {
+            "hash": "52a45d76af90bb27acea9d81617b9dd0ede28568",
+            "datetime": "2025-09-17 11:50:45 +0000",
+            "subject": "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n"
+          },
+          {
+            "hash": "45d993ecb371991626059e9947bfc35511369a85",
+            "datetime": "2025-09-17 11:44:40 +0000",
+            "subject": "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n"
+          },
+          {
+            "hash": "db6fa168cd8bb2213ce1a6c9644414c5c31aa26c",
+            "datetime": "2025-09-17 11:37:15 +0000",
+            "subject": "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n"
+          },
+          {
+            "hash": "daa8854ebbc570212cb473ba3970258df64bd1c6",
+            "datetime": "2025-09-17 03:02:08 +0000",
+            "subject": "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n"
+          },
+          {
+            "hash": "9bef3d3adc1f0fd7a8f4d9d80b04abf48e6f9170",
+            "datetime": "2025-09-17 02:44:26 +0000",
+            "subject": "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n"
+          },
+          {
+            "hash": "6535caf88fe81328b78dab1f7ebd062f2ec5bc24",
+            "datetime": "2025-09-17 02:33:59 +0000",
+            "subject": "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n"
+          },
+          {
+            "hash": "c9690eddcfdfa2860b4dbfa26628d71494a7416b",
+            "datetime": "2025-09-17 02:14:20 +0000",
+            "subject": "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n"
+          },
+          {
+            "hash": "1013438ad9b881ce9d97eadd4b7ecc6debe4ea99",
+            "datetime": "2025-09-16 05:42:38 +0000",
+            "subject": "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n"
+          },
+          {
+            "hash": "2aedc638d56823386673c78a2bd625374e6b634b",
+            "datetime": "2025-09-16 05:34:51 +0000",
+            "subject": "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n"
+          },
+          {
+            "hash": "945270c4cd2596a1be5e5c30318e8d0b0b36a0fe",
+            "datetime": "2025-09-16 04:51:23 +0000",
+            "subject": "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+          }
+        ],
+        "files": 23,
+        "added": 23,
+        "removed": 23,
+        "heat": [
+          [
+            "backend",
+            44
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n",
+          "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n",
+          "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n",
+          "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n",
+          "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n",
+          "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n",
+          "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n",
+          "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n",
+          "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n",
+          "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n",
+          "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n",
+          "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n",
+          "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n",
+          "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n",
+          "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n",
+          "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n",
+          "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n",
+          "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n",
+          "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n",
+          "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n",
+          "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n",
+          "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n",
+          "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "aed1ec7b61eaf370fba596df8df16c3b0534d672",
+            "datetime": "2025-09-21 11:14:03 +0000",
+            "subject": "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n"
+          },
+          {
+            "hash": "4c5fdc5e4c9743a3d9ec75f1e8b2631e3434c597",
+            "datetime": "2025-09-20 18:13:52 +0000",
+            "subject": "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n"
+          },
+          {
+            "hash": "d68e988dfeb3654e690a79e2c3ffacfe54836cdd",
+            "datetime": "2025-09-20 18:11:51 +0000",
+            "subject": "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n"
+          },
+          {
+            "hash": "dcc79c31f9f804769b12b6d18689dbce5dac79ce",
+            "datetime": "2025-09-20 18:06:17 +0000",
+            "subject": "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n"
+          },
+          {
+            "hash": "aa8475ad2d2b02a4065f79bb60133eec034ffb13",
+            "datetime": "2025-09-20 17:53:36 +0000",
+            "subject": "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n"
+          },
+          {
+            "hash": "8aa989100fd216ec071530e7afc2dc00a976b31f",
+            "datetime": "2025-09-20 17:41:16 +0000",
+            "subject": "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n"
+          },
+          {
+            "hash": "05aa000fbaf5585a5106bda8f9431d298a767b24",
+            "datetime": "2025-09-20 17:22:23 +0000",
+            "subject": "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n"
+          },
+          {
+            "hash": "3c9806f9fac2e171de82f20d0f79a4c89f89b616",
+            "datetime": "2025-09-20 16:50:40 +0000",
+            "subject": "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n"
+          },
+          {
+            "hash": "251b02d9d3a4dbfb5ccb831430709969296575f9",
+            "datetime": "2025-09-20 15:10:28 +0000",
+            "subject": "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n"
+          },
+          {
+            "hash": "5966243fecd1d61fb5114a97f81fa46879ee711a",
+            "datetime": "2025-09-20 14:59:56 +0000",
+            "subject": "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n"
+          },
+          {
+            "hash": "a76ca26447afae0c499dd30a9377cc11e77b543f",
+            "datetime": "2025-09-19 02:47:40 +0000",
+            "subject": "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n"
+          },
+          {
+            "hash": "4be66a8d614fa785b7aa667ae8aff1e07f3899aa",
+            "datetime": "2025-09-18 05:55:32 +0000",
+            "subject": "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n"
+          },
+          {
+            "hash": "2f40861fabd685294e91b790194194ed247a1bf1",
+            "datetime": "2025-09-17 11:56:53 +0000",
+            "subject": "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n"
+          },
+          {
+            "hash": "52a45d76af90bb27acea9d81617b9dd0ede28568",
+            "datetime": "2025-09-17 11:50:45 +0000",
+            "subject": "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n"
+          },
+          {
+            "hash": "45d993ecb371991626059e9947bfc35511369a85",
+            "datetime": "2025-09-17 11:44:40 +0000",
+            "subject": "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n"
+          },
+          {
+            "hash": "db6fa168cd8bb2213ce1a6c9644414c5c31aa26c",
+            "datetime": "2025-09-17 11:37:15 +0000",
+            "subject": "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n"
+          },
+          {
+            "hash": "daa8854ebbc570212cb473ba3970258df64bd1c6",
+            "datetime": "2025-09-17 03:02:08 +0000",
+            "subject": "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n"
+          },
+          {
+            "hash": "9bef3d3adc1f0fd7a8f4d9d80b04abf48e6f9170",
+            "datetime": "2025-09-17 02:44:26 +0000",
+            "subject": "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n"
+          },
+          {
+            "hash": "6535caf88fe81328b78dab1f7ebd062f2ec5bc24",
+            "datetime": "2025-09-17 02:33:59 +0000",
+            "subject": "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n"
+          },
+          {
+            "hash": "c9690eddcfdfa2860b4dbfa26628d71494a7416b",
+            "datetime": "2025-09-17 02:14:20 +0000",
+            "subject": "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n"
+          },
+          {
+            "hash": "1013438ad9b881ce9d97eadd4b7ecc6debe4ea99",
+            "datetime": "2025-09-16 05:42:38 +0000",
+            "subject": "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n"
+          },
+          {
+            "hash": "2aedc638d56823386673c78a2bd625374e6b634b",
+            "datetime": "2025-09-16 05:34:51 +0000",
+            "subject": "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n"
+          },
+          {
+            "hash": "945270c4cd2596a1be5e5c30318e8d0b0b36a0fe",
+            "datetime": "2025-09-16 04:51:23 +0000",
+            "subject": "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+          }
+        ],
+        "files": 23,
+        "added": 23,
+        "removed": 23,
+        "heat": [
+          [
+            "backend",
+            44
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n",
+          "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n",
+          "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n",
+          "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n",
+          "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n",
+          "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n",
+          "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n",
+          "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n",
+          "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n",
+          "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n",
+          "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n",
+          "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n",
+          "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n",
+          "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n",
+          "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n",
+          "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n",
+          "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n",
+          "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n",
+          "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n",
+          "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n",
+          "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n",
+          "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n",
+          "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "aed1ec7b61eaf370fba596df8df16c3b0534d672",
+            "datetime": "2025-09-21 11:14:03 +0000",
+            "subject": "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n"
+          },
+          {
+            "hash": "4c5fdc5e4c9743a3d9ec75f1e8b2631e3434c597",
+            "datetime": "2025-09-20 18:13:52 +0000",
+            "subject": "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n"
+          },
+          {
+            "hash": "d68e988dfeb3654e690a79e2c3ffacfe54836cdd",
+            "datetime": "2025-09-20 18:11:51 +0000",
+            "subject": "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n"
+          },
+          {
+            "hash": "dcc79c31f9f804769b12b6d18689dbce5dac79ce",
+            "datetime": "2025-09-20 18:06:17 +0000",
+            "subject": "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n"
+          },
+          {
+            "hash": "aa8475ad2d2b02a4065f79bb60133eec034ffb13",
+            "datetime": "2025-09-20 17:53:36 +0000",
+            "subject": "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n"
+          },
+          {
+            "hash": "8aa989100fd216ec071530e7afc2dc00a976b31f",
+            "datetime": "2025-09-20 17:41:16 +0000",
+            "subject": "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n"
+          },
+          {
+            "hash": "05aa000fbaf5585a5106bda8f9431d298a767b24",
+            "datetime": "2025-09-20 17:22:23 +0000",
+            "subject": "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n"
+          },
+          {
+            "hash": "3c9806f9fac2e171de82f20d0f79a4c89f89b616",
+            "datetime": "2025-09-20 16:50:40 +0000",
+            "subject": "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n"
+          },
+          {
+            "hash": "251b02d9d3a4dbfb5ccb831430709969296575f9",
+            "datetime": "2025-09-20 15:10:28 +0000",
+            "subject": "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n"
+          },
+          {
+            "hash": "5966243fecd1d61fb5114a97f81fa46879ee711a",
+            "datetime": "2025-09-20 14:59:56 +0000",
+            "subject": "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n"
+          },
+          {
+            "hash": "a76ca26447afae0c499dd30a9377cc11e77b543f",
+            "datetime": "2025-09-19 02:47:40 +0000",
+            "subject": "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n"
+          },
+          {
+            "hash": "4be66a8d614fa785b7aa667ae8aff1e07f3899aa",
+            "datetime": "2025-09-18 05:55:32 +0000",
+            "subject": "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n"
+          },
+          {
+            "hash": "2f40861fabd685294e91b790194194ed247a1bf1",
+            "datetime": "2025-09-17 11:56:53 +0000",
+            "subject": "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n"
+          },
+          {
+            "hash": "52a45d76af90bb27acea9d81617b9dd0ede28568",
+            "datetime": "2025-09-17 11:50:45 +0000",
+            "subject": "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n"
+          },
+          {
+            "hash": "45d993ecb371991626059e9947bfc35511369a85",
+            "datetime": "2025-09-17 11:44:40 +0000",
+            "subject": "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n"
+          },
+          {
+            "hash": "db6fa168cd8bb2213ce1a6c9644414c5c31aa26c",
+            "datetime": "2025-09-17 11:37:15 +0000",
+            "subject": "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n"
+          },
+          {
+            "hash": "daa8854ebbc570212cb473ba3970258df64bd1c6",
+            "datetime": "2025-09-17 03:02:08 +0000",
+            "subject": "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n"
+          },
+          {
+            "hash": "9bef3d3adc1f0fd7a8f4d9d80b04abf48e6f9170",
+            "datetime": "2025-09-17 02:44:26 +0000",
+            "subject": "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n"
+          },
+          {
+            "hash": "6535caf88fe81328b78dab1f7ebd062f2ec5bc24",
+            "datetime": "2025-09-17 02:33:59 +0000",
+            "subject": "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n"
+          },
+          {
+            "hash": "c9690eddcfdfa2860b4dbfa26628d71494a7416b",
+            "datetime": "2025-09-17 02:14:20 +0000",
+            "subject": "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n"
+          },
+          {
+            "hash": "1013438ad9b881ce9d97eadd4b7ecc6debe4ea99",
+            "datetime": "2025-09-16 05:42:38 +0000",
+            "subject": "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n"
+          },
+          {
+            "hash": "2aedc638d56823386673c78a2bd625374e6b634b",
+            "datetime": "2025-09-16 05:34:51 +0000",
+            "subject": "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n"
+          },
+          {
+            "hash": "945270c4cd2596a1be5e5c30318e8d0b0b36a0fe",
+            "datetime": "2025-09-16 04:51:23 +0000",
+            "subject": "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+          }
+        ],
+        "files": 23,
+        "added": 23,
+        "removed": 23,
+        "heat": [
+          [
+            "backend",
+            44
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a0ab16a: feat: 更新商店类型枚举，支持更长的值并修改现有数据]\\n",
+          "[frontend] 自动合并[06064b3: feat: 完善上传文件逻辑，修复订单页面显示]\\n",
+          "[backend] 自动合并[aa7d3ed: feat: 添加分页订单查询功能，优化文件加载逻辑以避免空集合问题]\\n",
+          "[backend] 自动合并[be5e1dd: feat: 更新上传接口，支持 multipart/form-data 编码，优化中文文件名处理逻辑，修复懒加载警告]\\n",
+          "[backend] 自动合并[51158b5: feat: 添加文件名规范化功能，修正上传中文文件名乱码问题，并设置响应类型为JSON]\\n",
+          "[backend] 自动合并[a5595dc: feat: 自动转换缺失文件以提升复用体验，并优化PDF文件哈希处理逻辑]\\n",
+          "[backend] 自动合并[22a43db: feat: 增强文件上传逻辑，支持请求的原始文件名和非PDF文件的转换结果返回]\\n",
+          "[backend] 自动合并[d107517: refactor: 重构文件上传接口，解耦储存方式，支持去重的文件上传与转换以及完整信息记录]\\n",
+          "[backend] 自动合并[4d97f4e: feat: 添加自定义排序逻辑，根据订单状态对查询结果进行排序]\\n",
+          "[backend] 自动合并[cfb1f1e: feat: 添加pickup_code_sequence字段到Store实体，并实现取货码生成的并发安全逻辑]\\n",
+          "[backend] 自动合并[22c7d9b: feat: 格式化金额信息为两位小数，并增强从Map中安全获取取货信息的逻辑]\\n",
+          "[backend] 自动合并[51e7514: feat: 修改OrderDTO中的totalCount字段类型为Integer，以支持null值处理]\\n",
+          "[backend] 自动合并[61f490f: feat: 增强OrderDTO构造函数，添加对订单文件的空值保护和懒加载处理]\\n",
+          "[backend] 自动合并[4348f7b: feat: 增强OrderDTO构造函数，添加空值保护以兼容历史脏数据]\\n",
+          "[backend] 自动合并[ca369d7: feat: 修改订单和订单DTO中的isPickupPoint字段类型为Boolean，以支持null值处理]\\n",
+          "[backend] 自动合并[475a80a: refactor: 重构订单接口和数据结构，适配前端界面显示]\\n",
+          "[backend] 自动合并[0f154d0: feat: 优化支付回调处理逻辑，增强订单状态迁移，支持打印和取件状态]\\n",
+          "[backend] 自动合并[ced2c10: feat: 添加订单履行信息字段，优化订单状态迁移事件发布逻辑]\\n",
+          "[backend] 自动合并[d30b3ea: feat: 修改订单状态推进逻辑，支付成功后将状态设置为“待取件”，以便前端及时显示取件码]\\n",
+          "[backend] 自动合并[0739939: feat: 增强订单状态管理，添加“处理中”状态组及相关查询逻辑，优化取件码生成服务]\\n",
+          "[backend] 自动合并[d2df753: feat: 添加无参构造函数并整理OrderListResponse类的getter和setter方法]\\n",
+          "[backend] 自动合并[d58dbfe: feat: 优化订单查询逻辑，调整用户ID过滤条件以避免误伤结果为空]\\n",
+          "[backend] 自动合并[ffe2ade: feat: 优化订单查询逻辑，增强非平台管理员用户的权限控制，支持“我的订单”查询]\\n"
+        ]
+      }
+    ]
+  }
+}

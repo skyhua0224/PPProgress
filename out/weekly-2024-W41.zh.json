@@ -1,0 +1,633 @@
+{
+  "title": "周报（2024-10-07 至 2024-10-13）",
+  "lang": "zh",
+  "since": "2024-10-07",
+  "until": "2024-10-13",
+  "generatedAt": "2025-11-02T11:29:09.671Z",
+  "progress": {
+    "totals": {
+      "commits": 54,
+      "files": 4606,
+      "added": 123926,
+      "removed": 759830
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "2f6b6c9193b79aa9db2a01a49507062e7b1a9e18",
+            "datetime": "2024-10-13 17:21:28 +0800",
+            "subject": "chore: 更新子模块到最新提交并添加VSCode配置"
+          },
+          {
+            "hash": "e18a533b3783273028ff128ca2e4d856ef145763",
+            "datetime": "2024-10-12 01:10:35 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交并添加VSCode设置"
+          },
+          {
+            "hash": "2509ab642e6c8f8f0ebef79288d6b3fe194cea6e",
+            "datetime": "2024-10-11 00:24:51 +0800",
+            "subject": "feat: 添加子模块配置，包含admin、frontend、backend和uml"
+          },
+          {
+            "hash": "93532ca167fe1d467e27092fbb4110f3c6471b3c",
+            "datetime": "2024-10-11 00:12:37 +0800",
+            "subject": "chore: 储存库分离"
+          },
+          {
+            "hash": "01cb3be2ae5cfa2e4a67124d9a3264ae6d42e33c",
+            "datetime": "2024-10-10 18:01:43 +0800",
+            "subject": "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件"
+          },
+          {
+            "hash": "8c8eed6aa62920b87f33e67966442353102fe7ce",
+            "datetime": "2024-10-10 17:44:06 +0800",
+            "subject": "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持"
+          },
+          {
+            "hash": "5cca955aed8117cea4a8a7c8493b522a2b9a773a",
+            "datetime": "2024-10-10 17:34:21 +0800",
+            "subject": "feat: 添加多个新文件和配置，增强项目结构和功能"
+          },
+          {
+            "hash": "a00599c57b63b5a06b44949f68827351830570e6",
+            "datetime": "2024-10-10 01:22:22 +0800",
+            "subject": "feat: shabichiwodaima"
+          },
+          {
+            "hash": "c1c686e74d61e339f2a234633b24fb59cf8edc6c",
+            "datetime": "2024-10-08 13:37:45 +0800",
+            "subject": "fix: 修改了UML的一些错误"
+          },
+          {
+            "hash": "9fa3fd287f1dc9d31c22330b35753b4624e92b70",
+            "datetime": "2024-10-08 12:23:20 +0800",
+            "subject": "feat: 修改了puml"
+          },
+          {
+            "hash": "d67997cfc823b7f5218c4fe9a0dbf6d64bb47bc5",
+            "datetime": "2024-10-07 22:28:41 +0800",
+            "subject": "feat: 修改报错"
+          },
+          {
+            "hash": "2b9a229fea5f67c70d8b938f8c82c03029a5bc80",
+            "datetime": "2024-10-07 22:26:41 +0800",
+            "subject": "feat: 新增用例图及相关文档"
+          }
+        ],
+        "files": 1150,
+        "added": 30980,
+        "removed": 189956,
+        "heat": [
+          [
+            "frontend/src/static",
+            138193
+          ],
+          [
+            "admin/pnpm-lock.yaml",
+            17056
+          ],
+          [
+            "frontend/pnpm-lock.yaml",
+            12471
+          ],
+          [
+            "admin/CHANGELOG.md",
+            5372
+          ],
+          [
+            "admin/packages/color",
+            5110
+          ],
+          [
+            "admin/src/layouts",
+            4456
+          ],
+          [
+            "admin/src/store",
+            4174
+          ],
+          [
+            "frontend/src/pages-sub",
+            3220
+          ],
+          [
+            "admin/src/typings",
+            2938
+          ],
+          [
+            "admin/packages/materials",
+            2258
+          ],
+          [
+            "admin/src/views",
+            2076
+          ],
+          [
+            "frontend/src/pages",
+            1653
+          ],
+          [
+            "admin/src/hooks",
+            1650
+          ],
+          [
+            "admin/src/components",
+            1562
+          ],
+          [
+            "admin/packages/hooks",
+            1328
+          ]
+        ],
+        "subjects": [
+          "chore: 更新子模块到最新提交并添加VSCode配置",
+          "chore: 更新frontend子模块到最新提交并添加VSCode设置",
+          "feat: 添加子模块配置，包含admin、frontend、backend和uml",
+          "chore: 储存库分离",
+          "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件",
+          "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持",
+          "feat: 添加多个新文件和配置，增强项目结构和功能",
+          "feat: shabichiwodaima",
+          "fix: 修改了UML的一些错误",
+          "feat: 修改了puml",
+          "feat: 修改报错",
+          "feat: 新增用例图及相关文档"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "2f6b6c9193b79aa9db2a01a49507062e7b1a9e18",
+            "datetime": "2024-10-13 17:21:28 +0800",
+            "subject": "chore: 更新子模块到最新提交并添加VSCode配置"
+          },
+          {
+            "hash": "820b6f46477074aee5991141013c7b404fc0af57",
+            "datetime": "2024-10-13 16:40:33 +0800",
+            "subject": "chore: 更新admin子模块到最新提交"
+          },
+          {
+            "hash": "e18a533b3783273028ff128ca2e4d856ef145763",
+            "datetime": "2024-10-12 01:10:35 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交并添加VSCode设置"
+          },
+          {
+            "hash": "511751b17934e6dea2782f6abbeed01216180b5f",
+            "datetime": "2024-10-11 00:25:05 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交"
+          },
+          {
+            "hash": "2509ab642e6c8f8f0ebef79288d6b3fe194cea6e",
+            "datetime": "2024-10-11 00:24:51 +0800",
+            "subject": "feat: 添加子模块配置，包含admin、frontend、backend和uml"
+          },
+          {
+            "hash": "93532ca167fe1d467e27092fbb4110f3c6471b3c",
+            "datetime": "2024-10-11 00:12:37 +0800",
+            "subject": "chore: 储存库分离"
+          },
+          {
+            "hash": "01cb3be2ae5cfa2e4a67124d9a3264ae6d42e33c",
+            "datetime": "2024-10-10 18:01:43 +0800",
+            "subject": "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件"
+          },
+          {
+            "hash": "8c8eed6aa62920b87f33e67966442353102fe7ce",
+            "datetime": "2024-10-10 17:44:06 +0800",
+            "subject": "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持"
+          },
+          {
+            "hash": "5cca955aed8117cea4a8a7c8493b522a2b9a773a",
+            "datetime": "2024-10-10 17:34:21 +0800",
+            "subject": "feat: 添加多个新文件和配置，增强项目结构和功能"
+          },
+          {
+            "hash": "a00599c57b63b5a06b44949f68827351830570e6",
+            "datetime": "2024-10-10 01:22:22 +0800",
+            "subject": "feat: shabichiwodaima"
+          },
+          {
+            "hash": "c1c686e74d61e339f2a234633b24fb59cf8edc6c",
+            "datetime": "2024-10-08 13:37:45 +0800",
+            "subject": "fix: 修改了UML的一些错误"
+          },
+          {
+            "hash": "9fa3fd287f1dc9d31c22330b35753b4624e92b70",
+            "datetime": "2024-10-08 12:23:20 +0800",
+            "subject": "feat: 修改了puml"
+          },
+          {
+            "hash": "d67997cfc823b7f5218c4fe9a0dbf6d64bb47bc5",
+            "datetime": "2024-10-07 22:28:41 +0800",
+            "subject": "feat: 修改报错"
+          },
+          {
+            "hash": "2b9a229fea5f67c70d8b938f8c82c03029a5bc80",
+            "datetime": "2024-10-07 22:26:41 +0800",
+            "subject": "feat: 新增用例图及相关文档"
+          }
+        ],
+        "files": 1152,
+        "added": 30982,
+        "removed": 189958,
+        "heat": [
+          [
+            "frontend/src/static",
+            138193
+          ],
+          [
+            "admin/pnpm-lock.yaml",
+            17056
+          ],
+          [
+            "frontend/pnpm-lock.yaml",
+            12471
+          ],
+          [
+            "admin/CHANGELOG.md",
+            5372
+          ],
+          [
+            "admin/packages/color",
+            5110
+          ],
+          [
+            "admin/src/layouts",
+            4456
+          ],
+          [
+            "admin/src/store",
+            4174
+          ],
+          [
+            "frontend/src/pages-sub",
+            3220
+          ],
+          [
+            "admin/src/typings",
+            2938
+          ],
+          [
+            "admin/packages/materials",
+            2258
+          ],
+          [
+            "admin/src/views",
+            2076
+          ],
+          [
+            "frontend/src/pages",
+            1653
+          ],
+          [
+            "admin/src/hooks",
+            1650
+          ],
+          [
+            "admin/src/components",
+            1562
+          ],
+          [
+            "admin/packages/hooks",
+            1328
+          ]
+        ],
+        "subjects": [
+          "chore: 更新子模块到最新提交并添加VSCode配置",
+          "chore: 更新admin子模块到最新提交",
+          "chore: 更新frontend子模块到最新提交并添加VSCode设置",
+          "chore: 更新frontend子模块到最新提交",
+          "feat: 添加子模块配置，包含admin、frontend、backend和uml",
+          "chore: 储存库分离",
+          "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件",
+          "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持",
+          "feat: 添加多个新文件和配置，增强项目结构和功能",
+          "feat: shabichiwodaima",
+          "fix: 修改了UML的一些错误",
+          "feat: 修改了puml",
+          "feat: 修改报错",
+          "feat: 新增用例图及相关文档"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "2f6b6c9193b79aa9db2a01a49507062e7b1a9e18",
+            "datetime": "2024-10-13 17:21:28 +0800",
+            "subject": "chore: 更新子模块到最新提交并添加VSCode配置"
+          },
+          {
+            "hash": "820b6f46477074aee5991141013c7b404fc0af57",
+            "datetime": "2024-10-13 16:40:33 +0800",
+            "subject": "chore: 更新admin子模块到最新提交"
+          },
+          {
+            "hash": "e18a533b3783273028ff128ca2e4d856ef145763",
+            "datetime": "2024-10-12 01:10:35 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交并添加VSCode设置"
+          },
+          {
+            "hash": "511751b17934e6dea2782f6abbeed01216180b5f",
+            "datetime": "2024-10-11 00:25:05 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交"
+          },
+          {
+            "hash": "2509ab642e6c8f8f0ebef79288d6b3fe194cea6e",
+            "datetime": "2024-10-11 00:24:51 +0800",
+            "subject": "feat: 添加子模块配置，包含admin、frontend、backend和uml"
+          },
+          {
+            "hash": "93532ca167fe1d467e27092fbb4110f3c6471b3c",
+            "datetime": "2024-10-11 00:12:37 +0800",
+            "subject": "chore: 储存库分离"
+          },
+          {
+            "hash": "01cb3be2ae5cfa2e4a67124d9a3264ae6d42e33c",
+            "datetime": "2024-10-10 18:01:43 +0800",
+            "subject": "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件"
+          },
+          {
+            "hash": "8c8eed6aa62920b87f33e67966442353102fe7ce",
+            "datetime": "2024-10-10 17:44:06 +0800",
+            "subject": "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持"
+          },
+          {
+            "hash": "5cca955aed8117cea4a8a7c8493b522a2b9a773a",
+            "datetime": "2024-10-10 17:34:21 +0800",
+            "subject": "feat: 添加多个新文件和配置，增强项目结构和功能"
+          },
+          {
+            "hash": "a00599c57b63b5a06b44949f68827351830570e6",
+            "datetime": "2024-10-10 01:22:22 +0800",
+            "subject": "feat: shabichiwodaima"
+          },
+          {
+            "hash": "c1c686e74d61e339f2a234633b24fb59cf8edc6c",
+            "datetime": "2024-10-08 13:37:45 +0800",
+            "subject": "fix: 修改了UML的一些错误"
+          },
+          {
+            "hash": "9fa3fd287f1dc9d31c22330b35753b4624e92b70",
+            "datetime": "2024-10-08 12:23:20 +0800",
+            "subject": "feat: 修改了puml"
+          },
+          {
+            "hash": "d67997cfc823b7f5218c4fe9a0dbf6d64bb47bc5",
+            "datetime": "2024-10-07 22:28:41 +0800",
+            "subject": "feat: 修改报错"
+          },
+          {
+            "hash": "2b9a229fea5f67c70d8b938f8c82c03029a5bc80",
+            "datetime": "2024-10-07 22:26:41 +0800",
+            "subject": "feat: 新增用例图及相关文档"
+          }
+        ],
+        "files": 1152,
+        "added": 30982,
+        "removed": 189958,
+        "heat": [
+          [
+            "frontend/src/static",
+            138193
+          ],
+          [
+            "admin/pnpm-lock.yaml",
+            17056
+          ],
+          [
+            "frontend/pnpm-lock.yaml",
+            12471
+          ],
+          [
+            "admin/CHANGELOG.md",
+            5372
+          ],
+          [
+            "admin/packages/color",
+            5110
+          ],
+          [
+            "admin/src/layouts",
+            4456
+          ],
+          [
+            "admin/src/store",
+            4174
+          ],
+          [
+            "frontend/src/pages-sub",
+            3220
+          ],
+          [
+            "admin/src/typings",
+            2938
+          ],
+          [
+            "admin/packages/materials",
+            2258
+          ],
+          [
+            "admin/src/views",
+            2076
+          ],
+          [
+            "frontend/src/pages",
+            1653
+          ],
+          [
+            "admin/src/hooks",
+            1650
+          ],
+          [
+            "admin/src/components",
+            1562
+          ],
+          [
+            "admin/packages/hooks",
+            1328
+          ]
+        ],
+        "subjects": [
+          "chore: 更新子模块到最新提交并添加VSCode配置",
+          "chore: 更新admin子模块到最新提交",
+          "chore: 更新frontend子模块到最新提交并添加VSCode设置",
+          "chore: 更新frontend子模块到最新提交",
+          "feat: 添加子模块配置，包含admin、frontend、backend和uml",
+          "chore: 储存库分离",
+          "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件",
+          "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持",
+          "feat: 添加多个新文件和配置，增强项目结构和功能",
+          "feat: shabichiwodaima",
+          "fix: 修改了UML的一些错误",
+          "feat: 修改了puml",
+          "feat: 修改报错",
+          "feat: 新增用例图及相关文档"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "2f6b6c9193b79aa9db2a01a49507062e7b1a9e18",
+            "datetime": "2024-10-13 17:21:28 +0800",
+            "subject": "chore: 更新子模块到最新提交并添加VSCode配置"
+          },
+          {
+            "hash": "820b6f46477074aee5991141013c7b404fc0af57",
+            "datetime": "2024-10-13 16:40:33 +0800",
+            "subject": "chore: 更新admin子模块到最新提交"
+          },
+          {
+            "hash": "e18a533b3783273028ff128ca2e4d856ef145763",
+            "datetime": "2024-10-12 01:10:35 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交并添加VSCode设置"
+          },
+          {
+            "hash": "511751b17934e6dea2782f6abbeed01216180b5f",
+            "datetime": "2024-10-11 00:25:05 +0800",
+            "subject": "chore: 更新frontend子模块到最新提交"
+          },
+          {
+            "hash": "2509ab642e6c8f8f0ebef79288d6b3fe194cea6e",
+            "datetime": "2024-10-11 00:24:51 +0800",
+            "subject": "feat: 添加子模块配置，包含admin、frontend、backend和uml"
+          },
+          {
+            "hash": "93532ca167fe1d467e27092fbb4110f3c6471b3c",
+            "datetime": "2024-10-11 00:12:37 +0800",
+            "subject": "chore: 储存库分离"
+          },
+          {
+            "hash": "01cb3be2ae5cfa2e4a67124d9a3264ae6d42e33c",
+            "datetime": "2024-10-10 18:01:43 +0800",
+            "subject": "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件"
+          },
+          {
+            "hash": "8c8eed6aa62920b87f33e67966442353102fe7ce",
+            "datetime": "2024-10-10 17:44:06 +0800",
+            "subject": "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持"
+          },
+          {
+            "hash": "5cca955aed8117cea4a8a7c8493b522a2b9a773a",
+            "datetime": "2024-10-10 17:34:21 +0800",
+            "subject": "feat: 添加多个新文件和配置，增强项目结构和功能"
+          },
+          {
+            "hash": "a00599c57b63b5a06b44949f68827351830570e6",
+            "datetime": "2024-10-10 01:22:22 +0800",
+            "subject": "feat: shabichiwodaima"
+          },
+          {
+            "hash": "c1c686e74d61e339f2a234633b24fb59cf8edc6c",
+            "datetime": "2024-10-08 13:37:45 +0800",
+            "subject": "fix: 修改了UML的一些错误"
+          },
+          {
+            "hash": "9fa3fd287f1dc9d31c22330b35753b4624e92b70",
+            "datetime": "2024-10-08 12:23:20 +0800",
+            "subject": "feat: 修改了puml"
+          },
+          {
+            "hash": "d67997cfc823b7f5218c4fe9a0dbf6d64bb47bc5",
+            "datetime": "2024-10-07 22:28:41 +0800",
+            "subject": "feat: 修改报错"
+          },
+          {
+            "hash": "2b9a229fea5f67c70d8b938f8c82c03029a5bc80",
+            "datetime": "2024-10-07 22:26:41 +0800",
+            "subject": "feat: 新增用例图及相关文档"
+          }
+        ],
+        "files": 1152,
+        "added": 30982,
+        "removed": 189958,
+        "heat": [
+          [
+            "frontend/src/static",
+            138193
+          ],
+          [
+            "admin/pnpm-lock.yaml",
+            17056
+          ],
+          [
+            "frontend/pnpm-lock.yaml",
+            12471
+          ],
+          [
+            "admin/CHANGELOG.md",
+            5372
+          ],
+          [
+            "admin/packages/color",
+            5110
+          ],
+          [
+            "admin/src/layouts",
+            4456
+          ],
+          [
+            "admin/src/store",
+            4174
+          ],
+          [
+            "frontend/src/pages-sub",
+            3220
+          ],
+          [
+            "admin/src/typings",
+            2938
+          ],
+          [
+            "admin/packages/materials",
+            2258
+          ],
+          [
+            "admin/src/views",
+            2076
+          ],
+          [
+            "frontend/src/pages",
+            1653
+          ],
+          [
+            "admin/src/hooks",
+            1650
+          ],
+          [
+            "admin/src/components",
+            1562
+          ],
+          [
+            "admin/packages/hooks",
+            1328
+          ]
+        ],
+        "subjects": [
+          "chore: 更新子模块到最新提交并添加VSCode配置",
+          "chore: 更新admin子模块到最新提交",
+          "chore: 更新frontend子模块到最新提交并添加VSCode设置",
+          "chore: 更新frontend子模块到最新提交",
+          "feat: 添加子模块配置，包含admin、frontend、backend和uml",
+          "chore: 储存库分离",
+          "feat: 更新docker-compose配置，修改MySQL环境变量并添加新的配置文件",
+          "feat: 更新docker-compose配置，添加MySQL健康检查和外部网络支持",
+          "feat: 添加多个新文件和配置，增强项目结构和功能",
+          "feat: shabichiwodaima",
+          "fix: 修改了UML的一些错误",
+          "feat: 修改了puml",
+          "feat: 修改报错",
+          "feat: 新增用例图及相关文档"
+        ]
+      }
+    ]
+  }
+}

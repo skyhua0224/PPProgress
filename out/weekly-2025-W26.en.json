@@ -1,0 +1,717 @@
+{
+  "title": "Weekly Report (2025-06-23 to 2025-06-29)",
+  "lang": "en",
+  "since": "2025-06-23",
+  "until": "2025-06-29",
+  "generatedAt": "2025-11-02T11:29:18.814Z",
+  "progress": {
+    "totals": {
+      "commits": 101,
+      "files": 121,
+      "added": 301,
+      "removed": 2825
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "9ed53dad086fd2ce75ae950bf460c1475eef1515",
+            "datetime": "2025-06-23 19:37:41 +0800",
+            "subject": "Delete PROJECT_PLAN.md and update .gitignore"
+          },
+          {
+            "hash": "635c427584a4df6f2e9d873ef148636053e4adc4",
+            "datetime": "2025-06-23 19:33:26 +0800",
+            "subject": "chore: 更新.gitignore文件，删除.vscode配置文件"
+          }
+        ],
+        "files": 7,
+        "added": 52,
+        "removed": 683,
+        "heat": [
+          [
+            "PROJECT_PLAN.md",
+            631
+          ],
+          [
+            ".gitignore",
+            49
+          ],
+          [
+            ".vscode",
+            49
+          ],
+          [
+            "admin",
+            2
+          ],
+          [
+            "backend",
+            2
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "Delete PROJECT_PLAN.md and update .gitignore",
+          "chore: 更新.gitignore文件，删除.vscode配置文件"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "f3b503d30b63f971824cf8f7b8d6d67ab17d2ed8",
+            "datetime": "2025-06-29 08:19:34 +0000",
+            "subject": "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n"
+          },
+          {
+            "hash": "516ee171cd69370deb7f1ef38f1e29adb950452d",
+            "datetime": "2025-06-29 08:06:30 +0000",
+            "subject": "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n"
+          },
+          {
+            "hash": "f9e05e5616bf00fb2c3178f49ff53348b7e0e53d",
+            "datetime": "2025-06-28 11:00:46 +0000",
+            "subject": "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n"
+          },
+          {
+            "hash": "b8edf365bd0ebc59b28fb1d1ee213bf66c1f4b7d",
+            "datetime": "2025-06-28 10:45:56 +0000",
+            "subject": "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n"
+          },
+          {
+            "hash": "d4308241cac84abc79e889b22b9123d1448499ea",
+            "datetime": "2025-06-28 07:26:08 +0000",
+            "subject": "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n"
+          },
+          {
+            "hash": "495e1ff77bb517fc57a57408528d316a45f8493d",
+            "datetime": "2025-06-28 06:56:12 +0000",
+            "subject": "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n"
+          },
+          {
+            "hash": "d690bfcc8ab9e875d1d083bc49d7140e891298ef",
+            "datetime": "2025-06-27 09:31:06 +0000",
+            "subject": "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n"
+          },
+          {
+            "hash": "dbb3b9f991301ae30940e6f881a2ae0e983ad0e9",
+            "datetime": "2025-06-27 05:44:09 +0000",
+            "subject": "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n"
+          },
+          {
+            "hash": "b393e3357da1c1633337a9ce161ffea6f5e63b11",
+            "datetime": "2025-06-26 11:06:07 +0000",
+            "subject": "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n"
+          },
+          {
+            "hash": "ad568756af6482413d3e89ee9b303e4cebe68d12",
+            "datetime": "2025-06-26 08:53:19 +0000",
+            "subject": "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n"
+          },
+          {
+            "hash": "4e6ffcb337e3e1ff608e3edfb3a8ae6801a60d3f",
+            "datetime": "2025-06-25 12:15:54 +0000",
+            "subject": "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n"
+          },
+          {
+            "hash": "5b3f42a9701b82bbbb081bb53f8fbe459cc0af46",
+            "datetime": "2025-06-25 12:13:35 +0000",
+            "subject": "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n"
+          },
+          {
+            "hash": "1b3c7d417ee770e27dd6286e57debdab226298af",
+            "datetime": "2025-06-25 12:10:43 +0000",
+            "subject": "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n"
+          },
+          {
+            "hash": "5b258753f9677f7e37982b5d878a87c69ae90784",
+            "datetime": "2025-06-25 11:52:59 +0000",
+            "subject": "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n"
+          },
+          {
+            "hash": "5469e250f71505d40dd35ff4fb5ff171e52aa055",
+            "datetime": "2025-06-25 11:45:39 +0000",
+            "subject": "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n"
+          },
+          {
+            "hash": "dfdf796ab34b50dcfeec89e51b6d5b5e71acc75f",
+            "datetime": "2025-06-25 11:25:59 +0000",
+            "subject": "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n"
+          },
+          {
+            "hash": "ac61562d60b804fdaa0c7431c69d0d31e279a9f7",
+            "datetime": "2025-06-25 11:05:20 +0000",
+            "subject": "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n"
+          },
+          {
+            "hash": "0bd131c6db21b8efc9a08b2e58bc9ca7a9f84bc4",
+            "datetime": "2025-06-25 10:01:36 +0000",
+            "subject": "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n"
+          },
+          {
+            "hash": "1c9294e5fec4aa56ab51629ab29155d8ad632ccd",
+            "datetime": "2025-06-25 09:53:29 +0000",
+            "subject": "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n"
+          },
+          {
+            "hash": "cfda64bfbc13671d9a4c888dda409d4aa9bbf1a8",
+            "datetime": "2025-06-25 09:27:25 +0000",
+            "subject": "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n"
+          },
+          {
+            "hash": "de9077f4fc36cd5a8f5e325cbeea2d084a8536c2",
+            "datetime": "2025-06-25 06:41:46 +0000",
+            "subject": "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n"
+          },
+          {
+            "hash": "6c6f8169b543b1cc7e1bcfdbf10198c686ec4fe0",
+            "datetime": "2025-06-25 06:31:33 +0000",
+            "subject": "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n"
+          },
+          {
+            "hash": "b14985c3c061f05be915efa01c609c4ebc5442cb",
+            "datetime": "2025-06-24 09:52:06 +0000",
+            "subject": "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n"
+          },
+          {
+            "hash": "dce1c2ab64aa24119406c275bb0d51ce4d3aaee6",
+            "datetime": "2025-06-24 09:51:36 +0000",
+            "subject": "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n"
+          },
+          {
+            "hash": "69162ae3872f110eeec21a0a4df6c696ea08fc53",
+            "datetime": "2025-06-24 09:08:55 +0000",
+            "subject": "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n"
+          },
+          {
+            "hash": "fea1948a9e14adeff957edf992408a74b53fb17a",
+            "datetime": "2025-06-24 08:53:31 +0000",
+            "subject": "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n"
+          },
+          {
+            "hash": "9cef3035526f36820f2b4c19ea3d434fd069e30c",
+            "datetime": "2025-06-24 08:50:05 +0000",
+            "subject": "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n"
+          },
+          {
+            "hash": "957c995fadac74d974ef04b315fdb5701bb65a6e",
+            "datetime": "2025-06-24 08:45:52 +0000",
+            "subject": "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n"
+          },
+          {
+            "hash": "528ebd98048ef76d29ee11554a61032bbcd022bd",
+            "datetime": "2025-06-24 08:19:16 +0000",
+            "subject": "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n"
+          },
+          {
+            "hash": "d1fbf2c430965393c5e0d5c777680a938082d074",
+            "datetime": "2025-06-24 08:12:06 +0000",
+            "subject": "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 83,
+        "removed": 714,
+        "heat": [
+          [
+            "PROJECT_PLAN.md",
+            631
+          ],
+          [
+            ".gitignore",
+            49
+          ],
+          [
+            ".vscode",
+            49
+          ],
+          [
+            "backend",
+            42
+          ],
+          [
+            "frontend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n",
+          "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n",
+          "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n",
+          "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n",
+          "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n",
+          "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n",
+          "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n",
+          "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n",
+          "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n",
+          "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n",
+          "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n",
+          "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n",
+          "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n",
+          "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n",
+          "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n",
+          "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n",
+          "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n",
+          "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n",
+          "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n",
+          "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n",
+          "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n",
+          "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n",
+          "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n",
+          "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n",
+          "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n",
+          "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n",
+          "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n",
+          "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n",
+          "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n",
+          "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "f3b503d30b63f971824cf8f7b8d6d67ab17d2ed8",
+            "datetime": "2025-06-29 08:19:34 +0000",
+            "subject": "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n"
+          },
+          {
+            "hash": "516ee171cd69370deb7f1ef38f1e29adb950452d",
+            "datetime": "2025-06-29 08:06:30 +0000",
+            "subject": "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n"
+          },
+          {
+            "hash": "f9e05e5616bf00fb2c3178f49ff53348b7e0e53d",
+            "datetime": "2025-06-28 11:00:46 +0000",
+            "subject": "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n"
+          },
+          {
+            "hash": "b8edf365bd0ebc59b28fb1d1ee213bf66c1f4b7d",
+            "datetime": "2025-06-28 10:45:56 +0000",
+            "subject": "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n"
+          },
+          {
+            "hash": "d4308241cac84abc79e889b22b9123d1448499ea",
+            "datetime": "2025-06-28 07:26:08 +0000",
+            "subject": "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n"
+          },
+          {
+            "hash": "495e1ff77bb517fc57a57408528d316a45f8493d",
+            "datetime": "2025-06-28 06:56:12 +0000",
+            "subject": "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n"
+          },
+          {
+            "hash": "d690bfcc8ab9e875d1d083bc49d7140e891298ef",
+            "datetime": "2025-06-27 09:31:06 +0000",
+            "subject": "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n"
+          },
+          {
+            "hash": "dbb3b9f991301ae30940e6f881a2ae0e983ad0e9",
+            "datetime": "2025-06-27 05:44:09 +0000",
+            "subject": "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n"
+          },
+          {
+            "hash": "b393e3357da1c1633337a9ce161ffea6f5e63b11",
+            "datetime": "2025-06-26 11:06:07 +0000",
+            "subject": "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n"
+          },
+          {
+            "hash": "ad568756af6482413d3e89ee9b303e4cebe68d12",
+            "datetime": "2025-06-26 08:53:19 +0000",
+            "subject": "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n"
+          },
+          {
+            "hash": "4e6ffcb337e3e1ff608e3edfb3a8ae6801a60d3f",
+            "datetime": "2025-06-25 12:15:54 +0000",
+            "subject": "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n"
+          },
+          {
+            "hash": "5b3f42a9701b82bbbb081bb53f8fbe459cc0af46",
+            "datetime": "2025-06-25 12:13:35 +0000",
+            "subject": "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n"
+          },
+          {
+            "hash": "1b3c7d417ee770e27dd6286e57debdab226298af",
+            "datetime": "2025-06-25 12:10:43 +0000",
+            "subject": "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n"
+          },
+          {
+            "hash": "5b258753f9677f7e37982b5d878a87c69ae90784",
+            "datetime": "2025-06-25 11:52:59 +0000",
+            "subject": "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n"
+          },
+          {
+            "hash": "5469e250f71505d40dd35ff4fb5ff171e52aa055",
+            "datetime": "2025-06-25 11:45:39 +0000",
+            "subject": "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n"
+          },
+          {
+            "hash": "dfdf796ab34b50dcfeec89e51b6d5b5e71acc75f",
+            "datetime": "2025-06-25 11:25:59 +0000",
+            "subject": "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n"
+          },
+          {
+            "hash": "ac61562d60b804fdaa0c7431c69d0d31e279a9f7",
+            "datetime": "2025-06-25 11:05:20 +0000",
+            "subject": "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n"
+          },
+          {
+            "hash": "0bd131c6db21b8efc9a08b2e58bc9ca7a9f84bc4",
+            "datetime": "2025-06-25 10:01:36 +0000",
+            "subject": "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n"
+          },
+          {
+            "hash": "1c9294e5fec4aa56ab51629ab29155d8ad632ccd",
+            "datetime": "2025-06-25 09:53:29 +0000",
+            "subject": "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n"
+          },
+          {
+            "hash": "cfda64bfbc13671d9a4c888dda409d4aa9bbf1a8",
+            "datetime": "2025-06-25 09:27:25 +0000",
+            "subject": "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n"
+          },
+          {
+            "hash": "de9077f4fc36cd5a8f5e325cbeea2d084a8536c2",
+            "datetime": "2025-06-25 06:41:46 +0000",
+            "subject": "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n"
+          },
+          {
+            "hash": "6c6f8169b543b1cc7e1bcfdbf10198c686ec4fe0",
+            "datetime": "2025-06-25 06:31:33 +0000",
+            "subject": "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n"
+          },
+          {
+            "hash": "b14985c3c061f05be915efa01c609c4ebc5442cb",
+            "datetime": "2025-06-24 09:52:06 +0000",
+            "subject": "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n"
+          },
+          {
+            "hash": "dce1c2ab64aa24119406c275bb0d51ce4d3aaee6",
+            "datetime": "2025-06-24 09:51:36 +0000",
+            "subject": "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n"
+          },
+          {
+            "hash": "69162ae3872f110eeec21a0a4df6c696ea08fc53",
+            "datetime": "2025-06-24 09:08:55 +0000",
+            "subject": "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n"
+          },
+          {
+            "hash": "fea1948a9e14adeff957edf992408a74b53fb17a",
+            "datetime": "2025-06-24 08:53:31 +0000",
+            "subject": "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n"
+          },
+          {
+            "hash": "9cef3035526f36820f2b4c19ea3d434fd069e30c",
+            "datetime": "2025-06-24 08:50:05 +0000",
+            "subject": "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n"
+          },
+          {
+            "hash": "957c995fadac74d974ef04b315fdb5701bb65a6e",
+            "datetime": "2025-06-24 08:45:52 +0000",
+            "subject": "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n"
+          },
+          {
+            "hash": "528ebd98048ef76d29ee11554a61032bbcd022bd",
+            "datetime": "2025-06-24 08:19:16 +0000",
+            "subject": "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n"
+          },
+          {
+            "hash": "d1fbf2c430965393c5e0d5c777680a938082d074",
+            "datetime": "2025-06-24 08:12:06 +0000",
+            "subject": "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 83,
+        "removed": 714,
+        "heat": [
+          [
+            "PROJECT_PLAN.md",
+            631
+          ],
+          [
+            ".gitignore",
+            49
+          ],
+          [
+            ".vscode",
+            49
+          ],
+          [
+            "backend",
+            42
+          ],
+          [
+            "frontend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n",
+          "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n",
+          "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n",
+          "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n",
+          "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n",
+          "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n",
+          "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n",
+          "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n",
+          "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n",
+          "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n",
+          "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n",
+          "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n",
+          "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n",
+          "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n",
+          "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n",
+          "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n",
+          "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n",
+          "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n",
+          "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n",
+          "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n",
+          "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n",
+          "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n",
+          "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n",
+          "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n",
+          "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n",
+          "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n",
+          "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n",
+          "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n",
+          "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n",
+          "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "f3b503d30b63f971824cf8f7b8d6d67ab17d2ed8",
+            "datetime": "2025-06-29 08:19:34 +0000",
+            "subject": "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n"
+          },
+          {
+            "hash": "516ee171cd69370deb7f1ef38f1e29adb950452d",
+            "datetime": "2025-06-29 08:06:30 +0000",
+            "subject": "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n"
+          },
+          {
+            "hash": "f9e05e5616bf00fb2c3178f49ff53348b7e0e53d",
+            "datetime": "2025-06-28 11:00:46 +0000",
+            "subject": "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n"
+          },
+          {
+            "hash": "b8edf365bd0ebc59b28fb1d1ee213bf66c1f4b7d",
+            "datetime": "2025-06-28 10:45:56 +0000",
+            "subject": "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n"
+          },
+          {
+            "hash": "d4308241cac84abc79e889b22b9123d1448499ea",
+            "datetime": "2025-06-28 07:26:08 +0000",
+            "subject": "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n"
+          },
+          {
+            "hash": "495e1ff77bb517fc57a57408528d316a45f8493d",
+            "datetime": "2025-06-28 06:56:12 +0000",
+            "subject": "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n"
+          },
+          {
+            "hash": "d690bfcc8ab9e875d1d083bc49d7140e891298ef",
+            "datetime": "2025-06-27 09:31:06 +0000",
+            "subject": "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n"
+          },
+          {
+            "hash": "dbb3b9f991301ae30940e6f881a2ae0e983ad0e9",
+            "datetime": "2025-06-27 05:44:09 +0000",
+            "subject": "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n"
+          },
+          {
+            "hash": "b393e3357da1c1633337a9ce161ffea6f5e63b11",
+            "datetime": "2025-06-26 11:06:07 +0000",
+            "subject": "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n"
+          },
+          {
+            "hash": "ad568756af6482413d3e89ee9b303e4cebe68d12",
+            "datetime": "2025-06-26 08:53:19 +0000",
+            "subject": "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n"
+          },
+          {
+            "hash": "4e6ffcb337e3e1ff608e3edfb3a8ae6801a60d3f",
+            "datetime": "2025-06-25 12:15:54 +0000",
+            "subject": "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n"
+          },
+          {
+            "hash": "5b3f42a9701b82bbbb081bb53f8fbe459cc0af46",
+            "datetime": "2025-06-25 12:13:35 +0000",
+            "subject": "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n"
+          },
+          {
+            "hash": "1b3c7d417ee770e27dd6286e57debdab226298af",
+            "datetime": "2025-06-25 12:10:43 +0000",
+            "subject": "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n"
+          },
+          {
+            "hash": "5b258753f9677f7e37982b5d878a87c69ae90784",
+            "datetime": "2025-06-25 11:52:59 +0000",
+            "subject": "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n"
+          },
+          {
+            "hash": "5469e250f71505d40dd35ff4fb5ff171e52aa055",
+            "datetime": "2025-06-25 11:45:39 +0000",
+            "subject": "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n"
+          },
+          {
+            "hash": "dfdf796ab34b50dcfeec89e51b6d5b5e71acc75f",
+            "datetime": "2025-06-25 11:25:59 +0000",
+            "subject": "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n"
+          },
+          {
+            "hash": "ac61562d60b804fdaa0c7431c69d0d31e279a9f7",
+            "datetime": "2025-06-25 11:05:20 +0000",
+            "subject": "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n"
+          },
+          {
+            "hash": "0bd131c6db21b8efc9a08b2e58bc9ca7a9f84bc4",
+            "datetime": "2025-06-25 10:01:36 +0000",
+            "subject": "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n"
+          },
+          {
+            "hash": "1c9294e5fec4aa56ab51629ab29155d8ad632ccd",
+            "datetime": "2025-06-25 09:53:29 +0000",
+            "subject": "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n"
+          },
+          {
+            "hash": "cfda64bfbc13671d9a4c888dda409d4aa9bbf1a8",
+            "datetime": "2025-06-25 09:27:25 +0000",
+            "subject": "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n"
+          },
+          {
+            "hash": "de9077f4fc36cd5a8f5e325cbeea2d084a8536c2",
+            "datetime": "2025-06-25 06:41:46 +0000",
+            "subject": "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n"
+          },
+          {
+            "hash": "6c6f8169b543b1cc7e1bcfdbf10198c686ec4fe0",
+            "datetime": "2025-06-25 06:31:33 +0000",
+            "subject": "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n"
+          },
+          {
+            "hash": "b14985c3c061f05be915efa01c609c4ebc5442cb",
+            "datetime": "2025-06-24 09:52:06 +0000",
+            "subject": "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n"
+          },
+          {
+            "hash": "dce1c2ab64aa24119406c275bb0d51ce4d3aaee6",
+            "datetime": "2025-06-24 09:51:36 +0000",
+            "subject": "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n"
+          },
+          {
+            "hash": "69162ae3872f110eeec21a0a4df6c696ea08fc53",
+            "datetime": "2025-06-24 09:08:55 +0000",
+            "subject": "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n"
+          },
+          {
+            "hash": "fea1948a9e14adeff957edf992408a74b53fb17a",
+            "datetime": "2025-06-24 08:53:31 +0000",
+            "subject": "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n"
+          },
+          {
+            "hash": "9cef3035526f36820f2b4c19ea3d434fd069e30c",
+            "datetime": "2025-06-24 08:50:05 +0000",
+            "subject": "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n"
+          },
+          {
+            "hash": "957c995fadac74d974ef04b315fdb5701bb65a6e",
+            "datetime": "2025-06-24 08:45:52 +0000",
+            "subject": "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n"
+          },
+          {
+            "hash": "528ebd98048ef76d29ee11554a61032bbcd022bd",
+            "datetime": "2025-06-24 08:19:16 +0000",
+            "subject": "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n"
+          },
+          {
+            "hash": "d1fbf2c430965393c5e0d5c777680a938082d074",
+            "datetime": "2025-06-24 08:12:06 +0000",
+            "subject": "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 83,
+        "removed": 714,
+        "heat": [
+          [
+            "PROJECT_PLAN.md",
+            631
+          ],
+          [
+            ".gitignore",
+            49
+          ],
+          [
+            ".vscode",
+            49
+          ],
+          [
+            "backend",
+            42
+          ],
+          [
+            "frontend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ]
+        ],
+        "subjects": [
+          "[frontend] 自动合并[7880081: feat: 替换原登录页面为新的登录弹窗]\\n",
+          "[backend] 自动合并[6e5456c: feat(Auth): 更新登录接口，返回完整用户信息和token数据]\\n",
+          "[frontend] 自动合并[771ba0c: feat: 替换删除按钮图标为wd-icon组件，并在uploadPrinting页面中禁用滚动]\\n",
+          "[frontend] 自动合并[1298102: fix: 修复了uploadPrinting的一些显示问题]\\n",
+          "[frontend] 自动合并[5e99455: feat: 移除打印选项页面，改为主页文档打印选项弹窗]\\n",
+          "[frontend] 自动合并[bd4e605: feat(order): 添加历史订单页面，支持按年月筛选历史订单]\\n",
+          "[frontend] 自动合并[924f423: feat(mine): 更新我的页面布局，调整为首页样式，优化用户界面]\\n",
+          "[frontend] 自动合并[e53d384: feat(home): 更新首页布局，添加头部和功能模块，优化用户体验]\\n",
+          "[admin] 自动合并[5a32a98: feat: 添加用户筛选功能，优化删除确认模态框，更新文件列表展示，重构分享码搜索组件]\\n",
+          "[backend] 自动合并[e6f8e92: feat(ShareCode): 添加获取唯一用户列表功能，支持从分享码中提取用户信息]\\n",
+          "[admin] 自动合并[2f9e4ce: feat: 重构分享码管理功能，添加搜索组件，优化数据请求和删除确认逻辑]\\n",
+          "[backend] 自动合并[a549580: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性]\\n",
+          "[backend] 自动合并[9a9a41e: fix(User): 将用户ID类型从Integer更改为Long，以保持一致性 fix(UserRepository): 更新用户仓库以使用Long类型的用户ID fix(ShareCodeServiceImpl): 调整用户ID处理逻辑，确保与Long类型兼容]\\n",
+          "[backend] 自动合并[3480481: feat(ShareCode): 在AdminShareCodeListItemDTO中添加昵称和头像字段，并更新ShareCodeServiceImpl以支持获取用户信息]\\n",
+          "[backend] 自动合并[a940b1e: feat(Security): 启用方法级别的安全注解，增强安全配置 feat(ShareCode): 移除不必要的权限检查，简化获取分享码列表逻辑]\\n",
+          "[backend] 自动合并[c77cccb: feat(ShareCode): 添加获取当前用户分享码列表功能，优化分享码筛选逻辑]\\n",
+          "[backend] 自动合并[9ee67b0: feat(ShareCode): 重构用户ID获取逻辑，支持通过用户名和用户ID筛选分享码]\\n",
+          "[backend] 自动合并[a99132b: feat(ShareCode): 在AdminShareCodeListItemDTO中添加备注字段，并在ShareCodeServiceImpl中增加按订单ID和日期范围筛选功能]\\n",
+          "[backend] 自动合并[e147d63: feat(ShareCode): 增强分享码管理功能，支持按分享码、用户名和状态筛选，添加删除原因记录]\\n",
+          "[frontend] 自动合并[5dfba72: feat: 添加店铺选择功能，优化取货方式选择弹窗和店铺列表展示]\\n",
+          "[backend] 自动合并[620dd7f: feat(pom): 更新jjwt依赖，替换为jjwt-api、jjwt-impl和jjwt-jackson，并升级版本至0.12.6]\\n",
+          "[backend] 自动合并[6e94b35: feat(pom): 更新Spring Boot版本至3.5.3，并添加依赖管理 feat(JwtAuthenticationFilter): 重构请求匹配器，简化公共路径匹配逻辑 feat(WebMvcConfig): 添加非空检查以增强资源处理器的健壮性 refactor(AuthService): 移除未使用的方法，优化异常处理信息 refactor(CouponPublishService): 移除不必要的变量赋值，简化代码 refactor(CouponService): 删除未使用的依赖注入，优化代码结构 refactor(DocumentConversionService): 使用Path.of替代Paths.get，提升代码可读性 refactor(PrinterService): 使用URI替代URL，增强代码的可读性和安全性 refactor(MenuSyncServiceImpl): 优化重复键处理逻辑，提升代码清晰度 refactor(OrderServiceImpl): 使用RoundingMode替代过时的常量，增强代码可读性 refactor(PriceCalculationServiceImpl): 移除未使用的依赖，添加TODO注释以指明未来改进方向 refactor(UserCouponServiceImpl): 优化日志记录，增强代码可读性]\\n",
+          "[admin] 自动合并[a9c0f30: feat: 添加同步路由功能，支持环境参数，更新路由配置，新增测试页面]\\n",
+          "[backend] 自动合并[df2ed20: feat(GlobalExceptionHandler): 删除全局异常处理器类，移除不再需要的异常处理逻辑]\\n",
+          "[backend] 自动合并[e38a852: feat(GlobalExceptionHandler): 添加全局异常处理器以统一处理异常响应]\\n",
+          "[backend] 自动合并[ac408ab: feat(JwtAuthenticationFilter): 添加请求URI日志记录以便于调试]\\n",
+          "[backend] 自动合并[dd8dca1: feat(SecurityConfig): 重构syncRouteSecurityFilterChain，简化/api/menu/syncRoutes的访问控制]\\n",
+          "[backend] 自动合并[b62dbbf: feat(SecurityConfig): 更新/api/menu/syncRoutes的访问权限，仅限超级管理员]\\n",
+          "[backend] 自动合并[6fb4bb7: feat(SecurityConfig): 优化请求匹配器的注释，增强代码可读性]\\n",
+          "[backend] 自动合并[c071d4c: feat(JwtAuthenticationFilter): 添加/api/menu/syncRoutes到公开路径匹配器]\\n"
+        ]
+      }
+    ]
+  }
+}

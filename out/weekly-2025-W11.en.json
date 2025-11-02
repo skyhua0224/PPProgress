@@ -1,0 +1,397 @@
+{
+  "title": "Weekly Report (2025-03-10 to 2025-03-15)",
+  "lang": "en",
+  "since": "2025-03-10",
+  "until": "2025-03-15",
+  "generatedAt": "2025-11-02T11:29:18.038Z",
+  "progress": {
+    "totals": {
+      "commits": 46,
+      "files": 46,
+      "added": 46,
+      "removed": 42
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "dc6289acc873ab97b59e4e9d98d7b711993319a0",
+            "datetime": "2025-03-14 16:33:10 +0800",
+            "subject": "chore: 添加 .spring-api-helper.json 到 .gitignore"
+          }
+        ],
+        "files": 1,
+        "added": 1,
+        "removed": 0,
+        "heat": [
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore: 添加 .spring-api-helper.json 到 .gitignore"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "dc6289acc873ab97b59e4e9d98d7b711993319a0",
+            "datetime": "2025-03-14 16:33:10 +0800",
+            "subject": "chore: 添加 .spring-api-helper.json 到 .gitignore"
+          },
+          {
+            "hash": "2698711abe98eaad4a128bf7b0d0d6835c005887",
+            "datetime": "2025-03-14 08:30:57 +0000",
+            "subject": "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n"
+          },
+          {
+            "hash": "df8ba17d6159ffa30c6d1d6a43e36ed54f272a51",
+            "datetime": "2025-03-14 03:31:39 +0000",
+            "subject": "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n"
+          },
+          {
+            "hash": "f21c20f44d498efc5023a3845c06e1c1cdb5844d",
+            "datetime": "2025-03-14 01:24:07 +0000",
+            "subject": "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n"
+          },
+          {
+            "hash": "ab964b19228ca39f5318a8b144a4291804e53f8c",
+            "datetime": "2025-03-14 01:11:49 +0000",
+            "subject": "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n"
+          },
+          {
+            "hash": "0054a0039b79c0f7c114e98a5ae0b84d36777bbf",
+            "datetime": "2025-03-13 17:03:43 +0000",
+            "subject": "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n"
+          },
+          {
+            "hash": "f4a348ad904532eaf5c425140feaf88bf9c139d9",
+            "datetime": "2025-03-13 08:29:39 +0000",
+            "subject": "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n"
+          },
+          {
+            "hash": "5083d6e9a6d23d207455c54952287fe12c7cecb9",
+            "datetime": "2025-03-13 07:08:47 +0000",
+            "subject": "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n"
+          },
+          {
+            "hash": "742f71de0b243fc7db0c2fc41fcff9c367f8df35",
+            "datetime": "2025-03-12 16:12:08 +0000",
+            "subject": "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n"
+          },
+          {
+            "hash": "885d306c8e049bb02bcc04b11bbe2aa910b25b0f",
+            "datetime": "2025-03-12 07:05:55 +0000",
+            "subject": "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n"
+          },
+          {
+            "hash": "f0df78662a57c270ec427f4938ae6e8b8dc502c2",
+            "datetime": "2025-03-12 06:52:35 +0000",
+            "subject": "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n"
+          },
+          {
+            "hash": "035ef4037438212518c8a695527b4f037d696285",
+            "datetime": "2025-03-11 17:15:13 +0000",
+            "subject": "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n"
+          },
+          {
+            "hash": "cf247e734b92479884c7640c4a6d4ba0f9b49a3c",
+            "datetime": "2025-03-11 17:03:15 +0000",
+            "subject": "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n"
+          },
+          {
+            "hash": "687e27c74b6c7e33a662055d37d4ec23595dccf6",
+            "datetime": "2025-03-11 16:59:57 +0000",
+            "subject": "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n"
+          },
+          {
+            "hash": "b24474ba46370009dcdc31f4e9ab00962059d854",
+            "datetime": "2025-03-10 16:01:44 +0000",
+            "subject": "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+          }
+        ],
+        "files": 15,
+        "added": 15,
+        "removed": 14,
+        "heat": [
+          [
+            "backend",
+            14
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            "admin",
+            6
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore: 添加 .spring-api-helper.json 到 .gitignore",
+          "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n",
+          "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n",
+          "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n",
+          "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n",
+          "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n",
+          "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n",
+          "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n",
+          "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n",
+          "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n",
+          "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n",
+          "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n",
+          "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n",
+          "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n",
+          "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "dc6289acc873ab97b59e4e9d98d7b711993319a0",
+            "datetime": "2025-03-14 16:33:10 +0800",
+            "subject": "chore: 添加 .spring-api-helper.json 到 .gitignore"
+          },
+          {
+            "hash": "2698711abe98eaad4a128bf7b0d0d6835c005887",
+            "datetime": "2025-03-14 08:30:57 +0000",
+            "subject": "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n"
+          },
+          {
+            "hash": "df8ba17d6159ffa30c6d1d6a43e36ed54f272a51",
+            "datetime": "2025-03-14 03:31:39 +0000",
+            "subject": "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n"
+          },
+          {
+            "hash": "f21c20f44d498efc5023a3845c06e1c1cdb5844d",
+            "datetime": "2025-03-14 01:24:07 +0000",
+            "subject": "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n"
+          },
+          {
+            "hash": "ab964b19228ca39f5318a8b144a4291804e53f8c",
+            "datetime": "2025-03-14 01:11:49 +0000",
+            "subject": "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n"
+          },
+          {
+            "hash": "0054a0039b79c0f7c114e98a5ae0b84d36777bbf",
+            "datetime": "2025-03-13 17:03:43 +0000",
+            "subject": "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n"
+          },
+          {
+            "hash": "f4a348ad904532eaf5c425140feaf88bf9c139d9",
+            "datetime": "2025-03-13 08:29:39 +0000",
+            "subject": "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n"
+          },
+          {
+            "hash": "5083d6e9a6d23d207455c54952287fe12c7cecb9",
+            "datetime": "2025-03-13 07:08:47 +0000",
+            "subject": "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n"
+          },
+          {
+            "hash": "742f71de0b243fc7db0c2fc41fcff9c367f8df35",
+            "datetime": "2025-03-12 16:12:08 +0000",
+            "subject": "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n"
+          },
+          {
+            "hash": "885d306c8e049bb02bcc04b11bbe2aa910b25b0f",
+            "datetime": "2025-03-12 07:05:55 +0000",
+            "subject": "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n"
+          },
+          {
+            "hash": "f0df78662a57c270ec427f4938ae6e8b8dc502c2",
+            "datetime": "2025-03-12 06:52:35 +0000",
+            "subject": "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n"
+          },
+          {
+            "hash": "035ef4037438212518c8a695527b4f037d696285",
+            "datetime": "2025-03-11 17:15:13 +0000",
+            "subject": "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n"
+          },
+          {
+            "hash": "cf247e734b92479884c7640c4a6d4ba0f9b49a3c",
+            "datetime": "2025-03-11 17:03:15 +0000",
+            "subject": "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n"
+          },
+          {
+            "hash": "687e27c74b6c7e33a662055d37d4ec23595dccf6",
+            "datetime": "2025-03-11 16:59:57 +0000",
+            "subject": "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n"
+          },
+          {
+            "hash": "b24474ba46370009dcdc31f4e9ab00962059d854",
+            "datetime": "2025-03-10 16:01:44 +0000",
+            "subject": "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+          }
+        ],
+        "files": 15,
+        "added": 15,
+        "removed": 14,
+        "heat": [
+          [
+            "backend",
+            14
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            "admin",
+            6
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore: 添加 .spring-api-helper.json 到 .gitignore",
+          "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n",
+          "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n",
+          "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n",
+          "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n",
+          "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n",
+          "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n",
+          "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n",
+          "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n",
+          "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n",
+          "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n",
+          "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n",
+          "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n",
+          "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n",
+          "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "dc6289acc873ab97b59e4e9d98d7b711993319a0",
+            "datetime": "2025-03-14 16:33:10 +0800",
+            "subject": "chore: 添加 .spring-api-helper.json 到 .gitignore"
+          },
+          {
+            "hash": "2698711abe98eaad4a128bf7b0d0d6835c005887",
+            "datetime": "2025-03-14 08:30:57 +0000",
+            "subject": "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n"
+          },
+          {
+            "hash": "df8ba17d6159ffa30c6d1d6a43e36ed54f272a51",
+            "datetime": "2025-03-14 03:31:39 +0000",
+            "subject": "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n"
+          },
+          {
+            "hash": "f21c20f44d498efc5023a3845c06e1c1cdb5844d",
+            "datetime": "2025-03-14 01:24:07 +0000",
+            "subject": "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n"
+          },
+          {
+            "hash": "ab964b19228ca39f5318a8b144a4291804e53f8c",
+            "datetime": "2025-03-14 01:11:49 +0000",
+            "subject": "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n"
+          },
+          {
+            "hash": "0054a0039b79c0f7c114e98a5ae0b84d36777bbf",
+            "datetime": "2025-03-13 17:03:43 +0000",
+            "subject": "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n"
+          },
+          {
+            "hash": "f4a348ad904532eaf5c425140feaf88bf9c139d9",
+            "datetime": "2025-03-13 08:29:39 +0000",
+            "subject": "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n"
+          },
+          {
+            "hash": "5083d6e9a6d23d207455c54952287fe12c7cecb9",
+            "datetime": "2025-03-13 07:08:47 +0000",
+            "subject": "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n"
+          },
+          {
+            "hash": "742f71de0b243fc7db0c2fc41fcff9c367f8df35",
+            "datetime": "2025-03-12 16:12:08 +0000",
+            "subject": "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n"
+          },
+          {
+            "hash": "885d306c8e049bb02bcc04b11bbe2aa910b25b0f",
+            "datetime": "2025-03-12 07:05:55 +0000",
+            "subject": "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n"
+          },
+          {
+            "hash": "f0df78662a57c270ec427f4938ae6e8b8dc502c2",
+            "datetime": "2025-03-12 06:52:35 +0000",
+            "subject": "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n"
+          },
+          {
+            "hash": "035ef4037438212518c8a695527b4f037d696285",
+            "datetime": "2025-03-11 17:15:13 +0000",
+            "subject": "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n"
+          },
+          {
+            "hash": "cf247e734b92479884c7640c4a6d4ba0f9b49a3c",
+            "datetime": "2025-03-11 17:03:15 +0000",
+            "subject": "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n"
+          },
+          {
+            "hash": "687e27c74b6c7e33a662055d37d4ec23595dccf6",
+            "datetime": "2025-03-11 16:59:57 +0000",
+            "subject": "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n"
+          },
+          {
+            "hash": "b24474ba46370009dcdc31f4e9ab00962059d854",
+            "datetime": "2025-03-10 16:01:44 +0000",
+            "subject": "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+          }
+        ],
+        "files": 15,
+        "added": 15,
+        "removed": 14,
+        "heat": [
+          [
+            "backend",
+            14
+          ],
+          [
+            "frontend",
+            8
+          ],
+          [
+            "admin",
+            6
+          ],
+          [
+            ".gitignore",
+            1
+          ]
+        ],
+        "subjects": [
+          "chore: 添加 .spring-api-helper.json 到 .gitignore",
+          "[frontend] 自动合并[ce93c5a: feat: 完成对送货卡片的设计]\\n",
+          "[frontend] 自动合并[643335a: feat: 完成对校园场景楼宇选择的设计]\\n",
+          "[admin] 自动合并[133f53c: fix: 修复楼宇管理新增时替换原楼宇的问题]\\n",
+          "[frontend] 自动合并[d5908c7: fix: 解决宿舍楼等数字范围楼的选择器渲染问题]\\n",
+          "[backend] 自动合并[37e627d: feat: 增加按店铺ID和类型获取所有配送配置的方法]\\n",
+          "[frontend] 自动合并[cac61de: feat: 添加预约时间选择和配送地址构建逻辑，优化取货方式显示]\\n",
+          "[backend] 自动合并[5c96b43: fix: 修复店铺创建请求中缺少提取取货方式和取货方法的字段]\\n",
+          "[admin] 自动合并[fa16821: feat: 添加配送管理相关接口和组件，优化配送配置搜索功能]\\n",
+          "[backend] 自动合并[ef153a2: fix: 修复了没有获取所有楼宇及根据店铺ID获取楼宇的方法]\\n",
+          "[backend] 自动合并[abab35b: feat: 新增楼宇相关接口，支持获取所有楼宇及按条件查询]\\n",
+          "[backend] 自动合并[f5f76d9: feat: 增加获取所有配送配置的方法，支持不传店铺ID时获取所有配置]\\n",
+          "[backend] 自动合并[a001f30: fix: 修正订单服务中配送类型的设置，使用代码而非值]\\n",
+          "[backend] 自动合并[9f4799f: feat: 新增配送配置和楼宇信息相关功能，包含DTO和枚举类型]\\n",
+          "[admin] 自动合并[71b298c: feat: 修改配送费文件位置，新增两个新的delivery route]\\n"
+        ]
+      }
+    ]
+  }
+}

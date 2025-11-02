@@ -1,0 +1,727 @@
+{
+  "title": "周报（2025-08-11 至 2025-08-17）",
+  "lang": "zh",
+  "since": "2025-08-11",
+  "until": "2025-08-17",
+  "generatedAt": "2025-11-02T11:29:11.434Z",
+  "progress": {
+    "totals": {
+      "commits": 77,
+      "files": 133,
+      "added": 13521,
+      "removed": 2505
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "02fc3610fa39a1b0856e72b2b118ce268d40745b",
+            "datetime": "2025-08-16 23:35:44 +0800",
+            "subject": "feat: 上传优惠券营销 mockup 代码"
+          },
+          {
+            "hash": "682ba5c2cdb5066f61e50236d4b9db4f0f03cbe5",
+            "datetime": "2025-08-14 10:41:32 +0800",
+            "subject": "feat: 上传 frontend/checkout, admin/coupon新设计稿"
+          }
+        ],
+        "files": 16,
+        "added": 3363,
+        "removed": 609,
+        "heat": [
+          [
+            "docs",
+            1838
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            "analysis",
+            201
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ],
+          [
+            "coupon-campaign-list-mockup.html",
+            143
+          ],
+          [
+            "COUPON_CAMPAIGN_PLAN.md",
+            125
+          ],
+          [
+            "coupon-usage-log-mockup.html",
+            112
+          ],
+          [
+            ".gitignore",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 上传优惠券营销 mockup 代码",
+          "feat: 上传 frontend/checkout, admin/coupon新设计稿"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "23f68d5dc96bc542c0357cc5322578f0b3228d5a",
+            "datetime": "2025-08-17 07:03:33 +0000",
+            "subject": "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n"
+          },
+          {
+            "hash": "02fc3610fa39a1b0856e72b2b118ce268d40745b",
+            "datetime": "2025-08-16 23:35:44 +0800",
+            "subject": "feat: 上传优惠券营销 mockup 代码"
+          },
+          {
+            "hash": "31818d41ed425f47d0d567d60a13cef2f96fe189",
+            "datetime": "2025-08-15 16:54:07 +0000",
+            "subject": "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n"
+          },
+          {
+            "hash": "e3e3bb40c36bab6ec758d8af826b48043bf1a87c",
+            "datetime": "2025-08-15 16:52:41 +0000",
+            "subject": "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n"
+          },
+          {
+            "hash": "de2c030763adb21d2a48cdbe37a5a6b5ad6d7f69",
+            "datetime": "2025-08-15 15:31:07 +0000",
+            "subject": "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n"
+          },
+          {
+            "hash": "17f4c50dea7ca2b85fe8cf39aff413644f7fed78",
+            "datetime": "2025-08-14 09:25:28 +0000",
+            "subject": "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n"
+          },
+          {
+            "hash": "59d0daf5e4c960db351198b947088df4a5601155",
+            "datetime": "2025-08-14 07:23:50 +0000",
+            "subject": "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n"
+          },
+          {
+            "hash": "591af7df07acfae9c23ad725930dc3d9de6bc8e1",
+            "datetime": "2025-08-14 07:08:31 +0000",
+            "subject": "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n"
+          },
+          {
+            "hash": "5d8606fc4269dc260574ce21e86df9170020238e",
+            "datetime": "2025-08-14 06:29:29 +0000",
+            "subject": "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n"
+          },
+          {
+            "hash": "aa41e8fcf6eaef74b9b244f28b3c2b5de1e2426b",
+            "datetime": "2025-08-14 06:03:19 +0000",
+            "subject": "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n"
+          },
+          {
+            "hash": "859cccf9449e09a375d61f57638c0fb566af7363",
+            "datetime": "2025-08-14 03:22:54 +0000",
+            "subject": "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n"
+          },
+          {
+            "hash": "20fb32702e1e8b0374cdbc5edf14821b6be73b29",
+            "datetime": "2025-08-14 03:19:41 +0000",
+            "subject": "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n"
+          },
+          {
+            "hash": "682ba5c2cdb5066f61e50236d4b9db4f0f03cbe5",
+            "datetime": "2025-08-14 10:41:32 +0800",
+            "subject": "feat: 上传 frontend/checkout, admin/coupon新设计稿"
+          },
+          {
+            "hash": "5da78a028ddeb3619f5d4c940e7a6401711fce81",
+            "datetime": "2025-08-13 06:35:11 +0000",
+            "subject": "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n"
+          },
+          {
+            "hash": "eb1838d689b883e7545d5491e5a85e4bdb65434b",
+            "datetime": "2025-08-13 06:31:21 +0000",
+            "subject": "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n"
+          },
+          {
+            "hash": "b7817d5762383132177cb5c1b5ff9d8d878bd60e",
+            "datetime": "2025-08-13 02:20:52 +0000",
+            "subject": "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n"
+          },
+          {
+            "hash": "11449b9024c91d4b7367f1915199a36e88f13980",
+            "datetime": "2025-08-12 15:25:40 +0000",
+            "subject": "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n"
+          },
+          {
+            "hash": "0e480857aefe5193b03d4b75e4a2913d0879c88e",
+            "datetime": "2025-08-12 15:20:58 +0000",
+            "subject": "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n"
+          },
+          {
+            "hash": "dc49d4a80b334ac9bb282422e9e60d0e636829b4",
+            "datetime": "2025-08-12 14:16:13 +0000",
+            "subject": "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n"
+          },
+          {
+            "hash": "7d48a831ad231401ce166045966fa680affb2f1d",
+            "datetime": "2025-08-12 13:22:10 +0000",
+            "subject": "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n"
+          },
+          {
+            "hash": "6672b835a5757e67bd74c2c84c9cd252db364b02",
+            "datetime": "2025-08-11 15:37:51 +0000",
+            "subject": "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n"
+          },
+          {
+            "hash": "eb60971174da2ccb1caf4fea77ab5c7477e64158",
+            "datetime": "2025-08-11 15:32:05 +0000",
+            "subject": "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n"
+          },
+          {
+            "hash": "fc6ceed6a0e622266e6e442365ff629d8b9e4d84",
+            "datetime": "2025-08-11 14:35:53 +0000",
+            "subject": "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n"
+          },
+          {
+            "hash": "2bae68be77b4885a855281aedb01d88c933b4135",
+            "datetime": "2025-08-11 13:58:50 +0000",
+            "subject": "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n"
+          },
+          {
+            "hash": "c552e5c7cc46940e45187a88a36e2c5133a8235e",
+            "datetime": "2025-08-11 13:39:18 +0000",
+            "subject": "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+          }
+        ],
+        "files": 39,
+        "added": 3386,
+        "removed": 632,
+        "heat": [
+          [
+            "docs",
+            1838
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            "analysis",
+            201
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ],
+          [
+            "coupon-campaign-list-mockup.html",
+            143
+          ],
+          [
+            "COUPON_CAMPAIGN_PLAN.md",
+            125
+          ],
+          [
+            "coupon-usage-log-mockup.html",
+            112
+          ],
+          [
+            "backend",
+            34
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            4
+          ],
+          [
+            ".gitignore",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n",
+          "feat: 上传优惠券营销 mockup 代码",
+          "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n",
+          "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n",
+          "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n",
+          "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n",
+          "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n",
+          "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n",
+          "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n",
+          "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n",
+          "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n",
+          "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n",
+          "feat: 上传 frontend/checkout, admin/coupon新设计稿",
+          "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n",
+          "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n",
+          "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n",
+          "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n",
+          "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n",
+          "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n",
+          "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n",
+          "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n",
+          "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n",
+          "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n",
+          "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n",
+          "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "23f68d5dc96bc542c0357cc5322578f0b3228d5a",
+            "datetime": "2025-08-17 07:03:33 +0000",
+            "subject": "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n"
+          },
+          {
+            "hash": "02fc3610fa39a1b0856e72b2b118ce268d40745b",
+            "datetime": "2025-08-16 23:35:44 +0800",
+            "subject": "feat: 上传优惠券营销 mockup 代码"
+          },
+          {
+            "hash": "31818d41ed425f47d0d567d60a13cef2f96fe189",
+            "datetime": "2025-08-15 16:54:07 +0000",
+            "subject": "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n"
+          },
+          {
+            "hash": "e3e3bb40c36bab6ec758d8af826b48043bf1a87c",
+            "datetime": "2025-08-15 16:52:41 +0000",
+            "subject": "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n"
+          },
+          {
+            "hash": "de2c030763adb21d2a48cdbe37a5a6b5ad6d7f69",
+            "datetime": "2025-08-15 15:31:07 +0000",
+            "subject": "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n"
+          },
+          {
+            "hash": "17f4c50dea7ca2b85fe8cf39aff413644f7fed78",
+            "datetime": "2025-08-14 09:25:28 +0000",
+            "subject": "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n"
+          },
+          {
+            "hash": "59d0daf5e4c960db351198b947088df4a5601155",
+            "datetime": "2025-08-14 07:23:50 +0000",
+            "subject": "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n"
+          },
+          {
+            "hash": "591af7df07acfae9c23ad725930dc3d9de6bc8e1",
+            "datetime": "2025-08-14 07:08:31 +0000",
+            "subject": "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n"
+          },
+          {
+            "hash": "5d8606fc4269dc260574ce21e86df9170020238e",
+            "datetime": "2025-08-14 06:29:29 +0000",
+            "subject": "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n"
+          },
+          {
+            "hash": "aa41e8fcf6eaef74b9b244f28b3c2b5de1e2426b",
+            "datetime": "2025-08-14 06:03:19 +0000",
+            "subject": "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n"
+          },
+          {
+            "hash": "859cccf9449e09a375d61f57638c0fb566af7363",
+            "datetime": "2025-08-14 03:22:54 +0000",
+            "subject": "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n"
+          },
+          {
+            "hash": "20fb32702e1e8b0374cdbc5edf14821b6be73b29",
+            "datetime": "2025-08-14 03:19:41 +0000",
+            "subject": "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n"
+          },
+          {
+            "hash": "682ba5c2cdb5066f61e50236d4b9db4f0f03cbe5",
+            "datetime": "2025-08-14 10:41:32 +0800",
+            "subject": "feat: 上传 frontend/checkout, admin/coupon新设计稿"
+          },
+          {
+            "hash": "5da78a028ddeb3619f5d4c940e7a6401711fce81",
+            "datetime": "2025-08-13 06:35:11 +0000",
+            "subject": "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n"
+          },
+          {
+            "hash": "eb1838d689b883e7545d5491e5a85e4bdb65434b",
+            "datetime": "2025-08-13 06:31:21 +0000",
+            "subject": "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n"
+          },
+          {
+            "hash": "b7817d5762383132177cb5c1b5ff9d8d878bd60e",
+            "datetime": "2025-08-13 02:20:52 +0000",
+            "subject": "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n"
+          },
+          {
+            "hash": "11449b9024c91d4b7367f1915199a36e88f13980",
+            "datetime": "2025-08-12 15:25:40 +0000",
+            "subject": "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n"
+          },
+          {
+            "hash": "0e480857aefe5193b03d4b75e4a2913d0879c88e",
+            "datetime": "2025-08-12 15:20:58 +0000",
+            "subject": "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n"
+          },
+          {
+            "hash": "dc49d4a80b334ac9bb282422e9e60d0e636829b4",
+            "datetime": "2025-08-12 14:16:13 +0000",
+            "subject": "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n"
+          },
+          {
+            "hash": "7d48a831ad231401ce166045966fa680affb2f1d",
+            "datetime": "2025-08-12 13:22:10 +0000",
+            "subject": "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n"
+          },
+          {
+            "hash": "6672b835a5757e67bd74c2c84c9cd252db364b02",
+            "datetime": "2025-08-11 15:37:51 +0000",
+            "subject": "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n"
+          },
+          {
+            "hash": "eb60971174da2ccb1caf4fea77ab5c7477e64158",
+            "datetime": "2025-08-11 15:32:05 +0000",
+            "subject": "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n"
+          },
+          {
+            "hash": "fc6ceed6a0e622266e6e442365ff629d8b9e4d84",
+            "datetime": "2025-08-11 14:35:53 +0000",
+            "subject": "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n"
+          },
+          {
+            "hash": "2bae68be77b4885a855281aedb01d88c933b4135",
+            "datetime": "2025-08-11 13:58:50 +0000",
+            "subject": "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n"
+          },
+          {
+            "hash": "c552e5c7cc46940e45187a88a36e2c5133a8235e",
+            "datetime": "2025-08-11 13:39:18 +0000",
+            "subject": "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+          }
+        ],
+        "files": 39,
+        "added": 3386,
+        "removed": 632,
+        "heat": [
+          [
+            "docs",
+            1838
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            "analysis",
+            201
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ],
+          [
+            "coupon-campaign-list-mockup.html",
+            143
+          ],
+          [
+            "COUPON_CAMPAIGN_PLAN.md",
+            125
+          ],
+          [
+            "coupon-usage-log-mockup.html",
+            112
+          ],
+          [
+            "backend",
+            34
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            4
+          ],
+          [
+            ".gitignore",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n",
+          "feat: 上传优惠券营销 mockup 代码",
+          "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n",
+          "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n",
+          "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n",
+          "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n",
+          "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n",
+          "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n",
+          "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n",
+          "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n",
+          "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n",
+          "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n",
+          "feat: 上传 frontend/checkout, admin/coupon新设计稿",
+          "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n",
+          "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n",
+          "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n",
+          "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n",
+          "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n",
+          "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n",
+          "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n",
+          "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n",
+          "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n",
+          "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n",
+          "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n",
+          "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "23f68d5dc96bc542c0357cc5322578f0b3228d5a",
+            "datetime": "2025-08-17 07:03:33 +0000",
+            "subject": "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n"
+          },
+          {
+            "hash": "02fc3610fa39a1b0856e72b2b118ce268d40745b",
+            "datetime": "2025-08-16 23:35:44 +0800",
+            "subject": "feat: 上传优惠券营销 mockup 代码"
+          },
+          {
+            "hash": "31818d41ed425f47d0d567d60a13cef2f96fe189",
+            "datetime": "2025-08-15 16:54:07 +0000",
+            "subject": "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n"
+          },
+          {
+            "hash": "e3e3bb40c36bab6ec758d8af826b48043bf1a87c",
+            "datetime": "2025-08-15 16:52:41 +0000",
+            "subject": "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n"
+          },
+          {
+            "hash": "de2c030763adb21d2a48cdbe37a5a6b5ad6d7f69",
+            "datetime": "2025-08-15 15:31:07 +0000",
+            "subject": "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n"
+          },
+          {
+            "hash": "17f4c50dea7ca2b85fe8cf39aff413644f7fed78",
+            "datetime": "2025-08-14 09:25:28 +0000",
+            "subject": "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n"
+          },
+          {
+            "hash": "59d0daf5e4c960db351198b947088df4a5601155",
+            "datetime": "2025-08-14 07:23:50 +0000",
+            "subject": "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n"
+          },
+          {
+            "hash": "591af7df07acfae9c23ad725930dc3d9de6bc8e1",
+            "datetime": "2025-08-14 07:08:31 +0000",
+            "subject": "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n"
+          },
+          {
+            "hash": "5d8606fc4269dc260574ce21e86df9170020238e",
+            "datetime": "2025-08-14 06:29:29 +0000",
+            "subject": "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n"
+          },
+          {
+            "hash": "aa41e8fcf6eaef74b9b244f28b3c2b5de1e2426b",
+            "datetime": "2025-08-14 06:03:19 +0000",
+            "subject": "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n"
+          },
+          {
+            "hash": "859cccf9449e09a375d61f57638c0fb566af7363",
+            "datetime": "2025-08-14 03:22:54 +0000",
+            "subject": "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n"
+          },
+          {
+            "hash": "20fb32702e1e8b0374cdbc5edf14821b6be73b29",
+            "datetime": "2025-08-14 03:19:41 +0000",
+            "subject": "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n"
+          },
+          {
+            "hash": "682ba5c2cdb5066f61e50236d4b9db4f0f03cbe5",
+            "datetime": "2025-08-14 10:41:32 +0800",
+            "subject": "feat: 上传 frontend/checkout, admin/coupon新设计稿"
+          },
+          {
+            "hash": "5da78a028ddeb3619f5d4c940e7a6401711fce81",
+            "datetime": "2025-08-13 06:35:11 +0000",
+            "subject": "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n"
+          },
+          {
+            "hash": "eb1838d689b883e7545d5491e5a85e4bdb65434b",
+            "datetime": "2025-08-13 06:31:21 +0000",
+            "subject": "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n"
+          },
+          {
+            "hash": "b7817d5762383132177cb5c1b5ff9d8d878bd60e",
+            "datetime": "2025-08-13 02:20:52 +0000",
+            "subject": "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n"
+          },
+          {
+            "hash": "11449b9024c91d4b7367f1915199a36e88f13980",
+            "datetime": "2025-08-12 15:25:40 +0000",
+            "subject": "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n"
+          },
+          {
+            "hash": "0e480857aefe5193b03d4b75e4a2913d0879c88e",
+            "datetime": "2025-08-12 15:20:58 +0000",
+            "subject": "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n"
+          },
+          {
+            "hash": "dc49d4a80b334ac9bb282422e9e60d0e636829b4",
+            "datetime": "2025-08-12 14:16:13 +0000",
+            "subject": "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n"
+          },
+          {
+            "hash": "7d48a831ad231401ce166045966fa680affb2f1d",
+            "datetime": "2025-08-12 13:22:10 +0000",
+            "subject": "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n"
+          },
+          {
+            "hash": "6672b835a5757e67bd74c2c84c9cd252db364b02",
+            "datetime": "2025-08-11 15:37:51 +0000",
+            "subject": "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n"
+          },
+          {
+            "hash": "eb60971174da2ccb1caf4fea77ab5c7477e64158",
+            "datetime": "2025-08-11 15:32:05 +0000",
+            "subject": "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n"
+          },
+          {
+            "hash": "fc6ceed6a0e622266e6e442365ff629d8b9e4d84",
+            "datetime": "2025-08-11 14:35:53 +0000",
+            "subject": "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n"
+          },
+          {
+            "hash": "2bae68be77b4885a855281aedb01d88c933b4135",
+            "datetime": "2025-08-11 13:58:50 +0000",
+            "subject": "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n"
+          },
+          {
+            "hash": "c552e5c7cc46940e45187a88a36e2c5133a8235e",
+            "datetime": "2025-08-11 13:39:18 +0000",
+            "subject": "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+          }
+        ],
+        "files": 39,
+        "added": 3386,
+        "removed": 632,
+        "heat": [
+          [
+            "docs",
+            1838
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            "analysis",
+            201
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ],
+          [
+            "coupon-campaign-list-mockup.html",
+            143
+          ],
+          [
+            "COUPON_CAMPAIGN_PLAN.md",
+            125
+          ],
+          [
+            "coupon-usage-log-mockup.html",
+            112
+          ],
+          [
+            "backend",
+            34
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            4
+          ],
+          [
+            ".gitignore",
+            2
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[2a87930: fix: 更新菜单同步接口路径，确保正确的请求映射]\\n",
+          "feat: 上传优惠券营销 mockup 代码",
+          "[admin] 自动合并[15fe12d2: feat: 优惠券新增和优惠券列表新增优惠券有效期功能]\\n",
+          "[backend] 自动合并[b82739b: feat: 更新 CouponRuleConfigConverter，增强 ObjectMapper 配置，改进异常处理逻辑]\\n",
+          "[backend] 自动合并[b2af6c4: feat: 设计优惠券活动发布接口，以替换旧的优惠券发布系列接口，并增强优惠券实体添加有效期字段]\\n",
+          "[admin] 自动合并[744d8dbc: feat: 完成优惠券列表设计，包括其编辑和详情组件设计]\\n",
+          "[backend] 自动合并[5e83559: feat: 更新优惠券查询接口，支持根据名称和状态过滤，重构查询逻辑]\\n",
+          "[backend] 自动合并[e06a3eb: refactor: 重构优惠券相关代码，移除过时字段和方法，简化逻辑，更新优惠券描述处理]\\n",
+          "[backend] 自动合并[6457c53: feat: 更新优惠券相关类，添加颜色属性，重构优惠券类型处理逻辑，移除过时字段和方法]\\n",
+          "[admin] 自动合并[be66872b: feat: 完成全新优惠券创建管理设计]\\n",
+          "[backend] 自动合并[3a2ce7b: feat: 添加 CouponRuleConfigConverter，用于处理 Coupon 的 JSON 类型配置]\\n",
+          "[backend] 自动合并[a2b4267: refactor: 重构优惠券代码，包含优惠券创建接口及相关DTO，更新优惠券状态枚举，支持JSON类型配置，使用新的组件价格设计]\\n",
+          "feat: 上传 frontend/checkout, admin/coupon新设计稿",
+          "[frontend] 自动合并[1dc2f8e: feat: 完善地址组件，解决增删改查问题，修复 wd 组件报错问题]\\n",
+          "[admin] 自动合并[5b625812: at: 添加打印服务规格逻辑，优化楼宇管理功能，增强履约费]\\n",
+          "[backend] 自动合并[0359e59: feat: 更新 User 实体，修改地址集合的 JSON 序列化策略，避免循环引用]\\n",
+          "[backend] 自动合并[5f17dad: feat: 更新 UserAddressController，统一返回类型为 ResponseData，简化响应处理]\\n",
+          "[backend] 自动合并[e417467: feat: 添加用户地址管理功能，包含地址增删改查接口及相关DTO和服务实现]\\n",
+          "[backend] 自动合并[c98603c: feat: 重构 ClientFulfillmentServiceImpl 和 OrderCalculationServiceImpl，优化费用计算逻辑，增强建筑数据处理，添加 FulfillmentCalculationHelper]\\n",
+          "[frontend] 自动合并[9800832: feat: 完成全局组件AddressEditor设计，暂时使用 mock 数据提供收货信息]\\n",
+          "[backend] 自动合并[acf9c00: feat: 更新 ClientFulfillmentServiceImpl，优化预约配置处理逻辑，从设置中获取预约配置]\\n",
+          "[backend] 自动合并[461e356: feat: 更新 ClientFulfillmentServiceImpl，增强预约配置处理，添加空配置处理逻辑]\\n",
+          "[backend] 自动合并[dfc521d: feat: 更新 ClientFulfillmentServiceImpl，增加建筑范围扩展功能，优化建筑数据处理逻辑]\\n",
+          "[backend] 自动合并[a18df29: feat: 更新 ClientFulfillmentServiceImpl，修复建筑价格处理逻辑，支持类别级别的统一定价]\\n",
+          "[backend] 自动合并[bede60f: feat: 更新 BuildingDataDTO 和 ClientFulfillmentServiceImpl，简化建筑数据处理逻辑，提升代码可读性]\\n"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+# 周报（2025-09-08 至 2025-09-14）
+
+## 开发进展
+
+# 开发进展 — 主仓与子模块（自 2025-09-08 至 2025-09-14）
+
+扫描的模块: ProjectPrinting, admin, frontend, backend
+提交总数: 31
+触达文件总数: 35
+行变更合计 +/-: +1611 / -27
+
+## 按模块汇总
+- ProjectPrinting (.): commits=1, files=2, +396/-0
+- admin (admin): commits=10, files=11, +405/-9
+- frontend (frontend): commits=10, files=11, +405/-9
+- backend (backend): commits=10, files=11, +405/-9
+
+## 顶层目录热力（按模块）
+- ProjectPrinting:
+  - docs: 396
+- admin:
+  - docs: 396
+  - backend: 10
+  - frontend: 8
+- frontend:
+  - docs: 396
+  - backend: 10
+  - frontend: 8
+- backend:
+  - docs: 396
+  - backend: 10
+  - frontend: 8
+
+## 提交主题（每模块最多 10 条）
+- ProjectPrinting:
+  - [undefined] feat: 设计订单支付流程文档
+- admin:
+  - [undefined] [backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\n
+  - [undefined] [backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\n
+  - [undefined] [backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\n
+  - [undefined] [backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\n
+  - [undefined] [frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\n
+  - [undefined] feat: 设计订单支付流程文档
+  - [undefined] [frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\n
+  - [undefined] [backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\n
+  - [undefined] [frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\n
+  - [undefined] [frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\n
+- frontend:
+  - [undefined] [backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\n
+  - [undefined] [backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\n
+  - [undefined] [backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\n
+  - [undefined] [backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\n
+  - [undefined] [frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\n
+  - [undefined] feat: 设计订单支付流程文档
+  - [undefined] [frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\n
+  - [undefined] [backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\n
+  - [undefined] [frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\n
+  - [undefined] [frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\n
+- backend:
+  - [undefined] [backend] 自动合并[03e69ac: feat: 优化支付回调处理逻辑，增强日志记录和订单关联，调整注释以提高可读性]\n
+  - [undefined] [backend] 自动合并[9fed3e5: feat: 优化用户优惠券锁定逻辑，处理虚拟券情况并增强异常处理]\n
+  - [undefined] [backend] 自动合并[365ecfb: feat: 添加订单号生成逻辑，确保唯一性并优化可读性]\n
+  - [undefined] [backend] 自动合并[94c58e5: feat: 优化 AuthUtils 中的 getCurrentUserId 方法，简化身份验证逻辑，增强代码可读性]\n
+  - [undefined] [frontend] 自动合并[21fcb61: feat: 添加幂等键生成，优化订单提交流程；兼容新旧支付参数]\n
+  - [undefined] feat: 设计订单支付流程文档
+  - [undefined] [frontend] 自动合并[450385a: feat: 删除旧支付页面组件，防止错误识别]\n
+  - [undefined] [backend] 自动合并[8d3e280: feat: 添加订单支付事件监听器，自动处理打印任务并优化打印逻辑]\n
+  - [undefined] [frontend] 自动合并[8b4313e: feat: 完善订单详情页面设计，使用 html mockup 样式，并更新了 mock 数据]\n
+  - [undefined] [frontend] 自动合并[a435904: fix: 修复 mock 数据导致的无法编译]\n

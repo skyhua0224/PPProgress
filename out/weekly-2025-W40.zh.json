@@ -1,0 +1,414 @@
+{
+  "title": "周报（2025-09-29 至 2025-10-05）",
+  "lang": "zh",
+  "since": "2025-09-29",
+  "until": "2025-10-05",
+  "generatedAt": "2025-11-02T11:29:12.204Z",
+  "progress": {
+    "totals": {
+      "commits": 54,
+      "files": 57,
+      "added": 57,
+      "removed": 57
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "0c161bacbbe2544f1d64b12d8083bcd82f90791f",
+            "datetime": "2025-10-04 12:49:29 +0000",
+            "subject": "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n"
+          },
+          {
+            "hash": "60fa41cca70bffda49c2d25c3d73f14650fe15bd",
+            "datetime": "2025-10-03 03:26:05 +0000",
+            "subject": "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n"
+          },
+          {
+            "hash": "8e454b73b9936314d04ddf9194b7231f6a51f8c1",
+            "datetime": "2025-10-02 15:45:43 +0000",
+            "subject": "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n"
+          },
+          {
+            "hash": "b4fb8925c98fa545713f24a1d9943bdca37c640d",
+            "datetime": "2025-10-02 15:21:22 +0000",
+            "subject": "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n"
+          },
+          {
+            "hash": "280f578bab50c098b224559bed52f14b303d53d7",
+            "datetime": "2025-10-02 14:38:49 +0000",
+            "subject": "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n"
+          },
+          {
+            "hash": "e6924a4e39b4b612e9f4391f8c4e043cbee63854",
+            "datetime": "2025-10-02 13:48:06 +0000",
+            "subject": "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n"
+          },
+          {
+            "hash": "7637867224f73123527e77840b00410b175d79fb",
+            "datetime": "2025-10-02 13:17:52 +0000",
+            "subject": "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n"
+          },
+          {
+            "hash": "63bf2b48057638196f7e89498b4813d5268b914d",
+            "datetime": "2025-10-02 12:48:25 +0000",
+            "subject": "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n"
+          },
+          {
+            "hash": "03da88a084aee76220ba65722a594dd1afce0a07",
+            "datetime": "2025-10-02 12:31:03 +0000",
+            "subject": "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n"
+          },
+          {
+            "hash": "c6d9a959197f46344673814850dc4bc2265a1bb2",
+            "datetime": "2025-10-01 18:18:28 +0000",
+            "subject": "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n"
+          },
+          {
+            "hash": "2ba5216f38a2178602eec47d4674f3e4c45766ed",
+            "datetime": "2025-10-01 17:53:35 +0000",
+            "subject": "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n"
+          },
+          {
+            "hash": "cf0bf1ad7fee1c33423e3b06d9eeba05893aa2e5",
+            "datetime": "2025-10-01 17:41:08 +0000",
+            "subject": "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n"
+          },
+          {
+            "hash": "8035477f3fc969083fc54d448e982f7586fac453",
+            "datetime": "2025-10-01 17:19:59 +0000",
+            "subject": "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n"
+          },
+          {
+            "hash": "3bf4c608f9779c6f520c0206cc2c2a64fafbb8dd",
+            "datetime": "2025-10-01 17:11:01 +0000",
+            "subject": "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n"
+          },
+          {
+            "hash": "29340fe30f74fe57ef37cd78b32cce8029279e85",
+            "datetime": "2025-10-01 15:57:13 +0000",
+            "subject": "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n"
+          },
+          {
+            "hash": "39de65d89be51b689cd4df026f3d1bab3c7215e2",
+            "datetime": "2025-09-29 17:32:23 +0000",
+            "subject": "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n"
+          },
+          {
+            "hash": "46ce898943e699540f6719a5540ccc92eecf6361",
+            "datetime": "2025-09-29 16:47:27 +0000",
+            "subject": "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n"
+          },
+          {
+            "hash": "985fac7e0db1047b2bf33682208f3c156b692255",
+            "datetime": "2025-09-29 11:52:16 +0000",
+            "subject": "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+          }
+        ],
+        "files": 19,
+        "added": 19,
+        "removed": 19,
+        "heat": [
+          [
+            "backend",
+            34
+          ],
+          [
+            "frontend",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n",
+          "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n",
+          "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n",
+          "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n",
+          "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n",
+          "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n",
+          "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n",
+          "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n",
+          "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n",
+          "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n",
+          "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n",
+          "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n",
+          "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n",
+          "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n",
+          "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n",
+          "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n",
+          "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n",
+          "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "0c161bacbbe2544f1d64b12d8083bcd82f90791f",
+            "datetime": "2025-10-04 12:49:29 +0000",
+            "subject": "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n"
+          },
+          {
+            "hash": "60fa41cca70bffda49c2d25c3d73f14650fe15bd",
+            "datetime": "2025-10-03 03:26:05 +0000",
+            "subject": "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n"
+          },
+          {
+            "hash": "8e454b73b9936314d04ddf9194b7231f6a51f8c1",
+            "datetime": "2025-10-02 15:45:43 +0000",
+            "subject": "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n"
+          },
+          {
+            "hash": "b4fb8925c98fa545713f24a1d9943bdca37c640d",
+            "datetime": "2025-10-02 15:21:22 +0000",
+            "subject": "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n"
+          },
+          {
+            "hash": "280f578bab50c098b224559bed52f14b303d53d7",
+            "datetime": "2025-10-02 14:38:49 +0000",
+            "subject": "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n"
+          },
+          {
+            "hash": "e6924a4e39b4b612e9f4391f8c4e043cbee63854",
+            "datetime": "2025-10-02 13:48:06 +0000",
+            "subject": "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n"
+          },
+          {
+            "hash": "7637867224f73123527e77840b00410b175d79fb",
+            "datetime": "2025-10-02 13:17:52 +0000",
+            "subject": "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n"
+          },
+          {
+            "hash": "63bf2b48057638196f7e89498b4813d5268b914d",
+            "datetime": "2025-10-02 12:48:25 +0000",
+            "subject": "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n"
+          },
+          {
+            "hash": "03da88a084aee76220ba65722a594dd1afce0a07",
+            "datetime": "2025-10-02 12:31:03 +0000",
+            "subject": "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n"
+          },
+          {
+            "hash": "c6d9a959197f46344673814850dc4bc2265a1bb2",
+            "datetime": "2025-10-01 18:18:28 +0000",
+            "subject": "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n"
+          },
+          {
+            "hash": "2ba5216f38a2178602eec47d4674f3e4c45766ed",
+            "datetime": "2025-10-01 17:53:35 +0000",
+            "subject": "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n"
+          },
+          {
+            "hash": "cf0bf1ad7fee1c33423e3b06d9eeba05893aa2e5",
+            "datetime": "2025-10-01 17:41:08 +0000",
+            "subject": "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n"
+          },
+          {
+            "hash": "8035477f3fc969083fc54d448e982f7586fac453",
+            "datetime": "2025-10-01 17:19:59 +0000",
+            "subject": "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n"
+          },
+          {
+            "hash": "3bf4c608f9779c6f520c0206cc2c2a64fafbb8dd",
+            "datetime": "2025-10-01 17:11:01 +0000",
+            "subject": "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n"
+          },
+          {
+            "hash": "29340fe30f74fe57ef37cd78b32cce8029279e85",
+            "datetime": "2025-10-01 15:57:13 +0000",
+            "subject": "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n"
+          },
+          {
+            "hash": "39de65d89be51b689cd4df026f3d1bab3c7215e2",
+            "datetime": "2025-09-29 17:32:23 +0000",
+            "subject": "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n"
+          },
+          {
+            "hash": "46ce898943e699540f6719a5540ccc92eecf6361",
+            "datetime": "2025-09-29 16:47:27 +0000",
+            "subject": "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n"
+          },
+          {
+            "hash": "985fac7e0db1047b2bf33682208f3c156b692255",
+            "datetime": "2025-09-29 11:52:16 +0000",
+            "subject": "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+          }
+        ],
+        "files": 19,
+        "added": 19,
+        "removed": 19,
+        "heat": [
+          [
+            "backend",
+            34
+          ],
+          [
+            "frontend",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n",
+          "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n",
+          "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n",
+          "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n",
+          "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n",
+          "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n",
+          "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n",
+          "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n",
+          "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n",
+          "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n",
+          "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n",
+          "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n",
+          "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n",
+          "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n",
+          "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n",
+          "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n",
+          "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n",
+          "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "0c161bacbbe2544f1d64b12d8083bcd82f90791f",
+            "datetime": "2025-10-04 12:49:29 +0000",
+            "subject": "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n"
+          },
+          {
+            "hash": "60fa41cca70bffda49c2d25c3d73f14650fe15bd",
+            "datetime": "2025-10-03 03:26:05 +0000",
+            "subject": "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n"
+          },
+          {
+            "hash": "8e454b73b9936314d04ddf9194b7231f6a51f8c1",
+            "datetime": "2025-10-02 15:45:43 +0000",
+            "subject": "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n"
+          },
+          {
+            "hash": "b4fb8925c98fa545713f24a1d9943bdca37c640d",
+            "datetime": "2025-10-02 15:21:22 +0000",
+            "subject": "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n"
+          },
+          {
+            "hash": "280f578bab50c098b224559bed52f14b303d53d7",
+            "datetime": "2025-10-02 14:38:49 +0000",
+            "subject": "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n"
+          },
+          {
+            "hash": "e6924a4e39b4b612e9f4391f8c4e043cbee63854",
+            "datetime": "2025-10-02 13:48:06 +0000",
+            "subject": "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n"
+          },
+          {
+            "hash": "7637867224f73123527e77840b00410b175d79fb",
+            "datetime": "2025-10-02 13:17:52 +0000",
+            "subject": "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n"
+          },
+          {
+            "hash": "63bf2b48057638196f7e89498b4813d5268b914d",
+            "datetime": "2025-10-02 12:48:25 +0000",
+            "subject": "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n"
+          },
+          {
+            "hash": "03da88a084aee76220ba65722a594dd1afce0a07",
+            "datetime": "2025-10-02 12:31:03 +0000",
+            "subject": "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n"
+          },
+          {
+            "hash": "c6d9a959197f46344673814850dc4bc2265a1bb2",
+            "datetime": "2025-10-01 18:18:28 +0000",
+            "subject": "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n"
+          },
+          {
+            "hash": "2ba5216f38a2178602eec47d4674f3e4c45766ed",
+            "datetime": "2025-10-01 17:53:35 +0000",
+            "subject": "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n"
+          },
+          {
+            "hash": "cf0bf1ad7fee1c33423e3b06d9eeba05893aa2e5",
+            "datetime": "2025-10-01 17:41:08 +0000",
+            "subject": "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n"
+          },
+          {
+            "hash": "8035477f3fc969083fc54d448e982f7586fac453",
+            "datetime": "2025-10-01 17:19:59 +0000",
+            "subject": "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n"
+          },
+          {
+            "hash": "3bf4c608f9779c6f520c0206cc2c2a64fafbb8dd",
+            "datetime": "2025-10-01 17:11:01 +0000",
+            "subject": "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n"
+          },
+          {
+            "hash": "29340fe30f74fe57ef37cd78b32cce8029279e85",
+            "datetime": "2025-10-01 15:57:13 +0000",
+            "subject": "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n"
+          },
+          {
+            "hash": "39de65d89be51b689cd4df026f3d1bab3c7215e2",
+            "datetime": "2025-09-29 17:32:23 +0000",
+            "subject": "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n"
+          },
+          {
+            "hash": "46ce898943e699540f6719a5540ccc92eecf6361",
+            "datetime": "2025-09-29 16:47:27 +0000",
+            "subject": "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n"
+          },
+          {
+            "hash": "985fac7e0db1047b2bf33682208f3c156b692255",
+            "datetime": "2025-09-29 11:52:16 +0000",
+            "subject": "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+          }
+        ],
+        "files": 19,
+        "added": 19,
+        "removed": 19,
+        "heat": [
+          [
+            "backend",
+            34
+          ],
+          [
+            "frontend",
+            4
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\\n",
+          "[backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\\n",
+          "[frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\\n",
+          "[backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\\n",
+          "[backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\\n",
+          "[backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\\n",
+          "[backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\\n",
+          "[backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\\n",
+          "[backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\\n",
+          "[frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\\n",
+          "[backend] 自动合并[47f3648: feat: 优化订单详情V2的履约信息处理，确保准确性并移除不再使用的字段]\\n",
+          "[backend] 自动合并[7dd92f7: feat: 添加服务组件批量查询功能，优化分类汇总逻辑]\\n",
+          "[backend] 自动合并[8d18dbf: feat: 优化错误处理，增强获取订单详情和服务组件分类信息的稳定性]\\n",
+          "[backend] 自动合并[67bd52c: feat: 添加分类汇总功能，优化订单详情V2的价格明细处理逻辑]\\n",
+          "[backend] 自动合并[0a2750e: feat: 添加订单详情V2支持，优化订单获取逻辑，动态生成缺失的履约码]\\n",
+          "[backend] 自动合并[0db8f96: feat: 更新订单服务，优化履约信息生成逻辑，确保嵌套对象不为 null，并根据履约类型保存生成的代码]\\n",
+          "[backend] 自动合并[af1dcd7: feat: 重构取货码生成逻辑，优化根据履约类型生成取件码和相关信息]\\n",
+          "[backend] 自动合并[55fef95: feat: 重构 PrintJobController，优化错误处理和权限验证逻辑，添加对 AuthService 的依赖]\\n"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "title": "周报（2025-06-19 至 2025-06-22）",
+  "lang": "zh",
+  "since": "2025-06-19",
+  "until": "2025-06-22",
+  "generatedAt": "2025-11-02T11:29:10.439Z",
+  "progress": {
+    "totals": {
+      "commits": 21,
+      "files": 21,
+      "added": 21,
+      "removed": 21
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "2fc5a1cdf8e64b7af800906542c7eb162b4de3c4",
+            "datetime": "2025-06-22 07:45:49 +0000",
+            "subject": "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "4a7d1982ae896f625403da887592878d4eadfcec",
+            "datetime": "2025-06-22 06:58:39 +0000",
+            "subject": "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "6f4a89f1e199c6ad890f96b18dcad53bda6b4d90",
+            "datetime": "2025-06-21 09:49:07 +0000",
+            "subject": "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n"
+          },
+          {
+            "hash": "6cc246fdffcb2c5e0a0c4fb89caef035744c2b9f",
+            "datetime": "2025-06-21 09:46:28 +0000",
+            "subject": "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n"
+          },
+          {
+            "hash": "d9100585f3dd226e93650bb5ad4b63a21f917ab6",
+            "datetime": "2025-06-21 08:46:00 +0000",
+            "subject": "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "7cf1fea001f4e241fe29b0447a4e3379ddf52203",
+            "datetime": "2025-06-20 11:50:28 +0000",
+            "subject": "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n"
+          },
+          {
+            "hash": "fa557ec74bf70c62159c24f5f62aa125222e52c6",
+            "datetime": "2025-06-20 11:13:32 +0000",
+            "subject": "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+          }
+        ],
+        "files": 7,
+        "added": 7,
+        "removed": 7,
+        "heat": [
+          [
+            "admin",
+            14
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n",
+          "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n",
+          "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n",
+          "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n",
+          "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "2fc5a1cdf8e64b7af800906542c7eb162b4de3c4",
+            "datetime": "2025-06-22 07:45:49 +0000",
+            "subject": "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "4a7d1982ae896f625403da887592878d4eadfcec",
+            "datetime": "2025-06-22 06:58:39 +0000",
+            "subject": "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "6f4a89f1e199c6ad890f96b18dcad53bda6b4d90",
+            "datetime": "2025-06-21 09:49:07 +0000",
+            "subject": "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n"
+          },
+          {
+            "hash": "6cc246fdffcb2c5e0a0c4fb89caef035744c2b9f",
+            "datetime": "2025-06-21 09:46:28 +0000",
+            "subject": "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n"
+          },
+          {
+            "hash": "d9100585f3dd226e93650bb5ad4b63a21f917ab6",
+            "datetime": "2025-06-21 08:46:00 +0000",
+            "subject": "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "7cf1fea001f4e241fe29b0447a4e3379ddf52203",
+            "datetime": "2025-06-20 11:50:28 +0000",
+            "subject": "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n"
+          },
+          {
+            "hash": "fa557ec74bf70c62159c24f5f62aa125222e52c6",
+            "datetime": "2025-06-20 11:13:32 +0000",
+            "subject": "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+          }
+        ],
+        "files": 7,
+        "added": 7,
+        "removed": 7,
+        "heat": [
+          [
+            "admin",
+            14
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n",
+          "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n",
+          "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n",
+          "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n",
+          "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "2fc5a1cdf8e64b7af800906542c7eb162b4de3c4",
+            "datetime": "2025-06-22 07:45:49 +0000",
+            "subject": "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "4a7d1982ae896f625403da887592878d4eadfcec",
+            "datetime": "2025-06-22 06:58:39 +0000",
+            "subject": "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "6f4a89f1e199c6ad890f96b18dcad53bda6b4d90",
+            "datetime": "2025-06-21 09:49:07 +0000",
+            "subject": "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n"
+          },
+          {
+            "hash": "6cc246fdffcb2c5e0a0c4fb89caef035744c2b9f",
+            "datetime": "2025-06-21 09:46:28 +0000",
+            "subject": "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n"
+          },
+          {
+            "hash": "d9100585f3dd226e93650bb5ad4b63a21f917ab6",
+            "datetime": "2025-06-21 08:46:00 +0000",
+            "subject": "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n"
+          },
+          {
+            "hash": "7cf1fea001f4e241fe29b0447a4e3379ddf52203",
+            "datetime": "2025-06-20 11:50:28 +0000",
+            "subject": "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n"
+          },
+          {
+            "hash": "fa557ec74bf70c62159c24f5f62aa125222e52c6",
+            "datetime": "2025-06-20 11:13:32 +0000",
+            "subject": "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+          }
+        ],
+        "files": 7,
+        "added": 7,
+        "removed": 7,
+        "heat": [
+          [
+            "admin",
+            14
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[c1e01ff: fix: 修复了system-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[b349108: fix: 修复了app-manage部分代码错误的使用本地命名空间，并修复了hardware-manage所有报错，添加注释以提高可读性]\\n",
+          "[admin] 自动合并[6efdefd: fix: 解决了store-manage的一些eslint警告]\\n",
+          "[admin] 自动合并[b1709cf: fix: 完成对app-manage的所有报错修复，并全部添加了注释以提高可读性]\\n",
+          "[admin] 自动合并[7d3cf7f: fix: 修复楼宇管理，用户抽屉，楼宇操作等代码的报错与警告。为代码添加注释以提高可读性]\\n",
+          "[admin] 自动合并[3ecbd40: fix: 修复了优惠券发布记录的报错]\\n",
+          "[admin] 自动合并[cc66166: fix: 修复了eslint和prettier冲突的问题，修复了部分代码的报错]\\n"
+        ]
+      }
+    ]
+  }
+}

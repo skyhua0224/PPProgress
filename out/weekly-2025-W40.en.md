@@ -1,0 +1,62 @@
+# Weekly Report (2025-09-29 to 2025-10-05)
+
+## Dev progress (ProjectPrinting + submodules)
+
+# Dev progress — ProjectPrinting + submodules (from 2025-09-29 to 2025-10-05)
+
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 54
+Total files touched: 57
+Total lines +/-: +57 / -57
+
+## Per-module summary
+- ProjectPrinting (.): commits=0, files=0, +0/-0
+- admin (admin): commits=18, files=19, +19/-19
+- frontend (frontend): commits=18, files=19, +19/-19
+- backend (backend): commits=18, files=19, +19/-19
+
+## Heat by top-level directory (per module)
+- admin:
+  - backend: 34
+  - frontend: 4
+- frontend:
+  - backend: 34
+  - frontend: 4
+- backend:
+  - backend: 34
+  - frontend: 4
+
+## Commit subjects (up to 10 per module)
+- admin:
+  - [undefined] [backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\n
+  - [undefined] [backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\n
+  - [undefined] [frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\n
+  - [undefined] [backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\n
+  - [undefined] [backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\n
+  - [undefined] [backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\n
+  - [undefined] [backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\n
+  - [undefined] [backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\n
+  - [undefined] [backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\n
+  - [undefined] [frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\n
+- frontend:
+  - [undefined] [backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\n
+  - [undefined] [backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\n
+  - [undefined] [frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\n
+  - [undefined] [backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\n
+  - [undefined] [backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\n
+  - [undefined] [backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\n
+  - [undefined] [backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\n
+  - [undefined] [backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\n
+  - [undefined] [backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\n
+  - [undefined] [frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\n
+- backend:
+  - [undefined] [backend] 自动合并[a8182e9: feat: 添加立即开始打印的接口，支持用户提前到店打印订单]\n
+  - [undefined] [backend] 自动合并[4fc421d: feat: 处理预约时间字段，支持String和Long类型的转换]\n
+  - [undefined] [frontend] 自动合并[0befb7e: feat: 支持后端特殊状态流转，并提供订单页面对应 UI以及功能，完善支付确认与支付结果页的数据逻辑与样式]\n
+  - [undefined] [backend] 自动合并[1a0c167: feat: 添加订单详情DTO的getter和setter方法，以支持数据访问]\n
+  - [undefined] [backend] 自动合并[032ebba: feat: 更新订单DTO，添加创建时间和过期时间字段，并在构造函数中进行初始化]\n
+  - [undefined] [backend] 自动合并[16a81dc: feat: 在响应数据中添加创建时间和过期时间字段，并在订单详情中设置相应值]\n
+  - [undefined] [backend] 自动合并[f8715f6: feat: 添加过期时间字段到订单详情DTO，并在构造函数中初始化该字段]\n
+  - [undefined] [backend] 自动合并[238fcd8: feat: 添加创建时间字段到订单响应DTO，并在订单服务中设置该字段]\n
+  - [undefined] [backend] 自动合并[d41d633: feat: 添加订单取消功能，支持用户主动取消待支付订单，添加客户端订单接口支付时间与下单时间字段]\n
+  - [undefined] [frontend] 自动合并[b9880d7: feat: 完成订单与订单详情页的重构设计。并完善支付确认，支付结果页的履约信息展示区域，支持二维码履约显示。]\n[backend] 自动合并[0648f8c: feat: 添加履约费用纳入折扣计算的逻辑，优化优惠券使用规则]\n

@@ -1,0 +1,439 @@
+{
+  "title": "周报（2025-10-13 至 2025-10-19）",
+  "lang": "zh",
+  "since": "2025-10-13",
+  "until": "2025-10-19",
+  "generatedAt": "2025-11-02T11:29:12.491Z",
+  "progress": {
+    "totals": {
+      "commits": 55,
+      "files": 71,
+      "added": 7595,
+      "removed": 447
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "5c7788e041d9b14eee0cb324f613b561da311ddf",
+            "datetime": "2025-10-14 23:56:51 +0800",
+            "subject": "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+          }
+        ],
+        "files": 5,
+        "added": 1886,
+        "removed": 99,
+        "heat": [
+          [
+            "docs",
+            1985
+          ]
+        ],
+        "subjects": [
+          "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "f2eeec4c467eeb5f4d6bcd8cbf86b9f78b00a63b",
+            "datetime": "2025-10-19 08:49:32 +0000",
+            "subject": "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n"
+          },
+          {
+            "hash": "1a8816f45309ceb3f8adfd6386d001c55e2a8d15",
+            "datetime": "2025-10-19 08:47:02 +0000",
+            "subject": "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n"
+          },
+          {
+            "hash": "abe450b78bad5cf9717b3617d2edf96e729010af",
+            "datetime": "2025-10-19 06:55:27 +0000",
+            "subject": "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n"
+          },
+          {
+            "hash": "1fad0ab558476b05168fcf0b09a4cce8e3f9eb4a",
+            "datetime": "2025-10-19 06:39:25 +0000",
+            "subject": "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n"
+          },
+          {
+            "hash": "83a3e40fcbe79e70923fd68a22504b367927fb58",
+            "datetime": "2025-10-18 14:35:14 +0000",
+            "subject": "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n"
+          },
+          {
+            "hash": "2cbc3833f14844dea8e0f6d61f75c7e013bfdea3",
+            "datetime": "2025-10-17 02:46:26 +0000",
+            "subject": "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n"
+          },
+          {
+            "hash": "acf764b3104df2066ac2369b575815356e74ea14",
+            "datetime": "2025-10-17 02:37:12 +0000",
+            "subject": "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n"
+          },
+          {
+            "hash": "ae90ec6eae44c5a15e5f7fce7cbb4bbdd74b35bb",
+            "datetime": "2025-10-17 02:31:57 +0000",
+            "subject": "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n"
+          },
+          {
+            "hash": "bb5d365ca8eb669fb2acd04a7fcce37030b50581",
+            "datetime": "2025-10-16 17:41:00 +0000",
+            "subject": "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n"
+          },
+          {
+            "hash": "4d3bd3ecb37b6bf2601e9326c095245867390a7f",
+            "datetime": "2025-10-16 17:32:40 +0000",
+            "subject": "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n"
+          },
+          {
+            "hash": "29a20b85422c6226fb6a941bcecc53497ce72ad3",
+            "datetime": "2025-10-16 17:24:30 +0000",
+            "subject": "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n"
+          },
+          {
+            "hash": "590aba5a5e8ef6e92656416f5124c34b462c4bff",
+            "datetime": "2025-10-16 14:06:49 +0000",
+            "subject": "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n"
+          },
+          {
+            "hash": "5db9c0d94c6ee01fffb4b222cf426eb3d40581a9",
+            "datetime": "2025-10-16 13:25:01 +0000",
+            "subject": "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n"
+          },
+          {
+            "hash": "6b886c17df51532bf353d237117ec968b31a8686",
+            "datetime": "2025-10-15 17:46:07 +0000",
+            "subject": "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n"
+          },
+          {
+            "hash": "a47357fdec1d08039569d781df79eba4f986419d",
+            "datetime": "2025-10-15 17:40:18 +0000",
+            "subject": "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n"
+          },
+          {
+            "hash": "1c0beed85c74f293313156678a3d14d5c7111adc",
+            "datetime": "2025-10-15 17:04:08 +0000",
+            "subject": "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n"
+          },
+          {
+            "hash": "ab09ee793e7a0c7445f6213e3be23eca85768455",
+            "datetime": "2025-10-14 18:12:09 +0000",
+            "subject": "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n"
+          },
+          {
+            "hash": "5c7788e041d9b14eee0cb324f613b561da311ddf",
+            "datetime": "2025-10-14 23:56:51 +0800",
+            "subject": "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+          }
+        ],
+        "files": 22,
+        "added": 1903,
+        "removed": 116,
+        "heat": [
+          [
+            "docs",
+            1985
+          ],
+          [
+            "backend",
+            28
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n",
+          "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n",
+          "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n",
+          "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n",
+          "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n",
+          "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n",
+          "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n",
+          "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n",
+          "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n",
+          "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n",
+          "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n",
+          "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n",
+          "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n",
+          "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n",
+          "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n",
+          "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n",
+          "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n",
+          "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "f2eeec4c467eeb5f4d6bcd8cbf86b9f78b00a63b",
+            "datetime": "2025-10-19 08:49:32 +0000",
+            "subject": "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n"
+          },
+          {
+            "hash": "1a8816f45309ceb3f8adfd6386d001c55e2a8d15",
+            "datetime": "2025-10-19 08:47:02 +0000",
+            "subject": "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n"
+          },
+          {
+            "hash": "abe450b78bad5cf9717b3617d2edf96e729010af",
+            "datetime": "2025-10-19 06:55:27 +0000",
+            "subject": "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n"
+          },
+          {
+            "hash": "1fad0ab558476b05168fcf0b09a4cce8e3f9eb4a",
+            "datetime": "2025-10-19 06:39:25 +0000",
+            "subject": "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n"
+          },
+          {
+            "hash": "83a3e40fcbe79e70923fd68a22504b367927fb58",
+            "datetime": "2025-10-18 14:35:14 +0000",
+            "subject": "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n"
+          },
+          {
+            "hash": "2cbc3833f14844dea8e0f6d61f75c7e013bfdea3",
+            "datetime": "2025-10-17 02:46:26 +0000",
+            "subject": "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n"
+          },
+          {
+            "hash": "acf764b3104df2066ac2369b575815356e74ea14",
+            "datetime": "2025-10-17 02:37:12 +0000",
+            "subject": "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n"
+          },
+          {
+            "hash": "ae90ec6eae44c5a15e5f7fce7cbb4bbdd74b35bb",
+            "datetime": "2025-10-17 02:31:57 +0000",
+            "subject": "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n"
+          },
+          {
+            "hash": "bb5d365ca8eb669fb2acd04a7fcce37030b50581",
+            "datetime": "2025-10-16 17:41:00 +0000",
+            "subject": "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n"
+          },
+          {
+            "hash": "4d3bd3ecb37b6bf2601e9326c095245867390a7f",
+            "datetime": "2025-10-16 17:32:40 +0000",
+            "subject": "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n"
+          },
+          {
+            "hash": "29a20b85422c6226fb6a941bcecc53497ce72ad3",
+            "datetime": "2025-10-16 17:24:30 +0000",
+            "subject": "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n"
+          },
+          {
+            "hash": "590aba5a5e8ef6e92656416f5124c34b462c4bff",
+            "datetime": "2025-10-16 14:06:49 +0000",
+            "subject": "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n"
+          },
+          {
+            "hash": "5db9c0d94c6ee01fffb4b222cf426eb3d40581a9",
+            "datetime": "2025-10-16 13:25:01 +0000",
+            "subject": "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n"
+          },
+          {
+            "hash": "6b886c17df51532bf353d237117ec968b31a8686",
+            "datetime": "2025-10-15 17:46:07 +0000",
+            "subject": "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n"
+          },
+          {
+            "hash": "a47357fdec1d08039569d781df79eba4f986419d",
+            "datetime": "2025-10-15 17:40:18 +0000",
+            "subject": "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n"
+          },
+          {
+            "hash": "1c0beed85c74f293313156678a3d14d5c7111adc",
+            "datetime": "2025-10-15 17:04:08 +0000",
+            "subject": "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n"
+          },
+          {
+            "hash": "ab09ee793e7a0c7445f6213e3be23eca85768455",
+            "datetime": "2025-10-14 18:12:09 +0000",
+            "subject": "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n"
+          },
+          {
+            "hash": "5c7788e041d9b14eee0cb324f613b561da311ddf",
+            "datetime": "2025-10-14 23:56:51 +0800",
+            "subject": "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+          }
+        ],
+        "files": 22,
+        "added": 1903,
+        "removed": 116,
+        "heat": [
+          [
+            "docs",
+            1985
+          ],
+          [
+            "backend",
+            28
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n",
+          "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n",
+          "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n",
+          "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n",
+          "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n",
+          "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n",
+          "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n",
+          "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n",
+          "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n",
+          "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n",
+          "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n",
+          "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n",
+          "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n",
+          "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n",
+          "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n",
+          "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n",
+          "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n",
+          "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "f2eeec4c467eeb5f4d6bcd8cbf86b9f78b00a63b",
+            "datetime": "2025-10-19 08:49:32 +0000",
+            "subject": "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n"
+          },
+          {
+            "hash": "1a8816f45309ceb3f8adfd6386d001c55e2a8d15",
+            "datetime": "2025-10-19 08:47:02 +0000",
+            "subject": "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n"
+          },
+          {
+            "hash": "abe450b78bad5cf9717b3617d2edf96e729010af",
+            "datetime": "2025-10-19 06:55:27 +0000",
+            "subject": "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n"
+          },
+          {
+            "hash": "1fad0ab558476b05168fcf0b09a4cce8e3f9eb4a",
+            "datetime": "2025-10-19 06:39:25 +0000",
+            "subject": "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n"
+          },
+          {
+            "hash": "83a3e40fcbe79e70923fd68a22504b367927fb58",
+            "datetime": "2025-10-18 14:35:14 +0000",
+            "subject": "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n"
+          },
+          {
+            "hash": "2cbc3833f14844dea8e0f6d61f75c7e013bfdea3",
+            "datetime": "2025-10-17 02:46:26 +0000",
+            "subject": "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n"
+          },
+          {
+            "hash": "acf764b3104df2066ac2369b575815356e74ea14",
+            "datetime": "2025-10-17 02:37:12 +0000",
+            "subject": "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n"
+          },
+          {
+            "hash": "ae90ec6eae44c5a15e5f7fce7cbb4bbdd74b35bb",
+            "datetime": "2025-10-17 02:31:57 +0000",
+            "subject": "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n"
+          },
+          {
+            "hash": "bb5d365ca8eb669fb2acd04a7fcce37030b50581",
+            "datetime": "2025-10-16 17:41:00 +0000",
+            "subject": "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n"
+          },
+          {
+            "hash": "4d3bd3ecb37b6bf2601e9326c095245867390a7f",
+            "datetime": "2025-10-16 17:32:40 +0000",
+            "subject": "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n"
+          },
+          {
+            "hash": "29a20b85422c6226fb6a941bcecc53497ce72ad3",
+            "datetime": "2025-10-16 17:24:30 +0000",
+            "subject": "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n"
+          },
+          {
+            "hash": "590aba5a5e8ef6e92656416f5124c34b462c4bff",
+            "datetime": "2025-10-16 14:06:49 +0000",
+            "subject": "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n"
+          },
+          {
+            "hash": "5db9c0d94c6ee01fffb4b222cf426eb3d40581a9",
+            "datetime": "2025-10-16 13:25:01 +0000",
+            "subject": "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n"
+          },
+          {
+            "hash": "6b886c17df51532bf353d237117ec968b31a8686",
+            "datetime": "2025-10-15 17:46:07 +0000",
+            "subject": "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n"
+          },
+          {
+            "hash": "a47357fdec1d08039569d781df79eba4f986419d",
+            "datetime": "2025-10-15 17:40:18 +0000",
+            "subject": "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n"
+          },
+          {
+            "hash": "1c0beed85c74f293313156678a3d14d5c7111adc",
+            "datetime": "2025-10-15 17:04:08 +0000",
+            "subject": "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n"
+          },
+          {
+            "hash": "ab09ee793e7a0c7445f6213e3be23eca85768455",
+            "datetime": "2025-10-14 18:12:09 +0000",
+            "subject": "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n"
+          },
+          {
+            "hash": "5c7788e041d9b14eee0cb324f613b561da311ddf",
+            "datetime": "2025-10-14 23:56:51 +0800",
+            "subject": "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+          }
+        ],
+        "files": 22,
+        "added": 1903,
+        "removed": 116,
+        "heat": [
+          [
+            "docs",
+            1985
+          ],
+          [
+            "backend",
+            28
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[3ce0f9a: fix: getOrderStats 修正订单统计逻辑 — 待处理仅计 PENDING_PROCESS；处理中改为显式状态列表（PRINTING/READY_FOR_PICKUP/DELIVERING）；异常改为判断 OrderStatus.EXCEPTION；调整调试日志输出]\\n",
+          "[backend] 自动合并[8faad0f: fix: getOrderStats 使用服务器本地时间计算今日范围；抽取权限过滤为 permissionSpec 并调整统计逻辑；按权限分别统计今日总单/待处理/处理中/异常订单；新增调试打印便于定位查询范围与权限]\\n",
+          "[backend] 自动合并[040900c: fix: getOrderStats 使用 UTC 计算今日时间范围以匹配数据库存储；为 Store.fulfillmentSettings 添加 @JsonIgnore，防止 LAZY 加载时序列化问题]\\n",
+          "[backend] 自动合并[4345e35: feat: 添加管理员模拟打印完成/失败接口并实现；手动履约改为发送打印队列（状态改为 PRINTING）并支持 PENDING_PROCESS；将 EXCEPTION 纳入处理状态列表；在 OrderService 接口声明 mockPrint 方法，修复 printSpec 不出现的问题]\\n",
+          "[backend] 自动合并[283d059: refactor: 移除订单排队位置相关代码]\\n",
+          "[frontend] 自动合并[ae42984: feat: 优化排队信息显示，修复 uploadPrinting 批量设置失效的问题]\\n",
+          "[backend] 自动合并[6290ddf: feat: 调整每张打印耗时为 3 秒]\\n",
+          "[backend] 自动合并[b5cb90c: refactor: 用总页数替换基于份数的 ETA 计算并新增页数统计查询]\\n",
+          "[frontend] 自动合并[6401121: feat: 实现排队信息显示/远程履约支持标记，优化 uploadPrinting 上传和提交逻辑，替换排队与忙碌程度信息 mock 数据并对接后端]\\n",
+          "[backend] 自动合并[21a4955: fix: 修复客户端履约方式接口映射，添加 {storeId} 路径参数以匹配 @PathVariable]\\n",
+          "[backend] 自动合并[4c7734c: feat: 在店铺列表中添加 supportsRemoteDelivery 并支持按该字段筛选 refactor: 为 Store 实体添加 fulfillmentSettings 关联及 getter/setter feat: 新增 StoreFulfillmentSettingRepository 查询远程配送能力的方法 fix: OrderServiceImpl#createOrder 增加 items 校验与过滤（移除 pageCount=0/缺少 printSpec 的项），并在分布式锁创建时防止 NPE]\\n",
+          "[backend] 自动合并[b3c1692: feat: 将订单 pricing 快照迁移到关系表并在系统中集成 order_items]\\n",
+          "[backend] 自动合并[de0803b: refactor: 按模式分离店铺指标统计并改进批量查询逻辑]\\n",
+          "[backend] 自动合并[c46e663: refactor: 优化 StoreMetricsServiceImpl#getStoresMetrics 实现，避免将 null 写入结果并提升鲁棒性]\\n",
+          "[backend] 自动合并[1331858: feat: 支持批量获取店铺指标并批量化实现，调整相关 DTO 与仓库接口]\\n",
+          "[backend] 自动合并[8ea4ae8: feat: 添加店铺实时指标与订单排队位置信息]\\n",
+          "[frontend] 自动合并[6918386: feat: 重构所有与店铺选择有关的样式显示以及功能,新增查看店铺繁忙程度&店铺基础履约种类的功能]\\n",
+          "docs: 新增履约规则与店铺负载 Mockup，补充基础到店免费规则并更新订单状态文档"
+        ]
+      }
+    ]
+  }
+}

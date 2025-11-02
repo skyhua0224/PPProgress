@@ -1,0 +1,495 @@
+{
+  "title": "周报（2025-10-20 至 2025-10-26）",
+  "lang": "zh",
+  "since": "2025-10-20",
+  "until": "2025-10-26",
+  "generatedAt": "2025-11-02T11:29:12.641Z",
+  "progress": {
+    "totals": {
+      "commits": 47,
+      "files": 123,
+      "added": 36651,
+      "removed": 363
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "08af80e9a2e0cb7728918d7dc0aee47c2a3838a7",
+            "datetime": "2025-10-24 23:23:18 +0800",
+            "subject": "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程"
+          },
+          {
+            "hash": "0cbdb37fe26f31646e1efdf9f6e02e9c7238298b",
+            "datetime": "2025-10-23 23:32:14 +0800",
+            "subject": "feat: 完成打印工作台大致逻辑和功能设计"
+          }
+        ],
+        "files": 21,
+        "added": 9153,
+        "removed": 81,
+        "heat": [
+          [
+            "docs",
+            7889
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "问题分析_FulfillmentName不一致.md",
+            152
+          ],
+          [
+            "admin",
+            2
+          ],
+          [
+            "backend",
+            2
+          ],
+          [
+            "frontend",
+            2
+          ]
+        ],
+        "subjects": [
+          "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程",
+          "feat: 完成打印工作台大致逻辑和功能设计"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "d5e14a20ae8658f5709b8d04eb80fc14e20b4f1f",
+            "datetime": "2025-10-25 16:50:52 +0000",
+            "subject": "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n"
+          },
+          {
+            "hash": "7fa0e2334b5b424abcffef3fbbe355d0362fa99b",
+            "datetime": "2025-10-25 01:08:11 +0000",
+            "subject": "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n"
+          },
+          {
+            "hash": "08af80e9a2e0cb7728918d7dc0aee47c2a3838a7",
+            "datetime": "2025-10-24 23:23:18 +0800",
+            "subject": "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程"
+          },
+          {
+            "hash": "61e0689230ca4438aa96f25656197084e433af76",
+            "datetime": "2025-10-23 15:37:34 +0000",
+            "subject": "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n"
+          },
+          {
+            "hash": "0cbdb37fe26f31646e1efdf9f6e02e9c7238298b",
+            "datetime": "2025-10-23 23:32:14 +0800",
+            "subject": "feat: 完成打印工作台大致逻辑和功能设计"
+          },
+          {
+            "hash": "adacc898a9c4ee3fabdf2c9f1dca6205de52925f",
+            "datetime": "2025-10-21 16:26:16 +0000",
+            "subject": "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n"
+          },
+          {
+            "hash": "d6ca3bfba78451044cf800887f8ed9fe8619183a",
+            "datetime": "2025-10-21 16:24:13 +0000",
+            "subject": "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n"
+          },
+          {
+            "hash": "13263007de7e449b72f32b12789f06e958f787a7",
+            "datetime": "2025-10-21 16:18:35 +0000",
+            "subject": "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n"
+          },
+          {
+            "hash": "2847e992c639fc454eca509c4fe994e06ae7ad3f",
+            "datetime": "2025-10-21 15:33:25 +0000",
+            "subject": "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n"
+          },
+          {
+            "hash": "db2c986ecc04050bdbee6a12b392f1d89388543c",
+            "datetime": "2025-10-21 14:33:10 +0000",
+            "subject": "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n"
+          },
+          {
+            "hash": "ee3f17d832dcbe67069259e2858f9f9498e0255e",
+            "datetime": "2025-10-21 05:55:26 +0000",
+            "subject": "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n"
+          },
+          {
+            "hash": "b26005f808e2c48f92d8aab523d573b3e884865d",
+            "datetime": "2025-10-21 05:48:29 +0000",
+            "subject": "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n"
+          },
+          {
+            "hash": "94f9ceca3e05a3d28b265625896ff12e92fc9437",
+            "datetime": "2025-10-21 05:42:59 +0000",
+            "subject": "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n"
+          },
+          {
+            "hash": "5d27b4f3ca1267cd28a6b8190a34c497a033772c",
+            "datetime": "2025-10-21 05:25:16 +0000",
+            "subject": "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n"
+          },
+          {
+            "hash": "070aea3b825aae14894f886e4a07fc2bbb391b88",
+            "datetime": "2025-10-21 05:23:12 +0000",
+            "subject": "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 9166,
+        "removed": 94,
+        "heat": [
+          [
+            "docs",
+            7889
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "问题分析_FulfillmentName不一致.md",
+            152
+          ],
+          [
+            "backend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n",
+          "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n",
+          "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程",
+          "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n",
+          "feat: 完成打印工作台大致逻辑和功能设计",
+          "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n",
+          "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n",
+          "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n",
+          "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n",
+          "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n",
+          "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n",
+          "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n",
+          "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n",
+          "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n",
+          "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "d5e14a20ae8658f5709b8d04eb80fc14e20b4f1f",
+            "datetime": "2025-10-25 16:50:52 +0000",
+            "subject": "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n"
+          },
+          {
+            "hash": "7fa0e2334b5b424abcffef3fbbe355d0362fa99b",
+            "datetime": "2025-10-25 01:08:11 +0000",
+            "subject": "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n"
+          },
+          {
+            "hash": "08af80e9a2e0cb7728918d7dc0aee47c2a3838a7",
+            "datetime": "2025-10-24 23:23:18 +0800",
+            "subject": "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程"
+          },
+          {
+            "hash": "61e0689230ca4438aa96f25656197084e433af76",
+            "datetime": "2025-10-23 15:37:34 +0000",
+            "subject": "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n"
+          },
+          {
+            "hash": "0cbdb37fe26f31646e1efdf9f6e02e9c7238298b",
+            "datetime": "2025-10-23 23:32:14 +0800",
+            "subject": "feat: 完成打印工作台大致逻辑和功能设计"
+          },
+          {
+            "hash": "adacc898a9c4ee3fabdf2c9f1dca6205de52925f",
+            "datetime": "2025-10-21 16:26:16 +0000",
+            "subject": "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n"
+          },
+          {
+            "hash": "d6ca3bfba78451044cf800887f8ed9fe8619183a",
+            "datetime": "2025-10-21 16:24:13 +0000",
+            "subject": "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n"
+          },
+          {
+            "hash": "13263007de7e449b72f32b12789f06e958f787a7",
+            "datetime": "2025-10-21 16:18:35 +0000",
+            "subject": "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n"
+          },
+          {
+            "hash": "2847e992c639fc454eca509c4fe994e06ae7ad3f",
+            "datetime": "2025-10-21 15:33:25 +0000",
+            "subject": "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n"
+          },
+          {
+            "hash": "db2c986ecc04050bdbee6a12b392f1d89388543c",
+            "datetime": "2025-10-21 14:33:10 +0000",
+            "subject": "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n"
+          },
+          {
+            "hash": "ee3f17d832dcbe67069259e2858f9f9498e0255e",
+            "datetime": "2025-10-21 05:55:26 +0000",
+            "subject": "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n"
+          },
+          {
+            "hash": "b26005f808e2c48f92d8aab523d573b3e884865d",
+            "datetime": "2025-10-21 05:48:29 +0000",
+            "subject": "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n"
+          },
+          {
+            "hash": "94f9ceca3e05a3d28b265625896ff12e92fc9437",
+            "datetime": "2025-10-21 05:42:59 +0000",
+            "subject": "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n"
+          },
+          {
+            "hash": "5d27b4f3ca1267cd28a6b8190a34c497a033772c",
+            "datetime": "2025-10-21 05:25:16 +0000",
+            "subject": "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n"
+          },
+          {
+            "hash": "070aea3b825aae14894f886e4a07fc2bbb391b88",
+            "datetime": "2025-10-21 05:23:12 +0000",
+            "subject": "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 9166,
+        "removed": 94,
+        "heat": [
+          [
+            "docs",
+            7889
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "问题分析_FulfillmentName不一致.md",
+            152
+          ],
+          [
+            "backend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n",
+          "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n",
+          "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程",
+          "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n",
+          "feat: 完成打印工作台大致逻辑和功能设计",
+          "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n",
+          "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n",
+          "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n",
+          "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n",
+          "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n",
+          "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n",
+          "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n",
+          "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n",
+          "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n",
+          "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "d5e14a20ae8658f5709b8d04eb80fc14e20b4f1f",
+            "datetime": "2025-10-25 16:50:52 +0000",
+            "subject": "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n"
+          },
+          {
+            "hash": "7fa0e2334b5b424abcffef3fbbe355d0362fa99b",
+            "datetime": "2025-10-25 01:08:11 +0000",
+            "subject": "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n"
+          },
+          {
+            "hash": "08af80e9a2e0cb7728918d7dc0aee47c2a3838a7",
+            "datetime": "2025-10-24 23:23:18 +0800",
+            "subject": "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程"
+          },
+          {
+            "hash": "61e0689230ca4438aa96f25656197084e433af76",
+            "datetime": "2025-10-23 15:37:34 +0000",
+            "subject": "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n"
+          },
+          {
+            "hash": "0cbdb37fe26f31646e1efdf9f6e02e9c7238298b",
+            "datetime": "2025-10-23 23:32:14 +0800",
+            "subject": "feat: 完成打印工作台大致逻辑和功能设计"
+          },
+          {
+            "hash": "adacc898a9c4ee3fabdf2c9f1dca6205de52925f",
+            "datetime": "2025-10-21 16:26:16 +0000",
+            "subject": "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n"
+          },
+          {
+            "hash": "d6ca3bfba78451044cf800887f8ed9fe8619183a",
+            "datetime": "2025-10-21 16:24:13 +0000",
+            "subject": "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n"
+          },
+          {
+            "hash": "13263007de7e449b72f32b12789f06e958f787a7",
+            "datetime": "2025-10-21 16:18:35 +0000",
+            "subject": "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n"
+          },
+          {
+            "hash": "2847e992c639fc454eca509c4fe994e06ae7ad3f",
+            "datetime": "2025-10-21 15:33:25 +0000",
+            "subject": "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n"
+          },
+          {
+            "hash": "db2c986ecc04050bdbee6a12b392f1d89388543c",
+            "datetime": "2025-10-21 14:33:10 +0000",
+            "subject": "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n"
+          },
+          {
+            "hash": "ee3f17d832dcbe67069259e2858f9f9498e0255e",
+            "datetime": "2025-10-21 05:55:26 +0000",
+            "subject": "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n"
+          },
+          {
+            "hash": "b26005f808e2c48f92d8aab523d573b3e884865d",
+            "datetime": "2025-10-21 05:48:29 +0000",
+            "subject": "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n"
+          },
+          {
+            "hash": "94f9ceca3e05a3d28b265625896ff12e92fc9437",
+            "datetime": "2025-10-21 05:42:59 +0000",
+            "subject": "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n"
+          },
+          {
+            "hash": "5d27b4f3ca1267cd28a6b8190a34c497a033772c",
+            "datetime": "2025-10-21 05:25:16 +0000",
+            "subject": "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n"
+          },
+          {
+            "hash": "070aea3b825aae14894f886e4a07fc2bbb391b88",
+            "datetime": "2025-10-21 05:23:12 +0000",
+            "subject": "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+          }
+        ],
+        "files": 34,
+        "added": 9166,
+        "removed": 94,
+        "heat": [
+          [
+            "docs",
+            7889
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "问题分析_FulfillmentName不一致.md",
+            152
+          ],
+          [
+            "backend",
+            18
+          ],
+          [
+            "admin",
+            8
+          ],
+          [
+            "frontend",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[2c7cbad2: feat: 用 mock 数据初步完善了打印中心逻辑设计]\\n",
+          "[admin] 自动合并[e20a2b67: stash: 搭建打印中心骨架，完成初步页面逻辑设计]\\n",
+          "docs: 将“履约工作台”重命名为“打印中心”，重构页面设计与交付规范，补充前端组件、Mock 数据、后端接口与联调/验收流程",
+          "[admin] 自动合并[efedf5a5: feat(order): 支持列表排序并完善手动打印/确认收货能力]\\n",
+          "feat: 完成打印工作台大致逻辑和功能设计",
+          "[frontend] 自动合并[6e7827c: feat: 重构支付确认页履约/门店信息展示并支持 fulfillmentInfo 快照]\\n",
+          "[backend] 自动合并[5cba8b6: chore: 删除 changeset-V17-add-fulfillment-component-id.xml（移除为 orders 添加 fulfillment_component_id 的 Liquibase 变更集及回填脚本）]\\n",
+          "[backend] 自动合并[cda97ac: feat: 解决前端 PaymentConfirmation 不显示履约信息的问题]\\n",
+          "[backend] 自动合并[91f7f8c: feat: 为 OrderDetailV2 的 Fulfillment 添加 name/description 并在 Assembler 中根据 FulfillmentType 填充展示文案；扩展状态机允许 MANUAL_PRINTING -> COMPLETED 与 EXCEPTION -> MANUAL_PRINTING]\\n",
+          "[frontend] 自动合并[036a71a: refactor: 再次重构FulfilmentDisplay 样式，使其符合项目主题]\\n",
+          "[backend] 自动合并[02e42d3: feat: 支持按 fulfillmentInfo/userLevel/user 排序并统一处理非法排序字段]\\n",
+          "[backend] 自动合并[a9c2f71: feat: 支持按 status 字段排序，容错非法排序字段并将默认排序改为按 createdAt 降序]\\n",
+          "[backend] 自动合并[33b9f2c: feat: 支持订单列表按字段排序并在保存后初始化懒加载集合以支持 V2 DTO]\\n",
+          "[backend] 自动合并[76f6bba: feat: 允许管理员在 READY_FOR_PICKUP 状态手动确认送达 — 在 confirmDelivery 中将允许状态从仅 DELIVERING 扩展为 DELIVERING 与 READY_FOR_PICKUP，并同步更新异常提示]\\n",
+          "[backend] 自动合并[46bf05d: feat: 添加管理员手动打印完成/失败接口与实现，并允许 EXCEPTION 状态取消订单]\\n"
+        ]
+      }
+    ]
+  }
+}

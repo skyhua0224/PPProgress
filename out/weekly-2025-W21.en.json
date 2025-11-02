@@ -1,0 +1,132 @@
+{
+  "title": "Weekly Report (2025-05-20 to 2025-05-25)",
+  "lang": "en",
+  "since": "2025-05-20",
+  "until": "2025-05-25",
+  "generatedAt": "2025-11-02T11:29:18.431Z",
+  "progress": {
+    "totals": {
+      "commits": 9,
+      "files": 9,
+      "added": 9,
+      "removed": 9
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "fce15fe52f7adad8f9d3725c387ea00a14fa5e2c",
+            "datetime": "2025-05-25 06:50:01 +0000",
+            "subject": "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n"
+          },
+          {
+            "hash": "7396de521e4808da0ca6a4db9b20ddfd9f49a971",
+            "datetime": "2025-05-25 05:40:08 +0000",
+            "subject": "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n"
+          },
+          {
+            "hash": "0507dec2336bc9354bd307398ae427e8ad13c0a1",
+            "datetime": "2025-05-23 14:47:46 +0000",
+            "subject": "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+          }
+        ],
+        "files": 3,
+        "added": 3,
+        "removed": 3,
+        "heat": [
+          [
+            "admin",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n",
+          "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n",
+          "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "fce15fe52f7adad8f9d3725c387ea00a14fa5e2c",
+            "datetime": "2025-05-25 06:50:01 +0000",
+            "subject": "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n"
+          },
+          {
+            "hash": "7396de521e4808da0ca6a4db9b20ddfd9f49a971",
+            "datetime": "2025-05-25 05:40:08 +0000",
+            "subject": "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n"
+          },
+          {
+            "hash": "0507dec2336bc9354bd307398ae427e8ad13c0a1",
+            "datetime": "2025-05-23 14:47:46 +0000",
+            "subject": "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+          }
+        ],
+        "files": 3,
+        "added": 3,
+        "removed": 3,
+        "heat": [
+          [
+            "admin",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n",
+          "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n",
+          "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "fce15fe52f7adad8f9d3725c387ea00a14fa5e2c",
+            "datetime": "2025-05-25 06:50:01 +0000",
+            "subject": "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n"
+          },
+          {
+            "hash": "7396de521e4808da0ca6a4db9b20ddfd9f49a971",
+            "datetime": "2025-05-25 05:40:08 +0000",
+            "subject": "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n"
+          },
+          {
+            "hash": "0507dec2336bc9354bd307398ae427e8ad13c0a1",
+            "datetime": "2025-05-23 14:47:46 +0000",
+            "subject": "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+          }
+        ],
+        "files": 3,
+        "added": 3,
+        "removed": 3,
+        "heat": [
+          [
+            "admin",
+            6
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[195ab4d: feat: 更新打印机详情组件以支持图标颜色的预览和保存功能]\\n",
+          "[admin] 自动合并[2214397: feat: 添加打印机详情组件的队列数据处理和滚动条样式]\\n",
+          "[admin] 自动合并[06598aa: feat: 添加初版打印机详情组件]\\n"
+        ]
+      }
+    ]
+  }
+}

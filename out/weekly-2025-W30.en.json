@@ -1,0 +1,705 @@
+{
+  "title": "Weekly Report (2025-07-21 to 2025-07-27)",
+  "lang": "en",
+  "since": "2025-07-21",
+  "until": "2025-07-27",
+  "generatedAt": "2025-11-02T11:29:19.473Z",
+  "progress": {
+    "totals": {
+      "commits": 120,
+      "files": 284,
+      "added": 18488,
+      "removed": 32280
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "4b0404301a23295dbaa0619f644bfa3b95a06795",
+            "datetime": "2025-07-26 09:17:51 +0800",
+            "subject": "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划"
+          },
+          {
+            "hash": "3fd0cdf7a212fc16bcabdc30821c534ce2681b45",
+            "datetime": "2025-07-25 21:28:42 +0800",
+            "subject": "feat: 更新1.2版本V12后端文档"
+          },
+          {
+            "hash": "769c1d53465345c16afbf3964d1ce31158f1f334",
+            "datetime": "2025-07-25 20:49:08 +0800",
+            "subject": "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性"
+          },
+          {
+            "hash": "13301d32cd9ca12318621a8c4e4f98ed4d9d6403",
+            "datetime": "2025-07-25 17:23:17 +0800",
+            "subject": "feat: 新增店铺管理设计稿"
+          },
+          {
+            "hash": "7b32d3d47baa595ca98926689b1612585e8f83bb",
+            "datetime": "2025-07-24 22:55:13 +0800",
+            "subject": "feat: 添加方案模板管理页面的模版"
+          },
+          {
+            "hash": "e3a21da31f7e22027a2f09647d1ab556a13264b8",
+            "datetime": "2025-07-24 21:38:02 +0800",
+            "subject": "feat: 设计了价格/商品管理体系的前端页面逻辑"
+          }
+        ],
+        "files": 47,
+        "added": 4598,
+        "removed": 8046,
+        "heat": [
+          [
+            "docs",
+            12392
+          ],
+          [
+            "docs-old",
+            250
+          ],
+          [
+            "backend",
+            2
+          ]
+        ],
+        "subjects": [
+          "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划",
+          "feat: 更新1.2版本V12后端文档",
+          "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性",
+          "feat: 新增店铺管理设计稿",
+          "feat: 添加方案模板管理页面的模版",
+          "feat: 设计了价格/商品管理体系的前端页面逻辑"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "4b0404301a23295dbaa0619f644bfa3b95a06795",
+            "datetime": "2025-07-26 09:17:51 +0800",
+            "subject": "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划"
+          },
+          {
+            "hash": "e6abe6853c7f4ebc4cfc441167e4b3a344e0d4e2",
+            "datetime": "2025-07-25 15:36:01 +0000",
+            "subject": "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n"
+          },
+          {
+            "hash": "1041bf72b0a68a3879e00ea5efc6c202b73a6305",
+            "datetime": "2025-07-25 15:32:24 +0000",
+            "subject": "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n"
+          },
+          {
+            "hash": "a42d8789c48881fc952a8285d895dbd9dee13c1d",
+            "datetime": "2025-07-25 15:29:12 +0000",
+            "subject": "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n"
+          },
+          {
+            "hash": "3fd0cdf7a212fc16bcabdc30821c534ce2681b45",
+            "datetime": "2025-07-25 21:28:42 +0800",
+            "subject": "feat: 更新1.2版本V12后端文档"
+          },
+          {
+            "hash": "769c1d53465345c16afbf3964d1ce31158f1f334",
+            "datetime": "2025-07-25 20:49:08 +0800",
+            "subject": "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性"
+          },
+          {
+            "hash": "13301d32cd9ca12318621a8c4e4f98ed4d9d6403",
+            "datetime": "2025-07-25 17:23:17 +0800",
+            "subject": "feat: 新增店铺管理设计稿"
+          },
+          {
+            "hash": "7b32d3d47baa595ca98926689b1612585e8f83bb",
+            "datetime": "2025-07-24 22:55:13 +0800",
+            "subject": "feat: 添加方案模板管理页面的模版"
+          },
+          {
+            "hash": "e3a21da31f7e22027a2f09647d1ab556a13264b8",
+            "datetime": "2025-07-24 21:38:02 +0800",
+            "subject": "feat: 设计了价格/商品管理体系的前端页面逻辑"
+          },
+          {
+            "hash": "dd1c723be02c3278bd11330bf50c295c262c9189",
+            "datetime": "2025-07-23 13:32:13 +0000",
+            "subject": "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n"
+          },
+          {
+            "hash": "75d24029eb7bf472edc3a16f9495bb4f7ed92a05",
+            "datetime": "2025-07-23 12:38:54 +0000",
+            "subject": "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n"
+          },
+          {
+            "hash": "e3fbdaa5a15cc775872b3174f1a251d349c89713",
+            "datetime": "2025-07-23 12:26:38 +0000",
+            "subject": "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n"
+          },
+          {
+            "hash": "aef6740746429048c29914d1d87edc32d4d33734",
+            "datetime": "2025-07-23 11:27:26 +0000",
+            "subject": "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n"
+          },
+          {
+            "hash": "0183050a035ca60db2dcf908d825012cbe163d45",
+            "datetime": "2025-07-23 09:59:16 +0000",
+            "subject": "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n"
+          },
+          {
+            "hash": "c8aa1ef0ab8a64dbb3f0c6177e5f93f92f9942b0",
+            "datetime": "2025-07-23 09:57:07 +0000",
+            "subject": "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n"
+          },
+          {
+            "hash": "4dd115728e9a9b33b9338f6ee2eaeb3b4e335652",
+            "datetime": "2025-07-23 09:54:47 +0000",
+            "subject": "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n"
+          },
+          {
+            "hash": "48db198ac9d2acc1c173a5a2800e65bf5d6e19ef",
+            "datetime": "2025-07-23 09:53:14 +0000",
+            "subject": "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n"
+          },
+          {
+            "hash": "d6147e06caeb6f1901e530e5adb8bc4d158caabc",
+            "datetime": "2025-07-23 09:38:14 +0000",
+            "subject": "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n"
+          },
+          {
+            "hash": "b08f718fa99a54dca286d8e0ae0d167759471e22",
+            "datetime": "2025-07-23 09:30:28 +0000",
+            "subject": "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n"
+          },
+          {
+            "hash": "b0edca33913f6a6a2754b3389a522d4341510dc5",
+            "datetime": "2025-07-23 09:07:57 +0000",
+            "subject": "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n"
+          },
+          {
+            "hash": "7b7e73911ae363723ea6196158f97b5a17024afe",
+            "datetime": "2025-07-23 07:34:24 +0000",
+            "subject": "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n"
+          },
+          {
+            "hash": "12b3b713ebc787afcad929c6464b9ac90a7b5787",
+            "datetime": "2025-07-23 07:31:10 +0000",
+            "subject": "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n"
+          },
+          {
+            "hash": "874dae4ff93ca842ba1e3216efe218cbebf0438f",
+            "datetime": "2025-07-23 07:20:36 +0000",
+            "subject": "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n"
+          },
+          {
+            "hash": "ae78ad7f692262a91fa0a6193faaaafa469d15dc",
+            "datetime": "2025-07-23 06:57:04 +0000",
+            "subject": "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n"
+          },
+          {
+            "hash": "3559fb7218711ec11e2dd42184e18025b5b58f20",
+            "datetime": "2025-07-22 12:59:01 +0000",
+            "subject": "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n"
+          },
+          {
+            "hash": "b4c7cf2827f7a9f5cb35144663bfb7c4839dc73d",
+            "datetime": "2025-07-22 12:53:24 +0000",
+            "subject": "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n"
+          },
+          {
+            "hash": "c7c16b0238f1dd9d8a9111167ae5c18549027851",
+            "datetime": "2025-07-22 12:02:21 +0000",
+            "subject": "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n"
+          },
+          {
+            "hash": "7539232d04fe1ce26ec4133dfc9d31b00c741c02",
+            "datetime": "2025-07-22 12:00:40 +0000",
+            "subject": "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n"
+          },
+          {
+            "hash": "2807443ad7c39f56654772e6de176f4a451746d5",
+            "datetime": "2025-07-22 11:54:06 +0000",
+            "subject": "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n"
+          },
+          {
+            "hash": "b8294f81bbb394cd9a700fb38361a5fc084caa95",
+            "datetime": "2025-07-22 10:08:31 +0000",
+            "subject": "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+          }
+        ],
+        "files": 79,
+        "added": 4630,
+        "removed": 8078,
+        "heat": [
+          [
+            "docs",
+            12392
+          ],
+          [
+            "docs-old",
+            250
+          ],
+          [
+            "backend",
+            62
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划",
+          "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n",
+          "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n",
+          "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n",
+          "feat: 更新1.2版本V12后端文档",
+          "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性",
+          "feat: 新增店铺管理设计稿",
+          "feat: 添加方案模板管理页面的模版",
+          "feat: 设计了价格/商品管理体系的前端页面逻辑",
+          "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n",
+          "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n",
+          "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n",
+          "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n",
+          "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n",
+          "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n",
+          "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n",
+          "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n",
+          "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n",
+          "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n",
+          "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n",
+          "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n",
+          "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n",
+          "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n",
+          "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n",
+          "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n",
+          "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n",
+          "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n",
+          "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n",
+          "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n",
+          "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "4b0404301a23295dbaa0619f644bfa3b95a06795",
+            "datetime": "2025-07-26 09:17:51 +0800",
+            "subject": "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划"
+          },
+          {
+            "hash": "e6abe6853c7f4ebc4cfc441167e4b3a344e0d4e2",
+            "datetime": "2025-07-25 15:36:01 +0000",
+            "subject": "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n"
+          },
+          {
+            "hash": "1041bf72b0a68a3879e00ea5efc6c202b73a6305",
+            "datetime": "2025-07-25 15:32:24 +0000",
+            "subject": "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n"
+          },
+          {
+            "hash": "a42d8789c48881fc952a8285d895dbd9dee13c1d",
+            "datetime": "2025-07-25 15:29:12 +0000",
+            "subject": "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n"
+          },
+          {
+            "hash": "3fd0cdf7a212fc16bcabdc30821c534ce2681b45",
+            "datetime": "2025-07-25 21:28:42 +0800",
+            "subject": "feat: 更新1.2版本V12后端文档"
+          },
+          {
+            "hash": "769c1d53465345c16afbf3964d1ce31158f1f334",
+            "datetime": "2025-07-25 20:49:08 +0800",
+            "subject": "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性"
+          },
+          {
+            "hash": "13301d32cd9ca12318621a8c4e4f98ed4d9d6403",
+            "datetime": "2025-07-25 17:23:17 +0800",
+            "subject": "feat: 新增店铺管理设计稿"
+          },
+          {
+            "hash": "7b32d3d47baa595ca98926689b1612585e8f83bb",
+            "datetime": "2025-07-24 22:55:13 +0800",
+            "subject": "feat: 添加方案模板管理页面的模版"
+          },
+          {
+            "hash": "e3a21da31f7e22027a2f09647d1ab556a13264b8",
+            "datetime": "2025-07-24 21:38:02 +0800",
+            "subject": "feat: 设计了价格/商品管理体系的前端页面逻辑"
+          },
+          {
+            "hash": "dd1c723be02c3278bd11330bf50c295c262c9189",
+            "datetime": "2025-07-23 13:32:13 +0000",
+            "subject": "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n"
+          },
+          {
+            "hash": "75d24029eb7bf472edc3a16f9495bb4f7ed92a05",
+            "datetime": "2025-07-23 12:38:54 +0000",
+            "subject": "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n"
+          },
+          {
+            "hash": "e3fbdaa5a15cc775872b3174f1a251d349c89713",
+            "datetime": "2025-07-23 12:26:38 +0000",
+            "subject": "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n"
+          },
+          {
+            "hash": "aef6740746429048c29914d1d87edc32d4d33734",
+            "datetime": "2025-07-23 11:27:26 +0000",
+            "subject": "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n"
+          },
+          {
+            "hash": "0183050a035ca60db2dcf908d825012cbe163d45",
+            "datetime": "2025-07-23 09:59:16 +0000",
+            "subject": "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n"
+          },
+          {
+            "hash": "c8aa1ef0ab8a64dbb3f0c6177e5f93f92f9942b0",
+            "datetime": "2025-07-23 09:57:07 +0000",
+            "subject": "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n"
+          },
+          {
+            "hash": "4dd115728e9a9b33b9338f6ee2eaeb3b4e335652",
+            "datetime": "2025-07-23 09:54:47 +0000",
+            "subject": "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n"
+          },
+          {
+            "hash": "48db198ac9d2acc1c173a5a2800e65bf5d6e19ef",
+            "datetime": "2025-07-23 09:53:14 +0000",
+            "subject": "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n"
+          },
+          {
+            "hash": "d6147e06caeb6f1901e530e5adb8bc4d158caabc",
+            "datetime": "2025-07-23 09:38:14 +0000",
+            "subject": "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n"
+          },
+          {
+            "hash": "b08f718fa99a54dca286d8e0ae0d167759471e22",
+            "datetime": "2025-07-23 09:30:28 +0000",
+            "subject": "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n"
+          },
+          {
+            "hash": "b0edca33913f6a6a2754b3389a522d4341510dc5",
+            "datetime": "2025-07-23 09:07:57 +0000",
+            "subject": "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n"
+          },
+          {
+            "hash": "7b7e73911ae363723ea6196158f97b5a17024afe",
+            "datetime": "2025-07-23 07:34:24 +0000",
+            "subject": "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n"
+          },
+          {
+            "hash": "12b3b713ebc787afcad929c6464b9ac90a7b5787",
+            "datetime": "2025-07-23 07:31:10 +0000",
+            "subject": "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n"
+          },
+          {
+            "hash": "874dae4ff93ca842ba1e3216efe218cbebf0438f",
+            "datetime": "2025-07-23 07:20:36 +0000",
+            "subject": "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n"
+          },
+          {
+            "hash": "ae78ad7f692262a91fa0a6193faaaafa469d15dc",
+            "datetime": "2025-07-23 06:57:04 +0000",
+            "subject": "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n"
+          },
+          {
+            "hash": "3559fb7218711ec11e2dd42184e18025b5b58f20",
+            "datetime": "2025-07-22 12:59:01 +0000",
+            "subject": "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n"
+          },
+          {
+            "hash": "b4c7cf2827f7a9f5cb35144663bfb7c4839dc73d",
+            "datetime": "2025-07-22 12:53:24 +0000",
+            "subject": "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n"
+          },
+          {
+            "hash": "c7c16b0238f1dd9d8a9111167ae5c18549027851",
+            "datetime": "2025-07-22 12:02:21 +0000",
+            "subject": "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n"
+          },
+          {
+            "hash": "7539232d04fe1ce26ec4133dfc9d31b00c741c02",
+            "datetime": "2025-07-22 12:00:40 +0000",
+            "subject": "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n"
+          },
+          {
+            "hash": "2807443ad7c39f56654772e6de176f4a451746d5",
+            "datetime": "2025-07-22 11:54:06 +0000",
+            "subject": "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n"
+          },
+          {
+            "hash": "b8294f81bbb394cd9a700fb38361a5fc084caa95",
+            "datetime": "2025-07-22 10:08:31 +0000",
+            "subject": "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+          }
+        ],
+        "files": 79,
+        "added": 4630,
+        "removed": 8078,
+        "heat": [
+          [
+            "docs",
+            12392
+          ],
+          [
+            "docs-old",
+            250
+          ],
+          [
+            "backend",
+            62
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划",
+          "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n",
+          "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n",
+          "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n",
+          "feat: 更新1.2版本V12后端文档",
+          "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性",
+          "feat: 新增店铺管理设计稿",
+          "feat: 添加方案模板管理页面的模版",
+          "feat: 设计了价格/商品管理体系的前端页面逻辑",
+          "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n",
+          "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n",
+          "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n",
+          "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n",
+          "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n",
+          "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n",
+          "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n",
+          "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n",
+          "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n",
+          "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n",
+          "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n",
+          "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n",
+          "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n",
+          "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n",
+          "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n",
+          "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n",
+          "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n",
+          "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n",
+          "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n",
+          "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n",
+          "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "4b0404301a23295dbaa0619f644bfa3b95a06795",
+            "datetime": "2025-07-26 09:17:51 +0800",
+            "subject": "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划"
+          },
+          {
+            "hash": "e6abe6853c7f4ebc4cfc441167e4b3a344e0d4e2",
+            "datetime": "2025-07-25 15:36:01 +0000",
+            "subject": "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n"
+          },
+          {
+            "hash": "1041bf72b0a68a3879e00ea5efc6c202b73a6305",
+            "datetime": "2025-07-25 15:32:24 +0000",
+            "subject": "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n"
+          },
+          {
+            "hash": "a42d8789c48881fc952a8285d895dbd9dee13c1d",
+            "datetime": "2025-07-25 15:29:12 +0000",
+            "subject": "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n"
+          },
+          {
+            "hash": "3fd0cdf7a212fc16bcabdc30821c534ce2681b45",
+            "datetime": "2025-07-25 21:28:42 +0800",
+            "subject": "feat: 更新1.2版本V12后端文档"
+          },
+          {
+            "hash": "769c1d53465345c16afbf3964d1ce31158f1f334",
+            "datetime": "2025-07-25 20:49:08 +0800",
+            "subject": "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性"
+          },
+          {
+            "hash": "13301d32cd9ca12318621a8c4e4f98ed4d9d6403",
+            "datetime": "2025-07-25 17:23:17 +0800",
+            "subject": "feat: 新增店铺管理设计稿"
+          },
+          {
+            "hash": "7b32d3d47baa595ca98926689b1612585e8f83bb",
+            "datetime": "2025-07-24 22:55:13 +0800",
+            "subject": "feat: 添加方案模板管理页面的模版"
+          },
+          {
+            "hash": "e3a21da31f7e22027a2f09647d1ab556a13264b8",
+            "datetime": "2025-07-24 21:38:02 +0800",
+            "subject": "feat: 设计了价格/商品管理体系的前端页面逻辑"
+          },
+          {
+            "hash": "dd1c723be02c3278bd11330bf50c295c262c9189",
+            "datetime": "2025-07-23 13:32:13 +0000",
+            "subject": "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n"
+          },
+          {
+            "hash": "75d24029eb7bf472edc3a16f9495bb4f7ed92a05",
+            "datetime": "2025-07-23 12:38:54 +0000",
+            "subject": "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n"
+          },
+          {
+            "hash": "e3fbdaa5a15cc775872b3174f1a251d349c89713",
+            "datetime": "2025-07-23 12:26:38 +0000",
+            "subject": "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n"
+          },
+          {
+            "hash": "aef6740746429048c29914d1d87edc32d4d33734",
+            "datetime": "2025-07-23 11:27:26 +0000",
+            "subject": "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n"
+          },
+          {
+            "hash": "0183050a035ca60db2dcf908d825012cbe163d45",
+            "datetime": "2025-07-23 09:59:16 +0000",
+            "subject": "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n"
+          },
+          {
+            "hash": "c8aa1ef0ab8a64dbb3f0c6177e5f93f92f9942b0",
+            "datetime": "2025-07-23 09:57:07 +0000",
+            "subject": "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n"
+          },
+          {
+            "hash": "4dd115728e9a9b33b9338f6ee2eaeb3b4e335652",
+            "datetime": "2025-07-23 09:54:47 +0000",
+            "subject": "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n"
+          },
+          {
+            "hash": "48db198ac9d2acc1c173a5a2800e65bf5d6e19ef",
+            "datetime": "2025-07-23 09:53:14 +0000",
+            "subject": "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n"
+          },
+          {
+            "hash": "d6147e06caeb6f1901e530e5adb8bc4d158caabc",
+            "datetime": "2025-07-23 09:38:14 +0000",
+            "subject": "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n"
+          },
+          {
+            "hash": "b08f718fa99a54dca286d8e0ae0d167759471e22",
+            "datetime": "2025-07-23 09:30:28 +0000",
+            "subject": "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n"
+          },
+          {
+            "hash": "b0edca33913f6a6a2754b3389a522d4341510dc5",
+            "datetime": "2025-07-23 09:07:57 +0000",
+            "subject": "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n"
+          },
+          {
+            "hash": "7b7e73911ae363723ea6196158f97b5a17024afe",
+            "datetime": "2025-07-23 07:34:24 +0000",
+            "subject": "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n"
+          },
+          {
+            "hash": "12b3b713ebc787afcad929c6464b9ac90a7b5787",
+            "datetime": "2025-07-23 07:31:10 +0000",
+            "subject": "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n"
+          },
+          {
+            "hash": "874dae4ff93ca842ba1e3216efe218cbebf0438f",
+            "datetime": "2025-07-23 07:20:36 +0000",
+            "subject": "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n"
+          },
+          {
+            "hash": "ae78ad7f692262a91fa0a6193faaaafa469d15dc",
+            "datetime": "2025-07-23 06:57:04 +0000",
+            "subject": "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n"
+          },
+          {
+            "hash": "3559fb7218711ec11e2dd42184e18025b5b58f20",
+            "datetime": "2025-07-22 12:59:01 +0000",
+            "subject": "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n"
+          },
+          {
+            "hash": "b4c7cf2827f7a9f5cb35144663bfb7c4839dc73d",
+            "datetime": "2025-07-22 12:53:24 +0000",
+            "subject": "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n"
+          },
+          {
+            "hash": "c7c16b0238f1dd9d8a9111167ae5c18549027851",
+            "datetime": "2025-07-22 12:02:21 +0000",
+            "subject": "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n"
+          },
+          {
+            "hash": "7539232d04fe1ce26ec4133dfc9d31b00c741c02",
+            "datetime": "2025-07-22 12:00:40 +0000",
+            "subject": "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n"
+          },
+          {
+            "hash": "2807443ad7c39f56654772e6de176f4a451746d5",
+            "datetime": "2025-07-22 11:54:06 +0000",
+            "subject": "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n"
+          },
+          {
+            "hash": "b8294f81bbb394cd9a700fb38361a5fc084caa95",
+            "datetime": "2025-07-22 10:08:31 +0000",
+            "subject": "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+          }
+        ],
+        "files": 79,
+        "added": 4630,
+        "removed": 8078,
+        "heat": [
+          [
+            "docs",
+            12392
+          ],
+          [
+            "docs-old",
+            250
+          ],
+          [
+            "backend",
+            62
+          ],
+          [
+            "admin",
+            4
+          ]
+        ],
+        "subjects": [
+          "feat: 添加V13前端重构实施白皮书，包含核心设计原则和目录重构计划",
+          "[backend] 自动合并[6808f66: refactor: 移除OrderRepository中的冗余查询方法，简化接口]\\n",
+          "[backend] 自动合并[a76f5e7: fix: 更新查询以使用正确的订单金额字段，修复统计用户订单时的错误]\\n",
+          "[backend] 自动合并[50d4693: refactor: 完全重构任何与价格和订单有关的接口]\\n",
+          "feat: 更新1.2版本V12后端文档",
+          "feat: 完成订单管理设计稿，制定后端设计计划，移除旧文档保证整洁性",
+          "feat: 新增店铺管理设计稿",
+          "feat: 添加方案模板管理页面的模版",
+          "feat: 设计了价格/商品管理体系的前端页面逻辑",
+          "[backend] 自动合并[93de029: refactor: 重构配送费管理，使其符合V8价格模型]\\n",
+          "[backend] 自动合并[91e5588: feat: 注释掉调试日志，避免在转换数据库数据时输出信息]\\n",
+          "[admin] 自动合并[d0b0e75f: feat: 完成价格模型中的平台核心服务菜单设计]\\n",
+          "[backend] 自动合并[1ad6bb7: feat: 添加服务校验功能，新增ServiceRuleValidationResultDTO类，更新PriceCalculationServiceV2和ServiceComponentController以支持服务校验]\\n",
+          "[backend] 自动合并[9308c1f: feat: 更新ServiceComponentController，统一返回ResponseData格式，添加异常处理]\\n",
+          "[backend] 自动合并[8b264e5: feat: 更新ServiceComponentDTO和ServiceComponentServiceImpl，添加description、type、status和sortOrder字段的支持]\\n",
+          "[backend] 自动合并[fe6d772: feat: 在createServiceComponent和updateServiceComponent方法中设置componentKey]\\n",
+          "[backend] 自动合并[6a01d24: feat: 更新ServiceComponent和ServiceComponentDTO类，修改dependencies和conflicts字段为List类型]\\n",
+          "[backend] 自动合并[95aa30f: fix: 更新全局异常处理器中的日志级别，使用error替代warn feat: 使用自定义权限注解替代PreAuthorize，增强服务组件控制器的权限管理]\\n",
+          "[backend] 自动合并[0316faa: feat: 添加全局异常处理和自定义访问拒绝处理，使用Result类替代GlobalResponse]\\n",
+          "[backend] 自动合并[6a36387: feat: 添加获取所有服务组件的接口及实现]\\n",
+          "[backend] 自动合并[3f7be55: fix: 优化ServiceComponent类中getter方法，移除不必要的this关键字]\\n",
+          "[backend] 自动合并[6dfb7c4: feat: 添加componentKey和type字段到ServiceComponent类，并更新构造函数和getter/setter方法]\\n",
+          "[backend] 自动合并[aa3aeb2: fix: 修复ServiceComponent类中getter方法的返回值，确保使用this关键字]\\n",
+          "[backend] 自动合并[7a5e28a: feat: 添加服务组件管理功能，包括增删改查接口及DTO支持]\\n",
+          "[backend] 自动合并[11f5a78: feat: 优化菜单路由获取逻辑，支持超级管理员访问所有启用的路由]\\n",
+          "[backend] 自动合并[1420bb5: feat: 优化用户路由获取逻辑，支持超级管理员访问所有非孤立菜单]\\n",
+          "[backend] 自动合并[97cd3b9: feat: 添加对sync-user的特殊权限处理逻辑]\\n",
+          "[backend] 自动合并[421c2ef: feat: 添加对同步用户的特殊处理逻辑，优化JWT认证流程]\\n",
+          "[backend] 自动合并[b0660f0: feat: 添加生成同步令牌功能，包含新的API和服务逻辑]\\n",
+          "[backend] 自动合并[811f3a5: feat: 初步构建新价格/订单模型]\\n"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "title": "Weekly Report (2025-08-05 to 2025-08-10)",
+  "lang": "en",
+  "since": "2025-08-05",
+  "until": "2025-08-10",
+  "generatedAt": "2025-11-02T11:29:19.593Z",
+  "progress": {
+    "totals": {
+      "commits": 114,
+      "files": 114,
+      "added": 114,
+      "removed": 114
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "13417ad4eef5bc133bac1be25f332bfc09addf38",
+            "datetime": "2025-08-10 09:04:36 +0000",
+            "subject": "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n"
+          },
+          {
+            "hash": "9b630052e933c43fa51b6ab1f016fe6fbd66c6b9",
+            "datetime": "2025-08-09 16:39:48 +0000",
+            "subject": "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n"
+          },
+          {
+            "hash": "28b0a27d113b3a947218e58a34e4a342c544d7c0",
+            "datetime": "2025-08-09 13:24:36 +0000",
+            "subject": "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n"
+          },
+          {
+            "hash": "d124f43dc86ff2e99c912fbd62f93393ac92b3ef",
+            "datetime": "2025-08-09 08:24:23 +0000",
+            "subject": "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n"
+          },
+          {
+            "hash": "f859496b547d9ae8d947d0d388b628b70be982c3",
+            "datetime": "2025-08-09 08:13:18 +0000",
+            "subject": "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "7f030d890a280ecb4f37c9b54c24c02307e42d05",
+            "datetime": "2025-08-09 08:06:06 +0000",
+            "subject": "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n"
+          },
+          {
+            "hash": "001baa8687effcdcac3e76214797e0fee6eba55d",
+            "datetime": "2025-08-09 07:59:52 +0000",
+            "subject": "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "2f89ea6629355a303debd18bc4ac302ffb94698d",
+            "datetime": "2025-08-09 07:38:37 +0000",
+            "subject": "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n"
+          },
+          {
+            "hash": "d9f4d093ccd0623eac238236f9df702e016f9004",
+            "datetime": "2025-08-09 07:30:27 +0000",
+            "subject": "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n"
+          },
+          {
+            "hash": "f20a464740771c647418a37d18f39ac6e830626d",
+            "datetime": "2025-08-08 16:49:24 +0000",
+            "subject": "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n"
+          },
+          {
+            "hash": "d9f5a37d0aec0166e10c1eadcdc628829f826cb1",
+            "datetime": "2025-08-08 16:42:45 +0000",
+            "subject": "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "a19aeb8d0ee4817e670d2189f17a8b055d4c30c2",
+            "datetime": "2025-08-08 15:30:02 +0000",
+            "subject": "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n"
+          },
+          {
+            "hash": "8cf041bd3dd7f70e282d58a37862539abb3533c6",
+            "datetime": "2025-08-08 14:01:43 +0000",
+            "subject": "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n"
+          },
+          {
+            "hash": "e4c1b31a38dc25473aa74efc24b7e5f5af6ebb80",
+            "datetime": "2025-08-08 08:17:28 +0000",
+            "subject": "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "6168893edfe45d438d47bbe3a855aad9754de02b",
+            "datetime": "2025-08-07 12:10:07 +0000",
+            "subject": "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n"
+          },
+          {
+            "hash": "7d3abfb607eacd9c535d8f8dbd80cc6d9561e604",
+            "datetime": "2025-08-07 11:58:38 +0000",
+            "subject": "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n"
+          },
+          {
+            "hash": "73dcef49efbbabe22b907d369b5c8b9b315022dd",
+            "datetime": "2025-08-07 11:44:41 +0000",
+            "subject": "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n"
+          },
+          {
+            "hash": "08855e354e7b9e5bd98bff5c0b2db6ccfee529ad",
+            "datetime": "2025-08-06 15:39:28 +0000",
+            "subject": "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n"
+          },
+          {
+            "hash": "3f84769abeead8b0fd682b03e99896fc9cc7e134",
+            "datetime": "2025-08-06 15:26:02 +0000",
+            "subject": "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n"
+          },
+          {
+            "hash": "d2673b4a16d0b5225e93779e8f6f8c519a10503e",
+            "datetime": "2025-08-06 15:18:53 +0000",
+            "subject": "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n"
+          },
+          {
+            "hash": "b894ca5717de7773dc7da6ba2cec3ee7da486ae3",
+            "datetime": "2025-08-06 14:55:59 +0000",
+            "subject": "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n"
+          },
+          {
+            "hash": "c00714f3684ef2c8ec8ad42c3175c60a2b41d4a0",
+            "datetime": "2025-08-06 13:51:16 +0000",
+            "subject": "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n"
+          },
+          {
+            "hash": "117a22c7dc7d157b2d2e712203e05575c6280225",
+            "datetime": "2025-08-06 13:43:26 +0000",
+            "subject": "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n"
+          },
+          {
+            "hash": "bad1d7319fe0cef7159ac26e4eb68f251de59ebe",
+            "datetime": "2025-08-06 13:33:43 +0000",
+            "subject": "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n"
+          },
+          {
+            "hash": "5f52b7936ca16197ea4144e2b3b1512f64089594",
+            "datetime": "2025-08-06 12:35:36 +0000",
+            "subject": "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n"
+          },
+          {
+            "hash": "1fa39dcb0c558310fa9cd5e4c62fbaead0a8eff7",
+            "datetime": "2025-08-06 12:32:05 +0000",
+            "subject": "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n"
+          },
+          {
+            "hash": "f1bbd1f1614d9c0a816f04d19ed6643ee43ccbc9",
+            "datetime": "2025-08-06 12:07:15 +0000",
+            "subject": "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n"
+          },
+          {
+            "hash": "205cf69836bf018a950ed02613874f336f6b5149",
+            "datetime": "2025-08-06 11:59:05 +0000",
+            "subject": "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n"
+          },
+          {
+            "hash": "7f559978908a9e10d59bc448733e0ff94ce92ce3",
+            "datetime": "2025-08-06 11:54:59 +0000",
+            "subject": "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n"
+          },
+          {
+            "hash": "9d68e75f7421ff9fa8dc54727cdeb5dfebbc29b5",
+            "datetime": "2025-08-06 11:48:06 +0000",
+            "subject": "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 38,
+        "removed": 38,
+        "heat": [
+          [
+            "backend",
+            66
+          ],
+          [
+            "frontend",
+            10
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n",
+          "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n",
+          "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n",
+          "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n",
+          "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n",
+          "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n",
+          "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n",
+          "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n",
+          "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n",
+          "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n",
+          "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n",
+          "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n",
+          "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n",
+          "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n",
+          "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n",
+          "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n",
+          "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n",
+          "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n",
+          "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n",
+          "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n",
+          "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n",
+          "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n",
+          "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n",
+          "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n",
+          "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n",
+          "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n",
+          "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n",
+          "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [
+          {
+            "hash": "13417ad4eef5bc133bac1be25f332bfc09addf38",
+            "datetime": "2025-08-10 09:04:36 +0000",
+            "subject": "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n"
+          },
+          {
+            "hash": "9b630052e933c43fa51b6ab1f016fe6fbd66c6b9",
+            "datetime": "2025-08-09 16:39:48 +0000",
+            "subject": "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n"
+          },
+          {
+            "hash": "28b0a27d113b3a947218e58a34e4a342c544d7c0",
+            "datetime": "2025-08-09 13:24:36 +0000",
+            "subject": "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n"
+          },
+          {
+            "hash": "d124f43dc86ff2e99c912fbd62f93393ac92b3ef",
+            "datetime": "2025-08-09 08:24:23 +0000",
+            "subject": "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n"
+          },
+          {
+            "hash": "f859496b547d9ae8d947d0d388b628b70be982c3",
+            "datetime": "2025-08-09 08:13:18 +0000",
+            "subject": "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "7f030d890a280ecb4f37c9b54c24c02307e42d05",
+            "datetime": "2025-08-09 08:06:06 +0000",
+            "subject": "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n"
+          },
+          {
+            "hash": "001baa8687effcdcac3e76214797e0fee6eba55d",
+            "datetime": "2025-08-09 07:59:52 +0000",
+            "subject": "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "2f89ea6629355a303debd18bc4ac302ffb94698d",
+            "datetime": "2025-08-09 07:38:37 +0000",
+            "subject": "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n"
+          },
+          {
+            "hash": "d9f4d093ccd0623eac238236f9df702e016f9004",
+            "datetime": "2025-08-09 07:30:27 +0000",
+            "subject": "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n"
+          },
+          {
+            "hash": "f20a464740771c647418a37d18f39ac6e830626d",
+            "datetime": "2025-08-08 16:49:24 +0000",
+            "subject": "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n"
+          },
+          {
+            "hash": "d9f5a37d0aec0166e10c1eadcdc628829f826cb1",
+            "datetime": "2025-08-08 16:42:45 +0000",
+            "subject": "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "a19aeb8d0ee4817e670d2189f17a8b055d4c30c2",
+            "datetime": "2025-08-08 15:30:02 +0000",
+            "subject": "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n"
+          },
+          {
+            "hash": "8cf041bd3dd7f70e282d58a37862539abb3533c6",
+            "datetime": "2025-08-08 14:01:43 +0000",
+            "subject": "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n"
+          },
+          {
+            "hash": "e4c1b31a38dc25473aa74efc24b7e5f5af6ebb80",
+            "datetime": "2025-08-08 08:17:28 +0000",
+            "subject": "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "6168893edfe45d438d47bbe3a855aad9754de02b",
+            "datetime": "2025-08-07 12:10:07 +0000",
+            "subject": "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n"
+          },
+          {
+            "hash": "7d3abfb607eacd9c535d8f8dbd80cc6d9561e604",
+            "datetime": "2025-08-07 11:58:38 +0000",
+            "subject": "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n"
+          },
+          {
+            "hash": "73dcef49efbbabe22b907d369b5c8b9b315022dd",
+            "datetime": "2025-08-07 11:44:41 +0000",
+            "subject": "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n"
+          },
+          {
+            "hash": "08855e354e7b9e5bd98bff5c0b2db6ccfee529ad",
+            "datetime": "2025-08-06 15:39:28 +0000",
+            "subject": "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n"
+          },
+          {
+            "hash": "3f84769abeead8b0fd682b03e99896fc9cc7e134",
+            "datetime": "2025-08-06 15:26:02 +0000",
+            "subject": "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n"
+          },
+          {
+            "hash": "d2673b4a16d0b5225e93779e8f6f8c519a10503e",
+            "datetime": "2025-08-06 15:18:53 +0000",
+            "subject": "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n"
+          },
+          {
+            "hash": "b894ca5717de7773dc7da6ba2cec3ee7da486ae3",
+            "datetime": "2025-08-06 14:55:59 +0000",
+            "subject": "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n"
+          },
+          {
+            "hash": "c00714f3684ef2c8ec8ad42c3175c60a2b41d4a0",
+            "datetime": "2025-08-06 13:51:16 +0000",
+            "subject": "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n"
+          },
+          {
+            "hash": "117a22c7dc7d157b2d2e712203e05575c6280225",
+            "datetime": "2025-08-06 13:43:26 +0000",
+            "subject": "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n"
+          },
+          {
+            "hash": "bad1d7319fe0cef7159ac26e4eb68f251de59ebe",
+            "datetime": "2025-08-06 13:33:43 +0000",
+            "subject": "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n"
+          },
+          {
+            "hash": "5f52b7936ca16197ea4144e2b3b1512f64089594",
+            "datetime": "2025-08-06 12:35:36 +0000",
+            "subject": "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n"
+          },
+          {
+            "hash": "1fa39dcb0c558310fa9cd5e4c62fbaead0a8eff7",
+            "datetime": "2025-08-06 12:32:05 +0000",
+            "subject": "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n"
+          },
+          {
+            "hash": "f1bbd1f1614d9c0a816f04d19ed6643ee43ccbc9",
+            "datetime": "2025-08-06 12:07:15 +0000",
+            "subject": "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n"
+          },
+          {
+            "hash": "205cf69836bf018a950ed02613874f336f6b5149",
+            "datetime": "2025-08-06 11:59:05 +0000",
+            "subject": "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n"
+          },
+          {
+            "hash": "7f559978908a9e10d59bc448733e0ff94ce92ce3",
+            "datetime": "2025-08-06 11:54:59 +0000",
+            "subject": "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n"
+          },
+          {
+            "hash": "9d68e75f7421ff9fa8dc54727cdeb5dfebbc29b5",
+            "datetime": "2025-08-06 11:48:06 +0000",
+            "subject": "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 38,
+        "removed": 38,
+        "heat": [
+          [
+            "backend",
+            66
+          ],
+          [
+            "frontend",
+            10
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n",
+          "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n",
+          "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n",
+          "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n",
+          "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n",
+          "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n",
+          "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n",
+          "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n",
+          "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n",
+          "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n",
+          "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n",
+          "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n",
+          "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n",
+          "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n",
+          "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n",
+          "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n",
+          "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n",
+          "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n",
+          "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n",
+          "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n",
+          "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n",
+          "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n",
+          "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n",
+          "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n",
+          "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n",
+          "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n",
+          "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n",
+          "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+        ]
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "13417ad4eef5bc133bac1be25f332bfc09addf38",
+            "datetime": "2025-08-10 09:04:36 +0000",
+            "subject": "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n"
+          },
+          {
+            "hash": "9b630052e933c43fa51b6ab1f016fe6fbd66c6b9",
+            "datetime": "2025-08-09 16:39:48 +0000",
+            "subject": "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n"
+          },
+          {
+            "hash": "28b0a27d113b3a947218e58a34e4a342c544d7c0",
+            "datetime": "2025-08-09 13:24:36 +0000",
+            "subject": "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n"
+          },
+          {
+            "hash": "d124f43dc86ff2e99c912fbd62f93393ac92b3ef",
+            "datetime": "2025-08-09 08:24:23 +0000",
+            "subject": "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n"
+          },
+          {
+            "hash": "f859496b547d9ae8d947d0d388b628b70be982c3",
+            "datetime": "2025-08-09 08:13:18 +0000",
+            "subject": "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "7f030d890a280ecb4f37c9b54c24c02307e42d05",
+            "datetime": "2025-08-09 08:06:06 +0000",
+            "subject": "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n"
+          },
+          {
+            "hash": "001baa8687effcdcac3e76214797e0fee6eba55d",
+            "datetime": "2025-08-09 07:59:52 +0000",
+            "subject": "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n"
+          },
+          {
+            "hash": "2f89ea6629355a303debd18bc4ac302ffb94698d",
+            "datetime": "2025-08-09 07:38:37 +0000",
+            "subject": "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n"
+          },
+          {
+            "hash": "d9f4d093ccd0623eac238236f9df702e016f9004",
+            "datetime": "2025-08-09 07:30:27 +0000",
+            "subject": "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n"
+          },
+          {
+            "hash": "f20a464740771c647418a37d18f39ac6e830626d",
+            "datetime": "2025-08-08 16:49:24 +0000",
+            "subject": "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n"
+          },
+          {
+            "hash": "d9f5a37d0aec0166e10c1eadcdc628829f826cb1",
+            "datetime": "2025-08-08 16:42:45 +0000",
+            "subject": "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "a19aeb8d0ee4817e670d2189f17a8b055d4c30c2",
+            "datetime": "2025-08-08 15:30:02 +0000",
+            "subject": "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n"
+          },
+          {
+            "hash": "8cf041bd3dd7f70e282d58a37862539abb3533c6",
+            "datetime": "2025-08-08 14:01:43 +0000",
+            "subject": "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n"
+          },
+          {
+            "hash": "e4c1b31a38dc25473aa74efc24b7e5f5af6ebb80",
+            "datetime": "2025-08-08 08:17:28 +0000",
+            "subject": "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n"
+          },
+          {
+            "hash": "6168893edfe45d438d47bbe3a855aad9754de02b",
+            "datetime": "2025-08-07 12:10:07 +0000",
+            "subject": "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n"
+          },
+          {
+            "hash": "7d3abfb607eacd9c535d8f8dbd80cc6d9561e604",
+            "datetime": "2025-08-07 11:58:38 +0000",
+            "subject": "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n"
+          },
+          {
+            "hash": "73dcef49efbbabe22b907d369b5c8b9b315022dd",
+            "datetime": "2025-08-07 11:44:41 +0000",
+            "subject": "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n"
+          },
+          {
+            "hash": "08855e354e7b9e5bd98bff5c0b2db6ccfee529ad",
+            "datetime": "2025-08-06 15:39:28 +0000",
+            "subject": "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n"
+          },
+          {
+            "hash": "3f84769abeead8b0fd682b03e99896fc9cc7e134",
+            "datetime": "2025-08-06 15:26:02 +0000",
+            "subject": "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n"
+          },
+          {
+            "hash": "d2673b4a16d0b5225e93779e8f6f8c519a10503e",
+            "datetime": "2025-08-06 15:18:53 +0000",
+            "subject": "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n"
+          },
+          {
+            "hash": "b894ca5717de7773dc7da6ba2cec3ee7da486ae3",
+            "datetime": "2025-08-06 14:55:59 +0000",
+            "subject": "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n"
+          },
+          {
+            "hash": "c00714f3684ef2c8ec8ad42c3175c60a2b41d4a0",
+            "datetime": "2025-08-06 13:51:16 +0000",
+            "subject": "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n"
+          },
+          {
+            "hash": "117a22c7dc7d157b2d2e712203e05575c6280225",
+            "datetime": "2025-08-06 13:43:26 +0000",
+            "subject": "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n"
+          },
+          {
+            "hash": "bad1d7319fe0cef7159ac26e4eb68f251de59ebe",
+            "datetime": "2025-08-06 13:33:43 +0000",
+            "subject": "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n"
+          },
+          {
+            "hash": "5f52b7936ca16197ea4144e2b3b1512f64089594",
+            "datetime": "2025-08-06 12:35:36 +0000",
+            "subject": "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n"
+          },
+          {
+            "hash": "1fa39dcb0c558310fa9cd5e4c62fbaead0a8eff7",
+            "datetime": "2025-08-06 12:32:05 +0000",
+            "subject": "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n"
+          },
+          {
+            "hash": "f1bbd1f1614d9c0a816f04d19ed6643ee43ccbc9",
+            "datetime": "2025-08-06 12:07:15 +0000",
+            "subject": "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n"
+          },
+          {
+            "hash": "205cf69836bf018a950ed02613874f336f6b5149",
+            "datetime": "2025-08-06 11:59:05 +0000",
+            "subject": "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n"
+          },
+          {
+            "hash": "7f559978908a9e10d59bc448733e0ff94ce92ce3",
+            "datetime": "2025-08-06 11:54:59 +0000",
+            "subject": "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n"
+          },
+          {
+            "hash": "9d68e75f7421ff9fa8dc54727cdeb5dfebbc29b5",
+            "datetime": "2025-08-06 11:48:06 +0000",
+            "subject": "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+          }
+        ],
+        "files": 38,
+        "added": 38,
+        "removed": 38,
+        "heat": [
+          [
+            "backend",
+            66
+          ],
+          [
+            "frontend",
+            10
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[6fb316f: feat: 重构订单和定价相关DTO，更新订单创建逻辑，添加履约选项支持]\\n",
+          "[frontend] 自动合并[cf25250: feat: 完成上传打印批量删除功能设计，调整图标样式]\\n",
+          "[frontend] 自动合并[23b848b: feat: 完善上传打印体验，支持切换时弹窗提醒，打印设置与上传打印页面文件卡片信息同步，确保店铺切换时可以回退至本店铺支持的服务组件]\\n",
+          "[frontend] 自动合并[b88aad0: feat: 完善打印设置的价格计算，提供正确清晰的价格明细查看]\\n",
+          "[backend] 自动合并[f2002dd: feat: 更新计费单位，明确打印服务按打印面计费，后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[5d31e82: feat: 优化打印服务计费逻辑，修正打印面数计算以提高准确性]\\n",
+          "[backend] 自动合并[b0b8c30: feat: 优化打印服务计费逻辑，明确后道服务按物理纸张计费]\\n",
+          "[backend] 自动合并[72291cf: feat: 明确后道服务的计费逻辑，优化计费单位和小计计算]\\n",
+          "[backend] 自动合并[01c15f7: feat: 更新ItemPriceRequestDTO和ClientPricingService，优化价格计算逻辑，使用嵌套DTO返回详细价格信息]\\n",
+          "[backend] 自动合并[3cfb824: feat: 移除PrintServiceOptions中的rawPrintServices字段，优化parsePrintServices方法参数]\\n",
+          "[backend] 自动合并[a651591: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加打印服务相关字段，优化价格计算逻辑]\\n",
+          "[frontend] 自动合并[1a4d6e1: refactor: 完全重构请求发送逻辑，实现自动弹出登录窗口，自动刷新接口过期 token并重新获取，暂存全新打印设置逻辑]\\n",
+          "[backend] 自动合并[69b49f6: feat: 添加打印设置选项接口及实现，支持根据店铺ID获取打印服务相关选项]\\n",
+          "[backend] 自动合并[4bf3d3a: feat: 更新ItemPriceRequestDTO和ClientPricingServiceImpl，添加布局和装订字段，优化价格计算逻辑]\\n",
+          "[backend] 自动合并[3e6a55d: feat: 优化WebClient配置，增加内存大小限制至100MB]\\n",
+          "[backend] 自动合并[da59088: feat: 更新JWT过期时间和刷新时间，调整为2小时和7天]\\n",
+          "[backend] 自动合并[4504d46: feat: 添加平台基准价字段到ClientServiceItemDTO，并在ClientStoreServiceImpl中设置基准价]\\n",
+          "[frontend] 自动合并[75cfad8: feat: 部分完善计价逻辑，完善登录/refresh token/个人信息提交/初始化用户等设计]\\n",
+          "[backend] 自动合并[946e35a: feat: 更新用户资料时仅在微信用户初始化时强制要求手机号，优化用户信息验证逻辑]\\n",
+          "[backend] 自动合并[e722712: feat: 修复用户登录流程，确保无论用户是否初始化都返回Token，并优化用户资料初始化逻辑]\\n",
+          "[backend] 自动合并[129daf3: feat: 添加获取手机号码的公共API路径，增强用户认证功能]\\n",
+          "[backend] 自动合并[26a96d0: feat: 增强JWT认证过滤器，添加公共路径处理逻辑，优化请求过滤流程]\\n",
+          "[backend] 自动合并[72ee405: feat: 添加获取用户个人资料的接口，增强用户信息访问功能]\\n",
+          "[backend] 自动合并[65ad5e3: feat: 优化安全配置，简化请求匹配逻辑，确保API请求需要身份验证]\\n",
+          "[backend] 自动合并[25e9d97: feat: 更新用户实体以实现UserDetails接口，增强安全性和用户管理功能]\\n",
+          "[backend] 自动合并[c370a18: feat: 简化Token验证逻辑，移除用户名参数，增强代码可读性]\\n",
+          "[backend] 自动合并[669350f: feat: 支持通过OpenId查找用户并更新认证逻辑，确保用户名作为主体用于身份验证]\\n",
+          "[backend] 自动合并[d39bb58: feat: 修改Token过期时间为1分钟以便于调试，并增强刷新Token时的错误信息]\\n",
+          "[backend] 自动合并[5e8096e: feat: 在用户登录响应中添加刷新Token]\\n",
+          "[backend] 自动合并[eafd298: feat: 更新安全配置，添加新的客户端API认证路径并实现Token刷新功能]\\n"
+        ]
+      }
+    ]
+  }
+}
