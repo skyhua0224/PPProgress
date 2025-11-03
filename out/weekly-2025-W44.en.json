@@ -1,70 +1,173 @@
 {
-  "title": "Weekly Report (2025-10-27 to 2025-10-31)",
+  "title": "Weekly Report (2025-10-27 to now)",
   "lang": "en",
   "since": "2025-10-27",
-  "until": "2025-10-31",
-  "generatedAt": "2025-11-02T11:43:49.888Z",
+  "until": null,
+  "generatedAt": "2025-11-03T02:51:50.961Z",
   "progress": {
     "totals": {
-      "commits": 8,
-      "files": 29,
-      "added": 996,
-      "removed": 202
+      "commits": 3,
+      "files": 1155,
+      "added": 174163,
+      "removed": 0
     },
     "modules": [
       {
         "name": "ProjectPrinting",
         "path": ".",
-        "commits": [],
-        "files": 0,
-        "added": 0,
+        "commits": [
+          {
+            "hash": "b8da30ddf26402a55f8b54897ce009b7334e10de",
+            "datetime": "2025-10-31 15:44:40 +0000",
+            "subject": "[admin] 自动合并[93719f5a: feat(printing-center): 添加搜索面板、统计数据与相关类型/接口]\\n"
+          }
+        ],
+        "files": 128,
+        "added": 51536,
         "removed": 0,
-        "heat": [],
-        "subjects": []
+        "heat": [
+          [
+            "docs",
+            43623
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "analysis",
+            393
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[93719f5a: feat(printing-center): 添加搜索面板、统计数据与相关类型/接口]\\n"
+        ]
       },
       {
         "name": "admin",
         "path": "admin",
         "commits": [
           {
-            "hash": "aea08a11c3b972d627deadaeb346a6e5b69465a7",
-            "datetime": "2025-10-31 02:39:22 +0800",
-            "subject": "feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。"
-          },
-          {
-            "hash": "345bed2892cbfc0bc02a24b54c30ff263155655f",
-            "datetime": "2025-10-28 02:34:58 +0800",
-            "subject": "feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互"
+            "hash": "93719f5a06e74eb0bf20e6d62ea79000a3317920",
+            "datetime": "2025-10-31 23:44:03 +0800",
+            "subject": "feat(printing-center): 添加搜索面板、统计数据与相关类型/接口"
           }
         ],
-        "files": 10,
-        "added": 455,
-        "removed": 163,
+        "files": 440,
+        "added": 67813,
+        "removed": 0,
         "heat": [
           [
-            "src/views/printing-center",
-            508
+            "pnpm-lock.yaml",
+            11095
           ],
           [
-            "src/typings/api.d.ts",
-            43
+            "src/views/marketing",
+            8345
           ],
           [
-            "src/views/order",
-            43
+            "packages",
+            6136
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/views/store",
+            3269
           ],
           [
             "src/service/api",
-            18
+            3228
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/views/printing-center",
+            2885
+          ],
+          [
+            "src/views/order",
+            2837
+          ],
+          [
+            "src/views/hardware",
+            2499
+          ],
+          [
+            "src/store/modules",
+            2287
+          ],
+          [
+            "src/layouts/modules",
+            2012
+          ],
+          [
+            "src/locales/langs",
+            1883
+          ],
+          [
+            "src/typings/api.d.ts",
+            1727
           ],
           [
             "src/typings/app.d.ts",
-            6
+            1213
           ]
         ],
         "subjects": [
-          "feat(printing-center): 补全打印中心类型与接口，重构前端页面与数据适配，从 mock 数据迁移至真实后端。",
-          "feat(printing-center,order): 重构打印中心数据模型与表格展示，优化打印与详情交互"
+          "feat(printing-center): 添加搜索面板、统计数据与相关类型/接口"
         ]
       },
       {
@@ -82,52 +185,78 @@
         "path": "backend",
         "commits": [
           {
-            "hash": "6a379edd66325ee16b5d2e08e1d4e9f474e92cfe",
-            "datetime": "2025-10-31 01:31:25 +0800",
-            "subject": "fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限"
-          },
-          {
-            "hash": "e86416d2c9be6d77a017ed7015b4e6fe30ab0ca8",
-            "datetime": "2025-10-31 01:21:32 +0800",
-            "subject": "fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤"
-          },
-          {
-            "hash": "2c00de68c73a47a21376a498ec2c88afbe268947",
-            "datetime": "2025-10-31 01:12:09 +0800",
-            "subject": "fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果"
-          },
-          {
-            "hash": "3fa72d4826af9fdb8ae2044dcc95048146d9f348",
-            "datetime": "2025-10-31 00:53:47 +0800",
-            "subject": "fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合"
-          },
-          {
-            "hash": "08e432c70166f55a828eea9e90301765971c95ad",
-            "datetime": "2025-10-31 00:17:13 +0800",
-            "subject": "fix: 将权限同步扫描范围限定为 controller.admin 包"
-          },
-          {
-            "hash": "06d9ed7a5b22f4d6dcd494282dbc6892eefd8847",
-            "datetime": "2025-10-30 23:47:36 +0800",
-            "subject": "feat: 统一订单备注为 userRemarks 并新增打印中心功能"
+            "hash": "4614e4b98ea897e79f7df436792b57048c4f6e9b",
+            "datetime": "2025-10-31 23:09:44 +0800",
+            "subject": "feat: 添加打印中心统计接口与实现"
           }
         ],
-        "files": 19,
-        "added": 541,
-        "removed": 39,
+        "files": 587,
+        "added": 54814,
+        "removed": 0,
         "heat": [
           [
             "src/main/java",
-            580
+            51126
+          ],
+          [
+            "api.md",
+            1517
+          ],
+          [
+            "src/main/resources",
+            1122
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            190
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
           ]
         ],
         "subjects": [
-          "fix: 在 getPaginatedOrders 的 Specification 中仅 LEFT fetch orderItems，避免 MultipleBagFetchException；基于 AdminProfile 限制店铺权限",
-          "fix: 在 getPaginatedOrders 中批量加载 orderFiles 并简化权限过滤",
-          "fix: 在 getPaginatedOrders 的 Specification 中对 orderFiles/orderItems 执行 LEFT fetch（仅在非 count 查询时）并设置 distinct，避免 LazyInitializationException 和重复结果",
-          "fix: 通过 PermissionRepository.findPermissionsByRoleId 从 DB 获取角色权限，避免使用可能缓存的 role.getPermissions() 集合",
-          "fix: 将权限同步扫描范围限定为 controller.admin 包",
-          "feat: 统一订单备注为 userRemarks 并新增打印中心功能"
+          "feat: 添加打印中心统计接口与实现"
         ]
       }
     ]

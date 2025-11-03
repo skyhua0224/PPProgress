@@ -1,21 +1,17 @@
-# 周报（2025-10-27 至 当前）
+# Dev progress — ProjectPrinting + submodules (since 2025-10-27)
 
-## 开发进展
+Modules scanned: ProjectPrinting, admin, frontend, backend
+Total commits: 3
+Total files touched: 1155
+Total lines +/-: +174163 / -0
 
-# 开发进展 — 主仓与子模块（自 2025-10-27）
-
-扫描的模块: ProjectPrinting, admin, frontend, backend
-提交总数: 3
-触达文件总数: 1155
-行变更合计 +/-: +174163 / -0
-
-## 按模块汇总
+## Per-module summary
 - ProjectPrinting (.): commits=1, files=128, +51536/-0
 - admin (admin): commits=1, files=440, +67813/-0
 - frontend (frontend): commits=0, files=0, +0/-0
 - backend (backend): commits=1, files=587, +54814/-0
 
-## 顶层目录热力（按模块）
+## Heat by top-level directory (per module)
 - ProjectPrinting:
   - docs: 43623
   - docs-old: 2155
@@ -65,7 +61,7 @@
   - .cloudbase: 1
   - .mvn: 1
 
-## 提交主题（每模块最多 10 条）
+## Commit subjects (up to 10 per module)
 - ProjectPrinting:
   - [undefined] [admin] 自动合并[93719f5a: feat(printing-center): 添加搜索面板、统计数据与相关类型/接口]\n
 - admin:

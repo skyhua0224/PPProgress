@@ -1,7 +1,3 @@
-# 周报（2025-10-27 至 当前）
-
-## 开发进展
-
 # 开发进展 — 主仓与子模块（自 2025-10-27）
 
 扫描的模块: ProjectPrinting, admin, frontend, backend
