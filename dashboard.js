@@ -6,6 +6,7 @@
 let currentLang = 'zh' // 默认中文
 let allReports = []
 let githubData = null
+let LAST_HEATMAP = null // { type: 'map'|'modules', data: any }
 const LIVE = { account: null, project: null }
 
 const STATE = {
@@ -792,54 +793,8 @@ function renderContributionHeatmap(modules) {
     })
   })
 
-  const days = 365
-  const today = new Date()
-  const dates = []
-  for (let i = days - 1; i >= 0; i--) {
-    const d = new Date(today)
-    d.setDate(d.getDate() - i)
-    dates.push(d.toISOString().split('T')[0])
-  }
-
-  const maxCommits = Math.max(...Object.values(commitsByDate), 1)
-  const getColor = (count) => {
-    if (count === 0) return '#ebedf0'
-    const ratio = count / maxCommits
-    if (ratio < 0.25) return '#c6e48b'
-    if (ratio < 0.5) return '#7bc96f'
-    if (ratio < 0.75) return '#239a3b'
-    return '#196127'
-  }
-
-  const weeks = []
-  for (let i = 0; i < dates.length; i += 7) {
-    weeks.push(dates.slice(i, i + 7))
-  }
-
-  container.innerHTML = `
-    <div class="flex gap-1 justify-start min-w-max">
-      ${weeks
-        .map(
-          (week) => `
-        <div class="flex flex-col gap-1">
-          ${week
-            .map((date) => {
-              const count = commitsByDate[date] || 0
-              return `<div class="w-3 h-3 rounded-sm cursor-pointer hover:ring-2 hover:ring-indigo-400" style="background: ${getColor(
-                count,
-              )};" title="${date}: ${count} commits"></div>`
-            })
-            .join('')}
-        </div>
-      `,
-        )
-        .join('')}
-    </div>
-  `
-  // 默认滚动到最右侧（显示最近日期，更符合 GitHub 展示习惯）
-  try {
-    requestAnimationFrame(() => (container.scrollLeft = container.scrollWidth))
-  } catch {}
+  LAST_HEATMAP = { type: 'modules', data: modules }
+  renderHeatmapGridFromMap(commitsByDate)
 }
 
 // ==================== 渲染提交趋势图表 ====================
@@ -956,14 +911,8 @@ function renderModuleDistChart(modules) {
         '<div class="text-sm text-gray-500 text-center py-4">最近无模块提交</div>'
     return
   }
-  const colors = [
-    '#4f46e5',
-    '#10b981',
-    '#f59e0b',
-    '#ef4444',
-    '#8b5cf6',
-    '#06b6d4',
-  ]
+  const colors = labels.map((n) => moduleColor(n))
+  const borderColor = getSurfaceColor()
 
   new Chart(canvas, {
     type: 'doughnut',
@@ -974,7 +923,7 @@ function renderModuleDistChart(modules) {
           data,
           backgroundColor: colors,
           borderWidth: 2,
-          borderColor: '#fff',
+          borderColor: borderColor,
         },
       ],
     },
@@ -1011,20 +960,19 @@ function renderModuleDistChartFromSeries(items) {
         '<div class="text-sm text-gray-500 text-center py-4">最近无模块提交</div>'
     return
   }
-  const colors = [
-    '#4f46e5',
-    '#10b981',
-    '#f59e0b',
-    '#ef4444',
-    '#8b5cf6',
-    '#06b6d4',
-  ]
+  const colors = labels.map((n) => moduleColor(n))
+  const borderColor = getSurfaceColor()
   new Chart(canvas, {
     type: 'doughnut',
     data: {
       labels,
       datasets: [
-        { data, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' },
+        {
+          data,
+          backgroundColor: colors,
+          borderWidth: 2,
+          borderColor: borderColor,
+        },
       ],
     },
     options: {
@@ -1063,14 +1011,8 @@ function renderModuleLinesDistFromModules(modules) {
         '<div class="text-sm text-gray-500 text-center py-4">最近无模块代码变更</div>'
     return
   }
-  const colors = [
-    '#4f46e5',
-    '#10b981',
-    '#f59e0b',
-    '#ef4444',
-    '#8b5cf6',
-    '#06b6d4',
-  ]
+  const colors = labels.map((n) => moduleColor(n))
+  const borderColor = getSurfaceColor()
   new Chart(canvas, {
     type: 'doughnut',
     data: {
@@ -1080,7 +1022,7 @@ function renderModuleLinesDistFromModules(modules) {
           data,
           backgroundColor: colors,
           borderWidth: 2,
-          borderColor: '#fff',
+          borderColor: borderColor,
         },
       ],
     },
@@ -1165,21 +1107,20 @@ function renderModuleLinesDistFromByModule(byModule = {}, modulesAllowed = []) {
     return
   }
 
-  const colors = [
-    '#4f46e5',
-    '#10b981',
-    '#f59e0b',
-    '#ef4444',
-    '#8b5cf6',
-    '#06b6d4',
-  ]
+  const colors = labels.map((n) => moduleColor(n))
+  const borderColor = getSurfaceColor()
 
   STATE.charts.moduleDist = new Chart(canvas, {
     type: 'doughnut',
     data: {
       labels,
       datasets: [
-        { data, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' },
+        {
+          data,
+          backgroundColor: colors,
+          borderWidth: 2,
+          borderColor: borderColor,
+        },
       ],
     },
     options: {
@@ -1473,6 +1414,15 @@ function applyLanguageUI() {
 function renderContributionHeatmapFromMap(map) {
   const container = document.getElementById('heatmapContainer')
   if (!container) return
+  LAST_HEATMAP = { type: 'map', data: map }
+  renderHeatmapGridFromMap(map)
+}
+
+// 基于 map(date->count) 渲染热力图，适配主题、tooltip、居中与移动端完整显示
+function renderHeatmapGridFromMap(map) {
+  const container = document.getElementById('heatmapContainer')
+  if (!container) return
+
   const days = 365
   const today = new Date()
   const dates = []
@@ -1482,29 +1432,105 @@ function renderContributionHeatmapFromMap(map) {
     dates.push(d.toISOString().split('T')[0])
   }
   const values = dates.map((d) => map[d] || 0)
+  const positives = values.filter((v) => v > 0).sort((a, b) => a - b)
   const maxCommits = Math.max(1, ...values)
-  const getColor = (count) => {
-    if (count === 0) return '#ebedf0'
-    const ratio = count / maxCommits
-    if (ratio < 0.25) return '#c6e48b'
-    if (ratio < 0.5) return '#7bc96f'
-    if (ratio < 0.75) return '#239a3b'
-    return '#196127'
+
+  const isDark =
+    (document.documentElement.getAttribute('data-theme') || 'light') === 'dark'
+  const paletteLight = ['#ebedf0', '#c6e48b', '#7bc96f', '#239a3b', '#196127']
+  // 参考 GitHub 暗色主题的贡献色板，增加对比度
+  const paletteDark = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353']
+  const pal = isDark ? paletteDark : paletteLight
+  // 使用分位数分桶，弱化极端值对对比度的影响；不足样本时回退线性比例
+  const q = (p) => {
+    if (!positives.length) return 0
+    const idx = Math.min(
+      positives.length - 1,
+      Math.max(0, Math.round(p * (positives.length - 1))),
+    )
+    return positives[idx]
   }
+  const thresholds =
+    positives.length >= 5 ? [q(0.2), q(0.4), q(0.6), q(0.8)] : null
+
+  const getLevel = (count) => {
+    if (count === 0) return 0
+    if (thresholds) {
+      if (count <= thresholds[0]) return 1
+      if (count <= thresholds[1]) return 2
+      if (count <= thresholds[2]) return 3
+      return 4
+    } else {
+      const ratio = count / maxCommits
+      if (ratio < 0.25) return 1
+      if (ratio < 0.5) return 2
+      if (ratio < 0.75) return 3
+      return 4
+    }
+  }
+  const getColor = (count) => pal[getLevel(count)]
+
+  // 计算每个 cell 的尺寸，使整图可在小屏完整显示
+  const totalWeeks = Math.ceil(dates.length / 7)
+  const gap = 2
+  const maxCell = 13
+  const minCell = 4
+  const avail = container.clientWidth || container.offsetWidth || 320
+  const cell = Math.max(
+    minCell,
+    Math.min(
+      maxCell,
+      Math.floor((avail - gap * (totalWeeks - 1)) / totalWeeks),
+    ),
+  )
+
   const weeks = []
   for (let i = 0; i < dates.length; i += 7) weeks.push(dates.slice(i, i + 7))
-  container.innerHTML = `
-    <div class="flex gap-1 justify-start min-w-max">
+
+  // 构建 tooltip 容器
+  const tooltipId = 'pp-heatmap-tooltip'
+  let tip = container.querySelector('#' + tooltipId)
+  if (!tip) {
+    tip = document.createElement('div')
+    tip.id = tooltipId
+    tip.style.position = 'absolute'
+    tip.style.pointerEvents = 'none'
+    tip.style.zIndex = '10'
+    tip.style.padding = '6px 8px'
+    tip.style.fontSize = '12px'
+    tip.style.borderRadius = '6px'
+    tip.style.background = 'rgba(0,0,0,0.75)'
+    tip.style.color = '#fff'
+    tip.style.transform = 'translate(-50%, 0)'
+    tip.style.display = 'none'
+    container.style.position = 'relative'
+    container.appendChild(tip)
+  }
+
+  // 计算描边颜色提升对比度
+  const borderColor = (function () {
+    try {
+      const v = getComputedStyle(document.documentElement)
+        .getPropertyValue('--surface-border')
+        .trim()
+      if (v) return v
+    } catch {}
+    return isDark ? '#233045' : '#e5e7eb'
+  })()
+
+  const gridHtml = `
+    <div class="flex gap-[${gap}px] justify-center w-full">
       ${weeks
         .map(
           (week) => `
-        <div class="flex flex-col gap-1">
+        <div class="flex flex-col" style="gap:${gap}px">
           ${week
             .map((date) => {
               const count = map[date] || 0
-              return `<div class="w-3 h-3 rounded-sm cursor-pointer hover:ring-2 hover:ring-indigo-400" style="background: ${getColor(
-                count,
-              )};" title="${date}: ${count} commits"></div>`
+              const color = getColor(count)
+              return `<div class="rounded-sm heatmap-cell cursor-pointer" role="button" aria-label="${date}: ${count} commits" 
+                          data-date="${date}" data-count="${count}"
+                          style="width:${cell}px;height:${cell}px;background:${color};box-shadow: inset 0 0 0 1px ${borderColor};"></div>`
             })
             .join('')}
         </div>
@@ -1513,9 +1539,55 @@ function renderContributionHeatmapFromMap(map) {
         .join('')}
     </div>
   `
-  try {
-    requestAnimationFrame(() => (container.scrollLeft = container.scrollWidth))
-  } catch {}
+  // 清空旧网格，但保留 tooltip 节点
+  if (tip && tip.parentElement === container) {
+    tip.remove()
+  }
+  container.innerHTML = ''
+  container.insertAdjacentHTML('afterbegin', gridHtml)
+  if (tip) container.appendChild(tip)
+
+  // 事件：显示 tooltip
+  const showTip = (ev, target) => {
+    const date = target.getAttribute('data-date')
+    const count = Number(target.getAttribute('data-count') || 0)
+    tip.textContent = `${date}: ${count} ${
+      currentLang === 'zh' ? '次提交' : 'commits'
+    }`
+    tip.style.display = 'block'
+    // 计算容器内坐标
+    const rect = container.getBoundingClientRect()
+    const mouseX =
+      (ev.clientX || (ev.touches && ev.touches[0]?.clientX) || 0) - rect.left
+    const mouseY =
+      (ev.clientY || (ev.touches && ev.touches[0]?.clientY) || 0) - rect.top
+    const tipW = tip.offsetWidth
+    const tipH = tip.offsetHeight
+    // 水平居中并夹紧
+    const minL = tipW / 2 + 6
+    const maxL = rect.width - tipW / 2 - 6
+    const left = Math.max(minL, Math.min(maxL, mouseX))
+    // 默认显示在指针上方，若越界则改为下方
+    let top = mouseY - 10 - tipH
+    if (top < 0) top = mouseY + 10
+    tip.style.left = `${left}px`
+    tip.style.top = `${top}px`
+    tip.style.transform = 'translate(-50%, 0)'
+  }
+  const hideTip = () => (tip.style.display = 'none')
+
+  container.querySelectorAll('.heatmap-cell').forEach((el) => {
+    el.addEventListener('mouseenter', (e) => showTip(e, el))
+    el.addEventListener('mousemove', (e) => showTip(e, el))
+    el.addEventListener('mouseleave', hideTip)
+    el.addEventListener('touchstart', (e) => {
+      if (e.touches && e.touches[0]) {
+        const t = e.touches[0]
+        showTip({ clientX: t.clientX, clientY: t.clientY }, el)
+      }
+    })
+    el.addEventListener('touchend', hideTip)
+  })
 }
 
 async function loadLiveStats() {
@@ -2318,8 +2390,8 @@ function initializeCharts(data) {
             data: progress.modules.map((m) =>
               Array.isArray(m.commits) ? m.commits.length : m.commits || 0,
             ),
-            backgroundColor: 'rgba(79, 70, 229, 0.8)',
-            borderColor: 'rgba(79, 70, 229, 1)',
+            backgroundColor: progress.modules.map((m) => moduleColor(m.name)),
+            borderColor: progress.modules.map((m) => moduleColor(m.name)),
             borderWidth: 1,
           },
         ],
@@ -2340,6 +2412,7 @@ function initializeCharts(data) {
   // Code Changes Chart
   const changesCtx = document.getElementById('changesChart')
   if (changesCtx) {
+    const borderColor = getSurfaceColor()
     STATE.charts.changes = new Chart(changesCtx, {
       type: 'doughnut',
       data: {
@@ -2347,14 +2420,9 @@ function initializeCharts(data) {
         datasets: [
           {
             data: progress.modules.map((m) => m.added + m.removed),
-            backgroundColor: [
-              'rgba(79, 70, 229, 0.8)',
-              'rgba(16, 185, 129, 0.8)',
-              'rgba(245, 158, 11, 0.8)',
-              'rgba(239, 68, 68, 0.8)',
-            ],
+            backgroundColor: progress.modules.map((m) => moduleColor(m.name)),
             borderWidth: 2,
-            borderColor: '#fff',
+            borderColor: borderColor,
           },
         ],
       },
@@ -2415,6 +2483,52 @@ function moduleColor(name) {
     h = (h * 31 + name.charCodeAt(i)) >>> 0
   return palette[h % palette.length]
 }
+
+function getSurfaceColor() {
+  try {
+    const v = getComputedStyle(document.documentElement).getPropertyValue(
+      '--surface',
+    )
+    return (v && v.trim()) || '#ffffff'
+  } catch {
+    return '#ffffff'
+  }
+}
+
+// 监听主题变化，重渲染热力图并调整图表描边/配色
+document.addEventListener('pp-theme-change', () => {
+  try {
+    if (LAST_HEATMAP) {
+      if (LAST_HEATMAP.type === 'map')
+        renderHeatmapGridFromMap(LAST_HEATMAP.data)
+      if (LAST_HEATMAP.type === 'modules')
+        renderContributionHeatmap(LAST_HEATMAP.data)
+    }
+    // 更新已存在的 doughnut 边框颜色
+    const borderColor = getSurfaceColor()
+    Object.values(STATE.charts || {}).forEach((ch) => {
+      try {
+        if (!ch || !ch.config) return
+        if (ch.config.type === 'doughnut' && ch.data && ch.data.datasets) {
+          ch.data.datasets.forEach((ds) => (ds.borderColor = borderColor))
+          ch.update('none')
+        }
+      } catch {}
+    })
+  } catch {}
+})
+
+// 响应式：窗口尺寸变化时重绘热力图以适配完整显示
+window.addEventListener('resize', () => {
+  try {
+    if (LAST_HEATMAP) {
+      if (LAST_HEATMAP.type === 'map')
+        renderHeatmapGridFromMap(LAST_HEATMAP.data)
+      if (LAST_HEATMAP.type === 'modules')
+        renderContributionHeatmap(LAST_HEATMAP.data)
+    }
+  } catch {}
+})
 
 function getTranslations(lang) {
   const translations = {
