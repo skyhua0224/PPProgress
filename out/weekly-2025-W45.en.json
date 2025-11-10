@@ -1,0 +1,264 @@
+{
+  "title": "Weekly Report (2025-11-03 to now)",
+  "lang": "en",
+  "since": "2025-11-03",
+  "until": null,
+  "generatedAt": "2025-11-10T02:53:24.074Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 1165,
+      "added": 175597,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "19708f488608fa4d315c1ef446b41a97fe54f402",
+            "datetime": "2025-11-09 10:14:22 +0000",
+            "subject": "[backend] 自动合并[fdfd6ca: fix: 统一接口返回为 Result，调整打印任务校验并避免 NPE]\\n"
+          }
+        ],
+        "files": 128,
+        "added": 51536,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            43623
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "analysis",
+            393
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[fdfd6ca: fix: 统一接口返回为 Result，调整打印任务校验并避免 NPE]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "cabafffcaa3c6de3b9f565d8636f77fcd37ff339",
+            "datetime": "2025-11-06 03:46:36 +0800",
+            "subject": "feat(order,printing-center,typings,locales): 添加订单页左侧店铺选择器并统一店铺参数适配"
+          }
+        ],
+        "files": 440,
+        "added": 68030,
+        "removed": 0,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            11095
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "packages",
+            6136
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/views/store",
+            3269
+          ],
+          [
+            "src/service/api",
+            3254
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/views/printing-center",
+            3010
+          ],
+          [
+            "src/views/order",
+            2860
+          ],
+          [
+            "src/views/hardware",
+            2499
+          ],
+          [
+            "src/store/modules",
+            2287
+          ],
+          [
+            "src/layouts/modules",
+            2012
+          ],
+          [
+            "src/locales/langs",
+            1885
+          ],
+          [
+            "src/typings/api.d.ts",
+            1751
+          ],
+          [
+            "src/typings/app.d.ts",
+            1214
+          ]
+        ],
+        "subjects": [
+          "feat(order,printing-center,typings,locales): 添加订单页左侧店铺选择器并统一店铺参数适配"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "fdfd6cae80e2555f32525514ae30eb0a25053395",
+            "datetime": "2025-11-09 18:13:58 +0800",
+            "subject": "fix: 统一接口返回为 Result，调整打印任务校验并避免 NPE"
+          }
+        ],
+        "files": 597,
+        "added": 56031,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            52181
+          ],
+          [
+            "api.md",
+            1517
+          ],
+          [
+            "src/main/resources",
+            1270
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            204
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ]
+        ],
+        "subjects": [
+          "fix: 统一接口返回为 Result，调整打印任务校验并避免 NPE"
+        ]
+      }
+    ]
+  }
+}
