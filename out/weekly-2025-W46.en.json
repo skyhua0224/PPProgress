@@ -1,0 +1,195 @@
+{
+  "title": "Weekly Report (2025-11-10 to now)",
+  "lang": "en",
+  "since": "2025-11-10",
+  "until": null,
+  "generatedAt": "2025-11-17T02:50:06.873Z",
+  "progress": {
+    "totals": {
+      "commits": 2,
+      "files": 738,
+      "added": 108864,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "99bf405cc57c208c3127ebf7d446a20eaa49023f",
+            "datetime": "2025-11-16 13:56:59 +0000",
+            "subject": "[backend] 自动合并[1845a5c: feat: 添加全局打印任务状态流功能，支持实时更新和监控]\\n"
+          }
+        ],
+        "files": 128,
+        "added": 51536,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            43623
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "analysis",
+            393
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[1845a5c: feat: 添加全局打印任务状态流功能，支持实时更新和监控]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "1845a5c04f7a1a07a787c8f764b0b11a092331f1",
+            "datetime": "2025-11-16 21:56:30 +0800",
+            "subject": "feat: 添加全局打印任务状态流功能，支持实时更新和监控"
+          }
+        ],
+        "files": 610,
+        "added": 57328,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            54979
+          ],
+          [
+            "src/main/resources",
+            1286
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            204
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 添加全局打印任务状态流功能，支持实时更新和监控"
+        ]
+      }
+    ]
+  }
+}
