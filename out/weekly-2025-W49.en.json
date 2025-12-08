@@ -1,0 +1,195 @@
+{
+  "title": "Weekly Report (2025-12-01 to now)",
+  "lang": "en",
+  "since": "2025-12-01",
+  "until": null,
+  "generatedAt": "2025-12-08T02:55:56.237Z",
+  "progress": {
+    "totals": {
+      "commits": 2,
+      "files": 762,
+      "added": 111243,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "47d0b7f831ee3cd9e5376b0d6e363f18e21218cd",
+            "datetime": "2025-12-03 19:35:33 +0000",
+            "subject": "[backend] 自动合并[3b6ec23: feat: 在打印作业进度中添加当前文件名的设置逻辑]\\n"
+          }
+        ],
+        "files": 128,
+        "added": 51536,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            43623
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "analysis",
+            393
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[3b6ec23: feat: 在打印作业进度中添加当前文件名的设置逻辑]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "3b6ec235bd6f6e2347bac733c7182c2a864b66e3",
+            "datetime": "2025-12-04 03:29:54 +0800",
+            "subject": "feat: 在打印作业进度中添加当前文件名的设置逻辑"
+          }
+        ],
+        "files": 634,
+        "added": 59707,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            57267
+          ],
+          [
+            "src/main/resources",
+            1371
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            210
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 在打印作业进度中添加当前文件名的设置逻辑"
+        ]
+      }
+    ]
+  }
+}
