@@ -1,0 +1,264 @@
+{
+  "title": "周报（2025-12-15 至 当前）",
+  "lang": "zh",
+  "since": "2025-12-15",
+  "until": null,
+  "generatedAt": "2025-12-22T03:05:41.118Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 1237,
+      "added": 188437,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "7648314a9b6299374107b4d07d5c401706c52eb9",
+            "datetime": "2025-12-20 19:52:25 +0000",
+            "subject": "[admin] 自动合并[4400a798: feat(printing-center): 增强打印任务管理，优化进度显示与状态更新逻辑，完成打印中心全部功能和界面设计]\\n"
+          }
+        ],
+        "files": 128,
+        "added": 51536,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            43623
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            "COUPON_CAMPAIGN_CREATE_MOCKUP_V2.md",
+            645
+          ],
+          [
+            "coupon_system_analysis.md",
+            469
+          ],
+          [
+            "COUPON_CAMPAIGN_MOCKUP.md",
+            465
+          ],
+          [
+            "analysis",
+            393
+          ],
+          [
+            "修复前后对比详解.md",
+            390
+          ],
+          [
+            "TASKS.md",
+            340
+          ],
+          [
+            "修复总结_FulfillmentName一致性问题.md",
+            307
+          ],
+          [
+            "完整修复总结.md",
+            292
+          ],
+          [
+            "coupon-campaign-detail-mockup.html",
+            247
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "修复检查清单.md",
+            198
+          ],
+          [
+            "coupon-campaign-create-mockup.html",
+            194
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[4400a798: feat(printing-center): 增强打印任务管理，优化进度显示与状态更新逻辑，完成打印中心全部功能和界面设计]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "4400a7984d19a4c5db2844d79added5a91b260da",
+            "datetime": "2025-12-21 03:52:01 +0800",
+            "subject": "feat(printing-center): 增强打印任务管理，优化进度显示与状态更新逻辑，完成打印中心全部功能和界面设计"
+          }
+        ],
+        "files": 472,
+        "added": 75772,
+        "removed": 0,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            11095
+          ],
+          [
+            "src/views/printing-center",
+            9282
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "packages",
+            6136
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/service/api",
+            3543
+          ],
+          [
+            "src/views/store",
+            3269
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/views/order",
+            2860
+          ],
+          [
+            "src/store/modules",
+            2712
+          ],
+          [
+            "src/views/hardware",
+            2499
+          ],
+          [
+            "src/typings/api.d.ts",
+            2098
+          ],
+          [
+            "src/layouts/modules",
+            2092
+          ],
+          [
+            "src/locales/langs",
+            1885
+          ],
+          [
+            "src/typings/app.d.ts",
+            1214
+          ]
+        ],
+        "subjects": [
+          "feat(printing-center): 增强打印任务管理，优化进度显示与状态更新逻辑，完成打印中心全部功能和界面设计"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "61e4e694d247fca71434487890317f68b4deeb4d",
+            "datetime": "2025-12-21 02:49:03 +0800",
+            "subject": "feat: 优化打印作业状态转换逻辑，添加自动超时处理功能"
+          }
+        ],
+        "files": 637,
+        "added": 61129,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            58689
+          ],
+          [
+            "src/main/resources",
+            1371
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            210
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 优化打印作业状态转换逻辑，添加自动超时处理功能"
+        ]
+      }
+    ]
+  }
+}
