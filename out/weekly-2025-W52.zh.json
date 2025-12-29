@@ -1,0 +1,256 @@
+{
+  "title": "周报（2025-12-22 至 当前）",
+  "lang": "zh",
+  "since": "2025-12-22",
+  "until": null,
+  "generatedAt": "2025-12-29T03:13:12.068Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 1249,
+      "added": 192252,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "3d380c50d1a8837d8ec6a090e3bced83e6632c4a",
+            "datetime": "2025-12-24 01:16:33 +0000",
+            "subject": "[admin] 自动合并[3136ab46: feat(printing-center): 重构打印中心 API，整合请求方法并添加执行渠道参数]\\n"
+          }
+        ],
+        "files": 132,
+        "added": 54646,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            51153
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "README.md",
+            107
+          ],
+          [
+            ".gitignore",
+            60
+          ],
+          [
+            "TASKS.md",
+            49
+          ],
+          [
+            ".gitmodules",
+            9
+          ],
+          [
+            ".eslintcache.txt",
+            1
+          ],
+          [
+            "LICENSE",
+            1
+          ],
+          [
+            "admin",
+            1
+          ],
+          [
+            "backend",
+            1
+          ],
+          [
+            "frontend",
+            1
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[3136ab46: feat(printing-center): 重构打印中心 API，整合请求方法并添加执行渠道参数]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "3136ab4665c6d94ac4e73caaaf588422926dba8e",
+            "datetime": "2025-12-24 03:40:17 +0800",
+            "subject": "feat(printing-center): 重构打印中心 API，整合请求方法并添加执行渠道参数"
+          }
+        ],
+        "files": 472,
+        "added": 75808,
+        "removed": 0,
+        "heat": [
+          [
+            "pnpm-lock.yaml",
+            11095
+          ],
+          [
+            "src/views/printing-center",
+            9291
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "packages",
+            6136
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/service/api",
+            3569
+          ],
+          [
+            "src/views/store",
+            3269
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/views/order",
+            2860
+          ],
+          [
+            "src/store/modules",
+            2712
+          ],
+          [
+            "src/views/hardware",
+            2499
+          ],
+          [
+            "src/typings/api.d.ts",
+            2099
+          ],
+          [
+            "src/layouts/modules",
+            2092
+          ],
+          [
+            "src/locales/langs",
+            1885
+          ],
+          [
+            "src/typings/app.d.ts",
+            1214
+          ]
+        ],
+        "subjects": [
+          "feat(printing-center): 重构打印中心 API，整合请求方法并添加执行渠道参数"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "d724c870ef241a77b49a44004b835090b7eedbf8",
+            "datetime": "2025-12-24 03:06:19 +0800",
+            "subject": "feat: 添加打印作业的batch_id和execution_channel字段，优化作业管理"
+          }
+        ],
+        "files": 645,
+        "added": 61798,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            59332
+          ],
+          [
+            "src/main/resources",
+            1397
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            210
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ]
+        ],
+        "subjects": [
+          "feat: 添加打印作业的batch_id和execution_channel字段，优化作业管理"
+        ]
+      }
+    ]
+  }
+}
