@@ -1,0 +1,191 @@
+{
+  "title": "周报（2026-01-26 至 当前）",
+  "lang": "zh",
+  "since": "2026-01-26",
+  "until": null,
+  "generatedAt": "2026-02-02T03:46:16.781Z",
+  "progress": {
+    "totals": {
+      "commits": 2,
+      "files": 646,
+      "added": 141695,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "3ebe92829c34456cf7f1f647df001e0fe2113577",
+            "datetime": "2026-01-31 15:05:38 +0800",
+            "subject": "docs(skills): 添加 HTML-First 开发流程规范"
+          }
+        ],
+        "files": 174,
+        "added": 65860,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            58258
+          ],
+          [
+            ".claude",
+            4109
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "README.md",
+            107
+          ],
+          [
+            ".gitignore",
+            60
+          ],
+          [
+            "TASKS.md",
+            49
+          ],
+          [
+            ".gitmodules",
+            9
+          ],
+          [
+            ".eslintcache.txt",
+            1
+          ],
+          [
+            "LICENSE",
+            1
+          ],
+          [
+            "admin",
+            1
+          ],
+          [
+            "backend",
+            1
+          ],
+          [
+            "frontend",
+            1
+          ]
+        ],
+        "subjects": [
+          "docs(skills): 添加 HTML-First 开发流程规范"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "6f7251e1075abe35b97f76b6bbcd423521b59d23",
+            "datetime": "2026-01-30 20:52:29 +0800",
+            "subject": "refactor(views): 重构目录结构，按业务域分类"
+          }
+        ],
+        "files": 472,
+        "added": 75835,
+        "removed": 0,
+        "heat": [
+          [
+            "src/views/fulfillment",
+            12151
+          ],
+          [
+            "pnpm-lock.yaml",
+            11095
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "packages",
+            6136
+          ],
+          [
+            "src/views/merchant",
+            5768
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/service/api",
+            3562
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/store/modules",
+            2712
+          ],
+          [
+            "src/typings/api.d.ts",
+            2099
+          ],
+          [
+            "src/layouts/modules",
+            2092
+          ],
+          [
+            "src/locales/langs",
+            1885
+          ],
+          [
+            "src/typings/app.d.ts",
+            1214
+          ],
+          [
+            "build",
+            1101
+          ],
+          [
+            "src/hooks/common",
+            757
+          ]
+        ],
+        "subjects": [
+          "refactor(views): 重构目录结构，按业务域分类"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}
