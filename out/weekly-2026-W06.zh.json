@@ -1,0 +1,191 @@
+{
+  "title": "周报（2026-02-02 至 当前）",
+  "lang": "zh",
+  "since": "2026-02-02",
+  "until": null,
+  "generatedAt": "2026-02-09T01:46:28.869Z",
+  "progress": {
+    "totals": {
+      "commits": 2,
+      "files": 664,
+      "added": 143273,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "072742ec9d8927d993cff472b70e73bd0662b9a4",
+            "datetime": "2026-02-03 08:17:01 +0000",
+            "subject": "[admin] 自动合并[c8f33e5e: chore(deps): 合并 Soybean Admin 上游更新]\\n"
+          }
+        ],
+        "files": 174,
+        "added": 65860,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            58258
+          ],
+          [
+            ".claude",
+            4109
+          ],
+          [
+            "docs-old",
+            2155
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "README.md",
+            107
+          ],
+          [
+            ".gitignore",
+            60
+          ],
+          [
+            "TASKS.md",
+            49
+          ],
+          [
+            ".gitmodules",
+            9
+          ],
+          [
+            ".eslintcache.txt",
+            1
+          ],
+          [
+            "LICENSE",
+            1
+          ],
+          [
+            "admin",
+            1
+          ],
+          [
+            "backend",
+            1
+          ],
+          [
+            "frontend",
+            1
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[c8f33e5e: chore(deps): 合并 Soybean Admin 上游更新]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "c8f33e5e542844aad880df405f0f062dd183d020",
+            "datetime": "2026-02-03 16:14:42 +0800",
+            "subject": "chore(deps): 合并 Soybean Admin 上游更新"
+          }
+        ],
+        "files": 490,
+        "added": 77413,
+        "removed": 0,
+        "heat": [
+          [
+            "src/views/fulfillment",
+            12151
+          ],
+          [
+            "pnpm-lock.yaml",
+            10545
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "packages",
+            6080
+          ],
+          [
+            "src/views/merchant",
+            5768
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/service/api",
+            3562
+          ],
+          [
+            "src/layouts/modules",
+            3083
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/store/modules",
+            2864
+          ],
+          [
+            "src/typings/api",
+            2138
+          ],
+          [
+            "src/locales/langs",
+            2021
+          ],
+          [
+            "src/typings/app.d.ts",
+            1275
+          ],
+          [
+            "build",
+            1104
+          ],
+          [
+            "src/hooks/common",
+            796
+          ]
+        ],
+        "subjects": [
+          "chore(deps): 合并 Soybean Admin 上游更新"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}
