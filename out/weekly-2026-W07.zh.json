@@ -1,0 +1,114 @@
+{
+  "title": "周报（2026-02-09 至 当前）",
+  "lang": "zh",
+  "since": "2026-02-09",
+  "until": null,
+  "generatedAt": "2026-02-16T01:46:14.020Z",
+  "progress": {
+    "totals": {
+      "commits": 1,
+      "files": 163,
+      "added": 63704,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "d4c394f1d252399913ba93cf2b46574b58ad0609",
+            "datetime": "2026-02-15 00:21:44 +0000",
+            "subject": "[admin] 自动合并[c8f33e5e: chore(deps): 合并 Soybean Admin 上游更新]\\n"
+          }
+        ],
+        "files": 163,
+        "added": 63704,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            58258
+          ],
+          [
+            ".claude",
+            4109
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "README.md",
+            107
+          ],
+          [
+            ".gitignore",
+            60
+          ],
+          [
+            "TASKS.md",
+            49
+          ],
+          [
+            ".gitmodules",
+            9
+          ],
+          [
+            "LICENSE",
+            1
+          ],
+          [
+            "admin",
+            1
+          ],
+          [
+            "backend",
+            1
+          ],
+          [
+            "frontend",
+            1
+          ]
+        ],
+        "subjects": [
+          "[admin] 自动合并[c8f33e5e: chore(deps): 合并 Soybean Admin 上游更新]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      }
+    ]
+  }
+}
