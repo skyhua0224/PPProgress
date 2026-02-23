@@ -1,0 +1,252 @@
+{
+  "title": "Weekly Report (2026-02-16 to now)",
+  "lang": "en",
+  "since": "2026-02-16",
+  "until": null,
+  "generatedAt": "2026-02-23T01:46:14.485Z",
+  "progress": {
+    "totals": {
+      "commits": 3,
+      "files": 1307,
+      "added": 208586,
+      "removed": 0
+    },
+    "modules": [
+      {
+        "name": "ProjectPrinting",
+        "path": ".",
+        "commits": [
+          {
+            "hash": "d9d924de57f128cf4651ef5bf32f2e87dfa60342",
+            "datetime": "2026-02-21 14:37:35 +0000",
+            "subject": "[backend] 自动合并[589cfc7: fix(order): 修复调度空指针并统一业务异常返回码]\\n"
+          }
+        ],
+        "files": 163,
+        "added": 63704,
+        "removed": 0,
+        "heat": [
+          [
+            "docs",
+            58258
+          ],
+          [
+            ".claude",
+            4109
+          ],
+          [
+            "file_list.txt",
+            874
+          ],
+          [
+            ".github",
+            234
+          ],
+          [
+            "README.md",
+            107
+          ],
+          [
+            ".gitignore",
+            60
+          ],
+          [
+            "TASKS.md",
+            49
+          ],
+          [
+            ".gitmodules",
+            9
+          ],
+          [
+            "LICENSE",
+            1
+          ],
+          [
+            "admin",
+            1
+          ],
+          [
+            "backend",
+            1
+          ],
+          [
+            "frontend",
+            1
+          ]
+        ],
+        "subjects": [
+          "[backend] 自动合并[589cfc7: fix(order): 修复调度空指针并统一业务异常返回码]\\n"
+        ]
+      },
+      {
+        "name": "admin",
+        "path": "admin",
+        "commits": [
+          {
+            "hash": "eb1cf0b1ba92275ce7170214f10cd0838f1ad6fa",
+            "datetime": "2026-02-21 22:18:51 +0800",
+            "subject": "fix(common): 对齐鉴权会话与表格查询参数"
+          }
+        ],
+        "files": 497,
+        "added": 81927,
+        "removed": 0,
+        "heat": [
+          [
+            "src/views/fulfillment",
+            13744
+          ],
+          [
+            "pnpm-lock.yaml",
+            10545
+          ],
+          [
+            "src/views/marketing",
+            8345
+          ],
+          [
+            "src/views/merchant",
+            7636
+          ],
+          [
+            "packages",
+            6080
+          ],
+          [
+            "src/views/system",
+            4565
+          ],
+          [
+            "src/service/api",
+            3732
+          ],
+          [
+            "src/layouts/modules",
+            3082
+          ],
+          [
+            "src/views/platform",
+            3060
+          ],
+          [
+            "src/store/modules",
+            2957
+          ],
+          [
+            "src/locales/langs",
+            2224
+          ],
+          [
+            "src/typings/api",
+            2139
+          ],
+          [
+            "src/typings/app.d.ts",
+            1275
+          ],
+          [
+            "build",
+            1104
+          ],
+          [
+            "src/hooks/common",
+            916
+          ]
+        ],
+        "subjects": [
+          "fix(common): 对齐鉴权会话与表格查询参数"
+        ]
+      },
+      {
+        "name": "frontend",
+        "path": "frontend",
+        "commits": [],
+        "files": 0,
+        "added": 0,
+        "removed": 0,
+        "heat": [],
+        "subjects": []
+      },
+      {
+        "name": "backend",
+        "path": "backend",
+        "commits": [
+          {
+            "hash": "589cfc7d936ec3a126243cda05c3a9e4906291a1",
+            "datetime": "2026-02-21 22:18:45 +0800",
+            "subject": "fix(order): 修复调度空指针并统一业务异常返回码"
+          }
+        ],
+        "files": 647,
+        "added": 62955,
+        "removed": 0,
+        "heat": [
+          [
+            "src/main/java",
+            60476
+          ],
+          [
+            "src/main/resources",
+            1402
+          ],
+          [
+            "docs",
+            264
+          ],
+          [
+            "mvnw",
+            259
+          ],
+          [
+            "pom.xml",
+            218
+          ],
+          [
+            "mvnw.cmd",
+            149
+          ],
+          [
+            ".gitignore",
+            47
+          ],
+          [
+            "src/test/java",
+            47
+          ],
+          [
+            ".vscode",
+            38
+          ],
+          [
+            "HELP.md",
+            27
+          ],
+          [
+            ".github",
+            21
+          ],
+          [
+            ".spring-api-helper.json",
+            5
+          ],
+          [
+            ".cloudbase",
+            1
+          ],
+          [
+            ".mvn",
+            1
+          ],
+          [
+            ".DS_Store",
+            0
+          ]
+        ],
+        "subjects": [
+          "fix(order): 修复调度空指针并统一业务异常返回码"
+        ]
+      }
+    ]
+  }
+}
